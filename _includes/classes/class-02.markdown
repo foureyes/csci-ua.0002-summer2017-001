@@ -2,10 +2,14 @@
 <article class="due" markdown="block">
 #### Due Today
 
+Before class!
 
 * {{ site.bookq }} - Chapter 1
-* [Self Paced-Learning Module #1]({{ site.module1 }})
-* Quiz #1
+* {{ site.bookq }} - Chapter 2
+* [Module #1]({{ site.module1 }})
+* [Module #2]({{ site.module2 }})
+* Quiz #1 (NYU Classes)
+* Quiz #2 (NYU Classes)
 
 </article>
 
@@ -28,20 +32,13 @@
 <a name="homework1"></a>
 
 
-Readings
-
-* {{site.bookq}} - Chapter 2 (Input, Processing, Output)
-* (optional) [{{site.bookt}} - Chapter 2](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
-
-Module, Quiz and Readings __Due Tuesday, Jan 31st, before class__ 
-
-* Complete the [Self Paced-Learning Module #2]({{ site.module2 }})
-* Take quiz #2 on NYU Classes
-
-Homework #1 __Due Wednesday, Feb 1st, at 11PM__ 
+Homework #1 __Due Thursday, May 25th, at 11PM__ 
 
 (Submit via NYU Classes)
 
+To be posted
+
+{% comment %}
 1. [mad_libs_lyrics.py](homework/hw01/mad_libs_lyrics.py)
 2. [exercises.py](homework/hw01/exercises.py)
 3. [tree.py](homework/hw01/tree.py)
@@ -67,6 +64,8 @@ Example output for tree.py:
    ||
 </pre>
 <!--_-->
+
+{% endcomment %}
 </article>
 
 

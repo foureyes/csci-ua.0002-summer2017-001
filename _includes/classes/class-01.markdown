@@ -1,6 +1,7 @@
 <article class="due" markdown="block"> 
 #### Due Today 
 
+Nothing yet!
 
 </article>
 
@@ -24,11 +25,15 @@
 
 Readings
 
-* Read {{ site.bookq }} - Chapter 1
+* {{site.bookq}} - Chapter 1
+* {{site.bookq}} - Chapter 2 (Input, Processing, Output)
+* (optional) [{{site.bookt}} - Chapter 2](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
 
-Assignments __Due Thursday, 1/26, before class__
+Assignments __Due Tuesday, 5/23, before class__
 
 * Complete the [Self Paced-Learning Module #1]({{ site.module1 }})
 * Take quiz #1 on NYU Classes 
+* Complete the [Self Paced-Learning Module #2]({{ site.module2 }})
+* Take quiz #2 on NYU Classes 
 </article>
 

@@ -57,8 +57,9 @@ Topics
 Grading
 ====
 
-* __40%__ - Final Exam
+* __35%__ - Final Exam
 * __5%__ - Quizzes
+* __5%__ - In-class Activities and Quizzes / Attendance
 * __25%__ - Assignments
 * __30%__ - Midterm #1
 

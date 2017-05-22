@@ -71,12 +71,35 @@ Schedule & Notes
 * Input / Output
 * Calling Functions
 
-</article> {% include classes/02/materials.markdown %} </div> </section> 
+</article> {% include classes/class-02.markdown %} </div> </section> 
 
+* 3: 5/24 - Wed
+* 4: 5/25 - Thu
+* Memorial Day 5/19 - M (No Class Scheduled)
+* 5: 5/30 - Tue
+* 6: 5/31 - Wed
+* 7: 6/01 - Thu
+* 8: 6/05 - Mon
+* 9: 6/06 - Tue
+* 10: 6/07 - Wed
+* 11: 6/08 - Thu
+* 12: 6/12 - Mon
+* 13: 6/13 - Tue
+* 14: 6/14 - Wed
+* 15: 6/15 - Thu
+* 16: 6/19 - Mon
+* 17: 6/20 - Tue
+* 18: 6/21 - Wed
+* 19: 6/22 - Thu
+* 20: 6/26 - Mon
+* 21: 6/27 - Tue
+* 22: 6/28 - Wed
+* 23: 6/29 - Thu: final exam
 
 
 
 {% comment %}
+
 
 <a name="class3"></a><!---------- start --------------->
 
@@ -93,10 +116,7 @@ Schedule & Notes
 * Errors
 * Debugging
 
-</article> {% include classes/03/materials.markdown %} </div> </section> 
-
-
-
+</article> {% include classes/class-03.markdown %} </div> </section> 
 
 <a name="class4"></a><!---------- start --------------->
 
@@ -113,7 +133,10 @@ Schedule & Notes
 
 * In-class programming assignment
 
-</article> {% include classes/04/materials.markdown %} </div> </section> 
+</article> {% include classes/class-04.markdown %} </div> </section> 
+
+
+
 
 
 
