@@ -8,8 +8,8 @@ Before class!
 * {{ site.bookq }} - Chapter 2
 * [Module #1]({{ site.module1 }})
 * [Module #2]({{ site.module2 }})
-* Quiz #1 (NYU Classes)
-* Quiz #2 (NYU Classes)
+* __Quiz #1__ (NYU Classes)
+* __Quiz #2__ (NYU Classes)
 
 </article>
 
@@ -31,13 +31,16 @@ Before class!
 
 <a name="homework1"></a>
 
+Readings
+
+* {{ site.bookq }} - Chapter 3 / 2nd Edition: Chapter 4 (Conditionals)
+
+Quiz #3 __Due Thursday, May 25th, 9AM__
+
+* Complete the [Self Paced-Learning Module #3]({{ site.module3 }})
+* Take quiz #3 on NYU Classes
 
 Homework #1 __Due Thursday, May 25th, at 11PM__ 
-
-
-To be posted
-
-{% comment %}
 
 (Submit via NYU Classes)
 
@@ -67,7 +70,6 @@ Example output for tree.py:
 </pre>
 <!--_-->
 
-{% endcomment %}
 </article>
 
 

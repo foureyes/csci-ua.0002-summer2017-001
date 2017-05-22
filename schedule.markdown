@@ -78,11 +78,44 @@ Schedule & Notes
 
 </article> {% include classes/class-02.markdown %} </div> </section> 
 
+<a name="class3"></a><!---------- start --------------->
+
+<section markdown="block">
+### WED 5/24, Class #3
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Values, Types, Operations, Variables Continued
+* Built-in Functions
+* Formatting
+* Errors
+* Debugging
+
+</article> {% include classes/class-03.markdown %} </div> </section> 
+
+<a name="class4"></a><!---------- start --------------->
+
+<section markdown="block" class="workshop" class="workshop">
+### THU 5/25, Class #4 (Programming Assignment)
+
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Continue Printing and Formatting
+* Conditionals
+* Boolean Logic
+* Modules (math, random, sys)
+
+</article> {% include classes/class-04.markdown %} </div> </section> 
+
+
 ### Upcoming Classes
 
-* 3: 5/24 - Wed
-* 4: 5/25 - Thu
-* Memorial Day 5/19 - M (No Class Scheduled)
+* Memorial Day 5/29 - M (No Class Scheduled)
 * 5: 5/30 - Tue
 * 6: 5/31 - Wed
 * 7: 6/01 - Thu
@@ -107,40 +140,6 @@ Schedule & Notes
 
 {% comment %}
 
-
-<a name="class3"></a><!---------- start --------------->
-
-<section markdown="block">
-### WED 5/24, Class #3
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Values, Types, Operations, Variables Continued
-* Built-in Functions
-* Formatting
-* Errors
-* Debugging
-
-</article> {% include classes/class-03.markdown %} </div> </section> 
-
-<a name="class4"></a><!---------- start --------------->
-
-<section markdown="block" class="workshop" class="workshop">
-### THU 5/25, Class #4 (Programming Assignment)
-
-* Conditionals
-* Boolean Logic
-* Modules (math, random, sys)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* In-class programming assignment
-
-</article> {% include classes/class-04.markdown %} </div> </section> 
 
 
 

@@ -1,14 +1,44 @@
 <article class="due" markdown="block">
 #### Due Today
 
-Homework #01
+* __Homework #01__
+* {{ site.bookq }} - Chapter 3
+* [Module #3]({{ site.module3 }})
+* __Quiz #3__ (NYU Classes)
 
 </article>
 
 <article class="slides" markdown="block">
 #### Slides
 
+Coding Demo
 
+* multiple string operations in a single expression
+    * _len()_ function (not necessary for homework)
+* review formatting again
+	* formatting a %
+    * formatting decimal places
+    * length of string
+	* aligning everything right
+	* aligning everything left
+    * the argument given is a string! (try passing in a variable)
+    * interactive program - how do you want me to format this...
+    * it returns a string, which leads us to...
+* review print
+    * print a formatted string with other strings
+    * note that print doesn't care about type
+* demo homework programs
+
+Slides
+
+* [Conditionals / Review Module #3](classes/05/review-conditionals.html)
+* [Boolean Logic](classes/05/boolean-logic.html)
+* [Types, Operators, Precedence](classes/05/types-operators-precedence.html)
+* [If Statements - Advanced](classes/05/if-statements-advanced.html)
+* [Built-In Modules](classes/05/modules.html)
+* [String Formatting](classes/05/string-formatting.html)
+
+{% comment %}
 Warm-up
 
 * multiple string operations in a single expression
@@ -26,12 +56,14 @@ Warm-up
     * print a formatted string with other strings
     * note that print doesn't care about type
 * demo homework programs
+{% endcomment %}
+
 </article>
 
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
-Homework #2 __Due Wednesday, February 8th, at 11PM__ 
+Homework #2 __Due Tuesday, May 30th, at 11PM__ 
 
 * we'll do go over potential solutions to multiply together!
 * for the remainder of the homework

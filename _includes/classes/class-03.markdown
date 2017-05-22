@@ -1,8 +1,11 @@
-<article class="due" markdown="block">
 
 <a name="class3"></a>
 
+<article class="due" markdown="block">
+
 #### Due Today
+
+Nothing due today!
 
 
 </article>
@@ -37,16 +40,7 @@
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
-Readings
 
-* {{ site.bookq }} - Chapter 2 (Input, Processing and Output)
-* [{{site.bookt}} - Chapter 2](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
-
-Module, Quiz and Readings __Due Tuesday, Feb 7th, 9AM__
-
-
-* Complete the [Self Paced-Learning Module #3]({{ site.module3 }})
-* Take quiz #3 on NYU Classes
 </article>
 <!--
 ### Slides
