@@ -21,11 +21,7 @@ title: Review and Assignments Slides
 <section markdown="block">
 ### Readings and Assignments
 
-* Complete the [Self Paced-Learning Module #1]({{ site.module1 }})
-	* you'll install Python on your computer
-	* you'll write some simple programs!
-* Take quiz #1 on NYU Classes
-* {{ site.bookq }} - Chapter 1
+Check out the course schedule for your assignments and readings!
 
 </section>
 
