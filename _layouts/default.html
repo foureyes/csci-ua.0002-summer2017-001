@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+		<title>{{ site.course_name }} - {{ site.course_number }} - {{ site.course_semester }} {{ page.title }}</title> 
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+	<!-- <link rel="stylesheet" type="text/css" href="{{ page.prefix }}{{ site.res_base_url }}/fonts/cmun-serif.css"> -->
+	<link rel="stylesheet" type="text/css" href="{{ page.prefix }}{{ site.res_base_url }}/css/screen.css">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<script src="{{ page.prefix }}{{ site.res_base_url }}/js/jquery-2.1.3.min.js"></script>
+	<script src="{{ page.prefix }}{{ site.res_base_url }}/js/persistent-nav.js"></script>
+
+</head>
+<body>
+<div id="hd">
+<h1> {{site.course_name}} - {{site.course_number}} - {{site.course_semester}}</h1>
+{% if page.chrome != 0 %}
+	{% include nav.html %}
+{% endif %}
+</div>
+<div id="bd">
+<div id="content">
+	{{ content }}
+</div>
+</div>
+
+<div id="ft">
+	<p>{{site.course_number}} - {{site.course_name}} - {{site.course_semester}}</p>
+</div>
+</div>
+</body>
+</html>

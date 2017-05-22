@@ -1,0 +1,87 @@
+* x 12 x file io
+* 10 x continue going over in-class exercises
+* 2 x posted sample questions and their solutions
+* evaluations
+
+Tuple
+----
+A sequence type... which means:
+
+* it's a composite data type (holds 0 or more other values)
+* ordered
+* all sequences share these operations:
+	* indexing and slicing
+	* iteration (loop over all elements)
+	* in operator, +, *
+	* you can use len to get # of elements
+* other sequence types are strings and lists
+
+tuples are different because they are :
+
+* immutable
+* it can contain any value
+* syntax: ... comma separated values, parentheses usually optional
+
+Exceptions
+-----
+IndexError
+ValueError
+TypeError
+KeyError
+ZeroDivisionError
+NameError
+
+When a program produces an exception, it just stops (runtime error).
+
+To recover gracefully from an exception, use try/except:
+
+# catches ALL exceptions
+
+try:
+  # some tricky error prone stuff
+except:
+  # only do this if the stuff in try causes an exception
+
+# only catches KeyErrors
+try:
+  # try to access a key in a dictionariy
+except KeyError:
+  # only do this if a KeyError is raised
+
+
+# catches both key errors and index errors, and executes different code
+try:
+  # try to access a key in a dictionary, or an element in a list by index
+except KeyError:
+  # only do this if a KeyError is raised
+except IndexError:
+  # only do this if a IndexError is raised
+
+dictionaries vs lists
+=====
+
+differences
+
+* syntax is different... dictionaries use {}'s, lists use []'s
+* dictionaries are unordered, while lists are ordered (just like any seq type)
+* dictionaries have key/value pairs, lists only have values
+* to access values in dictionaries, you can use any immutable type as a key... but to access values in lists, the index must be an int
+
+similarities
+
+* they're both mutable
+* you can use len on both of them
+
+
+
+
+
+
+
+
+
+
+
+
+
+

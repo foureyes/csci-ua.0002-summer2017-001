@@ -1,0 +1,47 @@
+res_base_url: resources
+markdown: kramdown
+kramdown:
+  entity_output: numeric
+  smart_quotes: apos,apos,quot,quot
+
+
+# course
+course_number: CSCI-UA.0002
+course_section: "001"
+course_name: Introduction to Computer Programming
+course_semester: Summer 2017
+course_time: "M, T, W, R from 9:00AM - 11:05AM"
+course_room: WWH 101
+course_url: http://foureyes.github.io/csci-ua.0002-summer2017-001
+
+# office hours
+office_hours: "Mon, Tue, and Wed from 11:05PM to 11:30PM"
+office_hours_room: WWH 423
+
+# email
+email: "jversoza at cs dot nyu dot edu"
+
+# finals
+final_schedule: http://www.cs.nyu.edu/webapps/fall2016/Undergraduate/final_exams 
+final_date: Thursday, June 29th
+final_time: 9:00AM - 11:05AM
+final_room: WWH 101
+
+# books
+bookq: Starting Out with Python
+bookt: How to Think Like a Computer Scientist
+
+departmental_syllabus: /
+
+module1: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module01.php"
+module2: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module02.php"
+module3: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module03.php"
+module4: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module04.php"
+module5: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module05.php"
+module6: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module06.php"
+module7: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module07.php"
+module8: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module08.php"
+module9: "http://cs.nyu.edu/elearning/CSCI_UA_0002/module09.php"
+
+# manual section change
+# http://foureyes.github.io/csci-ua.0002-spring2015-008 -> http://foureyes.github.io/csci-ua.0002-fall2014-010

@@ -1,0 +1,8 @@
+tranquil:peaceful
+precise:exact
+smart:quick
+seat:chair
+happy:cheerful
+pensive:thoughtful
+quick:fast
+home:apartment

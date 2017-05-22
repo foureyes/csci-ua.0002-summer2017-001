@@ -1,0 +1,5 @@
+* format
+	* what's %, d, f, s, etc.
+	* avoid hard-coding
+* break down problem
+* 5 min before end of class

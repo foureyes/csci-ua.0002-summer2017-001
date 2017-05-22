@@ -1,0 +1,5 @@
+True and True or False and True and 10 * 10 + 10 == 110 and not False
+True and True or False and True and 110 == 110 and not False
+True and True or False and True and True and not False
+True and True or False and True and True and True
+True or False and True and True and True
