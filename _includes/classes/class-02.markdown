@@ -34,11 +34,13 @@ Before class!
 
 Homework #1 __Due Thursday, May 25th, at 11PM__ 
 
-(Submit via NYU Classes)
 
 To be posted
 
 {% comment %}
+
+(Submit via NYU Classes)
+
 1. [mad_libs_lyrics.py](homework/hw01/mad_libs_lyrics.py)
 2. [exercises.py](homework/hw01/exercises.py)
 3. [tree.py](homework/hw01/tree.py)

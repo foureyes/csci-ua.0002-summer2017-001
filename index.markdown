@@ -120,13 +120,13 @@ Installing Python
     11. To get the IDE icon on the screen, go to Start/All Programs/python 3.0. A small window will appear to the right with IDLE(PythonGUI). Drag IDLE (PythonGUI) to your desktop to make a shortcut.
 * Mac
     1. Visit [http://www.python.org/getit/](http://www.python.org/getit/)
-2. Download the Mac OS X installer for your Operating System. You can check your OS version by clicking on the Apple at the top left side of your computer and looking at the version number under the Apple icon. In general, users of newer computers will want to download the 64 bit version.
-3. A window opens indicating that you want to open python-3.3.3.dmg,If the Save file. Then click OK.
-4. The download window will open. Double click the icon.
-5. In a short while, Install succeeded will appear. Click the close button.
-6. Click on your Applications Folder and find the newly created Python folder. Double click on the IDLE icon to launch IDLE.
-7. Note: if you are running Mac OS 10.9 (Mavericks) you may see the following error message when launching IDLE: `WARNING: The version of Tcl/Tk (x.x.x) in use may be unstable.`
-8. If you see this message you should quit IDLE and install a new version of ActiveTcl version that matches the error message you are getting (i.e. if the error message says version 8.5.9 you can install any version that begins with the numbers 8.5) -- here's the website where you can download an updated version of Tcl/Tk: http://www.activestate.com/activetcl/downloads.
+    2. Download the Mac OS X installer for your Operating System. You can check your OS version by clicking on the Apple at the top left side of your computer and looking at the version number under the Apple icon. In general, users of newer computers will want to download the 64 bit version.
+    3. A window opens indicating that you want to open python-3.3.3.dmg,If the Save file. Then click OK.
+    4. The download window will open. Double click the icon.
+    5. In a short while, Install succeeded will appear. Click the close button.
+    6. Click on your Applications Folder and find the newly created Python folder. Double click on the IDLE icon to launch IDLE.
+    7. Note: if you are running Mac OS 10.9 (Mavericks) you may see the following error message when launching IDLE: `WARNING: The version of Tcl/Tk (x.x.x) in use may be unstable.`
+    8. If you see this message you should quit IDLE and install a new version of ActiveTcl version that matches the error message you are getting (i.e. if the error message says version 8.5.9 you can install any version that begins with the numbers 8.5) -- here's the website where you can download an updated version of Tcl/Tk: http://www.activestate.com/activetcl/downloads.
 
 Tutoring Schedule
 =====
