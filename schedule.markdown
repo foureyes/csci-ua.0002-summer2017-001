@@ -3,6 +3,11 @@ layout: default
 title: Schedule
 nav-state: schedule
 ---
+<style>
+.danger {
+    background-color: #fdd;
+}
+</style>
 
 <div id="my-schedule" markdown="block">
 
@@ -73,6 +78,8 @@ Schedule & Notes
 
 </article> {% include classes/class-02.markdown %} </div> </section> 
 
+### Upcoming Classes
+
 * 3: 5/24 - Wed
 * 4: 5/25 - Thu
 * Memorial Day 5/19 - M (No Class Scheduled)
@@ -83,7 +90,7 @@ Schedule & Notes
 * 9: 6/06 - Tue
 * 10: 6/07 - Wed
 * 11: 6/08 - Thu
-* 12: 6/12 - Mon
+* {:markdown='block'} <span class="danger">12: 6/12 - Mon: MidtermExam</span>
 * 13: 6/13 - Tue
 * 14: 6/14 - Wed
 * 15: 6/15 - Thu
@@ -94,7 +101,7 @@ Schedule & Notes
 * 20: 6/26 - Mon
 * 21: 6/27 - Tue
 * 22: 6/28 - Wed
-* 23: 6/29 - Thu: final exam
+* {:markdown='block'} <span class="danger">23: 6/29 - Thu: Final Exam</span>
 
 
 

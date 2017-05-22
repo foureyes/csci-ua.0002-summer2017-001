@@ -100,6 +100,34 @@ Ebook: 9780133582734.JB <br />
 Version date: October 2012<br />
 by Peter Wentworth, Jeffrey Elkner, Allen B. Downey, and Chris Meyers<br />
 
+Required Software
+=====
+
+Installing Python
+-----
+
+* Windows
+    1. Visit [http://www.python.org/getit/](http://www.python.org/getit/)
+    2. Download the Windows MSI installer (if you have a newer computer you probably need the 64 bit version)
+    3. A window labeled Opening python-3.3.3.msi will appear – click Save File
+    4. After the download is complete, a dialog box will open asking ‘Would you like to save this file?’ – click Save file
+    5. An icon labelled ‘python-3.3.3′ for release 3.3.3 will appear on the screen. (Perhaps a more recent release will appear.)
+    6. When you click the icon, the computer will ask ‘Do you want to run this file?’, Click the run button.
+    7. In the setup box, the option ‘install for all users’ will have a circle with a period in it. Click the next button.
+    8. A box asking you to select destination directory with the proposed directory Python30. Click the next button.
+    9. In the next dialog box (Customize Python 3.3.3), click the next button.
+    10. Finally, click finish.
+    11. To get the IDE icon on the screen, go to Start/All Programs/python 3.0. A small window will appear to the right with IDLE(PythonGUI). Drag IDLE (PythonGUI) to your desktop to make a shortcut.
+* Mac
+    1. Visit [http://www.python.org/getit/](http://www.python.org/getit/)
+2. Download the Mac OS X installer for your Operating System. You can check your OS version by clicking on the Apple at the top left side of your computer and looking at the version number under the Apple icon. In general, users of newer computers will want to download the 64 bit version.
+3. A window opens indicating that you want to open python-3.3.3.dmg,If the Save file. Then click OK.
+4. The download window will open. Double click the icon.
+5. In a short while, Install succeeded will appear. Click the close button.
+6. Click on your Applications Folder and find the newly created Python folder. Double click on the IDLE icon to launch IDLE.
+7. Note: if you are running Mac OS 10.9 (Mavericks) you may see the following error message when launching IDLE: `WARNING: The version of Tcl/Tk (x.x.x) in use may be unstable.`
+8. If you see this message you should quit IDLE and install a new version of ActiveTcl version that matches the error message you are getting (i.e. if the error message says version 8.5.9 you can install any version that begins with the numbers 8.5) -- here's the website where you can download an updated version of Tcl/Tk: http://www.activestate.com/activetcl/downloads.
+
 Tutoring Schedule
 =====
 TBD
