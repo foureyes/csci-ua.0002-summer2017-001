@@ -42,6 +42,10 @@ Quiz #3 __Due Thursday, May 25th, 9AM__
 
 Homework #1 __Due Thursday, May 25th, at 11PM__ 
 
+(to be posted)
+
+{% comment %}
+
 (Submit via NYU Classes)
 
 1. [mad_libs_lyrics.py](homework/hw01/mad_libs_lyrics.py)
@@ -69,6 +73,8 @@ Example output for tree.py:
    ||
 </pre>
 <!--_-->
+
+{% endcomment %}
 
 </article>
 
