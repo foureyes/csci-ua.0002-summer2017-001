@@ -65,6 +65,8 @@ Warm-up
 
 Homework #2 __Due Tuesday, May 30th, at 11PM__ 
 
+{% comment %}
+
 * we'll do go over potential solutions to multiply together!
 * for the remainder of the homework
     * write your own code
@@ -73,6 +75,8 @@ Homework #2 __Due Tuesday, May 30th, at 11PM__
 1. [multiply.py](homework/hw02/multiply.py) (partially implemented in class together!)
 2. [grade_bot_3000.py](homework/hw02/grade_bot_3000.py)
 3. [change_puhleese.py](homework/hw02/change_puhleese.py)
+
+{% endcomment %}
 
 </article>
 

@@ -44,7 +44,6 @@ Homework #1 __Due Thursday, May 25th, at 11PM__
 
 (to be posted)
 
-{% comment %}
 
 (Submit via NYU Classes)
 
@@ -74,7 +73,6 @@ Example output for tree.py:
 </pre>
 <!--_-->
 
-{% endcomment %}
 
 </article>
 
