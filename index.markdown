@@ -130,7 +130,7 @@ Installing Python
 
 Tutoring Schedule
 =====
-TBD
+M - TH: 11:15am to 1:15pm
 
 <!-- got lazy here, wants some anchorzzzz -->
 <br />

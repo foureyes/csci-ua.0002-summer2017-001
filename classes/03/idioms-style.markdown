@@ -166,7 +166,3 @@ myCount = 1
 <aside>(Please)</aside>
 </section>
 
-<section markdown="block">
-## [And on to the review...](review.html)
-
-</section>

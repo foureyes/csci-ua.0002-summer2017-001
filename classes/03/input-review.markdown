@@ -124,6 +124,3 @@ print("hip " * number_of_cheers + "hooray")
 Let's take a look at [that handout](../../resources/handouts/class03/types-variables-operators-comments.pdf) again.
 </section>
 
-<section markdown="block">
-## [Variables](variables.html)
-</section>

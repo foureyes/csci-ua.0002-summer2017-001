@@ -18,6 +18,7 @@ Nothing due today!
 * [Workshop Next Week](classes/03/workshop.html)
 {% endcomment %}
 
+* Tutoring
 * [Review Values, Types, Operations and Variables](classes/03/review.html)
 * [Review Calling Functions](classes/03/function-calls.html)
 * [Review User Input](classes/03/input-review.html)

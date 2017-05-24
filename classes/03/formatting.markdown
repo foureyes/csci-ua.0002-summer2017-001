@@ -114,4 +114,35 @@ type        ::=  "b" | "c" | "d" | "e" | "E" | "f" | "F" | "g" |
                  "G" | "n" | "o" | "s" | "x" | "X" | "%"
 {% endhighlight %}
 
+(taken from [the official documentation](https://docs.python.org/3.6/library/string.html#formatspec))
+
+</section>
+
+<section markdown="block">
+## Additional Notes
+
+__There are a few other minor details with format__ &rarr;
+
+* you can leave out the type of you're not doing any specific formatting based on that type
+    * `format(1.2)`
+* if you use a type with an incompatible value, you'll get an error
+    * `format(1.2, 's')`
+* notice the other possible items that you can add to the format specifier? 
+    * you can try adding things like `fill`, `sign`, etc.
+
+</section>
+
+<section markdown="block">
+## Let's Try This...
+
+__What format string should we use to format the number 1000.32 so that it gives back a stirng composed of 20 characters:__ &rarr;
+
+<div class="incremental" markdown="block">
+`'---------1,000.32000'`
+</div>
+
+<div class="incremental" markdown="block">
+`format(1000.32, '->20,.5f')`
+</div>
+
 </section>
