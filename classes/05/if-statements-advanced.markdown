@@ -119,9 +119,35 @@ no medal for you!
 </section>
 
 <section markdown="block">
+### How About This?
+
+__Would this solution work?__ &rarr;
+
+{% highlight python %}
+place = int(input('What number should I translate into a medal?\n>'))
+
+if place == 1:
+    medal = "gold"
+
+if place == 2:
+    medal = "silver"
+
+if place == 3:
+    medal = "bronze"
+else:
+    medal = "no medal for you!"
+print(medal)
+{% endhighlight %}
+
+<div class="incremental" markdown="block">
+Nope! If you put in 1, both `gold` and `no medal for you!` are printed out
+</div>
+
+</section>
+<section markdown="block">
 ### Another elif Example
 <aside>Let's have some more cake...</aside>
-__Let's do the cake exercise again using elif...__ &rarr;
+__Let's do this exercise using elif...__ &rarr;
 
 {% highlight pycon %}
 Do you want cake?

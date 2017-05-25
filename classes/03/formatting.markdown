@@ -91,7 +91,7 @@ Specifying places after decimal (, means add comma, d means integer)
 {% highlight python %}
 a = 20000
 print(format(a, ',d'))
-print(format(a, '>20,d')
+print(format(a, '>20,d'))
 {% endhighlight %}
 </section>
 

@@ -1,4 +1,5 @@
 ---
+* Tutoring
 layout: slides
 title: Boolean Logic 
 ---
@@ -246,7 +247,7 @@ Boolean, comparison and other operators can be combined to create complex Boolea
 {% endhighlight %}
 
 * what order will the operations be evaluated in?
-* there is an overall order of operations that existsi; [a summary can be found in the official Python 3 documentation](http://docs.python.org/3/reference/expressions.html#operator-precedence)
+* there is an overall order of operations that exists; [a summary can be found in the official Python 3 documentation](http://docs.python.org/3/reference/expressions.html#operator-precedence)
 * __what does the expression above evaluate to?__ &rarr;
 
 <div class="incremental" markdown="block">
@@ -343,7 +344,7 @@ False
 ### Short Circuit Evaluation
 * if left hand side of boolean decides the outcome, no need to deal with the remainder of expression
 	* saves some processin' time!
-	* for example: (false and (true and true and true or false))
+	* for example: `(false and (true and true and true or false))`
 	* can stop at false!
 * can be applied internally to a larger more complex boolean expression
 * generally, just language implementation details, right?
