@@ -130,7 +130,9 @@ Installing Python
 
 Tutoring Schedule
 =====
-M - TH: 11:15am to 1:15pm
+
+* WWH room 412
+* M - TH: 11:15am to 1:15pm
 
 <!-- got lazy here, wants some anchorzzzz -->
 <br />
