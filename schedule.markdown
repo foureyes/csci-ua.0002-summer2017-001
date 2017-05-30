@@ -123,8 +123,40 @@ Schedule & Notes
 
 * Modules and If Statements Continued
 * While Loops
+* Accumulator Variables
 
 </article> {% include classes/class-05.markdown %} </div> </section> 
+
+<a name="class6"></a><!---------- start --------------->
+
+<section markdown="block">
+### THU 5/31, Class #6 (Programming Assignment)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* While Loops
+* Accumulator Variables
+
+</article> {% include classes/class-06.markdown %}</div> </section> 
+
+
+<a name="class7"></a><!---------- start --------------->
+
+<section markdown="block" class="workshop">
+### TUE 6/1, Class #7
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* In-class programming assignment
+* Preview For Loops
+
+</article> {% include classes/class-07.markdown %}</div> </section> 
+
+
 
 ### Upcoming Classes
 
@@ -160,36 +192,7 @@ Schedule & Notes
 
 
 
-<a name="class5"></a><!---------- start --------------->
 
-
-
-<a name="class6"></a><!---------- start --------------->
-
-<section markdown="block" class="workshop">
-### THU 2/09, Class #6 (Programming Assignment)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* In-class programming assignment
-</article> {% include classes/06/materials.markdown %}</div> </section> 
-
-
-<a name="class7"></a><!---------- start --------------->
-
-<section markdown="block">
-### TUE 2/14, Class #7
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Modules (math, random, sys) Continued
-* While Loops
-* Accumulator Variables
-</article> {% include classes/07/materials.markdown %} </div> </section> 
 
 
 <a name="class8"></a><!---------- start --------------->

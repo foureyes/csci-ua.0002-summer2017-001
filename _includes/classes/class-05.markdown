@@ -31,10 +31,11 @@ THUR
 <article class="slides" markdown="block">
 #### Slides
 
-
+* Homework Questions
 * Review Modules
 * Finish Conditionals from Previous Class
 * Guessing Game Revisited?
+* String Formatting from Previous Class
 * [While Loops](classes/07/while.html) / [Alternative While Loop Slides](classes/07/while-revisited.html)
 
 {% comment %}
@@ -67,6 +68,11 @@ Due Tomorrow, Before Class (5/31, 9am)
 
 * Complete the [Self Paced-Learning Module #4]({{ site.module4 }})
 * Take quiz #4 on NYU Classes
+
+Readings
+
+* {{ site.bookq }} - Chapter 4 (focus on while and for loops)
+* [{{ site.bookt }}](http://openbookproject.net/thinkcs/python/english3e/iteration.html) - Chapter 7, Iteration (up to section 7.14)
 
 </article>
 
