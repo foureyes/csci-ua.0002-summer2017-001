@@ -3,6 +3,7 @@
 
 * [Self Paced-Learning Module #4]({{ site.module4 }})
 * Quiz #4 on NYU Classes
+* __In-Class handout on while loops__
 
 <!--
 * Homework
@@ -14,6 +15,7 @@
 #### Slides
 
 * (Continued) [While Loops](classes/07/while.html) / [Alternative While Loop Slides](classes/07/while-revisited.html)
+* __In-class handout on while loops__
 * [For Loops](classes/07/for.html) Maybe
 
 <!--
