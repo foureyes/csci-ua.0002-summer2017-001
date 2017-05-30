@@ -130,7 +130,7 @@ Schedule & Notes
 <a name="class6"></a><!---------- start --------------->
 
 <section markdown="block">
-### THU 5/31, Class #6 (Programming Assignment)
+### WED 5/31, Class #6 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
@@ -145,7 +145,7 @@ Schedule & Notes
 <a name="class7"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### TUE 6/1, Class #7
+### THU 6/1, Class #7
 
 <div class="class-details">
 <article class="topics" markdown="block">
