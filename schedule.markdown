@@ -160,8 +160,6 @@ Schedule & Notes
 
 ### Upcoming Classes
 
-* 6: 5/31 - Wed
-* 7: 6/01 - Thu
 * 8: 6/05 - Mon
 * 9: 6/06 - Tue
 * 10: 6/07 - Wed

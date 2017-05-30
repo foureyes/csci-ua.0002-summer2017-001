@@ -32,8 +32,9 @@ THUR
 #### Slides
 
 * Homework Questions
-* Review Modules
 * Finish Conditionals from Previous Class
+* Handout
+* Review Modules
 * Guessing Game Revisited?
 * String Formatting from Previous Class
 * [While Loops](classes/07/while.html) / [Alternative While Loop Slides](classes/07/while-revisited.html)
