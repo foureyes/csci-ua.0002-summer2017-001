@@ -97,8 +97,8 @@ Schedule & Notes
 
 <a name="class4"></a><!---------- start --------------->
 
-<section markdown="block" class="workshop" class="workshop">
-### THU 5/25, Class #4 (Programming Assignment)
+<section markdown="block">
+### THU 5/25, Class #4
 
 
 <div class="class-details">
@@ -112,11 +112,22 @@ Schedule & Notes
 
 </article> {% include classes/class-04.markdown %} </div> </section> 
 
+<a name="class5"></a><!---------- start --------------->
+
+<section markdown="block">
+### TUE 5/30, Class #5
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Modules and If Statements Continued
+* While Loops
+
+</article> {% include classes/class-05.markdown %} </div> </section> 
 
 ### Upcoming Classes
 
-* Memorial Day 5/29 - M (No Class Scheduled)
-* 5: 5/30 - Tue
 * 6: 5/31 - Wed
 * 7: 6/01 - Thu
 * 8: 6/05 - Mon
@@ -151,15 +162,6 @@ Schedule & Notes
 
 <a name="class5"></a><!---------- start --------------->
 
-<section markdown="block">
-### TUE 2/07, Class #5
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-
-</article> {% include classes/05/materials.markdown %} </div> </section> 
 
 
 <a name="class6"></a><!---------- start --------------->
