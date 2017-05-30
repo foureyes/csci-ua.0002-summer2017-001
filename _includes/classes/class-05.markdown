@@ -25,6 +25,7 @@ THUR
 #### Due Today
 
 * __Homework #02__
+* __In-class handout on if statements__
 
 </article>
 
@@ -33,7 +34,7 @@ THUR
 
 * Homework Questions
 * Finish Conditionals from Previous Class
-* Handout
+* __In-class handout on if statements__
 * Review Modules
 * Guessing Game Revisited?
 * String Formatting from Previous Class
