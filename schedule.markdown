@@ -164,7 +164,7 @@ Schedule & Notes
 * 9: 6/06 - Tue
 * 10: 6/07 - Wed
 * 11: 6/08 - Thu
-* {:markdown='block'} <span class="danger">12: 6/12 - Mon: MidtermExam</span>
+* {:markdown='block'} <span class="danger">12: 6/12 - Mon: Midterm Exam</span>
 * 13: 6/13 - Tue
 * 14: 6/14 - Wed
 * 15: 6/15 - Thu
