@@ -266,10 +266,11 @@ nothing!
 </div>
 </section>
 
-
+{% comment %}
 <section markdown="block">
 ## [Boolean Logic](boolean-logic.html)
 <aside markdown="block">
 [Oh, and a handout](../../resources/handouts/class05/input-types-if.pdf)
 </aside>
 </section>
+{% endcomment %}

@@ -35,6 +35,8 @@ THUR
 * Homework Questions
 * Finish Conditionals from Previous Class
 * __In-class handout on if statements__
+    * [handout](resources/handouts/in-class/input-types-if.pdf)
+    * [solutions](resources/handouts/in-class/input-types-if-solutions.pdf)
 * Review Modules
 * Guessing Game Revisited?
 * String Formatting from Previous Class
