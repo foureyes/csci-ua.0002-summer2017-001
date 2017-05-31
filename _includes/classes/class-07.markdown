@@ -12,8 +12,7 @@ Nothing due today!
 
 Warm-up
 
-* break and continue again
-* preview for-loops?
+* break and continue
 * while loop with a game - maybe revisit number guessing game?
 
 </article>
@@ -24,9 +23,7 @@ Warm-up
 
 Homework #3 __Due Monday, 6/5, at 11PM__ 
 
-(To be posted)
 
-{% comment %}
 If Statements
 
 1. [grade.py](homework/hw03/grade.py)
@@ -38,7 +35,6 @@ While Loops
 1. [odds_and_evens.py](homework/hw04/odds_and_evens.py)
 2. [many_words.py](homework/hw04/many_words.py)
 3. [average_word.py](homework/hw04/average_word.py)
-{% endcomment %}
 
 <!--
 Readings

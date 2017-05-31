@@ -156,11 +156,23 @@ Schedule & Notes
 
 </article> {% include classes/class-07.markdown %}</div> </section> 
 
+<a name="class8"></a><!---------- start --------------->
+
+<section markdown="block" class="workshop">
+### THU 2/16, Class #8 (Programming Assignment)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* In-class programming assignment
+</article> {% include classes/class-08.markdown %}</div> </section> 
+
+
 
 
 ### Upcoming Classes
 
-* 8: 6/05 - Mon
 * 9: 6/06 - Tue
 * 10: 6/07 - Wed
 * 11: 6/08 - Thu
@@ -192,18 +204,6 @@ Schedule & Notes
 
 
 
-
-<a name="class8"></a><!---------- start --------------->
-
-<section markdown="block" class="workshop">
-### THU 2/16, Class #8 (Programming Assignment)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* In-class programming assignment
-</article> {% include classes/08/materials.markdown %} </div> </section> 
 
 
 <a name="class9"></a><!---------- start --------------->
