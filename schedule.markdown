@@ -158,14 +158,14 @@ Schedule & Notes
 
 <a name="class8"></a><!---------- start --------------->
 
-<section markdown="block" class="workshop">
-### THU 2/16, Class #8 (Programming Assignment)
+<section markdown="block">
+### MON 2/16, Class #8 
 
 <div class="class-details">
 <article class="topics" markdown="block">
 #### Topics
 
-* In-class programming assignment
+* For Loops
 </article> {% include classes/class-08.markdown %}</div> </section> 
 
 
