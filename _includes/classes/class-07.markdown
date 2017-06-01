@@ -12,8 +12,16 @@ Nothing due today!
 
 Warm-up
 
+* review while loops:
+    * counting
+    * getting user input
 * break and continue
-* while loop with a game - maybe revisit number guessing game?
+    * break immediately
+    * break in conditional
+    * continue in conditional
+    * only necessary
+* while loop with a game
+    * maybe revisit number guessing game?
 
 </article>
 
