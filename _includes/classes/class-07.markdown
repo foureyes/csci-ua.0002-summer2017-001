@@ -15,6 +15,9 @@ Warm-up
 * review while loops:
     * counting
     * getting user input
+* simple input validation
+    * ask until they get it right! (keep on asking until name is given)
+    * set a default value (ask for name, blank gives default name)
 * break and continue
     * break immediately
     * break in conditional
