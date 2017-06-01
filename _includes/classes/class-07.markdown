@@ -35,13 +35,12 @@ Homework #3 __Due Monday, 6/5, at 11PM__
 If Statements
 
 1. [grade.py](homework/hw03/grade.py)
-2. [fortune.py](homework/hw03/fortune.py)
-3. [tip.py](homework/hw03/tip.py)
+2. [adventure.py](homework/hw03/adventure.py)
 
 While Loops
 
-1. [odds_and_evens.py](homework/hw04/odds_and_evens.py)
-2. [many_words.py](homework/hw04/many_words.py)
+1. [many_words.py](homework/hw04/many_words.py)
+2. [odds_and_evens.py](homework/hw04/odds_and_evens.py)
 3. [average_word.py](homework/hw04/average_word.py)
 
 <!--
