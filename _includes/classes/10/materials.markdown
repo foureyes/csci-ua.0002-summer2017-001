@@ -47,17 +47,17 @@ Today's Class (Ignore #7)
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
+* [Functions: Assertions and Testing](classes/13/functions_assertions_testing.html)
+* [Scope](classes/13/scope.html)
+* [Recursion](classes/13/recursion.html)
+* Workshop
+
+{% comment %}
+* [Strings](classes/13/strings.html)
+* [As a list of chars](classes/13/strings_as_list.html)
+{% endcomment %}
 
 
-<!--
-Readings
-
-* Read {{ site.bookq }} - Chapter 1
-
-Assignments 
-
-1. [questions.py](homework/hw01/questions.py) - 9 points
--->
 </article>
 <!--
 <a name="class10"></a>

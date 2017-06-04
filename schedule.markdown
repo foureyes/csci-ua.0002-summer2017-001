@@ -159,17 +159,32 @@ Schedule & Notes
 <a name="class8"></a><!---------- start --------------->
 
 <section markdown="block">
-### MON 2/16, Class #8 
+### MON 6/5, Class #8 
 
 <div class="class-details">
 <article class="topics" markdown="block">
 #### Topics
 
 * For Loops
+* While vs For
+
 </article> {% include classes/class-08.markdown %}</div> </section> 
 
 
 
+<a name="class9"></a><!---------- start --------------->
+
+<section markdown="block">
+### TUE 6/6, Class #9
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* For Loops Preview
+* Functions
+
+</article> {% include classes/class-09.markdown %}</div> </section> 
 
 ### Upcoming Classes
 
@@ -205,20 +220,6 @@ Schedule & Notes
 
 
 
-
-<a name="class9"></a><!---------- start --------------->
-
-<section markdown="block">
-### TUE 2/21, Class #9
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* While Loops Continued
-* For Loops Preview
-
-</article> {% include classes/09/materials.markdown %}</div> </section> 
 
 
 <a name="class10"></a><!---------- start --------------->

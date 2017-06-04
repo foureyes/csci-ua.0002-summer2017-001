@@ -45,6 +45,8 @@ Slides
 * [For Loops](classes/08/for.html)
 * [While Loops vs For Loops](classes/09/vs.html)
 * [Loop Exercises](classes/09/loop-exercises.html)
+* [Creating Functions](classes/12/returning_values.html)
+* [Approaching a Programming Problem](classes/12/dicewars.html)
 
 Sample Questions for Midterm
 
@@ -60,37 +62,10 @@ Sample Questions for Midterm
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
-<!--
-Readings
+Due Before Class on Monday 6/6 9am
 
-* Read {{ site.bookq }} - Chapter 1
+* Complete the [Self Paced-Learning Module #6]({{ site.module5 }})
+* Take quiz #6 on NYU Classes
 
-Assignments 
-
-1. [questions.py](homework/hw01/questions.py) - 9 points
--->
 </article>
-<!--
-<a name="class9"></a>
-
-### Slides
-* [About Class #9](classes/09/meta.html)
-* Finishing Up [For Loops From the Previous Class (Starting From Range)](classes/08/for.html#15.0)
-* [While Loops vs For Loops](classes/09/vs.html)
-* [Loop Exercises](classes/09/loop-exercises.html)
-* [Nested Loops (Optional / Quick Preview)](classes/09/nested.html)
-
-### Readings
-* {{ site.bookq }} - Chapter 4 (entire chapter, but focus on while and for loops)
-* [{{ site.bookt }}](http://openbookproject.net/thinkcs/python/english3e/iteration.html) - Chapter 7, Iteration (up to section 7.14)
-
-### Vocabulary
-See [the glossary](http://openbookproject.net/thinkcs/python/english3e/iteration.html#glossary) 
-
-### Selected Solutions for Homework #2
-
-* [days.py](resources/code/hw2/days.py)
-* [numbers.py](resources/code/hw2/numbers.py)
-* [stadium_seating.py](resources/code/hw2/stadium_seating.py)
--->
 

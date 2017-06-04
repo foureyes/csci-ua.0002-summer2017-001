@@ -13,7 +13,6 @@
 <article class="slides" markdown="block">
 #### Slides
 
-* For Loops and Functions Handout
 * [Functions: Assertions and Testing](classes/13/functions_assertions_testing.html)
 * [Scope](classes/13/scope.html)
 * [Recursion](classes/13/recursion.html)
@@ -36,9 +35,7 @@
 
 Homework #4 __Due Thursday, 6/8, at 11PM__ 
 
-To be posted
 
-{% comment %}
 For Loops, Nested Loops
 
 1. [grade.py](homework/hw03/grade.py)
@@ -49,8 +46,6 @@ Functions
 1. [many_words.py](homework/hw04/many_words.py)
 2. [odds_and_evens.py](homework/hw04/odds_and_evens.py)
 3. [average_word.py](homework/hw04/average_word.py)
-
-{% endcomment %}
 
 <!--
 Readings
