@@ -10,15 +10,18 @@
 <article class="slides" markdown="block">
 #### Slides
 
-* [About Midterm #1](classes/10/exam.html)
+* [About the Midterm](classes/10/exam.html)
 * [Review (Variables, Statements, Expressions, Types, Operators, Loops, Conditionals)](classes/10/review.html)
 
 ### Code
 
 * [Review Notes on format, % operator, conditionals](code/0002-midterm-1-notes.py) from previous semester.
 
-### Handouts
+### Review Materials
 
+To be posted.
+
+{% comment %}
 Distributed Last Week
 
 * [Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_practice.pdf)
@@ -29,6 +32,7 @@ Today's Class (Ignore #7)
 * [Additional Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_additional_practice.pdf)
 * [Additional Sample Questions for Midterm #1 Solutions](resources/handouts/midterm_1/midterm_1_additional_practice_solutions.pdf)
 
+{% endcomment %}
 
 {%comment%}
 ### Out-of-class Review
@@ -53,8 +57,6 @@ Today's Class (Ignore #7)
 * Workshop
 
 {% comment %}
-* [Strings](classes/13/strings.html)
-* [As a list of chars](classes/13/strings_as_list.html)
 {% endcomment %}
 
 

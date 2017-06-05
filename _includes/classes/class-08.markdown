@@ -52,6 +52,7 @@ Sample Questions for Midterm
 
 * [Sample Questions for Midterm](resources/handouts/midterm_1/midterm_1_practice.pdf)
 * [Sample Questions for Midterm Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
+* __More sample questions to be posted on review day__ 
 
 <!--
 * [Slides](classes/01/intro.html)
@@ -62,10 +63,14 @@ Sample Questions for Midterm
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
-Due Before Class on Monday 6/6 9am
+Due Before Class on Tuesday 6/6 9AM
 
 * Complete the [Self Paced-Learning Module #6]({{ site.module5 }})
 * Take quiz #6 on NYU Classes
+
+Readings
+
+* {{ site.bookq }} - Chapter 5 (Functions and Modules)
 
 </article>
 

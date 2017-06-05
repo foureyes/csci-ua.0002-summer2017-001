@@ -16,13 +16,15 @@
 * For Loops and Functions Handout
 * [Functions: Assertions and Testing](classes/13/functions_assertions_testing.html)
 * [Scope](classes/13/scope.html)
+* [IPO Charts and Exercises](classes/13/ipo_function_exercises.html)
 * [Recursion](classes/13/recursion.html)
-* Workshop
-
-{% comment %}
-* [Strings](classes/13/strings.html)
-* [As a list of chars](classes/13/strings_as_list.html)
-{% endcomment %}
+* Workshop / Warm - Up
+    * oh hey, remember modules?
+    * if \_\_name\_\_ == '\_\_main\_\_':
+    * input/output/processing
+    * functions with and without return
+    * an example of minus
+    * a box
 
 <!--
 * [Slides](classes/01/intro.html)
@@ -33,6 +35,14 @@
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
+Due Before Class on Wednesday 6/7 9AM
+
+* [Self Paced-Learning Module #7]({{ site.module7 }})
+* Quiz #7 on NYU Classes
+
+Readings
+
+* {{ site.bookq }} - Chapter 8 (Strings)
 
 Homework #4 __Due Thursday, 6/8, at 11PM__ 
 

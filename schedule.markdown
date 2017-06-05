@@ -167,6 +167,7 @@ Schedule & Notes
 
 * For Loops
 * While vs For
+* Functions
 
 </article> {% include classes/class-08.markdown %}</div> </section> 
 
@@ -181,17 +182,44 @@ Schedule & Notes
 <article class="topics" markdown="block">
 #### Topics
 
-* For Loops Preview
-* Functions
+* Functions Continued
 
 </article> {% include classes/class-09.markdown %}</div> </section> 
 
+<a name="class10"></a><!---------- start --------------->
+
+<section class="review" markdown="block">
+### WED 6/7, Class #10 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Strings
+
+</article> {% include classes/class-10.markdown %}</div> </section> 
+
+<a name="class11"></a><!---------- start --------------->
+
+<section class="review" markdown="block">
+### THU 6/8, Class #11 (Review)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Review Session for Midterm 
+</article> {% include classes/class-11.markdown %}</div> </section> 
+
+<a name="class12"></a><!---------- start --------------->
+
+<section markdown="block" class="exam">
+### MON 6/12, Midterm
+
+</section> 
+
 ### Upcoming Classes
 
-* 9: 6/06 - Tue
-* 10: 6/07 - Wed
-* 11: 6/08 - Thu
-* {:markdown='block'} <span class="danger">12: 6/12 - Mon: Midterm Exam</span>
 * 13: 6/13 - Tue
 * 14: 6/14 - Wed
 * 15: 6/15 - Thu
@@ -222,25 +250,6 @@ Schedule & Notes
 
 
 
-<a name="class10"></a><!---------- start --------------->
-
-<section class="review" markdown="block">
-### THU 2/23, Class #10 (Review)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Review Session for Midterm #1
-</article> {% include classes/10/materials.markdown %}</div> </section> 
-
-
-<a name="class11"></a><!---------- start --------------->
-
-<section markdown="block" class="exam">
-### TUE 2/28, Midterm #1
-
-</section> 
 
 
 <a name="class12"></a><!---------- start --------------->
