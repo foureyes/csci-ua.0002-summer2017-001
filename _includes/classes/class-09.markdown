@@ -39,7 +39,7 @@
 <article class="assignments" markdown="block">
 #### Assignments / Readings		
 
-Due Before Class on Wednesday 6/7 9AM
+Due Before Class on Tuesday 6/13 9AM (after midterm)
 
 * [Self Paced-Learning Module #7]({{ site.module7 }})
 * Quiz #7 on NYU Classes
