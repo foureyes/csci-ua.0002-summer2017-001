@@ -15,7 +15,10 @@
 
 * __In-class handout on for loops__
     * [handout](resources/handouts/in-class/for-loops-nested-cond.pdf)
+    * solutions to be posted
+    {% comment %}
     * [solutions](resources/handouts/in-class/for-loops-nested-cond-solutions.pdf)
+    {% endcomment %}
 * [Functions: Assertions and Testing](classes/13/functions_assertions_testing.html)
 * [Scope](classes/13/scope.html)
 * [IPO Charts and Exercises](classes/13/ipo_function_exercises.html)
