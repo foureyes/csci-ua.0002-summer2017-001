@@ -13,18 +13,19 @@
 <article class="slides" markdown="block">
 #### Slides
 
-* For Loops and Functions Handout
+* __In-class handout on for loops__
+    * [handout](resources/handouts/in-class/for-loops-nested-cond.pdf)
+    * [solutions](resources/handouts/in-class/for-loops-nested-cond-solutions.pdf)
 * [Functions: Assertions and Testing](classes/13/functions_assertions_testing.html)
 * [Scope](classes/13/scope.html)
 * [IPO Charts and Exercises](classes/13/ipo_function_exercises.html)
 * [Recursion](classes/13/recursion.html)
-* Workshop / Warm - Up
+* Workshop / Warm - Up (Maybe... or next class?)
     * oh hey, remember modules?
     * if \_\_name\_\_ == '\_\_main\_\_':
-    * input/output/processing
     * functions with and without return
     * an example of minus
-    * a box
+    * nested loops to draw a box!?
 
 <!--
 * [Slides](classes/01/intro.html)
@@ -46,21 +47,10 @@ Readings
 
 Homework #4 __Due Thursday, 6/8, at 11PM__ 
 
-To be posted
-
-{% comment %}
-For Loops, Nested Loops
-
-1. [grade.py](homework/hw03/grade.py)
-2. [adventure.py](homework/hw03/adventure.py)
-
-Functions
-
-1. [many_words.py](homework/hw04/many_words.py)
-2. [odds_and_evens.py](homework/hw04/odds_and_evens.py)
-3. [average_word.py](homework/hw04/average_word.py)
-
-{% endcomment %}
+1. [funcynum.py](homework/hw05/funcynum.py)
+2. [feeling_quizzy.py](homework/hw05/feeling_quizzy.py)
+3. [analyze_numbers.py](homework/hw05/analyze_numbers.py)
+4. [slashes.py](homework/hw05/slashes.py)
 
 <!--
 Readings

@@ -17,10 +17,7 @@
 * (Continued) [While Loops](classes/07/while.html) / [Alternative While Loop Slides](classes/07/while-revisited.html)
 * __In-class handout on while loops__
     * [handout](resources/handouts/in-class/booleans-while.pdf)
-    * solutions - to be posted
-    {% comment %}
     * [solutions](resources/handouts/in-class/booleans-while-solutions.pdf)
-    {% endcomment %}
 * [For Loops](classes/07/for.html) Maybe
 
 <!--

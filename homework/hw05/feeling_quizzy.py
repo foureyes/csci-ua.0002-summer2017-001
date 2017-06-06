@@ -11,7 +11,7 @@ import funcynum
 * now you can use your functions by prefixing with your module name (just
   like using random.randint(a, b) or math.sqrt(25):
 
-funcynum.print_two('*', 5)
+funcynum.two('*', 5)
 
 Your math quiz program will ask for some parameters to the game... and then
 it will display a series of addition and subtractions questions using your
@@ -121,3 +121,69 @@ XXX
 Nope, the answer is 14
 You got  66.67% correct (2 out of 3)
 """
+import funcynum_ret as funcynum
+import random
+num_problems = int(input('How many problems?\n> '))
+while num_problems < 3 or num_problems > 20:
+    print('Please enter a number between 5 and 20...')
+    num_problems = int(input('How many problems?\n> '))
+char = input('What character do you want the numbers to be made of?\n> ')
+while len(char) != 1:
+    print('Please enter a single character!') 
+    char = input('What character do you want the numbers to be made of?\n> ')
+width = int(input('How wide do you want each number to be?\n> '))
+if width < 3:
+    print('Oops... defaulting to width 3')
+    width = 3
+
+def print_num(n, char, width):
+    if n == 0:
+        print(funcynum.zero(char, width))
+    elif n == 1:
+        print(funcynum.one(char, width))
+    elif n == 2:
+        print(funcynum.two(char, width))
+    elif n == 3:
+        print(funcynum.three(char, width))
+    elif n == 4:
+        print(funcynum.four(char, width))
+    elif n == 5:
+        print(funcynum.five(char, width))
+    elif n == 6:
+        print(funcynum.six(char, width))
+    elif n == 7:
+        print(funcynum.seven(char, width))
+    elif n == 8:
+        print(funcynum.eight(char, width))
+    elif n == 9:
+        print(funcynum.nine(char, width))
+
+def print_op(op, char, width):
+    if op == '+':
+        print(funcynum.plus(char, width))
+    elif op == '-':
+        print(funcynum.minus(char, width))
+
+num_correct = 0
+for i in range(num_problems):
+    left_operand, right_operand = random.randint(0, 9), random.randint(0, 9)
+    operator = '+' if random.randint(0, 1) == 0 else '-'
+    if operator == '+':
+        answer = left_operand + right_operand
+    else:
+        answer = left_operand - right_operand
+    print(left_operand, operator, right_operand)
+    print('\n What is ...')
+    print_num(left_operand, char, width)
+    print()
+    print_op(operator, char, width)
+    print()
+    print_num(right_operand, char, width)
+    user_answer = int(input(' = '))
+    if user_answer == answer:
+        print('Correct!')
+        num_correct += 1
+    else:
+        print('Nope, the answer is', answer)
+print('You got ', format(num_correct / num_problems, '.2%'), 'correct (%s out of %s)' % (num_correct, num_problems))
+
