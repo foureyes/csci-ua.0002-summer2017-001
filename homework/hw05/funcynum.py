@@ -99,7 +99,7 @@ input/output/processing chart will looks similar for each functions. Here's an
 example input/output/processing chart, an actual function definition for the
 function that prints out the number one, and some examples of usage:
 
-print_one
+one
 * input:  
     * a character to create the number with
     * the width of the number
