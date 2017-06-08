@@ -105,3 +105,59 @@ d = int(input('give me the denominator'))
 
 print(reduce(n, d))
 
+
+def say_cheese(n):
+    s = n * 'cheese'
+    print(s)
+talk = say_cheese(3)
+
+exclamation = 'boo'
+whisper = 'shhh'
+def do_something():
+    exclamation = 'bye!'
+    print(whisper)
+do_something()
+print(exclamation)
+
+def join_three(a, b, c):
+    return '%s, %s, %s' % (a, b, c)
+c, b, a = 3, 2, 1
+res = join_three(c, b, a)
+print(res)
+
+
+def gimme_a_break():
+    print('OK')
+    for i in range(3):
+        print(i)
+        continue
+        print(i, 'again')
+    print('WAT')
+
+res = gimme_a_break()
+print(res)
+print('FIN')
+
+def do_this_thing(limit):
+    print('hmmmm')
+    for i in range(limit):
+        print(i)
+        return i
+    print('YES!')
+
+value = do_this_thing(3)
+print(value)
+print('done')
+
+import math
+def distance(x1, y1, x2, y2):
+    d = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    return d
+    print(distance(2,5,9,1))
+
+p1_x = int(input('Enter x1 >'))
+p1_y = int(input('Enter y1 >'))
+p2_x = int(input('Enter x2 >'))
+p2_y = int(input('Enter y2 >'))
+result = distance(p1_x, p1_y, p2_x, p2_y)
+print('The distance between these points is %s' % format(result, '.2f'))

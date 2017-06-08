@@ -22,18 +22,18 @@
 
 See class 8. Additional review materials To be posted here on review day.
 
-{% comment %}
-Distributed Last Week
+Distributed in Previous Class
 
-* [Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_practice.pdf)
-* [Sample Questions for Midterm #1 Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
+* [Sample Questions for Midterm](resources/handouts/midterm_1/midterm_1_practice.pdf)
+* [Sample Questions for Midterm Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
 
-Today's Class (Ignore #7)
+Today's Class 
 
-* [Additional Sample Questions for Midterm #1](resources/handouts/midterm_1/midterm_1_additional_practice.pdf)
-* [Additional Sample Questions for Midterm #1 Solutions](resources/handouts/midterm_1/midterm_1_additional_practice_solutions.pdf)
+* [Practice Questions for Functions and Loops](resources/handouts/midterm_1/midterm_functions_loops_practice.pdf)
+* [Practice Questions for Functions and Loops Solutions](resources/handouts/midterm_1/midterm_functions_loops_practice_solutions.pdf)
+* [Additional Sample Questions for Midterm](resources/handouts/midterm_1/midterm_1_additional_practice.pdf)
+* [Additional Sample Questions for Midterm Solutions](resources/handouts/midterm_1/midterm_1_additional_practice_solutions.pdf)
 
-{% endcomment %}
 
 
 <!--
