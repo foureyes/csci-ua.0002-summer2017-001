@@ -168,10 +168,9 @@ for num in range(10)
 * the built-in functions that were in the homework (and that appeared in slides that we did not go over) __may be in the exam__
 * the following topics from the slides (and modules) __will not__ be in the exam:
     * turtle (was only in the online modules)
-    * demorgan's laws
-	* nested loops (we never had a chance to cover this)
 </section>
 
+{% comment %}
 <section markdown="block">
 ## Topics from Modules
 
@@ -200,6 +199,7 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 * Ch. 4 - Repetition Structures 
 	* __except__ 4.7 on nested loops
 </section>
+{% endcomment %}
 
 <section markdown="block">
 ## Test-Taking Strategies
