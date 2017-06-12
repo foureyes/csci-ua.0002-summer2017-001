@@ -1,8 +1,6 @@
 <article class="due" markdown="block">
 #### Due Today
 
-* Quiz #7 (Strings)
-
 
 <!--
 * Homework
@@ -12,6 +10,7 @@
 
 <article class="slides" markdown="block">
 #### Slides
+
 
 * [Strings](classes/13/strings.html)
 * [As a list of chars](classes/13/strings_as_list.html)
