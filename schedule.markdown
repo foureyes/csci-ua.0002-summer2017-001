@@ -218,11 +218,49 @@ Schedule & Notes
 
 </section> 
 
+<a name="class13"></a><!---------- start --------------->
+
+<section markdown="block">
+### TUE 6/13, Class #13 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Testing
+* Scope
+* Strings
+
+</article> {% include classes/class-13.markdown %} </div> </section> 
+
+<a name="class14"></a><!---------- start --------------->
+
+<section markdown="block" class="workshop">
+### WED 6/14, Class #14 (Programming Assignment)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+
+#### Topics
+
+* In-class programming assignment
+</article> {% include classes/class-14.markdown %} </div> </section> 
+
+<a name="class15"></a><!---------- start --------------->
+
+<section markdown="block">
+### THU 6/15, Class #15 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Lists
+
+</article> {% include classes/class-15.markdown %} </div> </section> 
+
 ### Upcoming Classes
 
-* 13: 6/13 - Tue
-* 14: 6/14 - Wed
-* 15: 6/15 - Thu
 * 16: 6/19 - Mon
 * 17: 6/20 - Tue
 * 18: 6/21 - Wed
@@ -238,20 +276,7 @@ Schedule & Notes
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<!--
 <a name="class12"></a><!---------- start --------------->
 
 <section markdown="block">
@@ -266,22 +291,8 @@ Schedule & Notes
 * Writing Your Own Functions 
 
 </article> {% include classes/12/materials.markdown %}</div> </section> 
+-->
 
-
-<a name="class13"></a><!---------- start --------------->
-
-<section markdown="block">
-### TUE 3/07, Class #13 
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Writing Your Own Functions Continued
-* Testing
-* Scope
-* Strings
-</article> {% include classes/13/materials.markdown %} </div> </section> 
 
 
 <a name="class14"></a><!---------- start --------------->
@@ -296,24 +307,6 @@ Schedule & Notes
 
 * In-class programming assignment
 </article> {% include classes/14/materials.markdown %} </div> </section> 
-
-
-<a name="springbreak1"></a><!---------- start --------------->
-
-<section markdown="block" style="background-color: #bbccdd">
-### TUE 3/14, SPRING BREAK
-
-<div class="class-details"></div>
-</section> 
-
-<a name="springbreak2"></a><!---------- start --------------->
-
-<section markdown="block" style="background-color: #bbccdd">
-### THU 3/16, SPRING BREAK
-
-<div class="class-details"></div>
-</section> 
-
 
 <a name="class15"></a><!---------- start --------------->
 
