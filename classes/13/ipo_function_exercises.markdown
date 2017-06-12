@@ -394,7 +394,6 @@ def gcd(a, b):
 {% endhighlight %}
 </section>
 
-<!--
 <section markdown="block">
 ## Um.  That's cool... but I just wanna dance! (To some algorithmically generated rhythms).  
 </section>
@@ -483,5 +482,3 @@ XX
 * 7, 12 - west african bell pattern
 * 5, 9 - Arab rhythm called Agsag-Samai
 </section>
--->
-
