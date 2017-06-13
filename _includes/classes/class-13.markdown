@@ -12,18 +12,17 @@
 <article class="slides" markdown="block">
 #### Slides
 
-(From previous classes)
+From previous classes...
 
 * [Strings](classes/13/strings.html)
 * [As a list of chars](classes/13/strings_as_list.html)
 * [Strings as Objects, String Methods](classes/16/strings_as_objects.html)
 * [Built-in String Functions](classes/16/strings_built_in_functions.html)
 * __In-class handout on strings__
-    * handout to be posted
+    * [handout](resources/handouts/in-class/strings.pdf)
     * solutions to be posted
 
 {% comment %}
-    * [handout](resources/handouts/in-class/strings.pdf)
     * [solutions](resources/handouts/in-class/strings-solutions.pdf)
 {% endcomment %}
 
