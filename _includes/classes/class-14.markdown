@@ -23,10 +23,6 @@ Warm-up
 
 Homework #5 __Due Sunday, June 18th, at 11PM__ 
 
-(to be posted)
-
-{% comment %}
-
 1. [encode_decode.py](homework/hw06/encode_decode.py)
     * if you use chr and ord, [this table of code points to characters](http://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=dec) may be handy!
 2. [barcode_utilities.py](homework/hw06/barcode_utilities.py)
@@ -39,8 +35,6 @@ Homework #5 __Due Sunday, June 18th, at 11PM__
     * test with a barcode reading app on your phone!
 3. [pig_latin.py](homework/hw06/pig_latin.py)
 4. [translate_passage.py](homework/hw06/translate_passage.py)
-
-{% endcomment %}
 
 
 </article>

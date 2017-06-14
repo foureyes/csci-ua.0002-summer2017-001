@@ -16,7 +16,7 @@ Implement the following two functions as specified in the docstrings below:
 2. valid_barcode(s)
 
 The docstrings are comments within the function that describes what the 
-function does. There some notation below that specifies the parameters
+function does. There is some notation below that specifies the parameters
 and return of the functions:
 
 :param name: -> a description of the parameter, name
@@ -27,9 +27,15 @@ and return of the functions:
 Skim through the resources below for background information on generating
 barcodes.
 
-* https://en.wikipedia.org/wiki/Universal_Product_Code#Encoding
+Encoding
+
 * http://electronics.howstuffworks.com/gadgets/high-tech-gadgets/upc3.htm
+* https://en.wikipedia.org/wiki/Universal_Product_Code#Encoding
 * http://www.adams1.com/upccode.html
+
+Checking Validity
+
+* https://en.wikipedia.org/wiki/Universal_Product_Code#Check_digit_calculation
 
 """
 def generate_bar_widths(s):
