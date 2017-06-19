@@ -259,10 +259,35 @@ Schedule & Notes
 
 </article> {% include classes/class-15.markdown %} </div> </section> 
 
+<a name="class16"></a><!---------- start --------------->
+
+<section markdown="block">
+### Mon 6/19, Class #16 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* Lists Continued
+</article> {% include classes/class-16.markdown %}</div> </section> 
+
+
+<a name="class17"></a><!---------- start --------------->
+
+<section markdown="block">
+### TUE 3/28, Class #17 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics 
+
+* Turtle
+</article> {% include classes/class-17.markdown %} </div> </section> 
+
+<a name="class18"></a><!---------- start --------------->
+
 ### Upcoming Classes
 
-* 16: 6/19 - Mon
-* 17: 6/20 - Tue
 * 18: 6/21 - Wed
 * 19: 6/22 - Thu
 * 20: 6/26 - Mon
@@ -295,59 +320,8 @@ Schedule & Notes
 
 
 
-<a name="class14"></a><!---------- start --------------->
-
-<section markdown="block" class="workshop">
-### THU 3/09, Class #14 (Programming Assignment)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-
-#### Topics
-
-* In-class programming assignment
-</article> {% include classes/14/materials.markdown %} </div> </section> 
-
-<a name="class15"></a><!---------- start --------------->
-
-<section markdown="block">
-### TUE 3/21, Class #15 
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Strings
-
-</article> {% include classes/15/materials.markdown %} </div> </section> 
 
 
-<a name="class16"></a><!---------- start --------------->
-
-<section markdown="block" class="workshop">
-### THU 3/23, Class #16 (Programming Assignment)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* In-class programming assignment
-</article> {% include classes/16/materials.markdown %}</div> </section> 
-
-
-<a name="class17"></a><!---------- start --------------->
-
-<section markdown="block">
-### TUE 3/28, Class #17 
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics 
-
-* Lists
-</article> {% include classes/17/materials.markdown %} </div> </section> 
-
-<a name="class18"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
 ### THU 3/30, Class #18 (Programming Assignment)
