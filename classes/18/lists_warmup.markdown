@@ -1,9 +1,9 @@
 ---
 layout: slides
-title: Warm-up for #18 
+title: List Warm-Ups
 ---
 <section markdown="block" class="title-slide">
-# About Class #18
+# Liost Warm-Ups
 {% include title-slide-footer.html %}
 </section>
 
