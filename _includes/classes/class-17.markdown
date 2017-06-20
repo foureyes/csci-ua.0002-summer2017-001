@@ -37,7 +37,7 @@ Homework #6 __Due Thursday, June 22nd, at 11PM__
 Assignments __Due Wednesday, June 21st, at 9AM__
 
 * Complete the Self Paced-Learning Module #9
-* Take quiz #8 on NYU Classes - Module #9
+* Take quiz #9 on NYU Classes - Module #9
 
 Readings
 
