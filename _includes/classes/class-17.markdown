@@ -34,14 +34,14 @@ Homework #6 __Due Thursday, June 22nd, at 11PM__
 	* [starry_starry_night.py (file download)](homework/hw08/starry_starry_night_ec.py)
 	* Counted towards homework only (will make up for low scoring / missing assignments)
 
+Assignments __Due Wednesday, June 21st, at 9AM__
+
+* Complete the Self Paced-Learning Module #9
+* Take quiz #8 on NYU Classes - Module #9
 
 Readings
 
 * [Chapter 3 Hello, little turtles!](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html)
 
-Assignments
-
-* Complete the Self Paced-Learning Module #8
-* Take quiz #8 on NYU Classes - Module #8
 
 </article>

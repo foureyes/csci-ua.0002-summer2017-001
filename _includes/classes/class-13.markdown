@@ -39,14 +39,10 @@ Readings
 
 * Read Starting Out with Python - Chapter 7 - Lists
 
-Quizzes
+assignments
 
-* To be posted
-
-{% comment %}
-* Complete the Self Paced-Learning Module #8
-* Take quiz #8 on NYU Classes - Module #8
-{% endcomment %}
+* complete the self paced-learning module #8
+* take quiz #8 on nyu classes - module #8
 
 
 <!--
