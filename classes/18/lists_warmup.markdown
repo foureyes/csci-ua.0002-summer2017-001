@@ -3,7 +3,7 @@ layout: slides
 title: List Warm-Ups
 ---
 <section markdown="block" class="title-slide">
-# Liost Warm-Ups
+# List Warm-Ups
 {% include title-slide-footer.html %}
 </section>
 
