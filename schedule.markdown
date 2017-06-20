@@ -275,7 +275,7 @@ Schedule & Notes
 <a name="class17"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 3/28, Class #17 
+### TUE 6/20, Class #17 
 
 <div class="class-details">
 <article class="topics" markdown="block">
@@ -284,10 +284,11 @@ Schedule & Notes
 * Turtle
 </article> {% include classes/class-17.markdown %} </div> </section> 
 
+
 <a name="class18"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### THU 3/30, Class #18 (Programming Assignment)
+### WED 6/21, Class #18 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
@@ -302,16 +303,17 @@ Schedule & Notes
 <a name="class19"></a><!---------- start --------------->
 
 <section markdown="block" class="review">
-### TUE 4/04, Class #19 (Review)
+### THU 6/22, Class #19 
 
 <div class="class-details">
 <article class="topics" markdown="block">
+
+* Dictionaries
 
 </article> {% include classes/class-19.markdown %}</div> </section> 
 
 #### Topics
 
-* Review Session for Midterm #2
 ### Upcoming Classes
 
 * 19: 6/22 - Thu
