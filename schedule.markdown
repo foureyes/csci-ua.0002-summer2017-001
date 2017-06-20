@@ -286,9 +286,34 @@ Schedule & Notes
 
 <a name="class18"></a><!---------- start --------------->
 
+<section markdown="block" class="workshop">
+### THU 3/30, Class #18 (Programming Assignment)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+#### Topics
+
+* In-class programming assignment
+* File I/O
+* Exceptions
+
+</article> {% include classes/class-18.markdown %}</div> </section> 
+
+<a name="class19"></a><!---------- start --------------->
+
+<section markdown="block" class="review">
+### TUE 4/04, Class #19 (Review)
+
+<div class="class-details">
+<article class="topics" markdown="block">
+
+</article> {% include classes/class-19.markdown %}</div> </section> 
+
+#### Topics
+
+* Review Session for Midterm #2
 ### Upcoming Classes
 
-* 18: 6/21 - Wed
 * 19: 6/22 - Thu
 * 20: 6/26 - Mon
 * 21: 6/27 - Tue
@@ -323,27 +348,7 @@ Schedule & Notes
 
 
 
-<section markdown="block" class="workshop">
-### THU 3/30, Class #18 (Programming Assignment)
 
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* In-class programming assignment
-
-</article> {% include classes/18/materials.markdown %}</div> </section> 
-
-<a name="class19"></a><!---------- start --------------->
-
-<section markdown="block" class="review">
-### TUE 4/04, Class #19 (Review)
-
-<div class="class-details">
-<article class="topics" markdown="block">
-#### Topics
-
-* Review Session for Midterm #2
 
 <a name="class20"></a><!---------- start --------------->
 
