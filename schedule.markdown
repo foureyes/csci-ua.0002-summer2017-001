@@ -316,7 +316,6 @@ Schedule & Notes
 
 ### Upcoming Classes
 
-* 19: 6/22 - Thu
 * 20: 6/26 - Mon
 * 21: 6/27 - Tue
 * 22: 6/28 - Wed
