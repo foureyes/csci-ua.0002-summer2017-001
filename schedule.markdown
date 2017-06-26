@@ -308,15 +308,25 @@ Schedule & Notes
 <div class="class-details">
 <article class="topics" markdown="block">
 
+* Tuples
 * Dictionaries
 
 </article> {% include classes/class-19.markdown %}</div> </section> 
 
-#### Topics
+<a name="class20"></a><!---------- start --------------->
+
+<section markdown="block" class="review">
+### THU 6/26, Class #20 
+
+<div class="class-details">
+<article class="topics" markdown="block">
+
+* Dictionaries Continued
+
+</article> {% include classes/class-20.markdown %}</div> </section> 
 
 ### Upcoming Classes
 
-* 20: 6/26 - Mon
 * 21: 6/27 - Tue
 * 22: 6/28 - Wed
 * {:markdown='block'} <span class="danger">23: 6/29 - Thu: Final Exam</span>
@@ -351,12 +361,6 @@ Schedule & Notes
 
 
 
-<a name="class20"></a><!---------- start --------------->
-
-<section markdown="block" class="exam">
-### THU 4/06, Midterm #2
-
-</section>
 
 <a name="class21"></a><!---------- start --------------->
 
