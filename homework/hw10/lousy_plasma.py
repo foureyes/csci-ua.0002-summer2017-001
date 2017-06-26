@@ -1,5 +1,5 @@
 """
-lousy_plasma.py (15 points)
+lousy_plasma.py 
 =====
 See instructions on course site.
 """

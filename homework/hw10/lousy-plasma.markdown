@@ -71,7 +71,7 @@ pre {
 
 <div markdown="block" class="assignment">
 
-# lousy_plasma.py (30 points)
+# lousy_plasma.py 
 
 <aside>This assignment is based on materials from Professors Case, Engel, and Kapp</aside>
 
