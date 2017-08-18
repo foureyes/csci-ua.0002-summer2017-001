@@ -3,12 +3,12 @@ layout: slides
 title: While Loops 
 ---
 <section markdown="block" class="title-slide">
-# Another Look at While Loops (It's the Sequel!)
+#  Another Look at While Loops (It's the Sequel!)
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### What's a While Loop Again?
+###  What's a While Loop Again?
 
 __Describe what a while loop is...__ &rarr;
 
@@ -27,14 +27,14 @@ while condition:
 </section>
 
 <section markdown="block">
-## Great.  So.  Why Even?
+##  Great.  So.  Why Even?
 
 <aside>What's the motivation for using while loops?</aside>
 
 </section>
 
 <section markdown="block">
-### Sales Commission Program
+###  Sales Commission Program
 
 {{ site.bookq }} has a program that: 
 
@@ -42,20 +42,20 @@ while condition:
 2. ...and then calculates their sales commission.
 
 {% highlight python %}
-# get a salesperson's sales and commission rate.
+#  get a salesperson's sales and commission rate.
 sales = float(input('Enter the amount of sales: '))
 rate = float(input('Enter the commission rate: '))
 
-# calculate the commission
+#  calculate the commission
 commission = sales * rate
 
-# display the commission
+#  display the commission
 print("the commission is $" + str(commission))
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Commission for 10, Please?
+###  Commission for 10, Please?
 
 Is it possible to change the code in the previous slide so that __the program requests data and calculates commissions for 10 salespersons ... WITHOUT USING A WHILE LOOP?__ &rarr;
 
@@ -74,13 +74,13 @@ rate = float(input('Enter the commission rate: '))
 commission = sales * rate
 print("the commission is $" + str(commission))
 
-# and keep on going...
+#  and keep on going...
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### What About Counting?
+###  What About Counting?
 
 __Can you write a program to count from 1 to 5 by printing out each number on a new line WITHOUT USING A LOOP (we saw this last week)__ &rarr;
 
@@ -101,7 +101,7 @@ print(n)
 </section>
 
 <section markdown="block">
-### Counting Without a While Loop
+###  Counting Without a While Loop
 
 * again, very tedious
 * there's a repeating pattern of code
@@ -110,14 +110,14 @@ print(n)
 
 
 <section markdown="block">
-### Last Example for Motivating Loops, I Swear
+###  Last Example for Motivating Loops, I Swear
 
 <div class="img-container" style="border:none" markdown="block">![Game Over](../../resources/img/game-over.png)
 </div>
 </section>
 
 <section markdown="block">
-### Continue? (Yes/No)
+###  Continue? (Yes/No)
 
 __WITHOUT USING A WHILE LOOP, is it possible to write a program that:__ &rarr;
 
@@ -136,7 +136,7 @@ Continue? (Yes keeps on going)
 </section>
 
 <section markdown="block">
-### Continue? (Yes/No)
+###  Continue? (Yes/No)
 
 We could try using consecutive nested if statements, __but we don't know how deep the nesting could go__. 
 
@@ -156,7 +156,7 @@ if answer == 'Yes':
 </section>
 
 <section markdown="block">
-### Functions!?
+###  Functions!?
 
 * There's actually a way to do this using a function definition that calls itself.  
 * We'll take a look at __recursion__ later this semester.
@@ -172,13 +172,13 @@ ask()
 </section>
 
 <section markdown="block">
-## Loops Will Make All of Those Previous Programs _Easier_ to Write!
+##  Loops Will Make All of Those Previous Programs _Easier_ to Write!
 
 <aside>Let's talk about loops a bit...</aside>
 </section>
 
 <section markdown="block">
-### Iteration and Loops
+###  Iteration and Loops
 
 Some formal definitions:
 
@@ -189,7 +189,7 @@ Some formal definitions:
 </section>
 
 <section markdown="block">
-### Two Types of Loops
+###  Two Types of Loops
 
 There are two broad categories of loops:
 
@@ -205,11 +205,11 @@ A __while__ loop is a __condition controlled loop__.
 
 
 <section markdown="block">
-## While Loops
+##  While Loops
 </section>
 
 <section markdown="block">
-### Condition Controlled Loops
+###  Condition Controlled Loops
 
 * a __condition controlled__ loop causes a set of statements to be repeated as long as a condition is true
 * again, in Python, the __while__ statement allows us to write a __condition controlled loop__
@@ -221,7 +221,7 @@ A __while__ loop is a __condition controlled loop__.
 </section>
 
 <section markdown="block">
-### While Loop Logic
+###  While Loop Logic
 
 A flow chart representing a while loop:
 
@@ -231,7 +231,7 @@ A flow chart representing a while loop:
 </section>
 
 <section markdown="block">
-### While Loop Logic Continued
+###  While Loop Logic Continued
 
 What happens if the condition is True?
 
@@ -248,7 +248,7 @@ The flow goes to the statements after the while loop
 </section>
 
 <section markdown="block">
-### Compared to an If Statement
+###  Compared to an If Statement
 
 The flow chart for an if statement looks pretty similar to a while loop.  __What do you think the difference would be from the diagram showing while loop logic?__ &rarr;
 
@@ -256,7 +256,7 @@ The flow chart for an if statement looks pretty similar to a while loop.  __What
 </section>
 
 <section markdown="block">
-### If Statement Flow Chart
+###  If Statement Flow Chart
 
 <div class="img-container" style="border:none" markdown="block">![If Statement Flow](../../resources/img/if-statement-flow.png)
 </div>
@@ -265,7 +265,7 @@ The flow chart for an if statement looks pretty similar to a while loop.  __What
 
 
 <section markdown="block">
-### While Loop Syntax
+###  While Loop Syntax
 
 A template:
 
@@ -295,14 +295,14 @@ __What does this output? &rarr;__
 </section>
 
 <section markdown="block">
-## Basic While Loop Examples
+##  Basic While Loop Examples
 
 <aside>There are lots...</aside>
 </section>
 
 
 <section markdown="block">
-### Trivial Cases, Again
+###  Trivial Cases, Again
 
 __What do these snippets of code print out?&rarr;__
 {% highlight python %}
@@ -321,13 +321,13 @@ I'm true!
 I'm true!
 {% endhighlight %}
 {% highlight python %}
-# nothing printed here
+#  nothing printed here
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Let's Step Through True
+###  Let's Step Through True
 {% highlight python %}
 while True:
 	print("I'm true!")
@@ -343,7 +343,7 @@ while True:
 </section>
 
 <section markdown="block">
-### Let's Step Through False
+###  Let's Step Through False
 {% highlight python %}
 while False:
 	print("I'm false!")
@@ -355,7 +355,7 @@ We never even get into the body of the loop!
 </section>
 
 <section markdown="block">
-### Slightly More Complicated
+###  Slightly More Complicated
 <aside>Well, Not This One Exactly, But You'll See</aside>
 
 __What does this print out? &rarr;__
@@ -379,7 +379,7 @@ I'm going
 </section>
 
 <section markdown="block">
-### Slightly More Complicated Continued
+###  Slightly More Complicated Continued
 
 __Let's add one line.  What does this print out? &rarr;__
 
@@ -398,7 +398,7 @@ I'm going
 </section>
 
 <section markdown="block">
-### Slightly More Complicated Continued Continued
+###  Slightly More Complicated Continued Continued
 
 Going through each iteration
 
@@ -418,7 +418,7 @@ Loop ends after one iteration.
 </section>
 
 <section markdown="block">
-### What Happened There?
+###  What Happened There?
 
 * we had some state __outside__ of the loop
 * __within__ the loop we mutated / changed that state to eventually get out of the condition
@@ -428,7 +428,7 @@ Loop ends after one iteration.
 </section>
 
 <section markdown="block">
-### Affecting the Outcome of the Condition
+###  Affecting the Outcome of the Condition
 
 To change the outcome of your conditional:
 
@@ -443,11 +443,11 @@ To change the outcome of your conditional:
 </section>
 
 <section markdown="block">
-## Some Practical While Loop Examples
+##  Some Practical While Loop Examples
 </section>
 
 <section markdown="block">
-###  Handling Input, Continue Again
+###   Handling Input, Continue Again
 First an easy one.  Let's go back to the continue program that we discussed earlier: 
 
 * ask a user if they want to continue
@@ -465,7 +465,7 @@ Continue? (Yes keeps on going)
 </section>
 
 <section markdown="block">
-### Continue Program, Some Questions
+###  Continue Program, Some Questions
 
 * what are we repeating?
 * how long are we repeating it, or what's the condition to keep on repeating it?
@@ -473,7 +473,7 @@ Continue? (Yes keeps on going)
 </section>
 
 <section markdown="block">
-### Continue Program Implementation
+###  Continue Program Implementation
 
 {% highlight python %}
 answer = input('Continue? (Yes keeps on going) \n')
@@ -486,7 +486,7 @@ Notice that, like an if statement, variables declared outside of the body of the
 </section>
 
 <section markdown="block">
-### Another Continue Program Implementation 
+###  Another Continue Program Implementation 
 
 {% highlight python %}
 answer = 'Yes'
@@ -508,7 +508,7 @@ while answer == 'Yes':
 </section>
 
 <section markdown="block">
-### A More Flexible Continue
+###  A More Flexible Continue
 
 Let's modify the previous program slightly so that it accepts either yes or yeah.
 
@@ -527,7 +527,7 @@ Nope
 </section>
 
 <section markdown="block">
-### Flexible Continue Program, Some Questions
+###  Flexible Continue Program, Some Questions
 
 * what are we repeating?
 * how long are we repeating it, or what's the condition to keep on repeating it?
@@ -535,7 +535,7 @@ Nope
 </section>
 
 <section markdown="block">
-### Flexible Continue Program, Implementation
+###  Flexible Continue Program, Implementation
 
 To implement this, modify the condition appropriately by adding _or answer == 'Yeah'_
 
@@ -548,7 +548,7 @@ while answer == 'Yes' or answer == 'Yeah':
 
 <!--
 <section markdown="block">
-### 
+###  
 
 <div class="incremental" markdown="block">
 {% highlight python %}
@@ -560,7 +560,7 @@ while answer == 'Yes' or answer == 'Yeah':
 
 <!--
 <section markdown="block">
-### Examples
+###  Examples
 * back to opposite yes or yeah will make it stop. answer != yes and answer != yeah ... why?
 	* what result do you want this to be to make it stop? false
 	* yes or yeah makes it stop ... when the input is yes or yeah, this statement should be false
@@ -574,11 +574,11 @@ we choose the bottom... because we said that yes or yeah made it go, now werew s
 -->
 
 <section markdown="block">
-## Designing How Your While Loop Works
+##  Designing How Your While Loop Works
 </section>
 
 <section markdown="block">
-### So, I Heard You Want to Repeat Some Code...
+###  So, I Heard You Want to Repeat Some Code...
 
 If you have some code that requires repetition, __what questions should you ask?__
 
@@ -594,11 +594,11 @@ If you have some code that requires repetition, __what questions should you ask?
 </section>
 
 <section markdown="block">
-##  We've Seen These Before... Some More Examples
+##   We've Seen These Before... Some More Examples
 </section>
 
 <section markdown="block">
-### Odd Numbers Except 13
+###  Odd Numbers Except 13
 
 __Write a program that... &rarr;__
 
@@ -616,7 +616,7 @@ There are a few ways to do this!  __What are some general strategies for solving
 </section>
 
 <section markdown="block">
-### Possible Solutions for Odd Numbers Except 13
+###  Possible Solutions for Odd Numbers Except 13
  
 [Increment by 2's](http://www.pythontutor.com/visualize.html#code=n+%3D+1%0Awhile+n+%3C%3D+99%3A%0A++++if+n+!%3D+13%3A%0A++++++++print(n)%0A++++n+%3D+n+%2B+2&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&py=3&curInstr=0)
 
@@ -643,7 +643,7 @@ while n <= 99:
 
 <!--
 <section markdown="block">
-### Do You Want Cake (Again)
+###  Do You Want Cake (Again)
 
 __Repeatedy ask if user wants cake until user says yes or yeah.  How would you implement this?&rarr;__
 
@@ -668,7 +668,7 @@ print("Have some cake!")
 </section>
 
 <section markdown="block">
-### Stepping Through Cake
+###  Stepping Through Cake
 
 Let's make an assumption that the user enters "no" first, and then "yeah" second.
 
@@ -690,7 +690,7 @@ print("Have some cake!")
 -->
 
 <section markdown="block">
-### Accumulating Values
+###  Accumulating Values
 
 __Write a program that will: &rarr;__ 
 
@@ -715,7 +715,7 @@ Give me a number to add
 </section>
 
 <section markdown="block">
-### Potential Solution for Accumulating Values
+###  Potential Solution for Accumulating Values
 
 {% highlight python %}
 total = 0
@@ -728,7 +728,7 @@ while True:
 </section>
 
 <section markdown="block">
-### Average of Input
+###  Average of Input
 
 __Write a program that continually asks the user for numbers, and asks them if they'd like to keep going.  In the end, it should output the average of all of the numbers entered&rarr;__
 
@@ -751,7 +751,7 @@ The average is 11.0
 </section>
 
 <section markdown="block">
-### Some Hints, Please?
+###  Some Hints, Please?
 Let's try keeping track of multiple variables:
 
 * a user's answer to whether or not the program should continue
@@ -761,7 +761,7 @@ Let's try keeping track of multiple variables:
 </section>
 
 <section markdown="block">
-### An Average Solution
+###  An Average Solution
 
 {% highlight python %}
 total = 0
@@ -779,11 +779,11 @@ print("The average is "+ str(total / count))
 </section>
 
 <section markdown="block">
-## Syntactic Sugar
+##  Syntactic Sugar
 </section>
 
 <section markdown="block">
-### Increment / Decrement
+###  Increment / Decrement
 
 We've used the following syntax to increment or decrement a variable
 
@@ -799,7 +799,7 @@ _Slightly_ tedious...
 </section>
 
 <section markdown="block">
-### Increment / Decrement Continued
+###  Increment / Decrement Continued
 
 There's some _syntactic sugar_ that makes doing this less verbose:  use __+=__ or __-=__
 
@@ -808,18 +808,18 @@ There's some _syntactic sugar_ that makes doing this less verbose:  use __+=__ o
 
 {% highlight python %}
 n = 0
-# adds one to n and binds the resulting value to n
+#  adds one to n and binds the resulting value to n
 n +=  1
 
 n = 100
-# subtracts one to n and binds the resulting value to n
+#  subtracts one to n and binds the resulting value to n
 n -= 1
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### More Syntactic Sugar
+###  More Syntactic Sugar
 
 This works for other operators too.   __What does this code print out? &rarr;__
 
@@ -844,7 +844,7 @@ print(n)
 </section>
 
 <section markdown="block">
-### What About Strings?
+###  What About Strings?
 
 Also works with strings....   __What does this code print out? &rarr;__
 {% highlight python %}
@@ -864,11 +864,11 @@ heyheyhey
 </section>
 
 <section markdown="block">
-## Some More Exercises!
+##  Some More Exercises!
 </section>
 
 <section markdown="block">
-### Powers of Two
+###  Powers of Two
 
 __Continually print out the next power of two, only if you say 'y'__ &rarr;
 
@@ -886,7 +886,7 @@ next power?
 </section>
 
 <section markdown="block">
-### Squares
+###  Squares
 
 __Continually ask for a number, print out the square, and ask to continue__ &rarr;
 
@@ -905,7 +905,7 @@ continue?
 </section>
 
 <section markdown="block">
-### Other Exercises
+###  Other Exercises
 
 * count the number of digits in an int
 	* repeatedly use integer division
@@ -920,5 +920,5 @@ continue?
 
 
 <section markdown="block">
-## [...And For Loops](for.html)
+##  [...And For Loops](for.html)
 </section>

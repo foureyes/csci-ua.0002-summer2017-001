@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * Homework #7
 * Quizzes #9 and #10
@@ -7,7 +7,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * Review Tuples
 * Review Dictionaries
@@ -15,7 +15,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Homework #08, __In Class__  __Due Tuesday, June 27th, at 11PM__ 
 

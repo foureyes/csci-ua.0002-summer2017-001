@@ -3,12 +3,12 @@ layout: slides
 title: Strings as a Compound Data Type - Review 
 ---
 <section markdown="block" class="title-slide">
-# Strings as a Compound Data Type - Review
+#  Strings as a Compound Data Type - Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Indexing
+###  Indexing
 
 __What is the index of the following characters in these strings? &rarr;__
 
@@ -30,7 +30,7 @@ __What is the index of the following characters in these strings? &rarr;__
 </section>
 
 <section markdown="block">
-### Indexing Continued
+###  Indexing Continued
 
 __What's the output of the following code? &rarr;__
 
@@ -64,7 +64,7 @@ IndexError: string index out of range
 </section>
 
 <section markdown="block">
-### Summary for Indexing
+###  Summary for Indexing
 
 * a __string__ is an __ordered sequence__ of characters
 * an __index__ is the numeric position of an element within a collection of elements
@@ -78,7 +78,7 @@ IndexError: string index out of range
 </section>
 
 <section markdown="block">
-### Indexing Syntax
+###  Indexing Syntax
 
 The __indexing__ syntax is as follows:
 
@@ -89,15 +89,15 @@ The __indexing__ syntax is as follows:
 </section>
 
 <section markdown="block">
-### Indexing Examples
+###  Indexing Examples
 
 {% highlight python %}
-# index into string that's bound to a variable name
+#  index into string that's bound to a variable name
 a = "foo"
 a[0]
-# index into a string literal
+#  index into a string literal
 "foo"[0]
-# index into the return result of a function
+#  index into the return result of a function
 def give_back_foo():
 	return "foo"
 
@@ -106,7 +106,7 @@ give_back_foo()[0]
 </section>
 
 <section markdown="block">
-### Are Strings Mutable?
+###  Are Strings Mutable?
 
 __What happens if I try to change the string "pugs" into "hugs" using inexing and the assignment operator? &rarr;__
 
@@ -127,7 +127,7 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-### An Index That Doesn't Exist
+###  An Index That Doesn't Exist
 
 __What happens if I try to access an index that doesn't exist? &rarr;__
 
@@ -148,7 +148,7 @@ IndexError: string index out of ranges
 </section>
 
 <section markdown="block">
-### Using Every Character in a String
+###  Using Every Character in a String
 
 What if we want to do something to each character in a string? 
 
@@ -162,7 +162,7 @@ What if we want to do something to each character in a string?
 </section>
 
 <section markdown="block">
-### Looping Over Each Character
+###  Looping Over Each Character
 
 We can iterate over every character that's in a string.  
 
@@ -171,7 +171,7 @@ We can iterate over every character that's in a string.
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# for loops!
+#  for loops!
 for c in "hello":
   print(c)
 {% endhighlight %}
@@ -179,7 +179,7 @@ for c in "hello":
 </section>
 
 <section markdown="block">
-### For Loops and Strings
+###  For Loops and Strings
 
 {% highlight python %}
 my_crazy_string = "oh my!"
@@ -204,7 +204,7 @@ y
 </section>
 
 <section markdown="block">
-### Another Example
+###  Another Example
 
 The following code:
 
@@ -221,7 +221,7 @@ for c in word:
 
 
 <section markdown="block">
-### A Quick Aside on Assert 
+###  A Quick Aside on Assert 
 
 {% highlight python %}
 assert <some expression that results in a bool>, <a string>
@@ -241,7 +241,7 @@ assert expected == actual, "describe test"
 </section>
 
 <section markdown="block">
-### A Quick Aside on Break 
+###  A Quick Aside on Break 
 
 The __break__ statement immediately stops the execution of a loop. __What does the following code print out? &rarr;__
 
@@ -260,7 +260,7 @@ hat
 </section>
 
 <section markdown="block">
-### A Quick Aside on Docstrings 
+###  A Quick Aside on Docstrings 
 
 A __docstring__ is a triple-quoted string immediately following the header of a function definition.
 
@@ -278,7 +278,7 @@ def foo()
 </section>
 
 <section markdown="block">
-### Letter in Word (v1)
+###  Letter in Word (v1)
 
 __Try implementing this function!__ 
 
@@ -295,7 +295,7 @@ __Try implementing this function!__
 
 
 <section markdown="block">
-### Letter in Word (v1) Continued
+###  Letter in Word (v1) Continued
 
 {% highlight python %}
 {% include classes/17/letter_in_word.py %}
@@ -303,7 +303,7 @@ __Try implementing this function!__
 </section>
 
 <section markdown="block">
-### Letter in Word (v2)
+###  Letter in Word (v2)
 
 Here's another way of doing it using __break__.
 
@@ -315,16 +315,16 @@ Here's another way of doing it using __break__.
 </section>
 
 <section markdown="block">
-### Letter in Word Revisited
+###  Letter in Word Revisited
 
 There are actually a couple of much easier ways to do this rather than writing our own function. __What are two ways of determining whether or not a string is a substring of another string?__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# use the in operator:
+#  use the in operator:
 'a' in 'aardvark'
 
-# use the find method:
+#  use the find method:
 'aardvark'.find('a')
 {% endhighlight %}
 </div>
@@ -332,7 +332,7 @@ There are actually a couple of much easier ways to do this rather than writing o
 </section>
 
 <section markdown="block">
-### Looping Over Strings Summary / Syntax
+###  Looping Over Strings Summary / Syntax
 
 * for loops allow us to iterate over every character in a string.  
 * it's similar to looping over a sequence of #'s
@@ -344,7 +344,7 @@ There are actually a couple of much easier ways to do this rather than writing o
 
 <!--
 <section markdown="block">
-### Letter in Word (v1)
+###  Letter in Word (v1)
 
 Using loops, we can implement a function that determines whether a letter is in a word (there's actually already a construct in Python that does this...).
 
@@ -359,7 +359,7 @@ Using loops, we can implement a function that determines whether a letter is in 
 
 
 <section markdown="block">
-### How Many A's Are in Aardvark?
+###  How Many A's Are in Aardvark?
 
 __Write a function that counts how many times a letter occurs in a word. &rarr;__
 
@@ -378,7 +378,7 @@ __Write a function that counts how many times a letter occurs in a word. &rarr;_
 </section>
 
 <section markdown="block">
-### How Many A's Are in Aardvark? Solution
+###  How Many A's Are in Aardvark? Solution
 
 {% highlight python %}
 {% include classes/17/count.py %}
@@ -387,13 +387,13 @@ __Write a function that counts how many times a letter occurs in a word. &rarr;_
 </section>
 
 <section markdown="block">
-### Counting letters Revisited
+###  Counting letters Revisited
 
 Just like finding a substring, there's a much easier way to find the number of times a substring occurs inside another string. __What is the method that let's us do this?__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# it's just count!
+#  it's just count!
 "banana".count('an')
 {% endhighlight %}
 </div>
@@ -401,7 +401,7 @@ Just like finding a substring, there's a much easier way to find the number of t
 </section>
 
 <section markdown="block">
-### Construct a String With Spaces After Every Letter
+###  Construct a String With Spaces After Every Letter
 
 __Let's write a function that takes a string and puts a space after every character. &rarr;__
 
@@ -420,7 +420,7 @@ a a a a h !
 </section>
 
 <section markdown="block">
-### Construct a String With Spaces After Every Letter Solution
+###  Construct a String With Spaces After Every Letter Solution
 
 {% highlight python %}
 {% include classes/17/space.py %}
@@ -428,7 +428,7 @@ a a a a h !
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 You can also retrieve a __substring__ from another string.  
 
@@ -446,7 +446,7 @@ This is done using slicing.  Slicing syntax works as follows:
 </section>
 
 <section markdown="block">
-### Slicing Syntax
+###  Slicing Syntax
 
 Looking at the slicing code again:
 
@@ -467,13 +467,13 @@ some_long_string[m:n]
 
 
 <section markdown="block">
-### Substring Exercises 
+###  Substring Exercises 
 
 Write the slice to pick out the following substring from the original string:
 
 {% highlight python %}
 s = "gone!"
-#    01234
+#     01234
 {% endhighlight %}
 
 1. go
@@ -498,7 +498,7 @@ s[1:5]
 </section>
 
 <section markdown="block">
-### Some Slicing Tricks
+###  Some Slicing Tricks
 
 * leaving out the first index (before the colon - m) starts at the beginning of the string
 * leaving out the second index (after the colon - n), ends at the end of the string 
@@ -512,7 +512,7 @@ s[1:5]
 </section>
 
 <section markdown="block">
-###  An Easier Way to Tell if a Letter is in a Word
+###   An Easier Way to Tell if a Letter is in a Word
 
 Use the __in__ operator!
 
@@ -524,7 +524,7 @@ Use the __in__ operator!
 </section>
 
 <section markdown="block">
-### In Examples
+###  In Examples
 
 {% highlight pycon %}
 >>> word = "ice cream"
@@ -540,7 +540,7 @@ False
 </section>
 
 <section markdown="block">
-###  In / Not In 
+###   In / Not In 
 
 Some other things to note:
 
@@ -564,7 +564,7 @@ False
 </section>
 
 <section markdown="block">
-### First Word in a Sentence
+###  First Word in a Sentence
 
 Create a function that returns the first word in a sentence.
 
@@ -585,7 +585,7 @@ Create a function that returns the first word in a sentence.
 </section>
 
 <section markdown="block">
-### First Word in a Sentence Potential Solution
+###  First Word in a Sentence Potential Solution
 
 {% highlight python %}
 {% include classes/17/get_first_word.py %}
@@ -594,7 +594,7 @@ Create a function that returns the first word in a sentence.
 
 
 <section markdown="block">
-### Is Digit?
+###  Is Digit?
 
 Create a function that determines whether or not a string only has numbers (0-9) in it.
 
@@ -610,14 +610,14 @@ Create a function that determines whether or not a string only has numbers (0-9)
 </section>
 
 <section markdown="block">
-### Is Digit? Potential Solution
+###  Is Digit? Potential Solution
 {% highlight python %}
 {% include classes/17/is_digit.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Is Digit Revisited
+###  Is Digit Revisited
 
 And of course, there's already a couple of methods that do this. __What are they?__ &rarr;
 

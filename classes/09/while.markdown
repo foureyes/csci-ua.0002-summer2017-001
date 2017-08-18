@@ -3,12 +3,12 @@ layout: slides
 title: For Loops 
 ---
 <section markdown="block" class="title-slide">
-# While Loops, Quick Review
+#  While Loops, Quick Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### While Loop Syntax
+###  While Loop Syntax
 
 __How does it go again? &rarr;__
 
@@ -28,7 +28,7 @@ while a == 1:
 </section>
 
 <section markdown="block">
-### Sentinel Variables 
+###  Sentinel Variables 
 
 We also talked about variables that hold state outside of the loop.  These variables can be used to control whether or not the condition is met.  We saw this sample last week.  __What does this program output? &rarr;__
 
@@ -48,12 +48,12 @@ I'm going!
 
 
 <section markdown="block">
-## EASY, right?
+##  EASY, right?
 
 </section>
 
 <section markdown="block">
-### Try Counting the Digits in a Number
+###  Try Counting the Digits in a Number
 
 <aside>(this is in How to Think Like a Computer Scientist)</aside>
 
@@ -66,7 +66,7 @@ __Write a program that prints out number of digits in a number: &rarr;__
 </section>
 
 <section markdown="block">
-### Let's See What This Does!
+###  Let's See What This Does!
 
 Example Output:
 
@@ -84,7 +84,7 @@ please enter a number
 </section>
 
 <section markdown="block">
-### What About Some Pseudocode?
+###  What About Some Pseudocode?
 
 __Let's try designing our solution / writing some pseudocode before diving into actual coding.  &rarr;__
 
@@ -102,7 +102,7 @@ while the number isn't 0 yet...
 </section>
 
 <section markdown="block">
-### A Solution for Counting Digits
+###  A Solution for Counting Digits
 
 {% highlight python %}
 {% include classes/09/places.py %}
@@ -110,5 +110,5 @@ while the number isn't 0 yet...
 </section>
 
 <section markdown="block">
-## [for](for.html)
+##  [for](for.html)
 </section>

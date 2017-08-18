@@ -1,6 +1,6 @@
 <a name="class2"></a>
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 Before class!
 
@@ -14,7 +14,7 @@ Before class!
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [Review](classes/02/review.html)
 * [Hello](classes/02/hello.html) 
@@ -27,7 +27,7 @@ Before class!
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 <a name="homework1"></a>
 

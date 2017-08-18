@@ -3,12 +3,12 @@ layout: slides
 title: Tuples Review 
 ---
 <section markdown="block" class="title-slide">
-# Tuples Review
+#  Tuples Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### What's a Tuple?  
+###  What's a Tuple?  
 
 __What's a tuple and how is it different from a list?__
 
@@ -24,7 +24,7 @@ __What's a tuple and how is it different from a list?__
 </section>
 
 <section markdown="block">
-### Tuple Attributes
+###  Tuple Attributes
 
 Tuples are:
 
@@ -35,7 +35,7 @@ Tuples are:
 </section>
 
 <section markdown="block">
-### Tuple Syntax
+###  Tuple Syntax
 
 A tuple is a group of __comma separated values__.  A tuple literal is _just_ values and commas.  
 
@@ -53,7 +53,7 @@ A tuple is a group of __comma separated values__.  A tuple literal is _just_ val
 </section>
 
 <section markdown="block">
-### Tuples in String Formatting and Multiple Assignment
+###  Tuples in String Formatting and Multiple Assignment
 
 String formatting
 
@@ -69,7 +69,7 @@ a, b, c = 1, 2, 3
 </section>
 
 <section markdown="block">
-### Tuple Syntax and Function Parameters?
+###  Tuple Syntax and Function Parameters?
 
 * Function parameters (both in definitions and when calling functions) are not tuples, even though they're comma separated 
 * To __pass a tuple literal to a function use parentheses__ to prevent ambiguity
@@ -86,7 +86,7 @@ Even though parentheses are not required for tuples (again, it's the commas that
 
 
 <section markdown="block">
-### Tuple Operations, Functions and Methods
+###  Tuple Operations, Functions and Methods
 
 __What are some valid operations and functions that can be used with tuples?__
 
@@ -103,7 +103,7 @@ Tuples support sequence operators and functions such as:
 </section>
 
 <section markdown="block">
-### Tuple Operations, Functions and Methods Continued
+###  Tuple Operations, Functions and Methods Continued
 
 __What are some operations, functions or methods that do not work with tuples?__
 
@@ -121,7 +121,7 @@ Because tuples are immutable the following are not allowed or are not available:
 
 
 <section markdown="block">
-### Tuple Operations and Functions Examples
+###  Tuple Operations and Functions Examples
 
 Some operations:
 
@@ -147,7 +147,7 @@ False
 </section>
 
 <section markdown="block">
-### Iteration
+###  Iteration
 
 Just like iterating over strings or lists.
 
@@ -158,7 +158,7 @@ for value in (1, 2, 3):
 </section>
 
 <section markdown="block">
-### Multiple Assignment / Unpacking
+###  Multiple Assignment / Unpacking
 
 We've seen tuples before in multiple assignment
 
@@ -174,7 +174,7 @@ first_name, last_name = ("Timothy", "Tupleton")
 </section>
 
 <section markdown="block">
-### Tuple Unpacking Examples
+###  Tuple Unpacking Examples
 
 __What does this code output?__
 
@@ -200,7 +200,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### More Info About Multiple Assignment
+###  More Info About Multiple Assignment
 
 Tuple unpacking is the most common way of performing multiple assignment... but the assignment operator is actually super flexible:
 
@@ -208,7 +208,7 @@ Tuple unpacking is the most common way of performing multiple assignment... but 
 </section>
 
 <section markdown="block">
-### List of Tuples
+###  List of Tuples
 
 A tuple within a list is retrieved as a single object, as with every other element in a list, when using our regular _for loop_variable in some_list_ syntax: 
 
@@ -227,7 +227,7 @@ You get each actual tuple, so this prints out:
 </section>
 
 <section markdown="block">
-### Lists of Tuples Continued
+###  Lists of Tuples Continued
 
 Again... __What's the type of person in every iteration?  How many iterations are there?  What does this print out?__
 
@@ -250,7 +250,7 @@ for person in smarties:
 </section>
 
 <section markdown="block">
-### List of Tuples Continued Even More
+###  List of Tuples Continued Even More
 
 Unpacking works in for loops as well!  Imagine that each element is retrieved from the outer list.  Each element is a tuple which can be unpacked into multiple loop variables.
 
@@ -263,7 +263,7 @@ for first, last in characters:
 </section>
 
 <section markdown="block">
-### One Last List of Tuples Example 
+###  One Last List of Tuples Example 
 
 {% highlight python %}
 pairs_of_numbers = [(1, 2), (2, 3)]
@@ -280,7 +280,7 @@ for a, b in pairs_of_numbers:
 </section>
 
 <section markdown="block">
-### Returning Tuples
+###  Returning Tuples
 
 Tuples and tuple unpacking can provide a method of returning multiple values from a function. __What do you think this prints out?__
 
@@ -303,7 +303,7 @@ the x coordinate is 2
 </section>
 
 <section markdown="block">
-### When To Use Tuples 
+###  When To Use Tuples 
 
 * some Python constructs use tuples (string formatting, multiple assignment)
 * tuples are _write protected_
@@ -318,11 +318,11 @@ the x coordinate is 2
 
 
 <section markdown="block">
-## Some Tuple Exercises
+##  Some Tuple Exercises
 </section>
 
 <section markdown="block">
-### Squares (Again)
+###  Squares (Again)
 
 * __What are two ways of programmatically drawing a square in turtle?__
 * __What are some ways of representing a series of four x, y coordinates?__
@@ -336,7 +336,7 @@ the x coordinate is 2
 </section>
 
 <section markdown="block">
-### Drawing a Square, Tuples as Points
+###  Drawing a Square, Tuples as Points
 
 1. create a list of tuples that represent x, y coordinates of corners of a square
 2. assume that the bottom left corner is at (0, 0), the upper right is (0, 50)
@@ -347,13 +347,13 @@ the x coordinate is 2
 import turtle
 t = turtle.Turtle()
 wn = turtle.Screen()
-# your code here!
+#  your code here!
 wn.mainloop()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Turtles Using Tuples Solution 
+###  Turtles Using Tuples Solution 
 
 {% highlight python %}
 {% include classes/24/turtle_tuple_points.py %}
@@ -361,7 +361,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Greetings
+###  Greetings
 
 This exercise involves creating a list of tuples.  __Write a function called hello...__
 
@@ -384,7 +384,7 @@ Hello Ms. Knowitall!
 </section>
 
 <section markdown="block">
-### Greetings Solutions
+###  Greetings Solutions
 
 __We can do this a couple of ways...__
 
@@ -396,12 +396,12 @@ __We can do this a couple of ways...__
 </section>
 
 <section markdown="block">
-### Lists of Tuples Exercise Solutions
+###  Lists of Tuples Exercise Solutions
 
 If we wanted to include the first name... we could use the code below because the operand to the right of a strim formatting operator is _actually_ __a tuple__! 
 
 {% highlight python %}
-# tuples can be used in string formatting as is!
+#  tuples can be used in string formatting as is!
 def hello(t):
 	for person in t:
 		print("Hello %s. %s %s!" % (person))
@@ -409,7 +409,7 @@ def hello(t):
 </section>
 
 <section markdown="block">
-### Run Length Encoding
+###  Run Length Encoding
 
 __Run length encoding__ is a simple method of compressing data by:
 
@@ -426,25 +426,25 @@ __What's the run length encoded version of "cccaaabbb"?__
 </section>
 
 <section markdown="block">
-### Encode!
+###  Encode!
 
 __Let's write some pseudocode.  What are some ways to solve this?__
 
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# keep track of the current letter
-# keep track of the current letter count
-# keep track of all previous letters and counts (what's a good data structure for this?)
-# go through every letter in the string
-# when we first see a letter, count it as 1, if we see it again, increment that count
-# stop incrementing when we see another letter (reset values)
+#  keep track of the current letter
+#  keep track of the current letter count
+#  keep track of all previous letters and counts (what's a good data structure for this?)
+#  go through every letter in the string
+#  when we first see a letter, count it as 1, if we see it again, increment that count
+#  stop incrementing when we see another letter (reset values)
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-###  A Possible Solution
+###   A Possible Solution
 
 {% highlight python %}
 {% include classes/25/rle.py %}
@@ -452,5 +452,5 @@ __Let's write some pseudocode.  What are some ways to solve this?__
 </section>
 
 <section markdown="block">
-## Review End
+##  Review End
 </section>

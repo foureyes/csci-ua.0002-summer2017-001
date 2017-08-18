@@ -3,12 +3,12 @@ layout: slides
 title: String Exercises 
 ---
 <section markdown="block" class="title-slide">
-# String Exercises
+#  String Exercises
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Exercises
+###  Exercises
 
 Some things to try: 
 

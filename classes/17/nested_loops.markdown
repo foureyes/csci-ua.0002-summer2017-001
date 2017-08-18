@@ -3,12 +3,12 @@ layout: slides
 title: Nested Loops 
 ---
 <section markdown="block" class="title-slide">
-# Nested Loops
+#  Nested Loops
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### You Can Loop Within a Loop!
+###  You Can Loop Within a Loop!
 
 __What does this code output? &rarr;__
 
@@ -28,14 +28,14 @@ for i in range(2):
 </section>
 
 <section markdown="block">
-### Breaking Down Nested Loops
+###  Breaking Down Nested Loops
 
 * the inner most loop must finish iterating before the outer loop goes on to its next iteration
 * both loop variables are accessible in the body of the innermost loop
 </section>
 
 <section markdown="block">
-### Chess Board Squares
+###  Chess Board Squares
 
 __Print out the names of each square on a chess board using nested loops &rarr;__  See [this article on chess notation](http://www.chessstrategiesblog.com/chess-notation/):
 
@@ -57,7 +57,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 </section>
 
 <section markdown="block">
-### Chess Board Squares Solution
+###  Chess Board Squares Solution
 
 <div class="incremental" markdown="block">
 {% highlight python %}
@@ -67,7 +67,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 </section>
 
 <section markdown="block">
-### Sieve
+###  Sieve
 
 [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Algorithm_complexity)
 
@@ -75,7 +75,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 1
+###  Sieve Version 1
 
 {% highlight python %}
 {% include classes/21/sieve.py  %}
@@ -83,7 +83,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 2
+###  Sieve Version 2
 
 {% highlight python %}
 {% include classes/21/sieve_true_false.py  %}
@@ -91,7 +91,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 3
+###  Sieve Version 3
 
 {% highlight python %}
 {% include classes/21/sieve_with_del.py  %}
@@ -99,20 +99,20 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Lists in Lists 
+###  Lists in Lists 
 
 You can access an element within a list that's within a list by indexing __twice__!  The first index is the place in the outer list, the second index is the place in the inner list.
 
 {% highlight python %}
 a = [['foo', 'bar'],['baz', 'qux']]
 print(a[0][1])
-# gives back bar
+#  gives back bar
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### Lists in Lists Example
+###  Lists in Lists Example
 
 __What does this code output? &rarr;__
 
@@ -133,7 +133,7 @@ print(a[1][0])
 </section>
 
 <section markdown="block">
-### Looping Over Lists in Lists
+###  Looping Over Lists in Lists
 
 {% highlight python %}
 a = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
@@ -150,5 +150,5 @@ print(a)
 </section>
 
 <section markdown="block">
-## [List Comprehensions](list_comprehensions.html)
+##  [List Comprehensions](list_comprehensions.html)
 </section>

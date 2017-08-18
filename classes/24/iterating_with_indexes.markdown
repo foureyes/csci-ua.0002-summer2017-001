@@ -3,13 +3,13 @@ layout: slides
 title: Iteration Using Indexes 
 ---
 <section markdown="block" class="title-slide">
-# Iteration Using Indexes
+#  Iteration Using Indexes
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Indexing Into a Sequence
+###  Indexing Into a Sequence
 
 How do we retrieve an element at a specific place from a list or a string?  For example, __to get the second element from the list a = [1, 2, 3], what code would I write? &rarr;__
 
@@ -21,7 +21,7 @@ a[1]
 </section>
 
 <section markdown="block">
-### Indexes
+###  Indexes
 
 What are some attributes of list and string __indexes__? That is... when you index into a sequence type... 
 
@@ -35,19 +35,19 @@ What are some attributes of list and string __indexes__? That is... when you ind
 </section>
 
 <section markdown="block">
-### Getting an Index With an Item
+###  Getting an Index With an Item
 
 Occasionally, you'll want to determine the index of the item that you're working on.  __For example...__ &rarr;
 </section>
 
 <section markdown="block">
-### Getting an Index With an Item Exercise 1
+###  Getting an Index With an Item Exercise 1
 
 __Printing out the index of a list item along with the actual item__ &rarr;
 
 {% highlight python %}
 names = ['Alice', 'Bob', 'Carol']
-# loop through list to print out
+#  loop through list to print out
 0 Alice
 1 Bob
 2 Carol
@@ -55,22 +55,22 @@ names = ['Alice', 'Bob', 'Carol']
 </section>
 
 <section markdown="block">
-### Getting an Index With an Item Exercise 2
+###  Getting an Index With an Item Exercise 2
 
 __Changing a list _in place_ (that is assigning a new value to each element in a list)__ &rarr;
 
 {% highlight python %}
 names = ['Alice', 'Bob', 'Carol']
-# make every item in names uppercase without creating a new list
+#  make every item in names uppercase without creating a new list
 print(names)
-# prints out...
+#  prints out...
 ['ALICE', 'BOB', 'CAROL']
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### Getting the Index With the List Item
+###  Getting the Index With the List Item
 
 There are a few ways to loop through a list so that you have access the index of every item:
 
@@ -80,7 +80,7 @@ There are a few ways to loop through a list so that you have access the index of
 </section>
 
 <section markdown="block">
-### Using the Built in Enumerate Function
+###  Using the Built in Enumerate Function
 
 __enumerate__() is a built in function that: 
 
@@ -91,14 +91,14 @@ __enumerate__() is a built in function that:
 {% highlight python %}
 names = ['Alice', 'Bob', 'Carol']
 index_value_pairs = enumerate(names)
-# index_value_pairs will give back an index and a value if iterated over...
+#  index_value_pairs will give back an index and a value if iterated over...
 {% endhighlight %}
 
 
 </section>
 
 <section markdown="block">
-### Enumerate Example
+###  Enumerate Example
 
 __Printing out the index of a list, ['Alice', 'Bob', 'Carol'], item along with the actual item.__ &rarr;
 
@@ -122,7 +122,7 @@ print(names)
 </section>
 
 <section markdown="block">
-### Using a Count Variable
+###  Using a Count Variable
 
 __Printing out the index of a list, ['Alice', 'Bob', 'Carol'], item along with the actual item.__ &rarr;
 
@@ -149,7 +149,7 @@ print(names)
 </section>
 
 <section markdown="block">
-### Generating a Sequence of Integers
+###  Generating a Sequence of Integers
 
 One last way of iterating over every item in a list or a string is to go through each element by indexing.  
 
@@ -164,7 +164,7 @@ Hint: there are two ways to do this using constructs / statements that we've use
 </section>
 
 <section markdown="block">
-### For Loops and Indexes
+###  For Loops and Indexes
 
 __Use a for loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -185,7 +185,7 @@ for i in range(0, len(a)):
 </section>
 
 <section markdown="block">
-### While Loops and Indexes
+###  While Loops and Indexes
 
 __Use a while loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -207,7 +207,7 @@ while i < len(a):
 </section>
 
 <section markdown="block">
-### Generating Indexes
+###  Generating Indexes
 
 __Printing out the index of a list, ['Alice', 'Bob', 'Carol'], item along with the actual item.__ &rarr;
 
@@ -233,7 +233,7 @@ print(names)
 
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 __Write a function that takes a list as an input and returns the list in reverse order (btw, there's already a list method that does this) &rarr;__
 
@@ -245,7 +245,7 @@ __Write a function that takes a list as an input and returns the list in reverse
 </section>
 
 <section markdown="block">
-### Another (More Destructive Way) to Reverse a List
+###  Another (More Destructive Way) to Reverse a List
 
 __Can you use pop to do it? &rarr;__
 
@@ -257,7 +257,7 @@ __Can you use pop to do it? &rarr;__
 </section>
 
 <section markdown="block">
-### But Wait - What Happened?
+###  But Wait - What Happened?
 
 __What's the output of the pop() version of the solution? &rarr;__
 

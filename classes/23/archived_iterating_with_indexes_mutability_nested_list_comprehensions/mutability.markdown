@@ -3,18 +3,18 @@ layout: slides
 title: Mutability, References, and Aliasing 
 ---
 <section markdown="block" class="title-slide">
-# Mutability, References, and Aliasing
+#  Mutability, References, and Aliasing
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Mutability
+###  Mutability
 
 An object is _mutable_ if you can modify or change its data.
 </section>
 
 <section markdown="block">
-### Mutability - Strings and Lists
+###  Mutability - Strings and Lists
 
 * __Are strings mutable? &rarr;__
 * __Are lists mutable? &rarr;__
@@ -26,7 +26,7 @@ An object is _mutable_ if you can modify or change its data.
 </section>
 
 <section markdown="block">
-### Strings vs Lists... Indexing and Assignment
+###  Strings vs Lists... Indexing and Assignment
 
 __What's the output of the following code? &rarr;__
 
@@ -45,7 +45,7 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-### Lists, Indexing and Assignment
+###  Lists, Indexing and Assignment
 
 You can change values in a list!
 
@@ -56,12 +56,12 @@ You can change values in a list!
 {% highlight python %}
 really_famous_cats = ["nermal", "felix", "sylvester"]
 really_famous_cats[0] = "garfield"
-# assignment works just fine!
+#  assignment works just fine!
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### List Methods vs String Methods
+###  List Methods vs String Methods
 
 The behavior of the methods in lists and strings are consistent with the mutability of each type:
 
@@ -70,7 +70,7 @@ The behavior of the methods in lists and strings are consistent with the mutabil
 </section>
 
 <section markdown="block">
-### List Methods vs String Methods Example
+###  List Methods vs String Methods Example
 
 __What does this code output? &rarr;__
 {% highlight python %}
@@ -88,7 +88,7 @@ None
 </section>
 
 <section markdown="block">
-### Variables 
+###  Variables 
 
 __What's a variable? &rarr;__
 
@@ -101,7 +101,7 @@ __What's a variable? &rarr;__
 </section>
 
 <section markdown="block">
-### Variables as References
+###  Variables as References
 
 Imagine variables as names that point to objects:
 
@@ -115,7 +115,7 @@ a ------> [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Variables as References Continued
+###  Variables as References Continued
 
 Assignment is just pointing a reference.  When a new value is assigned to a name, it's the reference that's being changed.  
 
@@ -134,7 +134,7 @@ a ------> [4, 5, 6]
 </section>
 
 <section markdown="block">
-### Aliasing
+###  Aliasing
 
 When one variable is assigned to another variable, both variables end up referring to the same object:
 
@@ -152,7 +152,7 @@ b ---+
 </section>
 
 <section markdown="block">
-### Aliasing Continued
+###  Aliasing Continued
 
 The actual list object, [1, 2, 3], now has two names that refer to it.  Referencing the same object with more than one name is called __aliasing__.  
 
@@ -176,7 +176,7 @@ See in [python tutor](http://pythontutor.com/visualize.html#code=a+%3D+%5B1,+2,+
 </section>
 
 <section markdown="block">
-### Aliasing Continued Some More!
+###  Aliasing Continued Some More!
 
 __Aliasing causes side effects in mutable objects!__  However, it's a different story with immutable objects, like strings.  __What gets printed out here? &rarr;__
 
@@ -199,7 +199,7 @@ HELLO
 </section>
 
 <section markdown="block">
-### And if Aliasing Was Not the Intention
+###  And if Aliasing Was Not the Intention
 
 If you'd like to make a new list rather than refer to the same list (that is have each variable point to a different object - though two equal objects)...
 
@@ -213,14 +213,14 @@ b ------> [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Cloning
+###  Cloning
 
 You can slice out the entire list to clone a list from the start index (0) to end index (len(list_of_elements) - 1):
 
 {% highlight python %}
 a = [1, 2, 3]
 
-# cloned!
+#  cloned!
 b = a[0:3]
 {% endhighlight %}
 
@@ -234,7 +234,7 @@ b = a[:]
 </section>
 
 <section markdown="block">
-### And What About Functions?
+###  And What About Functions?
 
 When parameters are passed to functions the value is a reference!  __What will this code print out? &rarr;__
 
@@ -251,5 +251,5 @@ See in [Python tutor](http://pythontutor.com/visualize.html#code=numbers+%3D+%5B
 </section>
 
 <section markdown="block">
-## [Iterating With Indexes](iterating_with_indexes.html)
+##  [Iterating With Indexes](iterating_with_indexes.html)
 </section>

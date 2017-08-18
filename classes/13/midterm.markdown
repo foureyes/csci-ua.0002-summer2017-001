@@ -3,13 +3,13 @@ layout: slides
 title: Midterm #1 
 ---
 <section markdown="block" class="title-slide">
-# Midterm #1
+#  Midterm #1
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
 
-### Midterm Results
+###  Midterm Results
 
 * possible points: 46
 * median: 42.5 (about 92%)
@@ -19,7 +19,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### Exams
+###  Exams
 
 * generally, the 1st midterm covers easier material than the second midterm
 * the final exam will include material from both exams along with one or two extra topics
@@ -27,9 +27,9 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-## [Midterm #1](../../resources/handouts/midterm_1_notes.pdf)
+##  [Midterm #1](../../resources/handouts/midterm_1_notes.pdf)
 </section>
 
 <section markdown="block">
-## [Calling Functions](calling_functions.html)
+##  [Calling Functions](calling_functions.html)
 </section>

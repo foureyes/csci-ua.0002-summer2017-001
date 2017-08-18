@@ -3,12 +3,12 @@ layout: slides
 title: String Objects, String Methods 
 ---
 <section markdown="block" class="title-slide">
-# String Objects, String Methods
+#  String Objects, String Methods
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Objects and Methods (Again!)
+###  Objects and Methods (Again!)
 
 __What's an object?  What's a method?  Give some examples. &rarr;__
 
@@ -21,28 +21,28 @@ __What's an object?  What's a method?  Give some examples. &rarr;__
 </section>
 
 <section markdown="block">
-### Calling Methods
+###  Calling Methods
 
 How do you call a method?  For example, if you had a string named food, that contains the value "pizza", __how would you call the upper method on it to tell it to give back an uppercase version of itself? &rarr;__
 
 {% highlight python %}
 food = "pizza"
-# tell food to give back an uppercase version of itself
+#  tell food to give back an uppercase version of itself
 {% endhighlight %}
 
 <div class="incremental" markdown="block">
 {% highlight python %}
 food.upper()
-# use the object name
-# followed by dot
-# and the method (from here, it's like a regular function)
-# notice that upper has no arguments
+#  use the object name
+#  followed by dot
+#  and the method (from here, it's like a regular function)
+#  notice that upper has no arguments
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Strings Methods!
+###  Strings Methods!
 
 Strings are objects. They have methods. Lots of 'em!
 
@@ -59,7 +59,7 @@ __to be continued in next slide!__ &rarr;
 </section>
 
 <section markdown="block">
-## Even More String Methods!
+##  Even More String Methods!
 
 1. __find__(sub[, start[, end]])
 2. __format__(...)
@@ -79,7 +79,7 @@ dir("some string")
 </section>
 
 <section markdown="block">
-### Casing Methods
+###  Casing Methods
 
 __upper__(), __lower__(), __capitilize__(), and __title__() return the string that the method was called on as all uppercase, all lowercase, first letter uppercase, and title-cased (first letter of every word uppercase).  __What would the following print out? &rarr;__
 
@@ -101,7 +101,7 @@ This Should Be Uppercase
 </section>
 
 <section markdown="block">
-### isdigit(), isnumeric() and isalpha()
+###  isdigit(), isnumeric() and isalpha()
 
 __isdigit__(), __isnumeric__() and __isalpha__() test whether a string is __only__ composed of all numbers or all letters (all three return False if empty string).  __What would the following print out? &rarr;__
 
@@ -123,7 +123,7 @@ print("⅕".isnumeric())  # True (isnumeric allows other numeric chars)
 
 
 <section markdown="block">
-### isspace()
+###  isspace()
 
 __isspace__() gives back true if all of the characters in the string it's called on is white space - any kind of _white space_. __What is the output of the following?__ &rarr;
 
@@ -143,7 +143,7 @@ False
 </section>
 
 <section markdown="block">
-### find()
+###  find()
 
 __find__() returns the first index where the argument (a character or substring) is found.  It returns -1 if the substring is not in the original string.
 
@@ -163,7 +163,7 @@ print("hello".find("lo"))
 </section>
 
 <section markdown="block">
-### strip()
+###  strip()
 
 __strip__() removes leading and trailing whitespace (it can also remove other leading and trailing characters).  What do you think this results 
 
@@ -179,7 +179,7 @@ spaces all around
 </section>
 
 <section markdown="block">
-### format()
+###  format()
 
 Format is like the string formatting operator, but possibly easier?! 
 
@@ -197,7 +197,7 @@ Format is like the string formatting operator, but possibly easier?!
 </section>
 
 <section markdown="block">
-### format() results
+###  format() results
 
 {% highlight python %}
 twenty elephants
@@ -209,7 +209,7 @@ twenty elephants
 </section>
 
 <section markdown="block">
-### isupper() and islower()
+###  isupper() and islower()
 
 __isupper__() and __islower__() return True if the string that is called on is the case specified.  __What does the following output?__ &rarr;
 
@@ -228,7 +228,7 @@ True
 
 
 <section markdown="block">
-### count(), replace()
+###  count(), replace()
 
 __count__(s) ...counts the number of times substring, s, occurs in the original string.
 
@@ -244,7 +244,7 @@ __replace__(s, new_s) ...replaces all occurrences of substring, s, with new_s. (
 </section>
 
 <section markdown="block">
-### A Couple of Exercises:
+###  A Couple of Exercises:
 
 * use upper or lower to check for permutations for input
 	* for example, loop forever

@@ -4,12 +4,12 @@ title: Lists - Methods and Functions
 ---
 
 <section markdown="block" class="title-slide">
-# Lists - Methods and Functions
+#  Lists - Methods and Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### List Methods
+###  List Methods
 
 These methods are called _on list objects_!
 
@@ -24,7 +24,7 @@ These methods are called _on list objects_!
 </section>
 
 <section markdown="block">
-### Adding Elements to a List
+###  Adding Elements to a List
 
 * __append__(object) adds an object to the end of a list
 * __extend__(iterable) adds all of the elements of an iterable object, such as a list or a string, to the end of a list. 
@@ -33,7 +33,7 @@ These methods are called _on list objects_!
 </section>
 
 <section markdown="block">
-### Adding Elements to a List Example
+###  Adding Elements to a List Example
 
 __what does this code output? &rarr;__
 
@@ -44,7 +44,7 @@ __what does this code output? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements to a List Example - Output
+###  Adding Elements to a List Example - Output
 
 {% highlight python %}
 ['Knuth', 'Ritchie', ['Church', 'Turing']]
@@ -56,7 +56,7 @@ None
 </section>
 
 <section markdown="block">
-### Removing Elements from a List
+###  Removing Elements from a List
 
 * __remove__(value) removes the first occurrence of the value from a list, but it causes an error if that value isn't in the list
 * __pop__() # removes the last element of a list and returns it
@@ -65,7 +65,7 @@ __remove__ vs __pop__: both remove and pop change values in place (that is, the 
 </section>
 
 <section markdown="block">
-### Removing Elements From a List Example
+###  Removing Elements From a List Example
 
 __what does this code output? &rarr;__
 
@@ -76,7 +76,7 @@ __what does this code output? &rarr;__
 </section>
 
 <section markdown="block">
-### Removing Elements From a List Example - Output
+###  Removing Elements From a List Example - Output
 
 {% highlight python %}
 [2, 5, 3, 7]
@@ -92,7 +92,7 @@ ValueError: list.remove(x): x not in list
 
 
 <section markdown="block">
-### Count and Sort
+###  Count and Sort
 
 * __count__(value) - returns the number of times a value is found in a list
 * __sort__() - sorts a list in place (that is, the object that this method was called on is modified)
@@ -103,7 +103,7 @@ __count__ returns an  int.  __sort__ does not return a value; it acts on the ori
 </section>
 
 <section markdown="block">
-### Count and Sort Example
+###  Count and Sort Example
 
 __what does this code output? &rarr;__
 
@@ -121,7 +121,7 @@ None
 </section>
 
 <section markdown="block">
-### Built-in Functions: len() 
+###  Built-in Functions: len() 
 
 * len returns the length of a sequence type:  
 * in the context of a string, it will give back the length of a string (the number of characters)
@@ -135,7 +135,7 @@ None
 </section>
 
 <section markdown="block">
-### len() 
+###  len() 
 
 __what does this code output? &rarr;__
 
@@ -158,7 +158,7 @@ IndexError: list index out of range
 </section>
 
 <section markdown="block">
-### Built-in Statement: del
+###  Built-in Statement: del
 
 __del__ is a statement removes an element or slice of elements from a list:  
 
@@ -169,7 +169,7 @@ __del__ is a statement removes an element or slice of elements from a list:
 </section>
 
 <section markdown="block">
-### del Example
+###  del Example
 
 __what does this code output? &rarr;__
 
@@ -189,7 +189,7 @@ IndexError: list assignment index out of range
 </section>
 
 <section markdown="block">
-### del vs remove()
+###  del vs remove()
 
 Both __del__ and __remove__() remove elements from a list, and they both do it in place.  However...
 
@@ -199,7 +199,7 @@ Both __del__ and __remove__() remove elements from a list, and they both do it i
 </section>
 
 <section markdown="block">
-### split and join
+###  split and join
 
 There are two useful __string methods__ that are often used with lists:
 
@@ -224,7 +224,7 @@ ranma and maison ikkoku and scott pilgrim
 </section>
 
 <section markdown="block">
-### Lengths of Names
+###  Lengths of Names
 
 __Implement a short program that: &rarr;__ 
 
@@ -239,7 +239,7 @@ __Implement a short program that: &rarr;__
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 The random module offers some methods that can be used on lists:
 

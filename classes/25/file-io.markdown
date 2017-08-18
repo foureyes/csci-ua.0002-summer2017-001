@@ -3,12 +3,12 @@ layout: slides
 title: File I/O 
 ---
 <section markdown="block" class="title-slide">
-# File I/O
+#  File I/O
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Using Files
+###  Using Files
 
 __How do we read information from a file?__ &rarr;
 
@@ -16,27 +16,27 @@ __How do we read information from a file?__ &rarr;
 {% highlight python %}
 in_file = open('my_file.txt', 'r')
 
-# iterate over file object
+#  iterate over file object
 for line in in_file:
 	# do stuff
 
-# read entire contents of file as string
+#  read entire contents of file as string
 contents = in_file.read()
 
-# read entire contents of file as list
+#  read entire contents of file as list
 lines = in_file.readlines()
 
-# read one line at a time (check if empty)
+#  read one line at a time (check if empty)
 line = in_file.readline()
 
-# remember to close!
+#  remember to close!
 in_file.close()
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Using Files Continued
+###  Using Files Continued
 
 __Aaaand how about writing to a file?__ &rarr;
 
@@ -45,10 +45,10 @@ __Aaaand how about writing to a file?__ &rarr;
 {% highlight python %}
 out_file = open('my_file.txt', 'w')
 
-# write out to a file
+#  write out to a file
 out_file.write('foo!')
 
-# remember to close!
+#  remember to close!
 out_file.close()
 {% endhighlight %}
 
@@ -56,7 +56,7 @@ out_file.close()
 </section>
 
 <section markdown="block">
-### An Exercise
+###  An Exercise
 
 You have a file called __numbers.txt__.
 
@@ -82,7 +82,7 @@ Results
 
 
 <section markdown="block">
-### An Exercise Continued
+###  An Exercise Continued
 
 __Now modify your file to handle this input file.__
 

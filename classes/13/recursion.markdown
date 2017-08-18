@@ -3,12 +3,12 @@ layout: slides
 title: Recursion 
 ---
 <section markdown="block" class="title-slide">
-# A Very Brief Look at Recursion (We'll See More Later)
+#  A Very Brief Look at Recursion (We'll See More Later)
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Recursion
+###  Recursion
 
 __Recursion__ is a process of repeating something in a self similar way.  When we define a __recursive function__, we define a function in terms of itself.  That is, it can call itself to define itself!
 
@@ -20,7 +20,7 @@ A couple of examples where we'll use recursion are:
 </section>
 
 <section markdown="block">
-### Fractals
+###  Fractals
 
 You know... fractals!
 
@@ -29,7 +29,7 @@ You know... fractals!
 </section>
 
 <section markdown="block">
-### Back to Recursion
+###  Back to Recursion
 
 So... to create a recursive function definition:
 
@@ -51,7 +51,7 @@ RuntimeError: maximum recursion depth exceeded while calling a Python object
 </section>
 
 <section markdown="block">
-### Factorial Revisited
+###  Factorial Revisited
 
 If we look at factorial again....
 
@@ -63,7 +63,7 @@ If we look at factorial again....
 </section>
 
 <section markdown="block">
-### Factorial Using Recursion
+###  Factorial Using Recursion
 
 __Let's try to reimplement factorial using recursion rather than a loop. &rarr;__
 
@@ -77,7 +77,7 @@ __Let's try to reimplement factorial using recursion rather than a loop. &rarr;_
 </div>
 </section>
 <section markdown="block">
-### Asking Using Recursion
+###  Asking Using Recursion
 
 __Let's try to reimplement a program that continues to ask a question until the user says no by using recursion rather than a loop (how does the loop version go again?). &rarr;__
 
@@ -104,7 +104,7 @@ ask_for_input()
 
 
 <section markdown="block">
-### A Tree
+###  A Tree
 
 __Let's try to draw a tree using recursion. &rarr;__
 
@@ -116,7 +116,7 @@ __Let's try to draw a tree using recursion. &rarr;__
 </section>
 
 <section markdown="block">
-### More Trees
+###  More Trees
 
 {% highlight python %}
 import random
@@ -143,7 +143,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### draw_tree
+###  draw_tree
 
 {% highlight python %}
 def draw_tree(s, w):
@@ -166,7 +166,7 @@ def draw_tree(s, w):
 </section>
 
 <section markdown="block">
-### forest
+###  forest
 
 {% highlight python %}
 def forest():
@@ -181,7 +181,7 @@ def forest():
 </section>
 <!--
 <section markdown="block">
-### Why Recursion?
+###  Why Recursion?
 
 * Recursive programs 
 </section>

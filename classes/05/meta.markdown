@@ -3,12 +3,12 @@ layout: slides
 title: About Class #5 
 ---
 <section markdown="block" class="title-slide">
-# About Class #5
+#  About Class #5
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Today's Class...
+###  Today's Class...
 
 * review: if and if-else
 * boolean logic
@@ -17,7 +17,7 @@ title: About Class #5
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * expect grades at the middle or end of this week
 * regarding homework submission:
@@ -27,7 +27,7 @@ title: About Class #5
 </section>
 
 <section markdown="block">
-### Homework #2
+###  Homework #2
 
 * remember, one of the files is super long!
 * please don't wait last minute to do it
@@ -35,7 +35,7 @@ title: About Class #5
 </section>
 
 <section markdown="block">
-### Lost in a Forest
+###  Lost in a Forest
 
 Your tree programs:
 

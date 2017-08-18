@@ -3,12 +3,12 @@ layout: slides
 title: Homework Solutions 
 ---
 <section markdown="block" class="title-slide">
-# Selected Homework Solutions
+#  Selected Homework Solutions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Selected Homework Solutions
+###  Selected Homework Solutions
 
 <!-- 1. battleship.py -->
 1. unique.py
@@ -18,11 +18,11 @@ title: Homework Solutions
 
 <!--
 <section markdown="block">
-## [battleship.py](../../../homework/hw9/battleship.py)
+##  [battleship.py](../../../homework/hw9/battleship.py)
 </section>
 
 <section markdown="block">
-### How Do We "Model" This Game? 
+###  How Do We "Model" This Game? 
 
 __What kind of data do we need, how is it represented?__ &rarr;
 
@@ -36,7 +36,7 @@ __What kind of data do we need, how is it represented?__ &rarr;
 </section>
 
 <section markdown="block">
-### Breaking Down the Problem
+###  Breaking Down the Problem
 
 __What are the major pieces or components of the game?__ &rarr;
 
@@ -49,7 +49,7 @@ __What are the major pieces or components of the game?__ &rarr;
 </section>
 
 <section markdown="block">
-### Setup
+###  Setup
 
 __Maybe we'll create a couple of functions for this.__ &rarr;
 
@@ -76,7 +76,7 @@ player_move = None
 </section>
 
 <section markdown="block">
-### Main Game Loop Pseudocode
+###  Main Game Loop Pseudocode
 
 __Write a pseudocode version of the main game loop__ &rarr;
 
@@ -94,7 +94,7 @@ while the player hasn't quit
 </section>
 
 <section markdown="block">
-### Main Game Loop
+###  Main Game Loop
 
 {% highlight python %}
 print(boat_row, boat_col)
@@ -119,11 +119,11 @@ print_board(board)
 -->
 
 <section markdown="block">
-## [unique.py](../../../homework/hw9/unique.py)
+##  [unique.py](../../../homework/hw9/unique.py)
 </section>
 
 <section markdown="block">
-### A Plan to Get Unique Values
+###  A Plan to Get Unique Values
 
 __We're writing a function.  Assertions please!__ &rarr;
 
@@ -138,7 +138,7 @@ print(get_unique_values([1, 1, 1, 1, 1]))
 </section>
 
 <section markdown="block">
-### Unique - Pseudocode
+###  Unique - Pseudocode
 
 __Let's sketch out how this function should work using pseudocode__ &rarr;
 
@@ -162,11 +162,11 @@ __Let's try implementing this!__
 
 
 <section markdown="block">
-## [translate_passage.py](../../../homework/hw8/translate_passage.py)
+##  [translate_passage.py](../../../homework/hw8/translate_passage.py)
 </section>
 
 <section markdown="block">
-### Translate Passage
+###  Translate Passage
 
 We can break this down into two components:
 
@@ -177,7 +177,7 @@ __Let's write both functions... starting with assertions and pseudocode, and fin
 </section>
 
 <section markdown="block">
-### Pig Latin
+###  Pig Latin
 
 {% highlight python %}
 def to_pig_latin(w):
@@ -204,7 +204,7 @@ def to_pig_latin(w):
 </section>
 
 <section markdown="block">
-### Translate Passage
+###  Translate Passage
 
 {% highlight python %}
 def translate_passage(passage):
@@ -226,7 +226,7 @@ print(translate_passage(passage))
 </section>
 
 <section markdown="block">
-### Additional Solutions
+###  Additional Solutions
 
 Solutions from homeworks 5 through 9 are on [the materials page for this class](../..//schedule.html#midterm2hw).
 

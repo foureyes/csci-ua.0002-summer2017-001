@@ -3,12 +3,12 @@ layout: slides
 title: Functions - Exercises 
 ---
 <section markdown="block" class="title-slide">
-# Functions - Exercises, IPO Charts
+#  Functions - Exercises, IPO Charts
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Exercises!
+###  Exercises!
 
 <aside>Writing functions, 3 exercises and 1 demo:</aside>
 
@@ -22,14 +22,14 @@ title: Functions - Exercises
 
 
 <section markdown="block">
-### A Couple of Tools for Designing Functions
+###  A Couple of Tools for Designing Functions
 
 1. Pseudocode (we've seen this before)
 2. IPO Charts
 </section>
 
 <section markdown="block">
-### IPO Charts
+###  IPO Charts
 
 <aside>To help with the exercises... let's look at IPO charts</aside>
 
@@ -42,7 +42,7 @@ title: Functions - Exercises
 </section>
 
 <section markdown="block">
-### IPO Charts Example
+###  IPO Charts Example
 
 An example IPO chart for our version of absolute value:
 
@@ -64,11 +64,11 @@ An example IPO chart for our version of absolute value:
 </section>
 
 <section markdown="block">
-## And ... Some Exercises
+##  And ... Some Exercises
 </section>
 
 <section markdown="block">
-### Factorial
+###  Factorial
 
 <aside>(!!!!!!!!!!!!!!)</aside>
 
@@ -80,7 +80,7 @@ Does anyone remember what the factorial of a number is?  For example, __what is 
 </section>
 
 <section markdown="block">
-### Factorial Definition
+###  Factorial Definition
 
 
 The __factorial__ of a number is the product of all positive integers less than or equal to that number.  
@@ -97,7 +97,7 @@ The previous example of 4! is:
 </section>
 
 <section markdown="block">
-### Write a Function That Calculates Factorial
+###  Write a Function That Calculates Factorial
 
 We want a function that takes a number and gives back (not prints out!) the factorial of that number.  
 
@@ -114,7 +114,7 @@ Example usage:
 </section>
 
 <section markdown="block">
-### IPO Chart
+###  IPO Chart
 
 __How many arguments will the factorial function take, if any?  What processing will it do?  What will it return, if anything? &rarr;__
 
@@ -128,7 +128,7 @@ Our no frills IPO chart for factorial:
 </section>
 
 <section markdown="block">
-### How About Some Pseudocode
+###  How About Some Pseudocode
 
 __In pseudocode, what would the implementation of this function look like? &rarr;__
 
@@ -143,7 +143,7 @@ for every number less than or equal to n (up to, but not including 0)
 </section>
 
 <section markdown="block">
-### Possible Solution
+###  Possible Solution
 
 Here's a possible _iterative_ solution:
 
@@ -153,7 +153,7 @@ Here's a possible _iterative_ solution:
 </section>
 
 <section markdown="block">
-### Using Our New Factorial Function
+###  Using Our New Factorial Function
 
 __How would I use this function in a program that asks the user for a number... and then prints out the factorial of that number? &rarr;__
 
@@ -165,7 +165,7 @@ __How would I use this function in a program that asks the user for a number... 
 </section>
 
 <section markdown="block">
-### Is It a David Lynch Movie?
+###  Is It a David Lynch Movie?
 
 Write a program that determines whether or not a user inputted movie was made by David Lynch.
 
@@ -174,7 +174,7 @@ Write a program that determines whether or not a user inputted movie was made by
 </section>
 
 <section markdown="block">
-### Who?
+###  Who?
 
 * American filmmaker and television director
 * surrealist style
@@ -188,7 +188,7 @@ Write a program that determines whether or not a user inputted movie was made by
 </section>
 
 <section markdown="block">
-### Requirements
+###  Requirements
 
 * define a function that determines if a string given is the title of a David Lynch movie
 * the function will return True or False
@@ -201,7 +201,7 @@ Write a program that determines whether or not a user inputted movie was made by
 </section>
 
 <section markdown="block">
-### Example Output
+###  Example Output
 
 __Go!&rarr;__
 
@@ -218,7 +218,7 @@ Give me a movie title
 </section>
 
 <section markdown="block">
-### Example Usage of the Function
+###  Example Usage of the Function
 
 {% highlight python %}
 movie = "Blue Velvet"
@@ -227,7 +227,7 @@ result = is_a_david_lynch_movie(movie)
 </section>
 
 <section markdown="block">
-### IPO Chart
+###  IPO Chart
 
 __How many arguments will it take, if any?  What processing will it do?  What will it return, if anything? &rarr;__
 
@@ -242,7 +242,7 @@ Our no frills IPO chart for is_a_david_lynch_movie:
 
 
 <section markdown="block">
-### Possible Solution
+###  Possible Solution
 
 {% highlight python %}
 {% include classes/15/movie.py %}
@@ -250,7 +250,7 @@ Our no frills IPO chart for is_a_david_lynch_movie:
 </section>
 
 <section markdown="block">
-### Greatest Common Divisor? 
+###  Greatest Common Divisor? 
 
 What's the greatest common divisor (GCD) for 12 and 8?
 
@@ -260,18 +260,18 @@ What's the greatest common divisor (GCD) for 12 and 8?
 </section>
 
 <section markdown="block">
-## How Did You Figure That Out?
+##  How Did You Figure That Out?
 </section>
 
 <section markdown="block">
-### Maybe This Guy Could Help...
+###  Maybe This Guy Could Help...
 
 <div class="img-container" markdown="block">![Euclid](../../resources/img/euclid.jpg)
 </div>
 </section>
 
 <section markdown="block">
-### Euclid of Alexandria
+###  Euclid of Alexandria
 
 Who was that?  That was Euclid (obv!).
 
@@ -283,7 +283,7 @@ Who was that?  That was Euclid (obv!).
 </section>
 
 <section markdown="block">
-### Euclidean Algorithm
+###  Euclidean Algorithm
 
 One method for finding the greatest common divisor is using Euclid's Algorithm:
 
@@ -294,7 +294,7 @@ One method for finding the greatest common divisor is using Euclid's Algorithm:
 </section>
 
 <section markdown="block">
-### The Euclidean Algorithm in Action
+###  The Euclidean Algorithm in Action
 
 __By hand, find the GCD of 12 and 8 using Eclid's Algorithm. &rarr;__
 
@@ -312,7 +312,7 @@ ___|___|______
 </section>
 
 <section markdown="block">
-### Another Example
+###  Another Example
 
 __By hand, find the GCD of 60 and 24 using Eclid's Algorithm. &rarr;__
 
@@ -331,13 +331,13 @@ ___|___|______
 </section>
 
 <section markdown="block">
-### Requirements
+###  Requirements
 
 Create a function that calculates the greatest common divisor of two numbers by using Euclid's algorithm.
 </section>
 
 <section markdown="block">
-### Example Usage of the Function
+###  Example Usage of the Function
 
 {% highlight python %}
 number_1, number_2 = 24, 144
@@ -347,7 +347,7 @@ print(greatest_common_divisor)
 </section>
 
 <section markdown="block">
-### IPO Chart
+###  IPO Chart
 
 __How many arguments will it take, if any?  What processing will it do?  What will it return, if anything? &rarr;__
 
@@ -361,7 +361,7 @@ Our no frills IPO chart for gcd:
 </section>
 
 <section markdown="block">
-### Pseudocode
+###  Pseudocode
 
 {% highlight python %}
 create a function that takes two arguments, a and b
@@ -375,10 +375,10 @@ while a and b aren't equal...
 </section>
 
 <section markdown="block">
-### Possible Solution
+###  Possible Solution
 
 {% highlight python %}
-# version 1
+#  version 1
 def gcd(a, b):
     while a != b:
         if a > b:
@@ -389,18 +389,18 @@ def gcd(a, b):
 {% endhighlight %}
 
 {% highlight python %}
-# version 2
+#  version 2
 {% include classes/15/gcd_iterative_version.py %}
 {% endhighlight %}
 </section>
 
 <!--
 <section markdown="block">
-## Um.  That's cool... but I just wanna dance! (To some algorithmically generated rhythms).  
+##  Um.  That's cool... but I just wanna dance! (To some algorithmically generated rhythms).  
 </section>
 
 <section markdown="block">
-### Euclidean Rhythms
+###  Euclidean Rhythms
 
 Apparently, the Euclidean Algorithm can be used to generate rhythms.  A paper by Godfried Toussaint explores the concept of Euclidean Rhythms.
 
@@ -410,7 +410,7 @@ Apparently, the Euclidean Algorithm can be used to generate rhythms.  A paper by
 </section>
 
 <section markdown="block">
-### Euclidean Rhythms Continued
+###  Euclidean Rhythms Continued
 
 The Euclidean Algorithm can be used to distribute a set number of notes as evenly as possible over a set period of time (where time is divided into equal parts).
 
@@ -425,7 +425,7 @@ The Euclidean Algorithm can be used to distribute a set number of notes as evenl
 </section>
 
 <section markdown="block">
-### General Algorithm
+###  General Algorithm
 
 1. Put all of the _pulses_ in the beginning: XXXXX.......
 2. Break into two groups of repeating patterns
@@ -434,7 +434,7 @@ The Euclidean Algorithm can be used to distribute a set number of notes as evenl
 </section>
 
 <section markdown="block">
-### How It Works
+###  How It Works
 
 [5 notes in 12](http://mathforum.org/mathimages/index.php/The_Application_of_Euclidean_Algorithm#Euclidean_Rhythms)
 
@@ -448,7 +448,7 @@ The Euclidean Algorithm can be used to distribute a set number of notes as evenl
 </section>
 
 <section markdown="block">
-### How It Works 2
+###  How It Works 2
 
 Sometimes it's easier to visualize in columns:
 
@@ -475,7 +475,7 @@ XX
 
 
 <section markdown="block">
-### What Does That Actually Sound Like?
+###  What Does That Actually Sound Like?
 
 [Let's take a listen](http://www.hisschemoller.com/2011/euclidean-rhythms/).  Some examples of pulses and intervals:
 

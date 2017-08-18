@@ -1,11 +1,11 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * See previous class for list warm-ups
 * Work on portions of homework in class
@@ -27,7 +27,7 @@ __Final Exam Practice__
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Continue working Homework #06 (see previous class)
 

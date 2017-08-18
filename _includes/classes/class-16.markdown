@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 <!--
 * Homework
@@ -8,7 +8,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [Review](classes/17/lists_review.html)
 * Go over previous class slides on:
@@ -20,7 +20,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 
 </article>

@@ -3,13 +3,13 @@ layout: slides
 title: Workshop
 ---
 <section markdown="block" class="title-slide">
-# Workshop
+#  Workshop
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Workshop Days
+###  Workshop Days
 
 __Our next class is our first in-class assignment!__ The focus of class on these workshop days is writing _actual_ code.
 
@@ -21,7 +21,7 @@ __Our next class is our first in-class assignment!__ The focus of class on these
 </section>
 
 <section markdown="block">
-### Attendance
+###  Attendance
 
 1. attendance will occasionally be taken during workshops
 2. consistent attendance will be used to determine whether or not to bump up grades if your grade is on the border

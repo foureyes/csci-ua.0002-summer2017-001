@@ -3,13 +3,13 @@ layout: slides
 title: About Class #7 
 ---
 <section markdown="block" class="title-slide">
-# About Class #7
+#  About Class #7
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * homework #1 grades posted
 * [homework #3](../../schedule.html#homework3) is due on Wednesday!
@@ -18,13 +18,13 @@ title: About Class #7
 
 
 <section markdown="block">
-### Today's Topics
+###  Today's Topics
 
 * while loops (that's it!)
 </section>
 
 <section markdown="block">
-### Midterm #1
+###  Midterm #1
 
 Midterm #1 is in __two weeks:__ - __TUE 2/28__ &rarr;
 
@@ -37,7 +37,7 @@ Midterm #1 is in __two weeks:__ - __TUE 2/28__ &rarr;
 </section>
 
 <section markdown="block">
-### A Reminder: We Have Tutors!
+###  A Reminder: We Have Tutors!
 
 Again, [the "tutoring"](../../tutoring.html) page has info regarding tutors and their schedule.
 

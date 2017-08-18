@@ -3,12 +3,12 @@ layout: slides
 title: Returning Values 
 ---
 <section markdown="block" class="title-slide">
-# A Little More About Returning Values
+#  A Little More About Returning Values
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### The return Statement
+###  The return Statement
 
 The __return__ statement does two things!
 
@@ -20,7 +20,7 @@ The __return__ statement does two things!
 
 
 <section markdown="block">
-### Functions that Return Values
+###  Functions that Return Values
 
 * functions can give back values
 * that is, when they're evaluated, they yield a value
@@ -30,7 +30,7 @@ The __return__ statement does two things!
 </section>
 
 <section markdown="block">
-### None
+###  None
 
 If you do not specify a return value for your function, it will return __None__.
 
@@ -48,7 +48,7 @@ print(num)
 </section>
 
 <section markdown="block">
-### Area of a Circle
+###  Area of a Circle
 
 This function:
 
@@ -64,7 +64,7 @@ def area(r):
 </section>
 
 <section markdown="block">
-### Outputting to the Screen vs Returning a Value (Part 1)
+###  Outputting to the Screen vs Returning a Value (Part 1)
 
 <aside>What's the difference between printing within a function and returning a value from a function?</aside> 
 
@@ -85,7 +85,7 @@ greeting = say_hello()
 </section>
 
 <section markdown="block">
-### Outputting to the Screen vs Returning a Value (Part 2)
+###  Outputting to the Screen vs Returning a Value (Part 2)
 
 * __What gets printed to the screen? &rarr;__
 * __What value is stored in the variable called greeting? &rarr;__
@@ -104,7 +104,7 @@ greeting = say_hello()
 </section>
 
 <section markdown="block">
-### Outputting to the Screen vs Returning a Value (Part 3)
+###  Outputting to the Screen vs Returning a Value (Part 3)
 
 * __What gets printed to the screen? &rarr;__
 * __What value is stored in the variable called greeting? &rarr;__
@@ -124,7 +124,7 @@ greeting = say_hello()
 </section>
 
 <section markdown="block">
-### Outputting to the Screen vs Returning a Value (Part 4)
+###  Outputting to the Screen vs Returning a Value (Part 4)
 
 <aside markdown="block">
 Last one... _really_
@@ -149,7 +149,7 @@ None
 
 
 <section markdown="block">
-### Stopping Execution
+###  Stopping Execution
 
 The return statement stops execution of your function immediately.  __What gets printed in the following example? &rarr;__
 
@@ -168,7 +168,7 @@ foo()
 </section>
 
 <section markdown="block">
-### Another Example...
+###  Another Example...
 
 Stopping execution again...
 
@@ -191,7 +191,7 @@ before return
 </section>
 
 <section markdown="block">
-### Multiple Return Statements
+###  Multiple Return Statements
 
 You can have multiple return statements in your function!  Here's an implementation of absolute value:
 
@@ -206,7 +206,7 @@ def absolute_value(x):
 </section>
 
 <section markdown="block">
-### Just Return
+###  Just Return
 
 We usually see return statements followed by the value being returned.  However, a return statement can be written without any value:
 
@@ -218,7 +218,7 @@ We usually see return statements followed by the value being returned.  However,
 </section>
 
 <section markdown="block">
-### Just Return Continued
+###  Just Return Continued
 
 __What does the following program output?__ &rarr;
 {% highlight python %}
@@ -237,7 +237,7 @@ give_back_nothing returns: None
 </section>
 
 <section markdown="block">
-### Just Return Another Example
+###  Just Return Another Example
 
 Here's an example of using a bare return to bail out of the function if the input is incorrect:
 
@@ -253,5 +253,5 @@ def velocity(distance, time):
 </section>
 
 <section markdown="block">
-## [IPO Charts and Functions Exercises](exercises.html)
+##  [IPO Charts and Functions Exercises](exercises.html)
 </section>

@@ -4,12 +4,12 @@ title: About Class #26
 ---
 
 <section markdown="block" class="title-slide">
-# About Class #26
+#  About Class #26
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * Review Tuples
 * Mutability and Iteration
@@ -19,7 +19,7 @@ title: About Class #26
 
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * __homework #11__ - posted this evening with extra credit, due next Friday at 11PM
 </section>
@@ -27,7 +27,7 @@ title: About Class #26
 
 
 <section markdown="block">
-### Final Exam
+###  Final Exam
 
 * __date:__ {{ site.final_date }}
 * __time:__ {{ site.final_time }}
@@ -37,7 +37,7 @@ title: About Class #26
 </section>
 
 <section markdown="block">
-### Sample Questions
+###  Sample Questions
 
 * practice questions for the final will be posted next week
 * solutions will be posted along with the questions

@@ -3,12 +3,12 @@ layout: slides
 title: About Class #13 
 ---
 <section markdown="block" class="title-slide">
-# About Class #13
+#  About Class #13
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * Nested Loops Review
 * Objects and Methods
@@ -19,7 +19,7 @@ title: About Class #13
 
 
 <section markdown="block">
-### Homework 
+###  Homework 
 
 __Reminder__
 
@@ -29,7 +29,7 @@ __Reminder__
 </section>
 
 <section markdown="block">
-### Midterm Exam
+###  Midterm Exam
 
 * Grades posted
 * Exams will be returned today
@@ -39,7 +39,7 @@ __Reminder__
 
 <!--
 <section markdown="block">
-### Homework
+###  Homework
 
 * [Homework #4](../../schedule.html#homework4) (on loops: exclaim.py, dice.py, etc.) grading delayed, but should be finished this evening.
 * [Homework #5](../../schedule.html#homework5) (on nested loops: roll_a_seven.py, slashes.py, etc.) is due __today, Monday, 10/21__.
@@ -48,7 +48,7 @@ __Reminder__
 
 
 <section markdown="block">
-### Midterm and Midterm Grades
+###  Midterm and Midterm Grades
 
 * midterms were returned last class; if you didn't receive yours, see me after class or send me an email
 * midterm grades will be posted by the end of October, and they will be based on:
@@ -59,5 +59,5 @@ __Reminder__
 
 
 <section markdown="block">
-## [Nested Loops Review](nested-loops-review.html)
+##  [Nested Loops Review](nested-loops-review.html)
 </section>

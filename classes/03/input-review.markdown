@@ -4,12 +4,12 @@ title: User Input
 ---
 
 <section markdown="block" class="title-slide">
-# User Input, a Closer Look
+#  User Input, a Closer Look
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Getting Data From the User
+###  Getting Data From the User
 
 __What function allows our program to retrieve data from the user?__ &rarr;
 
@@ -21,14 +21,14 @@ Input __always__ returns a string.
 </section>
 
 <section markdown="block">
-## Input Always Gives Back a String
+##  Input Always Gives Back a String
 
 <aside>(even if the user types in a number &rarr;)</aside>
 
 </section>
 
 <section markdown="block">
-###  Input Example 1
+###   Input Example 1
 
 {% highlight python %}
 animal = "aardvark"
@@ -46,7 +46,7 @@ apprehensive aardvark
 </section>
 
 <section markdown="block">
-###  Input Example 2
+###   Input Example 2
 
 {% highlight python %}
 number_of_cheers = input("How many cheers?\n> ")
@@ -61,7 +61,7 @@ We get a run-time error! (TypeError: can't multiply sequence by non-int of type 
 </section>
 
 <section markdown="block">
-###  Fixing Input Example 2
+###   Fixing Input Example 2
 
 __How would we fix this program?__ &rarr;
 
@@ -83,7 +83,7 @@ print("hip " * int(number_of_cheers) + "hooray")
 </section>
 
 <section markdown="block">
-###  Another Way to Fix Example 2
+###   Another Way to Fix Example 2
 
 Using __function composition__, we could also call __int__ on the return value of __input__:
 
@@ -96,7 +96,7 @@ print("hip " * number_of_cheers + "hooray")
 
 
 <section markdown="block">
-### Definitions
+###  Definitions
 
 * __value__ - just data!  
 	* a string, number ...
@@ -107,7 +107,7 @@ print("hip " * number_of_cheers + "hooray")
 </section>
 
 <section markdown="block">
-### Definitions Continued
+###  Definitions Continued
 
 * __function__ - a named sequence of statements that performs a specific task or useful operation
 * __function call__ / __calling__ a function - executing or using a function
@@ -119,7 +119,7 @@ print("hip " * number_of_cheers + "hooray")
 </section>
 
 <section markdown="block">
-### Finishing up the Review...
+###  Finishing up the Review...
 
 Let's take a look at [that handout](../../resources/handouts/class03/types-variables-operators-comments.pdf) again.
 </section>

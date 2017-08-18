@@ -1,18 +1,18 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [IPO Charts and Exercises](classes/13/ipo_function_exercises.html)
 
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Warm-up
 
@@ -56,7 +56,7 @@ Assignments
 <!--
 <a name="class13"></a>
 
-###Slides
+### Slides
 
 * [About Class #13](classes/13/meta.html)
 * [Midterm #1](classes/13/midterm.html)
@@ -65,7 +65,7 @@ Assignments
 * [Functions and Turtles](classes/13/functions.html)
 * (Optional) [Approaching a Programming Problem - Dice Wars Game](classes/13/dicewars.html)
 
-### Readings
+###  Readings
 __{{ site.bookq }}__
 
 See readings for {{ site.bookt }}
@@ -76,11 +76,11 @@ __{{ site.bookt }}__
 * [THINKSCI - Chapter 3](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html) (Turtle)
 * [THINKSCI - Chapter 4](http://openbookproject.net/thinkcs/python/english3e/functions.html) (Functions)
 
-### Handouts
+###  Handouts
 
 [Annotated Solutions to Midterm #1](resources/handouts/midterm_1/midterm_1_008_solutions.pdf)
 
-### Vocabulary
+###  Vocabulary
 
 See the [glossary in Chapter 3 of {{ site.bookt }}](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html#glossary) 
 -->

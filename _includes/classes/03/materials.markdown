@@ -2,7 +2,7 @@
 
 <a name="class3"></a>
 
-#### Due Today
+####  Due Today
 
 * [Self Paced-Learning Module #2]({{ site.module2 }})
 * Quiz #2 on NYU Classes
@@ -10,7 +10,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 {% comment %}
 * [Homework and Tutoring](classes/03/homework.html)
@@ -37,7 +37,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Readings
 
@@ -51,10 +51,10 @@ Module, Quiz and Readings __Due Tuesday, Feb 7th, 9AM__
 * Take quiz #3 on NYU Classes
 </article>
 <!--
-### Slides
+###  Slides
 * [About Class #3](classes/03/about.html)
 
-### Handouts
+###  Handouts
 * [Types, Variables, Operators, Input and Comments](resources/handouts/class03/types-variables-operators-comments.pdf)
 * [Types, Variables, Operators, Input and Comments Solutions](resources/handouts/class03/types-variables-operators-comments-solutions.pdf)
 -->

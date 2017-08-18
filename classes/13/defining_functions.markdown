@@ -3,16 +3,16 @@ layout: slides
 title: Defining Functions 
 ---
 <section markdown="block" class="title-slide">
-# Defining Functions
+#  Defining Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Some Quick Examples...
+##  Some Quick Examples...
 </section>
 
 <section markdown="block">
-### We Can Define Our Own Functions!
+###  We Can Define Our Own Functions!
 <aside>Yes, Actually.</aside>
 
 {% highlight python %}
@@ -30,7 +30,7 @@ __What's the name of this function?  How many arguments do you think it takes?  
 </section>
 
 <section markdown="block">
-### We Can Define Our Own Functions (Continued)!
+###  We Can Define Our Own Functions (Continued)!
 
 How about this one?  __What's the name of this function?  How many arguments do you think it takes, and what are they?  What does the function do?__
 
@@ -47,7 +47,7 @@ def greet_with_input(greeting):
 </section>
 
 <section markdown="block">
-### We Can Define Our Own Functions (Continued Some More)!
+###  We Can Define Our Own Functions (Continued Some More)!
 
 ... Aaaand this one?  __What's the name of this function?  How many arguments do you think it takes, and what are they?  What does the function do?__
 
@@ -65,7 +65,7 @@ def greet_more_input(greeting, num):
 </section>
 
 <section markdown="block">
-### Defining a Function - Syntax
+###  Defining a Function - Syntax
 
 __Based on our examples, let's figure out how we define a function:__
 
@@ -82,7 +82,7 @@ def <function_name>(<zero_or_more_parameters>):
 </section>
 
 <section markdown="block">
-### The Header Line
+###  The Header Line
 <aside>A Closer Look</aside>
 
 The beginning of a function consists of:
@@ -99,7 +99,7 @@ The beginning of a function consists of:
 </section>
 
 <section markdown="block">
-### Parameters
+###  Parameters
 
 A __parameter__ is "a name used inside a function to _refer_ to the value which was passed to it as an argument".
 
@@ -109,7 +109,7 @@ A __parameter__ is "a name used inside a function to _refer_ to the value which 
 </section>
 
 <section markdown="block">
-### Function Body
+###  Function Body
 
 The __body__ of a function:
 
@@ -120,7 +120,7 @@ The __body__ of a function:
 </section>
 
 <section markdown="block">
-### ...And Back to Parameters
+###  ...And Back to Parameters
 
 Let's see what that means. Whatever values you pass in to the function, you can now refer to it within the body using the parameter's name (based on the position of the argument).
 
@@ -134,7 +134,7 @@ greet_more_input("hello", 5)
 </section>
 
 <section markdown="block">
-### Parameters Example 1:
+###  Parameters Example 1:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -153,7 +153,7 @@ greet_more_input("hola", 23)
 </section>
 
 <section markdown="block">
-### Parameters Example 2:
+###  Parameters Example 2:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -172,7 +172,7 @@ greet_more_input("hey " + "there", math.sqrt(25))
 </section>
 
 <section markdown="block">
-### Parameters Example 3:
+###  Parameters Example 3:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -193,13 +193,13 @@ greet_more_input(num, greeting)
 </section>
 
 <section markdown="block">
-### Let's Take a Closer Look
+###  Let's Take a Closer Look
 
 {% highlight python %}
-#                    num       greeting
-#                      |        |
-#                    "hi"      20
-#                      |        |
+#                     num       greeting
+#                       |        |
+#                     "hi"      20
+#                       |        |
 def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
@@ -211,7 +211,7 @@ greet_more_input(num, greeting)
 </section>
 
 <section markdown="block">
-### Function Definition
+###  Function Definition
 
 The entire block of code you wrote, the header and the body of the function, is called the __function definition__.  Here are a few things to note about your function definition:
 
@@ -224,7 +224,7 @@ The entire block of code you wrote, the header and the body of the function, is 
 </section>
 
 <section markdown="block">
-### Function Definition Example 1:
+###  Function Definition Example 1:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -242,7 +242,7 @@ hello
 </section>
 
 <section markdown="block">
-### Function Definition Example 2:
+###  Function Definition Example 2:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -252,13 +252,13 @@ def greet():
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# nothing (the function was never called after it was defined)
+#  nothing (the function was never called after it was defined)
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Function Definition Example 3:
+###  Function Definition Example 3:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -270,14 +270,14 @@ def greet():
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# we called the function before defining it
+#  we called the function before defining it
 NameError: name 'greet' is not defined 
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Program Flow
+###  Program Flow
 
 What we've seen so far:
 
@@ -288,7 +288,7 @@ What we've seen so far:
 </section>
 
 <section markdown="block">
-### Program Flow Coninued
+###  Program Flow Coninued
 
 Defining our own functions means:
 
@@ -301,7 +301,7 @@ Defining our own functions means:
 </section>
 
 <section markdown="block">
-### Program Flow Example
+###  Program Flow Example
 
 __Let's walk through this program line-by-line &rarr;__
 
@@ -322,7 +322,7 @@ exclaim("howdy", 10)
 </section>
 
 <section markdown="block">
-### Using a Main Function
+###  Using a Main Function
 
 Sometimes you'll see a function called main() within a program
 
@@ -336,7 +336,7 @@ Sometimes you'll see a function called main() within a program
 </section>
 
 <section markdown="block">
-### Main Function Example
+###  Main Function Example
 
 {% highlight python %}
 def exclaim(word, num):
@@ -355,5 +355,5 @@ main()
 
 
 <section markdown="block">
-## [Returning Values](returning_values.html) ("fruitful functions")
+##  [Returning Values](returning_values.html) ("fruitful functions")
 </section>

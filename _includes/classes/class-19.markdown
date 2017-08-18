@@ -1,12 +1,12 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * Homework #06
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * go back to file i/o part 2 from previous class
 * [scrabble solver](homework/hw09/wordsy.py)
@@ -18,7 +18,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Homework #7 __Due Monday, June 25th, at 11PM__
 

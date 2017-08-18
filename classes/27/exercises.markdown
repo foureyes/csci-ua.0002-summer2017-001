@@ -3,22 +3,22 @@ layout: slides
 title: Review 
 ---
 <section markdown="block" class="title-slide">
-# Exercises
+#  Exercises
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Dictionary Exercises
+###  Dictionary Exercises
 
 First, check out some dictionary exercises from the [previous class](../26/exercises.html).
 </section>
 
 <section markdown="block">
-## State Abbreviations
+##  State Abbreviations
 </section>
 
 <section markdown="block">
-### State Abbreviations
+###  State Abbreviations
 
 Create a program that quizzes the user on state abbreviations using the dictionary below:
 
@@ -46,7 +46,7 @@ You got 2 right out of 3 questions!
 </section>
 
 <section markdown="block">
-###  State Abbreviations
+###   State Abbreviations
 
 Starting with the following dictionary:
 
@@ -63,7 +63,7 @@ Write a program that:
 * at the end of the program, print out the number of right answers compared to the total
 </section>
 <section markdown="block">
-### State Abbreviations
+###  State Abbreviations
 
 Pseudocode:
 
@@ -77,7 +77,7 @@ Pseudocode:
 </section>
 
 <section markdown="block">
-### State Abbreviations
+###  State Abbreviations
 
 {% highlight python %}
 states = {'New York':'NY', 'New Jersey':'NJ', 'Connecticut':'CT'}
@@ -96,11 +96,11 @@ print('You got %s right out of %s questions!' % (right, len(states)))
 </section>
 
 <section markdown="block">
-## Run Length Decoding
+##  Run Length Decoding
 </section>
 
 <section markdown="block">
-### Run Length Decoding
+###  Run Length Decoding
 
 Imagine that you have a list of tuples...
 
@@ -116,7 +116,7 @@ For example:
 </section>
 
 <section markdown="block">
-### Run Length Decoding
+###  Run Length Decoding
 
 Write a function called run_length_decode:
 
@@ -128,16 +128,16 @@ Example usage:
 {% highlight python %}
 compressed = [('E', 4), ('K', 1)]
 print(run_length_decode(compressed))
-# prints out EEEEK
+#  prints out EEEEK
 
 compressed = [('V', 1), ('O', 2), ('D', 1), ('O', 2)]
 print(run_length_decode(compressed))
-# prints out VOODOO
+#  prints out VOODOO
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Run Length Decoding
+###  Run Length Decoding
 
 {% highlight python %}
 def run_length_decode(coded):
@@ -150,11 +150,11 @@ def run_length_decode(coded):
 
 
 <section markdown="block">
-## Every Third
+##  Every Third
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 Write a function called every_third_name:
 
@@ -166,12 +166,12 @@ For example:
 {% highlight python %}
 names = ['Bob', 'Alice', 'Carol', 'Dan', 'Eve', 'Frank', 'Gus', 'Heidi', 'Ivan']
 print(every_third_name(names))
-# prints out ['Carol', 'Frank', 'Ivan']
+#  prints out ['Carol', 'Frank', 'Ivan']
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 A few ways to approach this:
 
@@ -182,7 +182,7 @@ A few ways to approach this:
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 With enumerate ...
 
@@ -201,7 +201,7 @@ print(every_third_v1(names))
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 Incrementing a _counter_ variable (called number) ...
 {% highlight python %}
@@ -221,7 +221,7 @@ print(every_third_v2(names))
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 Using range ...
 
@@ -240,7 +240,7 @@ print(every_third_v3(names))
 </section>
 
 <section markdown="block">
-### Every Third
+###  Every Third
 
 List comprehension ...
 
@@ -251,11 +251,11 @@ print([name.lower() for number, name in enumerate(names) if (number + 1) % 3 == 
 </section>
 
 <section markdown="block">
-## Synonyms
+##  Synonyms
 </section>
 
 <section markdown="block">
-### Synonyms
+###  Synonyms
 
 Write a program that:
 
@@ -280,7 +280,7 @@ Give me a word or (q)uit
 </section>
 
 <section markdown="block">
-### Synonyms
+###  Synonyms
 
 What are the main steps for this program?
 
@@ -296,7 +296,7 @@ What are the main steps for this program?
 </section>
 
 <section markdown="block">
-### Synonyms
+###  Synonyms
 
 Let's start with part 1.  
 
@@ -318,7 +318,7 @@ f.close()
 </div>
 </section>
 <section markdown="block">
-### Synonyms
+###  Synonyms
 
 Now that we've built our dictionary, ask the user for a word, and print out the appropriate response:
 
@@ -343,11 +343,11 @@ while True:
 </section>
 
 <section markdown="block">
-## Half
+##  Half
 </section>
 
 <section markdown="block">
-### Half (New List)
+###  Half (New List)
 
 Write a function half_value_v1 that takes a list of numbers and returns a __new list__ with all of the numbers halved.  Here's some example output:
 
@@ -366,7 +366,7 @@ my_numbers is still [10, 8, 6]
 </section>
 
 <section markdown="block">
-### Half (New List)
+###  Half (New List)
 
 {% highlight python %}
 my_numbers = [10, 8, 6]
@@ -383,7 +383,7 @@ print('my_numbers is still %s' % (my_numbers))
 </section>
 
 <section markdown="block">
-### Half (In Place)
+###  Half (In Place)
 
 Write a function half_value_v2 that takes a list of numbers and __modifies the list passed in__.  It should not return a value!
 
@@ -403,7 +403,7 @@ my_numbers is now [5.0, 4.0, 3.0]
 
 
 <section markdown="block">
-### Half (In Place)
+###  Half (In Place)
 
 {% highlight python %}
 my_numbers = [10, 8, 6]

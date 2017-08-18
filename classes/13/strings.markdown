@@ -3,12 +3,12 @@ layout: slides
 title: Strings 
 ---
 <section markdown="block" class="title-slide">
-# Strings
+#  Strings
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### String Delimiters
+###  String Delimiters
 __How do we know we have a string?  What are the ways we can create a _string literal_? &rarr;__
 
 <div class="incremental" markdown="block">
@@ -19,7 +19,7 @@ __How do we know we have a string?  What are the ways we can create a _string li
 </section>
 
 <section markdown="block">
-### Strings vs Variables
+###  Strings vs Variables
 
 __What's the difference between lines two and three of the following code? &rarr;__
 
@@ -35,7 +35,7 @@ print("foo") # line 3
 </section>
 
 <section markdown="block">
-### String Operations
+###  String Operations
 __Name some operations that we can perform on strings &rarr;__ 
 
 <div class="incremental" markdown="block">
@@ -46,7 +46,7 @@ __Name some operations that we can perform on strings &rarr;__
 </section>
 
 <section markdown="block">
-### Strings Revisited
+###  Strings Revisited
 * we've been looking at strings as single things (single objects)
 * but really, they're made of a bunch of smaller pieces
 * __what are strings made of?&rarr;__
@@ -62,7 +62,7 @@ __what's special about the characters in a string?  are they jumbled or in a spe
 </section>
 
 <section markdown="block">
-### Strings Revisited Continued
+###  Strings Revisited Continued
 * a string is a __compound data type__
 * a __compound data type__ is a type in which the values are composed of zero or more other values.
 * strings are the first data type that we'll see that's made of other types... 
@@ -72,5 +72,5 @@ __what's special about the characters in a string?  are they jumbled or in a spe
 </section>
 
 <section markdown="block">
-## [Strings as a List of Characters](strings_as_list.html)
+##  [Strings as a List of Characters](strings_as_list.html)
 </section>

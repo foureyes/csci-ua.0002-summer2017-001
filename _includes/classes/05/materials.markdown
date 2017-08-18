@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * [Self Paced-Learning Module #3]({{ site.module3 }})
 * Quiz #3 on NYU Classes
@@ -7,7 +7,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 {% comment %}
 * [About Class #5](classes/05/meta.html)
@@ -23,7 +23,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 * Complete the [Self Paced-Learning Module #4]({{ site.module4 }})
 * Take quiz #4 on NYU Classes
@@ -41,15 +41,15 @@ Assignments
 <!--
 <a name="class5"></a>
 
-###Slides
+### Slides
 
-###Handouts
+### Handouts
 [User Input, Type Conversion, Functions, If Statements](resources/handouts/class05/input-types-if.pdf) 
 
-###Readings
+### Readings
 * {{ site.bookq }} - Chapter 4 (Decision Structures and Boolean Logic)
 * [{{ site.bookt }} - Chapter 5](http://openbookproject.net/thinkcs/python/english3e/conditionals.html) (but skip 5.9 and 5.12)
 
-### Vocabulary
+###  Vocabulary
 See [the glossary](http://openbookproject.net/thinkcs/python/english3e/conditionals.html#glossary) in {{site.bookt}}, Chapter 5.
 -->

@@ -3,12 +3,12 @@ layout: slides
 title: OSX File System, Paths
 ---
 <section markdown="block" class="title-slide">
-# OSX File System, Paths
+#  OSX File System, Paths
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Where are My Files Again?
+###  Where are My Files Again?
 
 <aside>Navigating the file system in three parts</aside>
 
@@ -21,12 +21,12 @@ Warning: this part is fairly OSX-centric... __if you're on windows, let me know,
 </section>
 
 <section markdown="block">
-## First, Some Definitions
+##  First, Some Definitions
 </section>
 
 
 <section markdown="block">
-### Directories
+###  Directories
 
 What's a __directory__ (to simplify things, we can use "directory" and "folder" interchangeably)? &rarr;
 
@@ -38,7 +38,7 @@ What's a __directory__ (to simplify things, we can use "directory" and "folder" 
 </section>
 
 <section markdown="block">
-### Root
+###  Root
 
 __root__ (or just /) is:
 
@@ -48,7 +48,7 @@ __root__ (or just /) is:
 </section>
 
 <section markdown="block">
-### Pathnames
+###  Pathnames
 
 What's a __pathname__? &rarr;
 
@@ -61,11 +61,11 @@ What's a __pathname__? &rarr;
 
 
 <section markdown="block">
-## Let's Look at OSX's Directory Structure
+##  Let's Look at OSX's Directory Structure
 </section>
 
 <section markdown="block">
-### Some Structure
+###  Some Structure
 
 Each operating system organizes their files and directories differently.  OSX's file structure looks like this (it's similar to other UNIX based file systems):
 
@@ -78,7 +78,7 @@ Each operating system organizes their files and directories differently.  OSX's 
 </section>
 
 <section markdown="block">
-### More About the User's Directory
+###  More About the User's Directory
 
 It's worth noting the directories nested under Users.  They should seem familiar to you.
 
@@ -89,20 +89,20 @@ It's worth noting the directories nested under Users.  They should seem familiar
 
 
 <section markdown="block">
-## And Now... To Pathnames!
+##  And Now... To Pathnames!
 
 <aside>We know a little bit about the file system structure; let's take a closer look at how we locate files</aside>
 
 </section>
 
 <section markdown="block">
-### What's a Pathname?
+###  What's a Pathname?
 
 A __pathname__ is the general form of the name of a file or directory; __it specifies a unique location in a file system__.
 </section>
 
 <section markdown="block">
-### Path Separator
+###  Path Separator
 
 A __path separator__ is a character that's used to join together each directory in a pathname that contains nested directories (for example, Desktop was located under Users and username...  there was a character that separated each directory).  
 
@@ -116,7 +116,7 @@ __What character represents the path separator on OSX (we just saw this)?__ &rar
 </section>
 
 <section markdown="block">
-### Absolute vs Relative Paths
+###  Absolute vs Relative Paths
 
 * __absolute paths__ are paths expressed as starting from root
 	* example: /Users/username/Desktop
@@ -126,7 +126,7 @@ __What character represents the path separator on OSX (we just saw this)?__ &rar
 </section>
 
 <section markdown="block">
-### Some Special Paths
+###  Some Special Paths
 
 There are shortcuts to represent specific paths:
 
@@ -142,7 +142,7 @@ The following paths are relative to the directory _that you're in_:
 </section>
 
 <section markdown="block">
-### Let's See Some Pathnames Through Finder
+###  Let's See Some Pathnames Through Finder
 
 * Desktop
 * Downloads

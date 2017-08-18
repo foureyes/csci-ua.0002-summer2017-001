@@ -1,6 +1,6 @@
 <a name="class16"></a>
 
-###Slides
+### Slides
 
 * [About Class #16](classes/16/meta.html)
 * [A Diversion (Euclidean Rhythms)](classes/16/euclid.html)
@@ -11,7 +11,7 @@
 * [As a list of chars](classes/16/strings_as_list.html)
 * [Objects and Methods](classes/16/objects_and_methods.html)
 
-### Readings __{{ site.bookq }}__
+###  Readings __{{ site.bookq }}__
 
 * Chapter 8 on More About Strings
 * Chapter 12 on Recursion
@@ -20,7 +20,7 @@ __{{ site.bookt }}__
 
 * [{{ site.bookt }} - Chapter 8 - Strings](http://openbookproject.net/thinkcs/python/english3e/strings.html)
 
-### Homework #7
+###  Homework #7
 
 * Due __April 3rd at 11PM__ (no grace period)
 * Submit all files via __NYU Classes__ 

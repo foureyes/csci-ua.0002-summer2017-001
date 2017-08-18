@@ -3,12 +3,12 @@ layout: slides
 title: Exceptions Review 
 ---
 <section markdown="block" class="title-slide">
-# Exceptions Review 
+#  Exceptions Review 
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Exceptions!
+###  Exceptions!
 
 __What are some types/names of exceptions that we've seen and what are examples of each?__ &rarr;
 
@@ -22,7 +22,7 @@ __What are some types/names of exceptions that we've seen and what are examples 
 </section>
 
 <section markdown="block">
-### Exception Handling
+###  Exception Handling
 
 __What construct do we use to handle exceptions.  What is its syntax?__ &rarr;
 
@@ -37,7 +37,7 @@ except:
 </section>
 
 <section markdown="block">
-### Exception Handling Continued
+###  Exception Handling Continued
 
 __What if your code could generate two errors - and you want to deal with them differently?__ &rarr;
 
@@ -55,7 +55,7 @@ except SomeError2:
 
 
 <section markdown="block">
-### Revisiting Pizza Party
+###  Revisiting Pizza Party
 
 A program that calculates how many slices each person gets at a pizza party. 
 
@@ -74,7 +74,7 @@ except ValueError:
 </section>
 
 <section markdown="block">
-### An Additional Clause
+###  An Additional Clause
 
 An additional __else__ clause can be added to the end of try-except:
 
@@ -92,7 +92,7 @@ else:
 </section>
 
 <section markdown="block">
-### Try, Except, Else...
+###  Try, Except, Else...
 
 __What is the output of the following code?__ &rarr;
 

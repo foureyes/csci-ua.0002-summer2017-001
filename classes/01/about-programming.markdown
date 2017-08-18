@@ -12,12 +12,12 @@ Programming
 </section>
 
 <section markdown="block">
-## What's a Program?
+##  What's a Program?
 <aside>And what's all this talk about computer science?</aside>
 </section>
 
 <section markdown="block">
-### Here's One!
+###  Here's One!
 {% highlight python %}
 {% include classes/01/source/cats.py %}
 {% endhighlight %}
@@ -28,7 +28,7 @@ Programming
 </section>
 
 <section markdown="block">
-### A Quick Exercise
+###  A Quick Exercise
 <aside>
 What do you think this program does?  Try walking through it line-by-line. &rarr;
 </aside>
@@ -46,17 +46,17 @@ Based on this example, describe what a program is. &rarr;
 </section>
 
 <section markdown="block">
-### A Formal Definition
+###  A Formal Definition
 __program__ - a sequence of instructions that specifies to a computer actions and computations to be performed
 </section>
 
 <section markdown="block">
-## This Course is About _Programming_, not Just Programs
+##  This Course is About _Programming_, not Just Programs
 <aside>So... what's programming?</aside>
 </section>
 
 <section markdown="block">
-### Programming
+###  Programming
 
 * writing a program (of course!)
 * all of the ancillary processes involved in writing that program
@@ -67,7 +67,7 @@ __program__ - a sequence of instructions that specifies to a computer actions an
 </section>
 
 <section markdown="block">
-### Programming Can Be:
+###  Programming Can Be:
 * Engineering (software engineering)
 	* Precise and exacting
 	* Provable and formally verifiable
@@ -80,12 +80,12 @@ __program__ - a sequence of instructions that specifies to a computer actions an
 </section>
 
 <section markdown="block">
-## But It's Really Just Problem Solving
+##  But It's Really Just Problem Solving
 <aside>Taking a step back, we write programs to scratch an itch</aside>
 </section>
 
 <section markdown="block">
-### Why Would You Want to Learn How to Program?
+###  Why Would You Want to Learn How to Program?
 <aside>
 Some motivation...
 </aside>
@@ -103,7 +103,7 @@ Some motivation...
 </section>
 
 <section markdown="block">
-### Why Else?
+###  Why Else?
 <aside>
 Some more motivation...
 </aside>
@@ -122,12 +122,12 @@ Some more motivation...
 </section>
 
 <section markdown="block">
-## Great, I'm convinced!  __Sign me up!__
+##  Great, I'm convinced!  __Sign me up!__
 <aside>
 But before we get too much into programs ...
 </aside>
 </section>
 
 <section markdown="block">
-# [Let's talk about what these programs run on ](computers-storage.html)
+#  [Let's talk about what these programs run on ](computers-storage.html)
 </section>

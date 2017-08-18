@@ -4,12 +4,12 @@ title: Variables
 ---
 
 <section markdown="block" class="title-slide">
-# Variables
+#  Variables
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Variables
+###  Variables
 
 * a __variable__ is a _name_ that refers to a _value_:
 * once a variable is declared and assigned a value, __you can use that variable where you would use any other values &rarr;__
@@ -20,7 +20,7 @@ title: Variables
 </section>
 
 <section markdown="block">
-### Assignment 
+###  Assignment 
 
 <aside>Assigning values to a variable</aside>
 
@@ -32,7 +32,7 @@ title: Variables
 </section>
 
 <section markdown="block">
-### Using Variables
+###  Using Variables
 
 When do you use variables?
 
@@ -49,7 +49,7 @@ When do you use variables?
 </section>
 
 <section markdown="block">
-### Here's an Example of Improving Maintainability
+###  Here's an Example of Improving Maintainability
 
 __Let's say you have a program that adds x number of exclamation points to some words.  &rarr;__
 
@@ -68,7 +68,7 @@ print("bar" + "!" * my_exclamation_constant)
 </section>
 
 <section markdown="block">
-### "Hardcoding"
+###  "Hardcoding"
 * assume everything will vary / change
 * avoid using a bare __literal__
 	* you remember what that is, right?
@@ -81,7 +81,7 @@ print("bar" + "!" * my_exclamation_constant)
 </section>
 
 <section markdown="block">
-### Multiple Assignment
+###  Multiple Assignment
 
 You can also assign __multiple values to multiple variable names simultaneously__.  &rarr;
 
@@ -99,7 +99,7 @@ Each variable/value is bound in the order that they appear.
 </section>
 
 <section markdown="block">
-### Multiple Assignment Continued
+###  Multiple Assignment Continued
 
 {% highlight python %}
 a, b, c = 3, 21, 7
@@ -117,7 +117,7 @@ c -> 7
 </section>
 
 <section markdown="block">
-### Here's a Quick Exercise on a Tiny Algorithm
+###  Here's a Quick Exercise on a Tiny Algorithm
 <aside>And Idioms, as Well!</aside>
 __If I have two variables, a and b, and they are set to 3 and 21 respectively, how would I swap their values in code? (Try this on your own!) &rarr;__
 
@@ -136,7 +136,7 @@ print("a:", a, "b:", b)
 </section>
 
 <section markdown="block">
-### An Idiomatic Way to Do It
+###  An Idiomatic Way to Do It
 <aside>(read: easier)</aside>
 Here's another, more _idiomatic_ way to do it
 {% highlight python %}
@@ -147,7 +147,7 @@ a, b = b, a
 </section>
 
 <section markdown="block">
-### ...And, Some BTWs
+###  ...And, Some BTWs
 
 * in Python, if something is _idiomatic_, it's called _Pythonic_
 * someone that codes in Python is sometimes called a _Pythonista_
@@ -156,6 +156,6 @@ a, b = b, a
 </section>
 
 <section markdown="block">
-## [Greeaaat.  Maybe we can use them to help us create our own functions!](functions.html)
+##  [Greeaaat.  Maybe we can use them to help us create our own functions!](functions.html)
 </section>
 

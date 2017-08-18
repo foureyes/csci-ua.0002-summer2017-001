@@ -3,17 +3,17 @@ layout: slides
 title: Calling Functions 
 ---
 <section markdown="block" class="title-slide">
-# Calling Functions
+#  Calling Functions
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-## Let's Make Sure We're Speaking the Same Language!
+##  Let's Make Sure We're Speaking the Same Language!
 </section>
 
 <section markdown="block">
-### A Function (Again)
+###  A Function (Again)
 
 __What's a function? &rarr;__
 
@@ -29,7 +29,7 @@ __What's a function? &rarr;__
 </section>
 
 <section markdown="block">
-### Examples
+###  Examples
 
 __What are some examples of built-in functions or functions in modules? &rarr;__
 
@@ -45,7 +45,7 @@ __What are some examples of built-in functions or functions in modules? &rarr;__
 </section>
 
 <section markdown="block">
-### Examples
+###  Examples
 
 __What are some examples of methods? &rarr;__
 
@@ -60,7 +60,7 @@ So far we've only "officially" learned __methods__ that can be called on a Turtl
 
 
 <section markdown="block">
-### Calling a Function
+###  Calling a Function
 
 __Define what it means to "call" a function.  How do we call a function?  &rarr;__
 
@@ -77,7 +77,7 @@ Syntactically, we call a function by writing &rarr;:
 </section>
 
 <section markdown="block">
-### Calling a Method
+###  Calling a Method
 
 __Aaaaaaand... how is a method called?  &rarr;__
 
@@ -93,7 +93,7 @@ __Aaaaaaand... how is a method called?  &rarr;__
 </section>
 
 <section markdown="block">
-### Arguments 
+###  Arguments 
 
 Based on the definitions of __function__ and __calling a function__, __how can we define argument? &rarr;__
 
@@ -106,7 +106,7 @@ Based on the definitions of __function__ and __calling a function__, __how can w
 </section>
 
 <section markdown="block">
-### Arguments / Parameters
+###  Arguments / Parameters
 What's the difference between an __argument__ and a __parameter__?
 
 * for our purposes, they're the same: the values we pass in to a function (_input_)
@@ -116,26 +116,26 @@ What's the difference between an __argument__ and a __parameter__?
 </section>
 
 <section markdown="block">
-###  Values and Expressions
+###   Values and Expressions
 
 Again, an __argument__ can be a __value__ or even an __expression__ (which can be reduced to a value anyway!):
 
 {% highlight python %}
-# (t is a Turtle object)
+#  (t is a Turtle object)
 
-# using a value, 50, as an argument
+#  using a value, 50, as an argument
 t.forward(5) 
 
-# using an expression as an argument
+#  using an expression as an argument
 t.forward(20 / 4)
 
-# another function that results in a value as an argument
+#  another function that results in a value as an argument
 t.forward(math.sqrt(25))
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### No Input vs Some Input
+###  No Input vs Some Input
 
 Some functions and methods require arguments, others don't. 
 
@@ -153,7 +153,7 @@ __Name some functions or methods that take arguments.  Name some that don't requ
 </section>
 
 <section markdown="block">
-### Output / Return Value
+###  Output / Return Value
 
 Some functions and methods return values; others don't.
 
@@ -171,7 +171,7 @@ __Name some functions or methods that return a value.  Name some that don't. &ra
 </section>
 
 <section markdown="block">
-### When You Don't Have a Value
+###  When You Don't Have a Value
 
 Actually... you do get a value if you call a function that doesn't actually return one!  
 
@@ -194,7 +194,7 @@ None
 </section>
 
 <section markdown="block">
-### Some More About None 
+###  Some More About None 
 
 __None__ is valid value in your code.  You can even bind it to a variable name:
 
@@ -211,7 +211,7 @@ None
 </section>
 
 <section markdown="block">
-### Return Values
+###  Return Values
 
 You might have noticed that in one of the examples above, the result of the function was used like any other value.
 
@@ -221,32 +221,32 @@ You might have noticed that in one of the examples above, the result of the func
 * you can just treat a call to random.randint(1, 6) as a value
 
 {% highlight python %}
-# we've seen this (multiply a string by an int):
+#  we've seen this (multiply a string by an int):
 "hello" * 5
 
-# but we can also do something like this:
+#  but we can also do something like this:
 "hello" * random.randint(1,6)
 {% endhighlight %}
 </section>
 
 
 <section markdown="block">
-### Return Values
+###  Return Values
 
 Some more examples of using return values:
 
 {% highlight python %}
-# storing it in a varable
+#  storing it in a varable
 a = math.sqrt(4)
 
-# using it directly in an expression
+#  using it directly in an expression
 if math.sqrt(4) > 1 or math.sqrt(4) == 2:
 	print("in here!")
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-## Dissecting Some Function Calls
+##  Dissecting Some Function Calls
 
 __What's the name of the function, the number of arguments, and the argument values of each function call below? Does the function call return a value? &rarr;__
 
@@ -260,18 +260,18 @@ range(10, 100, 2)
 {% highlight python %}
 print("foo") # print, 1 arguments, ("foo"), no return value
 random.randint(1, 10) # randint, 2 arguments, (1, 10), returns an int
-# range, 3 arguments, (10, 100, 2), returns a sequence of numbers
+#  range, 3 arguments, (10, 100, 2), returns a sequence of numbers
 range(10, 100, 2) 
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-## Review
+##  Review
 </section>
 
 <section markdown="block">
-### Definitions
+###  Definitions
 * __function__ - named sequence of statements that performs some useful operation 
 * __function call__ - the statement that actually executes a function
 * __argument__ - a value that's passed in to a function when a function is called
@@ -279,5 +279,5 @@ range(10, 100, 2)
 </section>
 
 <section markdown="block">
-## [Defining Your Own Functions](defining_functions.html)
+##  [Defining Your Own Functions](defining_functions.html)
 </section>

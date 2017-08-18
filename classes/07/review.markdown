@@ -3,12 +3,12 @@ layout: slides
 title: Review - Conditionals 
 ---
 <section markdown="block" class="title-slide">
-# Review Conditionals
+#  Review Conditionals
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Operator Precedence
+###  Operator Precedence
 
 __What are the types of operators that we learned about?  List them in order of precedence &rarr;__
 
@@ -21,7 +21,7 @@ __What are the types of operators that we learned about?  List them in order of 
 </section>
 
 <section markdown="block">
-### Logical Operators
+###  Logical Operators
 
 __Name the three logical operators that we learned and order them by precedence &rarr;__
 
@@ -33,7 +33,7 @@ __Name the three logical operators that we learned and order them by precedence 
 </section>
 
 <section markdown="block">
-### Logical Operators Continued
+###  Logical Operators Continued
 
 __What are the only two values that cause "and" to evaluate True? Under what conditions does "or" evaluate to True?  &rarr;__
 
@@ -44,7 +44,7 @@ __What are the only two values that cause "and" to evaluate True? Under what con
 </section>
 
 <section markdown="block">
-### Surprise!
+###  Surprise!
 
 __Write a program that asks the user if they want a surprise: &rarr;__
 
@@ -69,7 +69,7 @@ Do you want a surprise?
 </section>
 
 <section markdown="block">
-### Surprise! Solution 
+###  Surprise! Solution 
 
 {% highlight python %}
 {% include classes/07/surprise.py %}
@@ -77,7 +77,7 @@ Do you want a surprise?
 </section>
 
 <section markdown="block">
-### Speed Limit
+###  Speed Limit
 
 Write a program that:
 
@@ -93,7 +93,7 @@ Write a program that:
 </section>
 
 <section markdown="block">
-### Speed Limit - Example Interaction
+###  Speed Limit - Example Interaction
 
 {% highlight bash %}
 What is the speed limit?
@@ -121,7 +121,7 @@ You're going too slow!
 </section>
 
 <section markdown="block">
-### Speed Limit
+###  Speed Limit
 
 {% highlight python %}
 {% include classes/07/going_too_fast.py %}
@@ -130,7 +130,7 @@ You're going too slow!
 </section>
 
 <section markdown="block">
-### elif 
+###  elif 
 
 __elif__ chains together a series of conditions allowing multiple possible paths of execution.  
 
@@ -143,7 +143,7 @@ __elif__ chains together a series of conditions allowing multiple possible paths
 </section>
 
 <section markdown="block">
-### Movie Ratings	
+###  Movie Ratings	
 
 The following program asks for your age, and recommends which movie ratings you shouldn't see based on your age:
 
@@ -167,7 +167,7 @@ __What is the output if someone enters 15... and 23??__ &rarr;
 </section>
 
 <section markdown="block">
-### Movie Ratings Continued	
+###  Movie Ratings Continued	
 
 __What are some ways of fixing this program?__ &rarr;
 
@@ -181,7 +181,7 @@ elif age >= 17:
 </section>
 
 <section markdown="block">
-### Movie Ratings Implementations	
+###  Movie Ratings Implementations	
 
 Reorder...
 
@@ -205,7 +205,7 @@ elif age >= 17:
 </section>
 
 <section markdown="block">
-### I'm Late!
+###  I'm Late!
 
 __What is the output of this program if the user enters: yes and 10... or just no__? &rarr;
 
@@ -228,7 +228,7 @@ else:
 </section>
 
 <section markdown="block">
-### Nesting 
+###  Nesting 
 
 * in the previous example, we saw an if-else statement nested within another if-else
 * we can nest if, if-else, and if-elif statements within each other
@@ -237,11 +237,11 @@ else:
 </section>
 
 <section markdown="block">
-## Aaaand... We're Talking About Cake Again
+##  Aaaand... We're Talking About Cake Again
 </section>
 
 <section markdown="block">
-### Cake Three Ways
+###  Cake Three Ways
 
 We went through a few different implementations of the following program:
 
@@ -263,7 +263,7 @@ I do not understand.
 </section>
 
 <section markdown="block">
-### Cake With Consecutive if Statements
+###  Cake With Consecutive if Statements
 
 {% highlight python %}
 {% include classes/06/cake_consecutive_ifs.py %}
@@ -271,7 +271,7 @@ I do not understand.
 </section>
 
 <section markdown="block">
-### Cake With Nested if Statements
+###  Cake With Nested if Statements
 
 {% highlight python %}
 {% include classes/06/cake_nested_ifs.py %}
@@ -279,7 +279,7 @@ I do not understand.
 </section>
 
 <section markdown="block">
-### Cake With elif
+###  Cake With elif
 
 {% highlight python %}
 {% include classes/06/cake_elif.py %}
@@ -291,7 +291,7 @@ I do not understand.
 
 
 <section markdown="block">
-### Old Enough to Vote
+###  Old Enough to Vote
 
 __Rewrite the condition in the following program so that it doesn't need the not operator__: &rarr;
 
@@ -311,7 +311,7 @@ if age >= 21:
 </section>
 
 <section markdown="block">
-### Logical Opposites 
+###  Logical Opposites 
 
 Sometimes there are multiple ways to write equivalent conditions.  For example, a way to get rid of not operators is to use the opposite logical operator and drop the not...
 
@@ -325,5 +325,5 @@ The following conditions are equivalent:
 </section>
 
 <section markdown="block">
-## [String Formatting](string-formatting.html)
+##  [String Formatting](string-formatting.html)
 </section>

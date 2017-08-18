@@ -3,12 +3,12 @@ layout: slides
 title: About the Exam 
 ---
 <section markdown="block" class="title-slide">
-# About the Exam
+#  About the Exam
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Some Logistics
+###  Some Logistics
 
 * if you miss it, you get a 0
 * the best indication of the types of questions you'll see is the list of sample exam questions
@@ -18,18 +18,18 @@ title: About the Exam
 </section>
 
 <section markdown="block">
-## Types of Questions
+##  Types of Questions
 </section>
 
 <section markdown="block">
-### Short Answer
+###  Short Answer
 
 * What's a while loop?
 * Name some built-in functions and what they do?
 </section>
 
 <section markdown="block">
-### Guided Programming Questions 
+###  Guided Programming Questions 
 
 Instructions step you through each statement, you write it...
 
@@ -39,7 +39,7 @@ Instructions step you through each statement, you write it...
 </section>
 
 <section markdown="block">
-### Answer Questions About a Small Sample of Code 
+###  Answer Questions About a Small Sample of Code 
 
 (We've seen this before in our quiz.) Some examples:
 
@@ -59,7 +59,7 @@ print(a)
 </section>
 
 <section markdown="block">
-### Questions About Sample Code Continued
+###  Questions About Sample Code Continued
 
 What will make the loop run/not run
 
@@ -84,7 +84,7 @@ n = 20 + int(s)
 </section>
 
 <section markdown="block">
-### Questions About Sample Code Continued Some More
+###  Questions About Sample Code Continued Some More
 
 __What's the output of...&rarr;__
 
@@ -99,7 +99,7 @@ for i in range(50, 59, 2)
 </section>
 
 <section markdown="block">
-### Fill in the Blanks
+###  Fill in the Blanks
 
 Use a while loop to count backwards from 10 to 0 by 2's
 {% highlight python %}
@@ -111,7 +111,7 @@ while               :
 </section>
 
 <section markdown="block">
-### Obviously, Write Some Code
+###  Obviously, Write Some Code
 
 Expect to write...
 
@@ -124,19 +124,19 @@ Expect to write...
 </section>
 
 <section markdown="block">
-### There Are _X_ Errors in This Code
+###  There Are _X_ Errors in This Code
 
 Read over a few lines of code; find and fix the syntax and logical errors.
 
 {% highlight python %}
-# We're just counting from 1 through 10
+#  We're just counting from 1 through 10
 for num in range(10)
 	print("we're just counting " + i)
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Evaluate Boolean Expressions / Truth Tables
+###  Evaluate Boolean Expressions / Truth Tables
 
 * __truth tables__ for more complex expressions, such as __p or q or r__
 * True and False or not False
@@ -145,11 +145,11 @@ for num in range(10)
 </section>
 
 <section markdown="block">
-## Exam Topics
+##  Exam Topics
 </section>
 
 <section markdown="block">
-### Materials Covered
+###  Materials Covered
 
 * the exam content __is from__:
 	* the __slides__ 
@@ -160,7 +160,7 @@ for num in range(10)
 </section>
 
 <section markdown="block">
-### Topics from Slides
+###  Topics from Slides
 
 * all topics in the slides from classes __1__ through __10__
 * check out the __definitions__ in the slides (they're usually __bolded__)
@@ -172,7 +172,7 @@ for num in range(10)
 
 {% comment %}
 <section markdown="block">
-## Topics from Modules
+##  Topics from Modules
 
 Review the online modules that we've gone over:
 
@@ -182,7 +182,7 @@ Review the online modules that we've gone over:
 </section>
 
 <section markdown="block">
-### Topics from the Book
+###  Topics from the Book
 
 __The exam will cover material from Chapters 1 through 4 in the book.__
 
@@ -193,7 +193,7 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 
 <section markdown="block">
 
-### Topics from the Book Continued
+###  Topics from the Book Continued
 
 * Ch. 3 - Decision Structures and Boolean Logic - all sections
 * Ch. 4 - Repetition Structures 
@@ -202,11 +202,11 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 {% endcomment %}
 
 <section markdown="block">
-## Test-Taking Strategies
+##  Test-Taking Strategies
 </section>
 
 <section markdown="block">
-### General Strategies
+###  General Strategies
 
 * don't get bogged down on a single problem, jot down a potential answer and __go back to it later__
 * __partial credit is given__; don't leave a question blank, even if it's just notes or half an attempt
@@ -214,7 +214,7 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 </section>
 
 <section markdown="block">
-### Sample Code
+###  Sample Code
 
 * go through the code line by line
 * write down the values you suspect will be in the variables
@@ -222,7 +222,7 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 </section>
 
 <section markdown="block">
-### Code from Scratch
+###  Code from Scratch
 
 * plan out what your going to do first
 * ask yourself questions, like - will there be data stored, are there repeated actions, etc.
@@ -230,13 +230,13 @@ __The exam will cover material from Chapters 1 through 4 in the book.__
 </section>
 
 <section markdown="block">
-## Any Questions About Material or Exam Format?
+##  Any Questions About Material or Exam Format?
 
 <aside>If not, let's figure out how we want to review...</aside>
 </section>
 
 <section markdown="block">
-###  Review
+###   Review
 
 We have a few options.  __Which one do you want to do first?__
 

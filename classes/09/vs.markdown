@@ -3,12 +3,12 @@ layout: slides
 title: While Loops vs For Loops 
 ---
 <section markdown="block" class="title-slide">
-# While Loops vs For Loops
+#  While Loops vs For Loops
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Two Kinds of Loops ...
+###  Two Kinds of Loops ...
 
 <aside>Why you would use one over another?</aside>
 
@@ -17,7 +17,7 @@ title: While Loops vs For Loops
 </section>
 
 <section markdown="block">
-### Let's Try Using Both...
+###  Let's Try Using Both...
 * count to 0 to 25 by 5's
 	* implement using while
 	* implement using for
@@ -27,7 +27,7 @@ title: While Loops vs For Loops
 </section>
 
 <section markdown="block">
-### For Loops...
+###  For Loops...
 
 __When should you use them? &rarr;__
 
@@ -40,7 +40,7 @@ __When should you use them? &rarr;__
 </section>
 
 <section markdown="block">
-### While Loops
+###  While Loops
 
 __When should you use them? &rarr;__
 
@@ -54,5 +54,5 @@ __When should you use them? &rarr;__
 
 
 <section markdown="block">
-## [Some Exercises](loop-exercises.html)
+##  [Some Exercises](loop-exercises.html)
 </section>

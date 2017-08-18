@@ -5,11 +5,11 @@ title: lousy_plasma.py
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <style>
-#bd { 
+# bd { 
 	background-color: #eee;
 }
 
-#content {
+# content {
 	padding-top: 0 !important;
 }
 
@@ -71,7 +71,7 @@ pre {
 
 <div markdown="block" class="assignment">
 
-# lousy_plasma.py 
+#  lousy_plasma.py 
 
 <aside>This assignment is based on materials from Professors Case, Engel, and Kapp</aside>
 
@@ -86,7 +86,7 @@ This assignment will cover recent material on:
 
 <hr>
 
-## Part 0
+##  Part 0
 
 Start off with creating a thesaurus by using a Python dictionary. The thesaurus only has 2 entries in it:
 
@@ -120,7 +120,7 @@ __Hints__
 
 <hr>
 
-## Part 1
+##  Part 1
 
 Modify your program above so that the thesaurus word can have more than one synonym for each word:
 
@@ -141,7 +141,7 @@ ECSTATIC birthday exclaimed the DEPRESSED BLEAK kitten</code></pre>
 
 <hr>
 
-## Part 2
+##  Part 2
 
 Rather than use a hard-coded dictionary as your thesaurus, use an [external thesaurus file](thesaurus.txt) (right-click and save as... __to where your Python program is__) to populate the keys and values in your dictionary. Use the following line to read in your file (do not use absolute paths):
 
@@ -171,7 +171,7 @@ Generating the thesaurus will be the trickiest part:
 
 <hr>
 
-## Part 3
+##  Part 3
 
 Finally, modify your above program to write a song for you. It'll use another external file, the [lyrics to Taylor Swift's Bad Blood](bad_blood.txt), as a source for lyrics.
 
@@ -199,7 +199,7 @@ Cause INFANT now we got bad blood ...</code></pre>
 
 <hr>
 
-## (Optional) Part 4
+##  (Optional) Part 4
 
 If you're on OSX, you won't even have to sing the lyrics that you _"wrote"_! Instead, you can have the computer sing it for you. Use the following lines of code at the end of your programming, substituting the variable <code>lyrics</code> with your own variable that contains lyrics:
 

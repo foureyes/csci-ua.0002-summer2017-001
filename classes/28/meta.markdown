@@ -3,12 +3,12 @@ layout: slides
 title: About Class #28 
 ---
 <section markdown="block" class="title-slide">
-# Final Exam Review
+#  Final Exam Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 
 * everything up through class 27
@@ -23,7 +23,7 @@ title: About Class #28
 
 
 <section markdown="block">
-### Final Exam
+###  Final Exam
 
 * __date:__ {{ site.final_date }}
 * __time:__ {{ site.final_time }}
@@ -31,7 +31,7 @@ title: About Class #28
 </section>
 
 <section markdown="block">
-### Review Session
+###  Review Session
 
 * Tuesday, May 12th 
 * 4:30pm - 6:30pm
@@ -41,7 +41,7 @@ title: About Class #28
 </section>
 
 <section markdown="block">
-## Tutoring
+##  Tutoring
 
 Tutoring Theme Days at the labs at 14 Washington Place
 

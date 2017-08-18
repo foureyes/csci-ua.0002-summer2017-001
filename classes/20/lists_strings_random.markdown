@@ -4,7 +4,7 @@ title: Lists, Strings, and Random
 ---
 
 <section markdown="block" class="title-slide">
-# Lists, Strings, and Random
+#  Lists, Strings, and Random
 {% include title-slide-footer.html %}
 </section>
 
@@ -33,7 +33,7 @@ ranma and maison ikkoku and scott pilgrim
 </section>
 
 <section markdown="block">
-### Split and Join
+###  Split and Join
 
 __If I have the following list, how do I put together each element with an exclamation point and space between each element? How do I turn the resulting string back to a list? &rarr;__
 
@@ -51,7 +51,7 @@ print(names.split("! "))
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 The random module offers some methods that can be used on lists:
 
@@ -69,7 +69,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### One Hand of Blackjack
+###  One Hand of Blackjack
 
 * try implementing a single hand of blackjack
 	* sum of cards is closest or equal to 21 without going over
@@ -82,7 +82,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### Break Down the Problem
+###  Break Down the Problem
 
 * what data do we want to store, and how do we represent it?
 * shuffling and distributing cards
@@ -93,7 +93,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### Representing Data
+###  Representing Data
 
 __What data do we want to store, and how do we represent it?__
 
@@ -105,7 +105,7 @@ __What data do we want to store, and how do we represent it?__
 </section>
 
 <section markdown="block">
-### Shuffling and Distributing Cards
+###  Shuffling and Distributing Cards
 
 __Write a short program that:__ &rarr;
 
@@ -115,7 +115,7 @@ __Write a short program that:__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# create deck and deal
+#  create deck and deal
 deck = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'] * 4
 random.shuffle(deck)
 player_hand = []
@@ -128,7 +128,7 @@ for i in range(2):
 </section>
 
 <section markdown="block">
-### Calculating a Blackjack Hand
+###  Calculating a Blackjack Hand
 
 __Implement a function that takes a list of strings representing cards.  It should calculate the sum of the cards__
 
@@ -142,7 +142,7 @@ __Implement a function that takes a list of strings representing cards.  It shou
 </section>
 
 <section markdown="block">
-### Some Assertions
+###  Some Assertions
 
 We can check out all possible combinations of 1's and 11's to see which is the closest combination to 21.
 
@@ -155,7 +155,7 @@ assert 12 == current_total(['A', 'A', 'A', '9']), "three aces, three 1"
 </section>
 
 <section markdown="block">
-### Let's Think of Some Algorithms
+###  Let's Think of Some Algorithms
 
 __How about this one?__ &rarr;
 
@@ -170,7 +170,7 @@ __How about this one?__ &rarr;
 
 
 <section markdown="block">
-### Calculating a Blackjack Hand
+###  Calculating a Blackjack Hand
 
 {% highlight python %}
 {% include classes/18/current_total.py %}
@@ -180,7 +180,7 @@ __How about this one?__ &rarr;
 
 
 <section markdown="block">
-### And The Rest
+###  And The Rest
 
 Maybe for homework?
 
@@ -193,6 +193,6 @@ Maybe for homework?
 
 <!--
 <section markdown="block">
-## [Mutability Revisited](mutability.html)
+##  [Mutability Revisited](mutability.html)
 </section>
 -->

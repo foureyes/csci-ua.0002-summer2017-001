@@ -3,12 +3,12 @@ layout: slides
 title: Final Exam 
 ---
 <section markdown="block" class="title-slide">
-# Final Exam
+#  Final Exam
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block" class="title-slide">
-### When and Where
+###  When and Where
 
 * __date:__ { site.final_date }}
 * __time:__ {{ site.final_time }}
@@ -16,7 +16,7 @@ title: Final Exam
 </section>
 
 <section markdown="block" class="title-slide">
-### Topics
+###  Topics
 
 * Topics up to and including nested loops and lists
 	* (that's class 22 in the schedule)
@@ -25,7 +25,7 @@ title: Final Exam
 </section>
 
 <section markdown="block" class="title-slide">
-### This Class
+###  This Class
 
 * First half - will review lists, nested lists and nested loops
 * Second half - either open discussion... or continue structured review:

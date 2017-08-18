@@ -3,12 +3,12 @@ layout: slides
 title: Turtle Graphics 
 ---
 <section markdown="block" class="title-slide">
-# Turtle Graphics
+#  Turtle Graphics
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Turtle
+###  Turtle
 
 __turtle__ is a Python module...
 
@@ -22,7 +22,7 @@ __turtle__ is a Python module...
 </section>
 
 <section markdown="block">
-### Some History
+###  Some History
 
 So, what's this __Logo__ thing about?
 
@@ -35,7 +35,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### Seymour Papert
+###  Seymour Papert
 
 * Papert, in particular, is well known for his work in education and computing
 * developed an influential theory on learning called _[constructionism](http://en.wikipedia.org/wiki/Constructionist_learning)_
@@ -45,7 +45,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### (And Like Many Great Computer Scientists, He Has a Beard)
+###  (And Like Many Great Computer Scientists, He Has a Beard)
 
 <div class="img-container" markdown="block">![Seymour Papert](../../resources/img/papert.jpg)
 </div>
@@ -53,7 +53,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### Great, So... Why Turtle?
+###  Great, So... Why Turtle?
 
 Imagine you have turtle hanging out on the beach...
 
@@ -62,7 +62,7 @@ Imagine you have turtle hanging out on the beach...
 </section>
 
 <section markdown="block">
-### Turtles Drawing Stuff
+###  Turtles Drawing Stuff
 
 * imagine further that it's a robotic turtle (__AWESOME!__)
 * ...that you can give commands to
@@ -75,7 +75,7 @@ Imagine you have turtle hanging out on the beach...
 </section>
 
 <section markdown="block">
-### What Does That Mean for Us?
+###  What Does That Mean for Us?
 
 So... in Python, we now have access to our own drawing turtle
 
@@ -90,7 +90,7 @@ So... in Python, we now have access to our own drawing turtle
 </section>
 
 <section markdown="block">
-### Hello Turtle
+###  Hello Turtle
 <aside>Enough Talk.  What Does This Code Actually Look Like?</aside>
 
 This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running it.
@@ -100,7 +100,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### About the Drawing Environment
+###  About the Drawing Environment
 
 * obviously, we're drawing on a two-dimensional plane
 * the turtle starts at the center
@@ -111,7 +111,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### About the Drawing Environment Continued
+###  About the Drawing Environment Continued
 
 * you can use __leo.forward(200)__ as a clue!
 * if that drew a 200 pixel line, then, maybe
@@ -121,7 +121,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### A Few Tips for Running Programs
+###  A Few Tips for Running Programs
 
 Running these programs (from IDLE or from Terminal!) cause a new window to pop up.  You may encounter some minor annoyances:
 
@@ -133,7 +133,7 @@ Running these programs (from IDLE or from Terminal!) cause a new window to pop u
 </section>
 
 <section markdown="block">
-### Let's Dissect That Code
+###  Let's Dissect That Code
 
 bring in the turtle module
 {% highlight python %}
@@ -150,7 +150,7 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-### Let's Dissect That Code Continued
+###  Let's Dissect That Code Continued
 tell the turtle to move forward 200 pixels
 {% highlight python %}
 leo.forward(200)
@@ -162,7 +162,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Objects
+###  Objects
 
 So... I used the word __object__ there a few times.  What does that actually mean?
 
@@ -174,7 +174,7 @@ So... I used the word __object__ there a few times.  What does that actually mea
 </section>
 
 <section markdown="block">
-### Methods
+###  Methods
 
 * a __method__ is essentially a function that's associated with a particular object
 * you can _call_ a method just like a function... but you have to use the dot operator
@@ -189,14 +189,14 @@ dir("hello")
 </section>
 
 <section markdown="block">
-### Let's Look at That Code Again...
+###  Let's Look at That Code Again...
 {% highlight python %}
 {% include classes/12/hello.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### The Basic Steps Are...
+###  The Basic Steps Are...
 
 What did we have to do?
 
@@ -207,7 +207,7 @@ What did we have to do?
 </section>
 
 <section markdown="block">
-### So, That's Some Boilerplate Stuff
+###  So, That's Some Boilerplate Stuff
 
 We should probably convert our hello program into a template.  You'll need to write this stuff every time you create a program with turtle:
 
@@ -217,7 +217,7 @@ We should probably convert our hello program into a template.  You'll need to wr
 </section>
 
 <section markdown="block">
-### A Note On Names
+###  A Note On Names
 
 * in the template, I use __t__ as the variable name for my turtle.  
 * it's just a variable name; it can be anything you want (same with __wn__, but you have to change wn everywhere you see it)
@@ -229,11 +229,11 @@ We should probably convert our hello program into a template.  You'll need to wr
 </section>
 
 <section markdown="block">
-## BTW, I Definitely Encourage You to Follow Along When I Code Up Examples!
+##  BTW, I Definitely Encourage You to Follow Along When I Code Up Examples!
 </section>
 
 <section markdown="block">
-### Basic Turtle Methods
+###  Basic Turtle Methods
 
 These are all methods that you can call on your __Turtle__ object.
 
@@ -249,7 +249,7 @@ t.right(45)
 </section>
 
 <section markdown="block">
-### Forward, Right, Left, Back - Code
+###  Forward, Right, Left, Back - Code
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -259,7 +259,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-### Screen and Pen Drawing Attributes
+###  Screen and Pen Drawing Attributes
 
 Methods you can call on your __Turtle__ object:
 
@@ -279,14 +279,14 @@ wn.bgcolor("pink")
 </section>
 
 <section markdown="block">
-### Color, Background and Pen Size
+###  Color, Background and Pen Size
 {% highlight python %}
 {% include classes/12/color.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Moving Without Drawing
+###  Moving Without Drawing
 
 Methods you can call on your __Turtle__ object:
 
@@ -299,7 +299,7 @@ t.up()  # picks the pen up, doesn't draw when the turtle moves
 
 
 <section markdown="block">
-### Pen Up, Pen Down
+###  Pen Up, Pen Down
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -309,7 +309,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-### Going Somewhere?
+###  Going Somewhere?
 
 A methods you can call on your __Turtle__ object:
 
@@ -321,7 +321,7 @@ t.goto(200, 200)  # picks the pen up, doesn't draw when the turtle moves
 </section>
 
 <section markdown="block">
-### Goto
+###  Goto
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -331,7 +331,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-###  Let's Use What We Know to Create a Square!
+###   Let's Use What We Know to Create a Square!
 
 __How would we tell the turtle to create a square with the upper left corner at the origin? Each side should be 200px long.  We just learned goto, so let's try that.&rarr;__
 
@@ -343,7 +343,7 @@ __How would we tell the turtle to create a square with the upper left corner at 
 </section>
 
 <section markdown="block">
-### Another Square!
+###  Another Square!
 
 __Same thing, but this time, just use forward or back and either left or right.  &rarr;__
 
@@ -355,7 +355,7 @@ __Same thing, but this time, just use forward or back and either left or right. 
 </section>
 
 <section markdown="block">
-### One Last Square!
+###  One Last Square!
 
 __How can we simplify the previous version?  There was a lot of repeated code! &rarr;__
 
@@ -369,7 +369,7 @@ Let's try it with loops!
 </section>
 
 <section markdown="block">
-### A Confused Turtle
+###  A Confused Turtle
 
 __Let's try incorporating random &rarr;__
 
@@ -381,7 +381,7 @@ __Let's try incorporating random &rarr;__
 </section>
 
 <section markdown="block">
-### Reviewing Objects and Methods
+###  Reviewing Objects and Methods
 
 __What's an object and what's a method? &rarr;__
 
@@ -391,7 +391,7 @@ __What's an object and what's a method? &rarr;__
 </section>
 
 <section markdown="block">
-### Again a Few Tips for Running Programs
+###  Again a Few Tips for Running Programs
 
 Running these programs (from IDLE or from Terminal!) cause a new window to pop up.
 

@@ -4,17 +4,17 @@ title: Statements, Expressions, Values
 ---
 
 <section markdown="block" class="title-slide">
-# Statements, Expressions, Values
+#  Statements, Expressions, Values
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Now That We've Seen Some Code...
+##  Now That We've Seen Some Code...
 <aside>Let's revisit some terminology.</aside>
 </section>
 
 <section markdown="block">
-### Statements
+###  Statements
 
 A __statement__ is:
 
@@ -27,7 +27,7 @@ A __statement__ is:
 </section>
 
 <section markdown="block">
-### Expressions
+###  Expressions
 
 An __expression__ is:
 
@@ -48,7 +48,7 @@ __When evaluated, what values do the above expressions produce?&rarr;__
 </section>
 
 <section markdown="block">
-### Evaluating Expressions
+###  Evaluating Expressions
 <aside>Let's Take a Closer Look...</aside>
 
 {% highlight pycon %}
@@ -66,7 +66,7 @@ __When evaluated, what values do the above expressions produce?&rarr;__
 </section>
 
 <section markdown="block">
-### Expressions and Values
+###  Expressions and Values
 
 Because expressions can be reduced to values, we can use expressions where we would require values.
 

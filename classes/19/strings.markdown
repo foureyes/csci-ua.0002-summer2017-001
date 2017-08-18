@@ -3,12 +3,12 @@ layout: slides
 title: Strings 
 ---
 <section markdown="block" class="title-slide">
-# Strings
+#  Strings
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Indexing
+###  Indexing
 
 __What is the index of the following characters in these strings? &rarr;__
 
@@ -26,7 +26,7 @@ __What is the index of the following characters in these strings? &rarr;__
 </section>
 
 <section markdown="block">
-### Indexing Continued
+###  Indexing Continued
 
 __What's the output of the following code? &rarr;__
 
@@ -55,7 +55,7 @@ IndexError: string index out of range
 </section>
 
 <section markdown="block">
-### Summary for Indexing
+###  Summary for Indexing
 
 * a __string__ is an __ordered sequence__ of characters
 * an __index__ is the numeric position of an element within a collection of elements
@@ -66,7 +66,7 @@ IndexError: string index out of range
 </section>
 
 <section markdown="block">
-### Indexing Syntax
+###  Indexing Syntax
 
 The __indexing__ syntax is as follows:
 
@@ -77,15 +77,15 @@ The __indexing__ syntax is as follows:
 </section>
 
 <section markdown="block">
-### Indexing Examples
+###  Indexing Examples
 
 {% highlight python %}
-# index into string that's bound to a variable name
+#  index into string that's bound to a variable name
 a = "foo"
 a[0]
-# index into a string literal
+#  index into a string literal
 "foo"[0]
-# index into the return result of a function
+#  index into the return result of a function
 def give_back_foo():
 	return "foo"
 
@@ -94,7 +94,7 @@ give_back_foo()[0]
 </section>
 
 <section markdown="block">
-### String Operations
+###  String Operations
 
 * __+__ - concatenation
 * __\*__ - multiplicaiton
@@ -112,7 +112,7 @@ print(s)
 </section>
 
 <section markdown="block">
-### Are Strings Mutable?
+###  Are Strings Mutable?
 
 __What happens if I try to change the string "pugs" into "hugs" using inexing and the assignment operator? &rarr;__
 
@@ -133,7 +133,7 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-### Iterating Over Characters in a String
+###  Iterating Over Characters in a String
 
 Here's a program that prints out every letter in "jalopy" with 'eer' appended to it.
 
@@ -148,7 +148,7 @@ for c in word:
 
 
 <section markdown="block">
-### Looping Over Strings Summary / Syntax
+###  Looping Over Strings Summary / Syntax
 
 * for loops allow us to iterate over every character in a string.  
 * it's similar to looping over a sequence of #'s
@@ -158,13 +158,13 @@ for c in word:
 </section>
 
 <section markdown="block">
-### Letter in Word Example
+###  Letter in Word Example
 
 Using loops, we can implement a function that determines whether a letter is in a word (there's actually already a construct in Python that does this... ).
 </section>
 
 <section markdown="block">
-### Letter in Word (v1)
+###  Letter in Word (v1)
 
 * we'll use assert to test a True case and a False case
 * this particular implementation uses two __return__ statements
@@ -175,7 +175,7 @@ Using loops, we can implement a function that determines whether a letter is in 
 </section>
 
 <section markdown="block">
-### The break Statement
+###  The break Statement
 
 The __break__ statement immediately stops the execution of a loop. __What does the following code print out? &rarr;__
 
@@ -194,7 +194,7 @@ hat
 </section>
 
 <section markdown="block">
-### Letter in Word (v2)
+###  Letter in Word (v2)
 
 Here's another way of implementing letter_in_word using __break__.
 
@@ -204,7 +204,7 @@ Here's another way of implementing letter_in_word using __break__.
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 Python allows you to carve out a smaller string (a __substring__) from another string by using __slicing__.
 
@@ -220,7 +220,7 @@ some_long_string[m:n]
 </section>
 
 <section markdown="block">
-### Substring Exercises 
+###  Substring Exercises 
 
 Write the slice to pick out the following substring from the original string:
 
@@ -244,7 +244,7 @@ s[1:5]
 </section>
 
 <section markdown="block">
-### Some Slicing Tricks
+###  Some Slicing Tricks
 
 * leaving out the first index (before the colon - m) starts at the beginning of the string
 * leaving out the second index (after the colon - n), ends at the end of the string 
@@ -258,7 +258,7 @@ s[1:5]
 </section>
 
 <section markdown="block">
-###  An Easier Way to Tell if a Letter is in a Word
+###   An Easier Way to Tell if a Letter is in a Word
 
 Use the __in__ operator!
 
@@ -270,7 +270,7 @@ Use the __in__ operator!
 </section>
 
 <section markdown="block">
-### In Examples
+###  In Examples
 
 {% highlight pycon %}
 >>> word = "ice cream"
@@ -286,7 +286,7 @@ False
 </section>
 
 <section markdown="block">
-###  In / Not In 
+###   In / Not In 
 
 Some other things to note:
 
@@ -311,7 +311,7 @@ False
 
 
 <section markdown="block">
-### Strings Methods!
+###  Strings Methods!
 
 Strings are objects. They have methods. Lots of 'em!
 
@@ -328,7 +328,7 @@ __to be continued in next slide!__ &rarr;
 </section>
 
 <section markdown="block">
-### Even More String Methods!
+###  Even More String Methods!
 
 1. __find__(sub[, start[, end]])
 2. __format__(...)
@@ -350,7 +350,7 @@ dir("some string")
 </section>
 
 <section markdown="block">
-### Casing Methods
+###  Casing Methods
 
 __upper__(), __lower__(), __capitilize__(), and __title__() return the string that the method was called on as all uppercase, all lowercase, first letter uppercase, and title-cased (first letter of every word uppercase).  __What would the following print out? &rarr;__
 
@@ -372,7 +372,7 @@ This Should Be Uppercase
 </section>
 
 <section markdown="block">
-### isdigit(), isnumeric() and isalpha()
+###  isdigit(), isnumeric() and isalpha()
 
 __isdigit__(), __isnumeric__() and __isalpha__() test whether a string is __only__ composed of all numbers or all letters (all three return False if empty string).  __What would the following print out? &rarr;__
 
@@ -394,7 +394,7 @@ print("⅕".isnumeric())  # True (isnumeric allows other numeric chars)
 
 
 <section markdown="block">
-### isspace()
+###  isspace()
 
 __isspace__() gives back true if all of the characters in the string it's called on is white space - any kind of _white space_. __What is the output of the following?__ &rarr;
 
@@ -414,7 +414,7 @@ False
 </section>
 
 <section markdown="block">
-### find()
+###  find()
 
 __find__() returns the first index where the argument (a character or substring) is found.  It returns -1 if the substring is not in the original string.
 
@@ -434,7 +434,7 @@ print("hello".find("lo"))
 </section>
 
 <section markdown="block">
-### strip()
+###  strip()
 
 __strip__() removes leading and trailing whitespace (it can also remove other leading and trailing characters).  What do you think this results 
 
@@ -450,7 +450,7 @@ spaces all around
 </section>
 
 <section markdown="block">
-### format()
+###  format()
 
 Format is like the string formatting operator, but possibly easier?! 
 
@@ -468,7 +468,7 @@ Format is like the string formatting operator, but possibly easier?!
 </section>
 
 <section markdown="block">
-### format() results
+###  format() results
 
 {% highlight python %}
 twenty elephants
@@ -480,7 +480,7 @@ twenty elephants
 </section>
 
 <section markdown="block">
-### isupper() and islower()
+###  isupper() and islower()
 
 __isupper__() and __islower__() return True if the string that is called on is the case specified.  __What does the following output?__ &rarr;
 
@@ -499,7 +499,7 @@ True
 
 
 <section markdown="block">
-### count(), replace()
+###  count(), replace()
 
 __count__(s) ...counts the number of times substring, s, occurs in the original string.
 
@@ -515,7 +515,7 @@ __replace__(s, new_s) ...replaces all occurrences of substring, s, with new_s. (
 </section>
 
 <section markdown="block">
-### Split and Join
+###  Split and Join
 
 * __split__ turns a string into a list based on a separator string
 * __join__ turns a list into a string based on the string it's called on
@@ -539,7 +539,7 @@ foo~~~bar~~~baz~~~qux
 
 
 <section markdown="block">
-### The Built-In len() Function
+###  The Built-In len() Function
 
 __len__ is a built-in function that Returns the length of a sequence
 
@@ -550,14 +550,14 @@ __len__ is a built-in function that Returns the length of a sequence
 
 {% highlight python %}
 print(len("cat"))
-# gives 3
+#  gives 3
 {% endhighlight %}
 </section>
 
 
 
 <section markdown="block">
-### Example Question #1
+###  Example Question #1
 
 __Let's write a function that counts how many letters are in a word. &rarr;__
 
@@ -573,7 +573,7 @@ __Let's write a function that counts how many letters are in a word. &rarr;__
 </section>
 
 <section markdown="block">
-### Example Question #2
+###  Example Question #2
 
 __Let's write a function that takes a string and puts a space after every character. &rarr;__
 
@@ -591,7 +591,7 @@ __Let's write a function that takes a string and puts a space after every charac
 
 
 <section markdown="block">
-### Example Question #3
+###  Example Question #3
 
 Create a function that returns the first word in a sentence.
 
@@ -606,22 +606,22 @@ Create a function that returns the first word in a sentence.
 </section>
 
 <section markdown="block">
-### Example Question #3 Potential Solution
+###  Example Question #3 Potential Solution
 
 {% highlight python %}
-# version 1:
+#  version 1:
 {% include classes/17/get_first_word.py %}
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### Example Question #3 Potential Solution
+###  Example Question #3 Potential Solution
 
 (Again, split is not required for the exam, but feel free to use this if you feel like it's applicable).
 
 {% highlight python %}
-# version 2 with split:
+#  version 2 with split:
 def get_first_word(s):
 	if len(s) == 0:
 		return ""
@@ -632,7 +632,7 @@ def get_first_word(s):
 </section>
 
 <section markdown="block">
-### Example Question #4 
+###  Example Question #4 
 
 __Write four test cases for get_first_word using: &rarr;__
 
@@ -646,13 +646,13 @@ __Write four test cases for get_first_word using: &rarr;__
 {% highlight python %}
 assert "foo" == get_first_word("foo bar baz"), "returns first word in space separated string"
 assert "" == get_first_word(""), "returns first word in space separated string"
-# etc...
+#  etc...
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Example Question #5
+###  Example Question #5
 
 Create a function called _is_digit_ that determines whether or not a string only has numbers (0-9) in it.
 
@@ -668,7 +668,7 @@ Create a function called _is_digit_ that determines whether or not a string only
 </section>
 
 <section markdown="block">
-### Example Question #5 Potential Solution
+###  Example Question #5 Potential Solution
 
 (General strategy is iterating over a sequence of characters, and changing a value outside of the loop based on characters)
 
@@ -678,7 +678,7 @@ Create a function called _is_digit_ that determines whether or not a string only
 </section>
 
 <section markdown="block">
-### Some More Potential Questions
+###  Some More Potential Questions
 
 * use upper or lower to check for permutations for input
 	* for example, loop forever

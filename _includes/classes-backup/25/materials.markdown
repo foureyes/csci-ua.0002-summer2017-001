@@ -1,6 +1,6 @@
 <a name="class25"></a>
 
-### Slides
+###  Slides
 
 * [About Class #25](classes/25/meta.html)
 * [Review Exceptions](classes/25/exceptions.html)
@@ -18,19 +18,19 @@
 * [Midterm](resources/handouts/midterm_2.pdf) and [Solutions](resources/handouts/midterm_2_solutions.pdf)
 -->
 
-### Readings
+###  Readings
 
 * [{{site.bookt}} - Lists](http://openbookproject.net/thinkcs/python/english3e/lists.html) 
 * [{{site.bookt}} - Dictionaries](http://www.openbookproject.net/thinkcs/python/english3e/dictionaries.html)
 
-### Midterm 2 Solutions
+###  Midterm 2 Solutions
 
 [Midterm #2 Solutions](resources/handouts/midterm_2/midterm_2_solutions.pdf)
 
 <!--
 <a name="homework11"></a>
 
-### Homework #11
+###  Homework #11
 
 * Due __May 7th__ 
 * Any submission on Wednesday, the 7th, before 11PM is on-time

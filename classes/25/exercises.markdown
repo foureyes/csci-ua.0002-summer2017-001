@@ -4,12 +4,12 @@ title: Exercises
 ---
 
 <section markdown="block" class="title-slide">
-# Exercises
+#  Exercises
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Counting Letters
+###  Counting Letters
 
 * write a program that asks the user for a word
 * the program should output the total number of times each character in the word appears in the word
@@ -25,7 +25,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 1
+###  Counting Letters Version 1
 
 {% highlight python %}
 {% include classes/25/count_v1.py %}
@@ -33,7 +33,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 2
+###  Counting Letters Version 2
 
 {% highlight python %}
 {% include classes/25/count_v2.py %}
@@ -41,7 +41,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 3
+###  Counting Letters Version 3
 
 {% highlight python %}
 {% include classes/25/count_v3.py %}
@@ -50,7 +50,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Dice Rolls 
+###  Counting Dice Rolls 
 
 * roll two thee sided dice simultaneously 1000 times
 * count the frequency of the results... 2 through 6
@@ -63,7 +63,7 @@ o 1
 
 
 <section markdown="block">
-### An Implementation Using Dictionaries
+###  An Implementation Using Dictionaries
 
 
 {% highlight python %}
@@ -77,7 +77,7 @@ print(freq_dice_rolls)
 </section>
 
 <section markdown="block">
-### Dice Rolls Solution 
+###  Dice Rolls Solution 
 
 Let's compare that to our previous solution without dictionaries!
 
@@ -102,7 +102,7 @@ print("twos: %s, threes: %s, fours: %s, fives: %s, sixes %s" % (twos, threes, fo
 </section>
 
 <section markdown="block">
-### A List of Contacts
+###  A List of Contacts
 
 __Create a text-based contact list that allows you to store first name, last name and room #__ &rarr;
 
@@ -117,7 +117,7 @@ The primary interface will be a prompt that will continually ask the user for a 
 </section>
 
 <section markdown="block">
-### Add a Contact Example Interaction
+###  Add a Contact Example Interaction
 
 * adding will ask for further input...
 * first, last and room #
@@ -135,7 +135,7 @@ room # plz
 </section>
 
 <section markdown="block">
-### Find a Contact Example Interaction
+###  Find a Contact Example Interaction
 
 Finding a contact:
 
@@ -154,7 +154,7 @@ room - 200
 </section>
 
 <section markdown="block">
-### Print All Contacts Example Interaction
+###  Print All Contacts Example Interaction
 
 {% highlight bash %}
 (a)dd contact, (p)rint all contacts, (f)ind contact, (q)uit 
@@ -170,7 +170,7 @@ room - 200
 </section>
 
 <section markdown="block">
-### Before Diving In...
+###  Before Diving In...
 
 * how do we want to represent the data?
 * can we break down the program into smaller chunks
@@ -179,11 +179,11 @@ room - 200
 </section>
 
 <section markdown="block">
-## One Possible Solution...
+##  One Possible Solution...
 </section>
 
 <section markdown="block">
-### Storage
+###  Storage
 
 How about using a __list of dictionaries__ to store contacts?
 
@@ -195,7 +195,7 @@ Here's an example with one contact:
 </section>
 
 <section markdown="block">
-### Some Functions
+###  Some Functions
 
 We can break down the code into smaller chunks of functionality:
 
@@ -214,7 +214,7 @@ def print_all_contacts(contact_list):
 </section>
 
 <section markdown="block">
-### And More Functions
+###  And More Functions
 
 {% highlight python %}
 def find_contact(contact_list, attribute, value):
@@ -229,7 +229,7 @@ def find_contact_by_first(contact_list, first):
 
 </section>
 <section markdown="block">
-### The Main Loop...
+###  The Main Loop...
 
 We can use the previous functions in a while loop that drives the interaction with the user:
 
@@ -249,7 +249,7 @@ while True:
 {% endhighlight %}
 </section>
 
-### The Main Loop Continued
+###  The Main Loop Continued
 
 {% highlight python %}
 	elif command == 'f':

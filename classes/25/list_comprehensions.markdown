@@ -3,12 +3,12 @@ layout: slides
 title: List Comprehensions 
 ---
 <section markdown="block" class="title-slide">
-# List Comprehensions
+#  List Comprehensions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### List Comprehensions
+###  List Comprehensions
 
 __What's a list comprehension?__ &rarr;
 
@@ -24,7 +24,7 @@ __What's a list comprehension?__ &rarr;
 </section>
 
 <section markdown="block">
-### List Comprehension Syntax
+###  List Comprehension Syntax
 
 * consists of square brackets to make a list
 * a for loop-like expression within the brackets
@@ -33,7 +33,7 @@ __What's a list comprehension?__ &rarr;
 </section>
 
 <section markdown="block">
-### Two Examples: Squares, and Squares Divisible by 2
+###  Two Examples: Squares, and Squares Divisible by 2
 
 {% highlight python %}
 """  each element in new list
@@ -45,7 +45,7 @@ __What's a list comprehension?__ &rarr;
 </section>
 
 <section markdown="block">
-### Another List Comprehension
+###  Another List Comprehension
 
 __Write a list comprehension that creates a new list by adding exclamation points to every element in an existing list.__ &rarr;
 
@@ -61,7 +61,7 @@ items = ['foo', 'bar', 'baz', 'busy']
 </section>
 
 <section markdown="block">
-### And Another List Comprehension!
+###  And Another List Comprehension!
 
 __Limit the previous list to strings of length 3.__ &rarr;
 

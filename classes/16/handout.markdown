@@ -4,7 +4,7 @@ title: Functions Handout
 ---
 
 <section markdown="block">
-### Functions Handout
+###  Functions Handout
 
 * 10 minutes
 * when you're done, read about (we'll be implementing both in class today!):
@@ -14,5 +14,5 @@ title: Functions Handout
 </section>
 
 <section markdown="block">
-## [Scope](scope.html)
+##  [Scope](scope.html)
 </section>

@@ -1,12 +1,12 @@
 <article class="due" markdown="block"> 
-#### Due Today 
+####  Due Today 
 
 Nothing yet!
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [Introductions](classes/01/intro.html)
 * [About Programming](classes/01/about-programming.html)
@@ -21,7 +21,7 @@ Nothing yet!
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Readings
 

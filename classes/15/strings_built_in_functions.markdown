@@ -3,12 +3,12 @@ layout: slides
 title: Built-in String Functions 
 ---
 <section markdown="block" class="title-slide">
-# Built-in String Functions
+#  Built-in String Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### A Few String Related Built-In Functions
+###  A Few String Related Built-In Functions
 
 Strings have methods that you can call on them.  However, there are also __built-in__ functions that are relevant to strings.  A few that we'll use include:
 
@@ -20,7 +20,7 @@ Strings have methods that you can call on them.  However, there are also __built
 </section>
 
 <section markdown="block">
-### The Built-In len() Function
+###  The Built-In len() Function
 
 __len__ is a built-in function that returns the length of a __sequence__
 
@@ -31,14 +31,14 @@ __len__ is a built-in function that returns the length of a __sequence__
 {% highlight python %}
 s = "cat"
 
-# returns 3
+#  returns 3
 print(len(s))
 
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Index of the Last Character in a String
+###  Index of the Last Character in a String
 
 __What's the formula for getting the last character in a string?__ &rarr;
 
@@ -48,7 +48,7 @@ length of string - 1
 </section>
 
 <section markdown="block">
-### Index of the Last Character in a String Continued
+###  Index of the Last Character in a String Continued
 
 __What values / expressions would you use if you wanted to index into the string below to get the last character?__ &rarr;
 
@@ -67,7 +67,7 @@ print(s[len(s) - 1])
 </section>
 
 <section markdown="block">
-### Representing Strings
+###  Representing Strings
 
 There's a __standard__ for consistently representing text through different character sets and encodings. 
 
@@ -78,7 +78,7 @@ There's a __standard__ for consistently representing text through different char
 </section>
 
 <section markdown="block">
-### Unicode Table
+###  Unicode Table
 
 [Let's see that table again.](http://www.utf8-chartable.de/unicode-utf8-table.pl?utf8=dec)
 
@@ -90,7 +90,7 @@ There's a __standard__ for consistently representing text through different char
 
 
 <section markdown="block">
-### chr() and ord()
+###  chr() and ord()
 
 Python has a couple of functions that translate code points to characters and characters back to code points.
 
@@ -100,7 +100,7 @@ Python has a couple of functions that translate code points to characters and ch
 
 {% comment %}
 <section markdown="block">
-### Caesar Cipher
+###  Caesar Cipher
 
 * simple encryption technique
 * shifts letter over by x number of letters
@@ -113,7 +113,7 @@ See... [Caesar Cipher](http://en.wikipedia.org/wiki/Caesar_cipher)
 </section>
 
 <section markdown="block">
-### Caesar Cipher Encryption Function
+###  Caesar Cipher Encryption Function
 
 __Write a function that takes a string as an argument and returns an encrypted string using Caesar's Cipher.  Shift by 23.__ &rarr;
 
@@ -124,7 +124,7 @@ __Write a function that takes a string as an argument and returns an encrypted s
 </section>
 
 <section markdown="block">
-### Some General Strategies
+###  Some General Strategies
 
 __What are some approaches / algorithms we can use?__ &rarr;
 
@@ -141,7 +141,7 @@ __What are some approaches / algorithms we can use?__ &rarr;
 </section>
 
 <section markdown="block">
-### Caesar Cipher Encrypt Version 1
+###  Caesar Cipher Encrypt Version 1
 
 {% highlight python %}
 {% include classes/18/caesar_encrypt_v1.py %}
@@ -149,7 +149,7 @@ __What are some approaches / algorithms we can use?__ &rarr;
 </section>
 
 <section markdown="block">
-### Caesar Cipher Encrypt Version 2
+###  Caesar Cipher Encrypt Version 2
 
 {% highlight python %}
 {% include classes/18/caesar_encrypt_v2.py %}
@@ -157,7 +157,7 @@ __What are some approaches / algorithms we can use?__ &rarr;
 </section>
 
 <section markdown="block">
-### Caesar Cipher Encrypt Version 3
+###  Caesar Cipher Encrypt Version 3
 
 {% highlight python %}
 {% include classes/18/caesar_encrypt_v3.py %}
@@ -165,7 +165,7 @@ __What are some approaches / algorithms we can use?__ &rarr;
 </section>
 
 <section markdown="block">
-### Caesar Cipher Decryption Function
+###  Caesar Cipher Decryption Function
 
 __Write a function that takes an encrypted string as an argument and returns the original message.  Assume that Caesar's Cipher, with a shift of 23, was used to encrypt it.__ &rarr;
 
@@ -175,7 +175,7 @@ __Write a function that takes an encrypted string as an argument and returns the
 </section>
 
 <section markdown="block">
-### Caesar Cipher Decrypt Version 1
+###  Caesar Cipher Decrypt Version 1
 
 {% highlight python %}
 {% include classes/18/caesar_decrypt_v1.py %}
@@ -183,7 +183,7 @@ __Write a function that takes an encrypted string as an argument and returns the
 </section>
 
 <section markdown="block">
-### Caesar Cipher Decrypt Version 2
+###  Caesar Cipher Decrypt Version 2
 
 {% highlight python %}
 {% include classes/18/caesar_decrypt_v2.py %}
@@ -191,7 +191,7 @@ __Write a function that takes an encrypted string as an argument and returns the
 </section>
 
 <section markdown="block">
-### Caesar Cipher Decrypt Version 3
+###  Caesar Cipher Decrypt Version 3
 
 {% highlight python %}
 {% include classes/18/caesar_decrypt_v3.py %}
@@ -199,7 +199,7 @@ __Write a function that takes an encrypted string as an argument and returns the
 </section>
 <section markdown="block">
 
-### Interactive Caesar Cipher
+###  Interactive Caesar Cipher
 
 Let's try using our new function(s).  __Create a program that encrypts and decrypts a message using the Caesar Cipher__ &rarr;
 
@@ -214,7 +214,7 @@ Let's try using our new function(s).  __Create a program that encrypts and decry
 
 
 <section markdown="block">
-### Example Output
+###  Example Output
 
 {% highlight python %}
 Caesar Cipher
@@ -240,7 +240,7 @@ Bye!
 </section>
 
 <section markdown="block">
-### Something to Consider Before Implementation
+###  Something to Consider Before Implementation
 
 * to make this work, we can no longer hardcode offset
 * we can use two functions for encrypt and decrypt...
@@ -249,7 +249,7 @@ Bye!
 </section>
 
 <section markdown="block">
-### Interactive Caesar Cipher Implementation Part 1
+###  Interactive Caesar Cipher Implementation Part 1
 
 (added shift parameter to previous implementation)
 
@@ -272,7 +272,7 @@ def shift_letters(shift, s):
 </section>
 
 <section markdown="block">
-### Interactive Caesar Cipher Implementation Part 2
+###  Interactive Caesar Cipher Implementation Part 2
 
 (used shift_letters function from previous slide))
 
@@ -298,7 +298,7 @@ while action != 'q':
 
 
 <section markdown="block">
-### Breaking a Caesar Cipher 
+###  Breaking a Caesar Cipher 
 
 If you find a message that's encrypted, __how can you tell that it was encrypted using Caesar's Cipher, and how can you figure out the right number of letters to shift?__ &rarr;
  
@@ -313,6 +313,6 @@ If you find a message that's encrypted, __how can you tell that it was encrypted
 </section>
 
 <section markdown="block">
-## [Lists](lists_intro.html)
+##  [Lists](lists_intro.html)
 </section>
 {% endcomment %}

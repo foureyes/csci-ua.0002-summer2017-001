@@ -25,7 +25,7 @@ lecture: review
 {% endcomment %}
 
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * [Self Paced-Learning Module #5]({{ site.module5 }})
 * Quiz #5 on NYU Classes
@@ -38,7 +38,7 @@ lecture: review
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 Slides
 
@@ -62,7 +62,7 @@ Sample Questions for Midterm
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Due Before Class on Tuesday 6/6 9AM
 

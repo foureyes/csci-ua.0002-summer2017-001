@@ -3,12 +3,12 @@ layout: slides
 title: Programming Workflow Slides
 ---
 <section markdown="block" class="title-slide">
-# Typical Programming Work Flow
+#  Typical Programming Work Flow
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### The Programming Process
+###  The Programming Process
 <aside>Generally, programming can be broken down into the following steps</aside>
 
 1. requirements
@@ -21,7 +21,7 @@ title: Programming Workflow Slides
 </section>
 
 <section markdown="block">
-### Requirements gathering
+###  Requirements gathering
 * what are you building?
 	* "problem" definition
 	* how big is it going to be (scope)?
@@ -40,7 +40,7 @@ QUESTION: pseudocode for printing even numbers
 
 
 <section markdown="block">
-### Coding / Implementation 
+###  Coding / Implementation 
 * actually writing the source code!
 * implementation isn't necessarily just writing new code; it can be:
 	* bug-fixing (finding and removing errors) 
@@ -48,7 +48,7 @@ QUESTION: pseudocode for printing even numbers
 </section>
 
 <section markdown="block">
-### Executing Your Program 
+###  Executing Your Program 
 * simply running your program
 * our textbook includes compilation (source code to object code) as another explicit step
 	* since we're using Python, this isn't something we need to be concerned with
@@ -56,7 +56,7 @@ QUESTION: pseudocode for printing even numbers
 </section>
 
 <section markdown="block">
-### Checking Output
+###  Checking Output
 * was there a __syntax error__ (a problem with the structure of the program)?
 * was there a __runtime error__ (an issue that comes up during program execution)?
 * is the output what we expected? (a __logic error__)
@@ -67,7 +67,7 @@ QUESTION: pseudocode for printing even numbers
 </section>
 
 <section markdown="block">
-### Iteration
+###  Iteration
 * this process is repeated many times
 	* our textbook shows that iteration goes back to the writing the source code (implementation) step, but...
 	* even the requirements may change!
@@ -80,7 +80,7 @@ QUESTION: pseudocode for printing even numbers
 
 
 <section markdown="block">
-### Pseudocode
+###  Pseudocode
 
 BTW... what's pseudocode?
 
@@ -91,7 +91,7 @@ BTW... what's pseudocode?
 </section>
 
 <section markdown="block">
-### Pseudocode Example
+###  Pseudocode Example
 __Remember this program?  Continually ask the user for numbers.  Asks them if they'd like to keep going.  In the end, output the average of all of the numbers entered&rarr;__
 
 {% highlight python %}
@@ -113,7 +113,7 @@ The average is 11.0
 </section>
 
 <section markdown="block">
-### Pseudocode Example Continued
+###  Pseudocode Example Continued
 
 Pseudocode for this may be something like:
 
@@ -131,7 +131,7 @@ while the user says yes...
 </section>
 
 <section markdown="block">
-### The Solution, Again
+###  The Solution, Again
 
 {% highlight python %}
 total = 0
@@ -149,5 +149,5 @@ print("The average is "+ str(total / count))
 </section>
 
 <section markdown="block">
-## [While Loops, a Quick Review](while.html)
+##  [While Loops, a Quick Review](while.html)
 </section>

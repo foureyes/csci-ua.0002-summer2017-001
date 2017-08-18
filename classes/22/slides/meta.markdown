@@ -3,14 +3,14 @@ layout: slides
 title: About Class #22 
 ---
 <section markdown="block" class="title-slide">
-# About Class #22
+#  About Class #22
 {% include title-slide-footer.html %}
 </section>
 
 
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * review list methods, functions, references
 * addendum to lists
@@ -21,14 +21,14 @@ title: About Class #22
 </section>
 
 <section markdown="block">
-### Class Registration
+###  Class Registration
 
 * [CS Minors](http://cs.nyu.edu/webapps/content/academic/undergrad/minors)
 * Questions - Contact Deena Engel
 </section>
 
 <section markdown="block">
-### Exercises / Additional Resources
+###  Exercises / Additional Resources
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 * [Codecademy](http://www.codecademy.com/tracks/python)
@@ -37,12 +37,12 @@ title: About Class #22
 </section>
 
 <section markdown="block">
-### Extra Credit
+###  Extra Credit
 
 </section>
 
 <section markdown="block">
-### Homework #8
+###  Homework #8
 
 * extra credit
 	* chained calls to replace
@@ -63,14 +63,14 @@ title: About Class #22
 </section>
 
 <section markdown="block">
-### join vs split
+###  join vs split
 </section>
 
 <section markdown="block">
-### chr vs ord
+###  chr vs ord
 </section>
 
 
 <section markdown="block">
-## [Review](review.html)
+##  [Review](review.html)
 </section>

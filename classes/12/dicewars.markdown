@@ -3,12 +3,12 @@ layout: slides
 title: Approaching a New Programming Problem 
 ---
 <section markdown="block" class="title-slide">
-# Approaching a New Programming Problem
+#  Approaching a New Programming Problem
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Don't Just Jump Into Code!
+###  Don't Just Jump Into Code!
 * (obvs!) make sure you understand the stated problem 
 	* what are the requirements for the program that you're writing?
 	* create supporting materials to help you understand the problem (decision trees, flow charts, etc)
@@ -19,7 +19,7 @@ title: Approaching a New Programming Problem
 </section>
 
 <section markdown="block">
-### Perfect Squares
+###  Perfect Squares
 
 * print out all of the __perfect squares__ that are less than a number that's inputted by the user
 * a perfect square is an integer that's the result of squaring another integer
@@ -37,7 +37,7 @@ title: Approaching a New Programming Problem
 </section>
 
 <section markdown="block">
-### Potential Solutions
+###  Potential Solutions
 
 For math heavy problems like this, I'll make sure that there's a reasonable _brute force_ (a simple, usually iterative and not necessarily efficient) solution.  __What are some ways that we can solve this problem? &rarr;__  
 
@@ -48,7 +48,7 @@ For math heavy problems like this, I'll make sure that there's a reasonable _bru
 </section>
 
 <section markdown="block">
-### Let's Write Up a Plan
+###  Let's Write Up a Plan
 
 * we can create a flow chart
 	* rectangle with rounded corner - start, stop
@@ -60,7 +60,7 @@ For math heavy problems like this, I'll make sure that there's a reasonable _bru
 </section>
 
 <section markdown="block">
-### A Flow Chart
+###  A Flow Chart
 
 The utility in this case may be up for debate, but for more complex programs, flow charts are indispensable!  __Let's try it! &rarr;__
 
@@ -71,7 +71,7 @@ The utility in this case may be up for debate, but for more complex programs, fl
 </section>
 
 <section markdown="block">
-### Pseudocode
+###  Pseudocode
 
 __Let's also try writing some pseudocode &rarr;__
 
@@ -89,7 +89,7 @@ print out the count
 </section>
 
 <section markdown="block">
-### Our First Draft
+###  Our First Draft
 
 __Let's get our first version done. &rarr;__
 
@@ -101,7 +101,7 @@ __Let's get our first version done. &rarr;__
 </section>
 
 <section markdown="block">
-### Another Version
+###  Another Version
 
 __Our count was wrong, let's fix it. &rarr;__
 
@@ -113,7 +113,7 @@ __Our count was wrong, let's fix it. &rarr;__
 </section>
 
 <section markdown="block">
-### Dice Warz!
+###  Dice Warz!
 
 Let's try a more complicated example.  Write a game:
 
@@ -132,7 +132,7 @@ __First... are these requirements sufficient?  What additional questions might y
 </section>
 
 <section markdown="block">
-### Example Output
+###  Example Output
 
 {% highlight python %}
 """
@@ -152,7 +152,7 @@ Player: 1          Computer: 0
 </section>
 
 <section markdown="block">
-### Let's flesh out those requirements:
+###  Let's flesh out those requirements:
 
 {% highlight python %}
 """
@@ -174,7 +174,7 @@ Player: 1          Computer: 0
 </section>
 
 <section markdown="block">
-### Design Your Program
+###  Design Your Program
 
 __Write some pseudocode.__
 
@@ -200,7 +200,7 @@ while the user hasn't quit
 </section>
 
 <section markdown="block">
-### Don't Forget the Banner!
+###  Don't Forget the Banner!
 
 We're probably going to have to stop putting code in slides from here on in.  I skipped on the banner, and it still didn't fit!
 

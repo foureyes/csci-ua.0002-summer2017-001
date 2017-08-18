@@ -3,19 +3,19 @@ layout: slides
 title: About Class #8 
 ---
 <section markdown="block" class="title-slide">
-# About Class #8
+#  About Class #8
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * __while loops__, revisited and in-depth
 * __for loops__, preview
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * __Homework #3 is due on tonight!__
 * __Homework #4__ 
@@ -25,7 +25,7 @@ title: About Class #8
 </section>
 
 <section markdown="block">
-### BTW, Did You Know We Have a Book?  (and an optional one?)
+###  BTW, Did You Know We Have a Book?  (and an optional one?)
 
 Readings are listed on the course site.  
 
@@ -37,7 +37,7 @@ Readings are listed on the course site.
 </section>
 
 <section markdown="block">
-### Midterm #1
+###  Midterm #1
 
 __It's in a week-and-a-half!__  
 
@@ -51,7 +51,7 @@ __It's in a week-and-a-half!__
 </section>
 
 <section markdown="block">
-### Final Exam
+###  Final Exam
 
 You should also know that the department has the [final exam schedule posted]({{ site.final_schedule }}) 
 
@@ -61,7 +61,7 @@ You should also know that the department has the [final exam schedule posted]({{
 </section>
 
 <section markdown="block">
-### More Final Exam Info
+###  More Final Exam Info
 
 * We'll have a review on during our last class before the exam (which is one week before)
 	* I'm open to doing an earlier review 
@@ -73,5 +73,5 @@ You should also know that the department has the [final exam schedule posted]({{
 </section>
 
 <section markdown="block">
-## [While Loops Revisited](while-revisited.html)
+##  [While Loops Revisited](while-revisited.html)
 </section>

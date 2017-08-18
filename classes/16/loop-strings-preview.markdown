@@ -3,12 +3,12 @@ layout: slides
 title: Looping Over Strings 
 ---
 <section markdown="block" class="title-slide">
-# Looping Over Strings
+#  Looping Over Strings
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Strings
+###  Strings
 
 __What's a string again?__ &rarr;
 
@@ -20,7 +20,7 @@ __What's a string again?__ &rarr;
 </section>
 
 <section markdown="block">
-### Strings and For Loops
+###  Strings and For Loops
 
 Strings can _give back_ each character one-at-a-time when used in a for loop:
 
@@ -35,10 +35,10 @@ for character in word:
 </section>
 
 <section markdown="block">
-## This will be useful for homework #7
+##  This will be useful for homework #7
 </section>
 
 
 <section markdown="block">
-## [Functions Handout](handout.html)
+##  [Functions Handout](handout.html)
 </section>

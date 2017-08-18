@@ -3,7 +3,7 @@ layout: slides
 title: Review and Assignments Slides
 ---
 <section markdown="block">
-### Recap
+###  Recap
 * what's programming and motivations for...
 * hardware, software, storing data and executing a program
 * programming languages
@@ -19,7 +19,7 @@ title: Review and Assignments Slides
 </section>
 
 <section markdown="block">
-### Readings and Assignments
+###  Readings and Assignments
 
 Check out the course schedule for your assignments and readings!
 
@@ -27,7 +27,7 @@ Check out the course schedule for your assignments and readings!
 
 
 <section markdown="block">
-### Some Reminders
+###  Some Reminders
 
 * bring your laptop to class
 * try this stuff outside of class

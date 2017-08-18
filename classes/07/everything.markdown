@@ -4,7 +4,7 @@ title: Everything
 ---
 
 <section markdown="block">
-### Number Guessing Game _Forever_
+###  Number Guessing Game _Forever_
 
 So, we'll finally be able to complete our number guessing game:
 
@@ -16,7 +16,7 @@ So, we'll finally be able to complete our number guessing game:
 
 
 <section markdown="block">
-### Number Guessing Game _Forever_
+###  Number Guessing Game _Forever_
 
 Some example output:
 
@@ -34,7 +34,7 @@ I was thinking of 10!.  You got it right!
 </section>
 
 <section markdown="block">
-### Number Guessing Game _Forever_ and _Ever_
+###  Number Guessing Game _Forever_ and _Ever_
 
 * what if we want to say that they're really close (within 1), but not say higher or lower in that case? 
 * what we want to be nice and ask the user if they want to quit after a wrong guess?
@@ -42,32 +42,32 @@ I was thinking of 10!.  You got it right!
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game!
+###  Let's Write a Mini Quiz Game!
 
 __Write a program to ask a couple of questions about the book, Dune.__ &rarr;
 
 {% highlight python %}
-#  ______            _        _______ 
-# (  __  \ |\     /|( (    /|(  ____ \
-# | (  \  )| )   ( ||  \  ( || (    \/
-# | |   ) || |   | ||   \ | || (__    
-# | |   | || |   | || (\ \) ||  __)   
-# | |   ) || |   | || | \   || (      
-# | (__/  )| (___) || )  \  || (____/\
-# (______/ (_______)|/    )_)(_______/
-# 
-# What is the name of the desert planet that's informally called Dune?
-# > Arrakis
-# You got it right!
-# What valuable resource is only found on Dune?
-# > cheese?
-# Nope, the answer is: spice
-# You got 1 questions right! 
+#   ______            _        _______ 
+#  (  __  \ |\     /|( (    /|(  ____ \
+#  | (  \  )| )   ( ||  \  ( || (    \/
+#  | |   ) || |   | ||   \ | || (__    
+#  | |   | || |   | || (\ \) ||  __)   
+#  | |   ) || |   | || | \   || (      
+#  | (__/  )| (___) || )  \  || (____/\
+#  (______/ (_______)|/    )_)(_______/
+#  
+#  What is the name of the desert planet that's informally called Dune?
+#  > Arrakis
+#  You got it right!
+#  What valuable resource is only found on Dune?
+#  > cheese?
+#  Nope, the answer is: spice
+#  You got 1 questions right! 
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game (Continued)!
+###  Let's Write a Mini Quiz Game (Continued)!
 
 Let's get some requirements down:
 
@@ -80,7 +80,7 @@ Let's get some requirements down:
 </section>
 
 <section markdown="block">
-### We Don't Have To Jump Right Into Code!
+###  We Don't Have To Jump Right Into Code!
 
 __So, first, what's our plan?__ &rarr;
 
@@ -89,7 +89,7 @@ __So, first, what's our plan?__ &rarr;
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game! (Continued Some More)!
+###  Let's Write a Mini Quiz Game! (Continued Some More)!
 
 What are some ways that we can be more tolerant about capitalization?  That is... what if we wanted to accept these answers:
 

@@ -4,12 +4,12 @@ title: Functions
 ---
 
 <section markdown="block" class="title-slide">
-# A Quick Peek at Making Our Own Functions
+#  A Quick Peek at Making Our Own Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Functions
+###  Functions
 
 __What's a function (again)?__ &rarr;
 
@@ -19,7 +19,7 @@ A __function__ is a named sequence of statements that performs a specific task o
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 __What are some built-in function that we just learned about?__ &rarr;
 
@@ -34,7 +34,7 @@ __What are some built-in function that we just learned about?__ &rarr;
 </section>
 
 <section markdown="block">
-### Our Very Own Functions!
+###  Our Very Own Functions!
 
 * we can actually create our own functions
 * that means:
@@ -44,7 +44,7 @@ __What are some built-in function that we just learned about?__ &rarr;
 </section>
 
 <section markdown="block">
-### Motivation for Creating Functions
+###  Motivation for Creating Functions
 
 __Why would the ability to create our own functions be useful?__ &rarr;
 
@@ -60,7 +60,7 @@ __Why would the ability to create our own functions be useful?__ &rarr;
 
 
 <section markdown="block">
-### Defining a Function
+###  Defining a Function
 
 {% highlight python %}
 def the_name_of_your_function(parameter_1, paramter_2):
@@ -70,7 +70,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 </section>
 
 <section markdown="block">
-### Defining a Function Continued
+###  Defining a Function Continued
 
 1. a function definition always starts with the __reserved__ word, __def__ (__the function header__)
 2. ... followed by the name of your function
@@ -84,7 +84,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 </section>
 
 <section markdown="block">
-### What's This About an Indented Block?
+###  What's This About an Indented Block?
 
 * remember - in Python, __whitespace characters__ (such as space, tabs, newlines, etc.) are __significant__
 * __consecutive lines of code__ can be grouped together based on __indentation__
@@ -104,7 +104,7 @@ print("and another thing")
 </section>
 
 <section markdown="block">
-### Let's Try Creating a Function!
+###  Let's Try Creating a Function!
 
 __Write a function called say_multilingual_meow:__ &rarr;
 
@@ -124,7 +124,7 @@ def say_multilingual_meow():
 </section>
 
 <section markdown="block">
-### Calling Your Function
+###  Calling Your Function
 
 So... now that you have a shiny new function, __how would you call it?  How many arguments would it take?  0, 1, or 2?__ &rarr;
 
@@ -151,7 +151,7 @@ It takes 0 arguments.
 
 
 <section markdown="block">
-### Let's See How This All Works!
+###  Let's See How This All Works!
 
 In one file, write the function definition and function call from the previous slides.  
 
@@ -180,7 +180,7 @@ done!
 </section>
 
 <section markdown="block">
-### Calling Your Function Continued
+###  Calling Your Function Continued
 
 So... [what actually happened there](http://www.pythontutor.com/visualize.html#code=def+say_multilingual_meow()%3A%0A%09japanese_meow+%3D+%22nyan%22%0A%09english_meow+%3D+%22meow%22%0A%09print(japanese_meow)%0A%09print(english_meow)%0A%0Asay_multilingual_meow()%0Aprint(%22done!%22)&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0)? &rarr;
 
@@ -202,7 +202,7 @@ print("done!")
 </section>
 
 <section markdown="block">
-### Just the Definitions, Please!
+###  Just the Definitions, Please!
 
 Let's look at the same program, but without the function __call__.  __What do you think the output of this program will be?__ &rarr;
 {% highlight python %}
@@ -223,7 +223,7 @@ def say_multilingual_meow():
 </section>
 
 <section markdown="block">
-### Just the Calls, Please!
+###  Just the Calls, Please!
 
 What about this version of the program? __What do you think the output will be?__ &rarr;
 
@@ -246,7 +246,7 @@ This may be obvious, but __a function has to be defined before it can be used__.
 </section>
 
 <section markdown="block">
-### Multiple Function Definitions
+###  Multiple Function Definitions
 
 You can define more than one function in your program!
 
@@ -260,7 +260,7 @@ def my_second_function():
 </section>
 
 <section markdown="block">
-### Functions in Functions
+###  Functions in Functions
 
 In fact, you can use a function that you've already defined in another function that you're creating.  __What do you think the output of this program will be?__ &rarr;
 
@@ -284,7 +284,7 @@ moo
 </section>
 
 <section markdown="block">
-### Functions in Functions Continued
+###  Functions in Functions Continued
 
 Notice that in the previous code...
 
@@ -304,7 +304,7 @@ main()
 </section>
 
 <section markdown="block">
-### "Local" Variables
+###  "Local" Variables
 
 * variables defined in your function are available only to that function
 * the variables in your function are __local__ to that function
@@ -313,7 +313,7 @@ main()
 </section>
 
 <section markdown="block">
-### "Local" Variables Continued
+###  "Local" Variables Continued
 
 
 {% highlight python %}
@@ -331,7 +331,7 @@ The variables __a__ and __b__ are local to __my\_first\_function__ and __my\_sec
 </section>
 
 <section markdown="block">
-### "Local" Variables Continued Some More
+###  "Local" Variables Continued Some More
 
 Because variables defined within a function are __local__
 
@@ -352,7 +352,7 @@ def my_second_function():
 </section>
 
 <section markdown="block">
-### Defining a Main Function
+###  Defining a Main Function
 
 * it is common practice to have the entirity of your program in a single function called main
 * main is usually defined at the end of the file
@@ -369,7 +369,7 @@ main()
 </section>
 
 <section markdown="block">
-### Main Function Continued
+###  Main Function Continued
 
 For example, these two programs are equivalent:
 
@@ -391,7 +391,7 @@ main()
 
 <!--
 <section markdown="block">
-### 
+###  
 
 * Global Scope
 * Main convention
@@ -405,6 +405,6 @@ main()
 -->
 
 <section markdown="block">
-## [(Totally Optional) A Whirlwind Tour of Conditionals](conditionals.html)
+##  [(Totally Optional) A Whirlwind Tour of Conditionals](conditionals.html)
 </section>
 

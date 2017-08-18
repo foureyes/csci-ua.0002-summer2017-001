@@ -4,12 +4,12 @@ title: Programming Languages
 ---
 
 <section markdown="block" class="title-slide">
-# We Write Programs Using _Programming Languages_
+#  We Write Programs Using _Programming Languages_
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### First Let's Talk About Natural Languages
+###  First Let's Talk About Natural Languages
 <aside>
 What are some characteristics of natural languages? &rarr;
 </aside>
@@ -27,7 +27,7 @@ What are some characteristics of natural languages? &rarr;
 </section>
 
 <section markdown="block">
-### A Programming Language...
+###  A Programming Language...
 <aside>
 On the other hand? &rarr;
 </aside>
@@ -47,11 +47,11 @@ QUESTION - (header) What are some characteristics of programming languages?
 </section>
 
 <section markdown="block">
-## This Makes Reading and Writing Programs Much Different From Natural Languages
+##  This Makes Reading and Writing Programs Much Different From Natural Languages
 </section>
 
 <section markdown="block">
-### Reading a Programming Language
+###  Reading a Programming Language
 * reading a program requires analysis of a program's __structure__ 
 * information density can make comprehension a slow process
 * again, meaning is usually unambiguous 
@@ -60,7 +60,7 @@ QUESTION - (header) What are some characteristics of programming languages?
 </section>
 
 <section markdown="block">
-### Writing a Program
+###  Writing a Program
 * easy to introduce minor syntactic errors (you must be careful with syntax and grammar)
 * may have multiple implementation possibilities
 * may offer constructs for abstraction and preventing repetition
@@ -70,12 +70,12 @@ QUESTION - (header) What are some characteristics of programming languages?
 </section>
 
 <section markdown="block">
-## Sooo Many Programming Languages...
+##  Sooo Many Programming Languages...
 <aside>(You could even make one yourself!)</aside>
 </section>
 
 <section markdown="block">
-### These Are 20 of the Most Used Languages Today
+###  These Are 20 of the Most Used Languages Today
 <aside markdown="block">
 (At least, according to [TIOBE](http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html), September 2016)
 </aside>
@@ -125,7 +125,7 @@ QUESTION - (header) What are some characteristics of programming languages?
 </section>
 
 <section markdown="block">
-### That's a Lot!
+###  That's a Lot!
 <aside>Why so Many?</aside>
 <div markdown="block" class="incremental">
 * endless number of potential applications (right tool for the job)
@@ -138,7 +138,7 @@ QUESTION - (header) why so many?
 </section>
 
 <section markdown="block">
-## Here Are Some Ways That We Can Describe Programming Languages
+##  Here Are Some Ways That We Can Describe Programming Languages
 <aside>This will motivate the tools that we'll use in this class</aside>
 
 <details open markdown="block">
@@ -147,7 +147,7 @@ INFO - a lot of material, some not in readings... but most important parts are r
 </section>
 
 <section markdown="block">
-### Some Characteristics of Programming Languages Include:
+###  Some Characteristics of Programming Languages Include:
 1. high-level and low-level
 2. interpreted and compiled
 3. by _paradigm_
@@ -160,7 +160,7 @@ INFO - a lot of material, some not in readings... but most important parts are r
 </section>
 
 <section markdown="block">
-### Low-Level Language
+###  Low-Level Language
 A __programming language__ designed for execution by a computer. (Not so friendly.)
 
 * loosely speaking, __a computer can only directly execute programs written in low level languages__
@@ -172,7 +172,7 @@ A __programming language__ designed for execution by a computer. (Not so friendl
 </section>
 
 <section markdown="block">
-### Low-Level Languages Look Like:
+###  Low-Level Languages Look Like:
 <aside>Don't worry, we won't be using them in this class!</aside>
 
 __Assembly__
@@ -189,7 +189,7 @@ __Machine Code__
 </section>
 
 <section markdown="block">
-### High-Level Language
+###  High-Level Language
 A __programming language__ that is designed to be easy for humans to read and write.
 
 * must be __compiled__ or __interpreted__ to a lower-level language so that a computer can execute it
@@ -200,7 +200,7 @@ A __programming language__ that is designed to be easy for humans to read and wr
 * _portable_ across different operating systems/architectures
 </section>
 <section markdown="block">
-### Examples of Some High-Level Languages:
+###  Examples of Some High-Level Languages:
 <aside>BTW, what do you think these examples do?</aside>
 __Ruby__
 
@@ -227,7 +227,7 @@ while($count < 100) {
 </section>
 
 <section markdown="block">
-### High-Level vs Low-Level
+###  High-Level vs Low-Level
 * high level 
 	* more human readable, but also usually more verbose
 	* some are closer to natural languages
@@ -241,12 +241,12 @@ while($count < 100) {
 </section>
 
 <section markdown="block">
-## Compiled and Interpreted 
+##  Compiled and Interpreted 
 <aside>If computers only know how to execute low-level programs, how do high-level programming languages <em>work</em>?</aside>
 </section>
 
 <section markdown="block">
-### Two Ways to Execute a Program
+###  Two Ways to Execute a Program
 Before a program can be executed, the source code of a high-level language must be translated into something that the computer can understand.  You can:
 
 * __compile__ the __source code__ into another (usually  __low-level__) language using a __compiler__... then execute 
@@ -254,7 +254,7 @@ Before a program can be executed, the source code of a high-level language must 
 </section>
 
 <section markdown="block">
-### Compiling a Program
+###  Compiling a Program
 * when we talk about __source code__ (or just __code__), we're referring to the program prior to compilation
 * programs called __compilers__ perform this translation
 * a compiler __parses__ your source code in order to do this translation
@@ -265,7 +265,7 @@ Before a program can be executed, the source code of a high-level language must 
 </section>
 
 <section markdown="block">
-### Compiling a Program... Continued
+###  Compiling a Program... Continued
 __General Workflow__
 
 1. Write code
@@ -281,7 +281,7 @@ __Examples of Compiled Languages__
 </section>
 
 <section markdown="block">
-### Interpreting a Program
+###  Interpreting a Program
 * a program can be executed using an __interpeter__
 * an __intpreter__ is a program that executes source code without the need for compilation
 	* the way that a program is executed behind the scenes varies by language and implementation
@@ -299,7 +299,7 @@ __Examples of Compiled Languages__
 </section>
 
 <section markdown="block">
-### Interpreting a Program... Continued
+###  Interpreting a Program... Continued
 __General Workflow__
 
 1. Write code
@@ -314,14 +314,14 @@ __Examples of Interpreted Languages__
 </section>
 
 <section markdown="block">
-### Compiled vs Interpreted
+###  Compiled vs Interpreted
 <aside>Some stereotypes...</aside>
 * compiled languages are usually considered faster and more efficient than interpreted languages
 * interpreted languages are generally thought of as easier to use (less steps, immediate feedback, etc.)
 </section>
 
 <section markdown="block">
-### And What Does This Mean for Us?
+###  And What Does This Mean for Us?
 Despite the pros and cons of compiled and interpreted languages, for our purposes, the _main_ difference between a __compiled__ and __interpreted__ language is:
 
 * a __compiled language__ requires an explicit compilation step
@@ -330,7 +330,7 @@ before the program can be run.
 </section>
 
 <section markdown="block">
-### Some Important Caveats
+###  Some Important Caveats
 * distinction is wholly dependent on implementation, not language design
 * a programming language may be considered compiled, interpreted or even both!
 * hybrids exist (to further complicate things!)
@@ -343,7 +343,7 @@ before the program can be run.
 
 
 <section markdown="block">
-## Programming Paradigms  
+##  Programming Paradigms  
 
 <aside markdown="block">
 Think: _programming style_
@@ -351,7 +351,7 @@ Think: _programming style_
 </section>
 
 <section markdown="block">
-### Some Programming Paradigms  
+###  Some Programming Paradigms  
 <aside>This is how we approach a programming problem</aside>
 * [Procedural](http://en.wikipedia.org/wiki/Procedural_programming)
 * [Imperative](http://en.wikipedia.org/wiki/Imperative_programming)
@@ -363,7 +363,7 @@ Think: _programming style_
 </section>
 
 <section markdown="block">
-### For This Class...
+###  For This Class...
 We'll mostly be concerned with __imperative__ and __procedural__ programming. (So don't worry about the others).
 
 * this approach most closely resembles our definition of what a program is
@@ -374,13 +374,13 @@ The tools that we use may include bits of __object oriented__ programming.
 </section>
 
 <section markdown="block">
-## And, Lastly... Is it Practical?
+##  And, Lastly... Is it Practical?
 <aside markdown="block">
 Esoteric and mainstream languages
 </aside>
 </section>
 <section markdown="block">
-### Esoteric vs Mainstream
+###  Esoteric vs Mainstream
 * mainstream
 	* widely adopted
 	* may adopt features found in __esoteric languages__
@@ -396,7 +396,7 @@ Esoteric and mainstream languages
 </details>
 </section>
 <section markdown="block">
-## [Let's Use Python](tools.html)
+##  [Let's Use Python](tools.html)
 <aside markdown="block">
 It's a friendly high-level interpreted\* language that supports multiple programming paradigms.
 </aside>

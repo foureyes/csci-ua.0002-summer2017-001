@@ -3,13 +3,13 @@ layout: slides
 title: More If Statements 
 ---
 <section markdown="block" class="title-slide">
-# More If Statements
+#  More If Statements
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Nesting If Statements
+###  Nesting If Statements
 
 * we saw nested ifs in the cake example
 * it behaves as you'd expect
@@ -21,7 +21,7 @@ title: More If Statements
 </section>
 
 <section markdown="block">
-### Nesting If Statements Example
+###  Nesting If Statements Example
 
 The coffee shop has a special for half price pastries on Fridays after 4 (16:00... or 16).  __Ask for day and time, and make a recommendation (buy now, wait x hours or don't buy).__ &rarr;
 
@@ -43,7 +43,7 @@ Just wait 4 more hours
 </section>
 
 <section markdown="block">
-### Pastry Buying Guide
+###  Pastry Buying Guide
 
 {% highlight python %}
 {% include classes/06/pastry_buying_guide.py %}
@@ -52,7 +52,7 @@ Just wait 4 more hours
 
 
 <section markdown="block">
-### How to Order Conditions
+###  How to Order Conditions
 
 * if more than one condition in a series of elif's is true 
 	* only the first true condition is executed!
@@ -63,7 +63,7 @@ Just wait 4 more hours
 </section>
 
 <section markdown="block">
-### Ordering Conditions Continued!
+###  Ordering Conditions Continued!
 
 The intention of the following code is to:
 
@@ -86,7 +86,7 @@ elif n == 101:
 </section>
 
 <section markdown="block">
-### How to Order Conditions Continued Some More!
+###  How to Order Conditions Continued Some More!
 
 __Of course, we could fix this.  There are a few ways...__ &rarr;
 
@@ -108,11 +108,11 @@ elif n == 101:
 </section>
 
 <section markdown="block">
-## Equivalent Conditions
+##  Equivalent Conditions
 </section>
 
 <section markdown="block">
-### Logical Opposites 
+###  Logical Opposites 
 A way to get rid of not operators is to use the opposite logical operator:
 
 [Logical Opposites from {{ site.bookt }} ](http://openbookproject.net/thinkcs/python/english3e/conditionals.html)
@@ -123,11 +123,11 @@ A way to get rid of not operators is to use the opposite logical operator:
 </section>
 
 <section markdown="block">
-### Logical Opposites Continued
+###  Logical Opposites Continued
 __How can we rewrite this without the not?__&rarr;
 
 {% highlight python %}
-# Example from {{ site.bookt }}
+#  Example from {{ site.bookt }}
 if not (age >= 17):
     print("Hey, you're too young to get a driving licence!")
 {% endhighlight %}
@@ -141,7 +141,7 @@ if age < 17:
 </section>
 
 <section markdown="block">
-### De Morgan's Law
+###  De Morgan's Law
 * not (x and y)  ==  (not x) or (not y)
 * not (x or y)   ==  (not x) and (not y)
 * {{ site.bookt }} example
@@ -151,7 +151,7 @@ if age < 17:
 </section>
 
 <section markdown="block">
-### De Morgan's Law
+###  De Morgan's Law
 
 __Let's try truth tables for these!__ &rarr;
 
@@ -173,7 +173,7 @@ x | y | not (x or y)   x | y | (not x) and (not y)
 </section>
 
 <section markdown="block">
-### De Morgan's Law Truth Tables
+###  De Morgan's Law Truth Tables
 
 {% highlight bash %}
 x | y | not (x and y)   x | y | (not x) or (not y)
@@ -193,13 +193,13 @@ f | f | t              f | f | t
 </section>
 
 <section markdown="block">
-### De Morgan's Law 
+###  De Morgan's Law 
 __How can we rewrite this fragment of code from {{ site.bookt }}?__&rarr; 
 
 {% highlight python %}
-# "suppose we can slay the dragon only if our magic lightsabre sword 
-# is charged to 90% or higher, and we have 100 or more energy units 
-# in our protective shield." 
+#  "suppose we can slay the dragon only if our magic lightsabre sword 
+#  is charged to 90% or higher, and we have 100 or more energy units 
+#  in our protective shield." 
 
 if not ((sword_charge >= 0.90) and (shield_energy >= 100)):
     print("Your attack has no effect, the dragon fries you to a crisp!")
@@ -209,13 +209,13 @@ else:
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# first... demorgan's: 
+#  first... demorgan's: 
 if not (sword_charge >= 0.90) or not (shield_energy >= 100):
 	# ...
 {% endhighlight %}
 
 {% highlight python %}
-# next... logical opposites:
+#  next... logical opposites:
 if (sword_charge < 0.90) or (shield_energy < 100):
 	# ...
 {% endhighlight %}
@@ -223,11 +223,11 @@ if (sword_charge < 0.90) or (shield_energy < 100):
 </section>
 
 <section markdown="block">
-## Truthiness and Style
+##  Truthiness and Style
 </section>
 
 <section markdown="block">
-### Truthiness
+###  Truthiness
 
 See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-value-testing) on the _intrinsic_ boolean value of various types.  The following values are considered false:
 
@@ -238,7 +238,7 @@ See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-v
 </section>
 
 <section markdown="block">
-### Truthiness Examples
+###  Truthiness Examples
 
 {% highlight python %}
 a = ""
@@ -257,5 +257,5 @@ if a:
 </section>
 
 <section markdown="block">
-## [Built-In Modules Are Up Next!](modules.html)
+##  [Built-In Modules Are Up Next!](modules.html)
 </section>

@@ -3,12 +3,12 @@ layout: slides
 title: About Class #4 
 ---
 <section markdown="block" class="title-slide">
-# About Class #4
+#  About Class #4
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Today's Class...
+###  Today's Class...
 * functions continued
 * if statements
 * expressions vs statements
@@ -16,7 +16,7 @@ title: About Class #4
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * [homework is due tonight at 11PM!](../../schedule.html#homework1)
 * turn in homework via NYU Classes
@@ -31,5 +31,5 @@ title: About Class #4
 
 
 <section markdown="block">
-## [Review: Variables, User Input](user-input.html)
+##  [Review: Variables, User Input](user-input.html)
 </section>

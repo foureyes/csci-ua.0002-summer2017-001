@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 {% comment %}
 * Homework #9
@@ -8,13 +8,13 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Homework #10 __Due Wednesday, May 3rd, at 11PM__ 
 

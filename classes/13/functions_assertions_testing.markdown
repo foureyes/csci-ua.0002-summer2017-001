@@ -3,16 +3,16 @@ layout: slides
 title: Functions 
 ---
 <section markdown="block" class="title-slide">
-# Functions: Assertions and Testing
+#  Functions: Assertions and Testing
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## A Quick Review
+##  A Quick Review
 </section>
 
 <section markdown="block">
-### Write a Function... 
+###  Write a Function... 
 
 * call it join_three_strings
 * it should take three arguments: a, b, c
@@ -34,14 +34,14 @@ __Let's write this function together &rarr;__
 </section>
 
 <section markdown="block">
-### Join Three Strings Solution
+###  Join Three Strings Solution
 {% highlight python %}
 {% include classes/16/join_three_strings.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Syntax
+###  Syntax
 A quick summary on syntax:
 {% highlight python %}
 def <function_name>(<zero_or_more_parameters>):
@@ -54,7 +54,7 @@ def <function_name>(<zero_or_more_parameters>):
 </section>
 
 <section markdown="block">
-### Parameters
+###  Parameters
 {% highlight python %}
 {% include classes/16/join_three_strings.py %}
 {% endhighlight %}
@@ -81,7 +81,7 @@ join_three_strings(c, b, a)
 </section>
 
 <section markdown="block">
-### Parameters Summary
+###  Parameters Summary
 * __parameters__ 
 	* variable names used within a function 
 	* reference the values passed in as arguments
@@ -93,7 +93,7 @@ join_three_strings(c, b, a)
 </section>
 
 <section markdown="block">
-### Return Values
+###  Return Values
 __What's the difference between these two definitions of our function?  What gets printed out for each code sample? &rarr;__
 
 Version #1
@@ -112,7 +112,7 @@ print(join_three_strings('one', 'two', 'three'))
 </section>
 
 <section markdown="block">
-### Return Values Continued
+###  Return Values Continued
 The first definition (#1) returns a string, while the other (#2) doesn't return a value.  
 
 Printing out the __results__ of both functions gives:
@@ -127,7 +127,7 @@ Printing out the __results__ of both functions gives:
 </section>
 
 <section markdown="block">
-### The Return Statement
+###  The Return Statement
 * a function can return a value after it is called
 * this is done by using the __return__ statement
 * the __return__ statement immediately stops the execution of a function
@@ -138,19 +138,19 @@ Printing out the __results__ of both functions gives:
 </section>
 
 <section markdown="block">
-### Defining vs Calling 
+###  Defining vs Calling 
 __What gets printed out for each version of code?__
 {% highlight python %}
-# version 1
+#  version 1
 {% include classes/16/join_three_strings.py %}
 {% endhighlight %}
 {% highlight python %}
-# version 2
+#  version 2
 {% include classes/16/join_three_strings.py %}
 join_three_strings('one', 'two', 'three')
 {% endhighlight %}
 {% highlight python %}
-# version 3
+#  version 3
 {% include classes/16/join_three_strings.py %}
 print(join_three_strings('one', 'two', 'three'))
 {% endhighlight %}
@@ -160,7 +160,7 @@ print(join_three_strings('one', 'two', 'three'))
 </section>
 
 <section markdown="block">
-### Testing Programs / Functions
+###  Testing Programs / Functions
 __So far, we've tested our programs by:__ &rarr;
 
 <div class="incremental" markdown="block">
@@ -186,7 +186,7 @@ __What can we do to make testing less tedious and error prone? &rarr;__
 </section>
 
 <section markdown="block">
-### Assertions for Testing
+###  Assertions for Testing
 
 Let's get the computer to test it for us!  Assertions are a way to systematically check the state of our program.
 
@@ -196,7 +196,7 @@ Let's get the computer to test it for us!  Assertions are a way to systematicall
 </section>
 
 <section markdown="block">
-### Assertions as "Sanity Checks"
+###  Assertions as "Sanity Checks"
 
 * note that assertions are not limited to this type of testing
 * they're usually used to check for conditions that _shouldn't_ happen 
@@ -205,7 +205,7 @@ Let's get the computer to test it for us!  Assertions are a way to systematicall
 </section>
 
 <section markdown="block">
-### Assert Syntax
+###  Assert Syntax
 
 {% highlight python %}
 assert <some condition>, "a string representing a test"
@@ -218,7 +218,7 @@ assert <some condition>, "a string representing a test"
 </section>
 
 <section markdown="block">
-### An Assertion Example
+###  An Assertion Example
 
 __Let's use assertions to test an incorrect implementation of our function - one that doesn't have spaces between the strings. &rarr;__
 
@@ -228,7 +228,7 @@ __Let's use assertions to test an incorrect implementation of our function - one
 {% endhighlight %}
 
 {% highlight python %}
-# output shows line number and error...
+#  output shows line number and error...
 Traceback (most recent call last):
   File "foo.py", line 4, in <module>
     assert "ha ha ha" == join_three_strings("ha", "ha", "ha"), "should have spaces"
@@ -238,18 +238,18 @@ AssertionError: joined string should have spaces
 </section>
 
 <section markdown="block">
-### An Assertion Example That Actually Passes
+###  An Assertion Example That Actually Passes
 
 __Let's fix the program... and see what happens. &rarr;__
 
 {% highlight python %}
 {% include classes/16/join_three_strings_with_asserts_with_fix.py %}
-# results in no output
+#  results in no output
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Another Assertion Example
+###  Another Assertion Example
 
 __Let's use assertions to test an incorrect implementation of an absolute_value function &rarr;__
 {% highlight python %}
@@ -270,7 +270,7 @@ assert 0 == absolute_value(0), "absolute value of 0 is 0"
 </section>
 
 <section markdown="block">
-### Questions About Assertions
+###  Questions About Assertions
 * why use assertions
 	* to test specific portions of your program
 	* to cut down on manual testing
@@ -282,7 +282,7 @@ assert 0 == absolute_value(0), "absolute value of 0 is 0"
 </section>
 
 <section markdown="block">
-### Documentation
+###  Documentation
 
 * what if someone else is reading your code, but your code is kind of _complex_?
 * what if you _forgot_ what your code does!?
@@ -291,7 +291,7 @@ assert 0 == absolute_value(0), "absolute value of 0 is 0"
 </section>
 
 <section markdown="block">
-### Docstrings
+###  Docstrings
 
 * we can document our functions using a __docstring__ 
 * it's a string that immediately follows the head of a function definition

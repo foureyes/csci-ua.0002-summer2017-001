@@ -4,12 +4,12 @@ title: Review
 ---
 
 <section markdown="block" class="title-slide">
-# Values, Types, Variables Review 
+#  Values, Types, Variables Review 
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Previously on ...
+##  Previously on ...
 
 <aside markdown="block">
 [This handout](../../resources/handouts/class03/types-variables-operators-comments.pdf) covers material from our last class (function calls, types, values, input, operators and variables).
@@ -17,7 +17,7 @@ title: Review
 </section>
 
 <section markdown="block">
-### Values
+###  Values
 
 __What's a value? &rarr;__
 
@@ -31,7 +31,7 @@ A value is just data!
 </section>
 
 <section markdown="block">
-### Types
+###  Types
 
 __What's a type? &rarr;__
 
@@ -47,7 +47,7 @@ A type is just a kind or category of values.  __Name the types that we learned a
 </section>
 
 <section markdown="block">
-### Basic Data Types - Strings
+###  Basic Data Types - Strings
 
 __str__ - strings
 
@@ -61,7 +61,7 @@ __What's a string? How do we know a literal value is a string? &rarr;__
 </section>
 
 <section markdown="block">
-### String Operators
+###  String Operators
 
 __Name two operators that can be used with strings__ &rarr;
 
@@ -79,7 +79,7 @@ __Name two operators that can be used with strings__ &rarr;
 </section>
 
 <section markdown="block">
-### String Operators Continued
+###  String Operators Continued
 
 __What do the following lines of code output (error is a possible answer)?__ &rarr;
 
@@ -104,7 +104,7 @@ TypeError: can't multiply sequence by non-int of type 'str'
 </section>
 
 <section markdown="block">
-### Basic Data Types - Integers
+###  Basic Data Types - Integers
 
 __int__ - integers
 
@@ -118,7 +118,7 @@ __What's an int? &rarr;__
 </section>
 
 <section markdown="block">
-### Basic Data Types - Floating Point Numbers
+###  Basic Data Types - Floating Point Numbers
 
 __float__  - floating point numbers
 
@@ -133,7 +133,7 @@ __What's a float? How do we know a literal value is a float? &rarr;__
 </section>
 
 <section markdown="block">
-### Operators for Numeric Types
+###  Operators for Numeric Types
 
 __Name 7 operators that can be used on floats and/or ints. &rarr;__
 
@@ -149,7 +149,7 @@ __Name 7 operators that can be used on floats and/or ints. &rarr;__
 </section>
 
 <section markdown="block">
-### Operators for Numeric Types Continued
+###  Operators for Numeric Types Continued
 
 __The following block of code will cause a run time error.  Why?__ &rarr;
 
@@ -172,7 +172,7 @@ print(int(a) + 5)
 </section>
 
 <section markdown="block">
-### Type Conversions
+###  Type Conversions
 
 __Name three functions that can be used to convert a value from one type to another.__ &rarr;
 
@@ -185,7 +185,7 @@ __Name three functions that can be used to convert a value from one type to anot
 </section>
 
 <section markdown="block">
-### Type Conversions: a Closer Look 
+###  Type Conversions: a Closer Look 
 
 The following functions will attempt to convert the parameter(s) passed in into the type that the function is named after:
 
@@ -200,7 +200,7 @@ The following functions will attempt to convert the parameter(s) passed in into 
 </section>
 
 <section markdown="block">
-### Type Conversions Continued
+###  Type Conversions Continued
 
 * float
 	* float("54.2") &rarr; 54.2
@@ -212,7 +212,7 @@ The following functions will attempt to convert the parameter(s) passed in into 
 </section>
 
 <section markdown="block">
-### Variables
+###  Variables
 
 Variables allow us to bind names to values so that the variable name can be used in place of the literal value.  __In code, how would we assign the value 12 to a variable called n?__ &rarr;
 
@@ -229,7 +229,7 @@ n = 12
 </section>
 
 <section markdown="block">
-### Valid Variable Names
+###  Valid Variable Names
 * names can only be alphanumeric (numbers and letters) and/or the underscore
 * the first character has to be a letter (uppercase or lowercase) __or an underscore__
 * however, names are __case sensitive__ - case matters
@@ -247,5 +247,5 @@ def       for       lambda    try
 
 
 <section markdown="block">
-## [And on to Built-In Functions...](function-calls.html)
+##  [And on to Built-In Functions...](function-calls.html)
 </section>

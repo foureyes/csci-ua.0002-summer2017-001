@@ -4,19 +4,19 @@ title: User Input
 ---
 
 <section markdown="block" class="title-slide">
-# User Input
+#  User Input
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Getting Input From the Shell
+###  Getting Input From the Shell
 
 * we can prompt the user through the console / terminal / shell / command prompt
 * the user enters input through the same mechanism
 </section>
 
 <section markdown="block">
-### The input() Function
+###  The input() Function
 
 There's a built-in function in Python called __input__ ...
 
@@ -34,7 +34,7 @@ There's a built-in function in Python called __input__ ...
 </section>
 
 <section markdown="block">
-### Let's Try Some Examples of input()
+###  Let's Try Some Examples of input()
 {% highlight python %}
 >>> s = input(">")
 >foo
@@ -53,7 +53,7 @@ There's a built-in function in Python called __input__ ...
 </section>
 
 <section markdown="block">
-## The input function does two things: 
+##  The input function does two things: 
 
 * __prints__ out the prompt
 * __returns__ the value typed in by the user back to your program
@@ -61,7 +61,7 @@ There's a built-in function in Python called __input__ ...
 </section>
 
 <section markdown="block">
-### Write a Program That Asks For a Name
+###  Write a Program That Asks For a Name
 ... and then says "hi".  Here's the sample output; the text after the &gt; is user input.
 
 {% highlight python %}
@@ -83,7 +83,7 @@ print("Hi " + name)
 </section>
 
 <section markdown="block">
-### Write a Program That Adds Exclamation Points
+###  Write a Program That Adds Exclamation Points
 Here's the sample output; the text after the &gt; is user input.
 
 {% highlight python %}
@@ -102,11 +102,11 @@ print("This is really loud" + "!" * int(loudly))
 </section>
 
 <section markdown="block">
-### Review
+###  Review
 * how do we get user input?
 * when we get input, what's the type of the value that's returned?
 </section>
 
 <section markdown="block">
-## [Design, Input, Processing, and Output](design-input-output.html)
+##  [Design, Input, Processing, and Output](design-input-output.html)
 </section>

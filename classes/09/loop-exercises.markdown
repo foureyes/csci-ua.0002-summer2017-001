@@ -3,7 +3,7 @@ layout: slides
 title: Loop Exercises 
 ---
 <section markdown="block" class="title-slide">
-# Loop Exercises
+#  Loop Exercises
 {% include title-slide-footer.html %}
 </section>
 
@@ -32,7 +32,7 @@ How about building ladder with random... add constructing ...
 {% endcomment %}
 
 <section markdown="block">
-### Fours and Roots
+###  Fours and Roots
 
 __Print out the square root of every multiple of 4 that's less than 65, but greater than 3__ &rarr;
 
@@ -48,7 +48,7 @@ for n in range(4, 65, 4):
 
 {% comment %}
 <section markdown="block">
-### Odds or Evens
+###  Odds or Evens
 
 __Create a program that simulates two players playing odds or evens__ &rarr;
 
@@ -61,7 +61,7 @@ __Create a program that simulates two players playing odds or evens__ &rarr;
 
 
 <section markdown="block">
-### Example Output
+###  Example Output
 
 {% highlight bash %}
 odds play: 1, evens play: 2
@@ -82,7 +82,7 @@ odds score: 2, evens score: 1
 </section>
 
 <section markdown="block">
-### Example Implementation
+###  Example Implementation
 
 {% highlight python %}
 import random
@@ -110,7 +110,7 @@ main()
 </section>
 
 <section markdown="block">
-### Reverse Sentence
+###  Reverse Sentence
 
 __Write a program that asks for exactly 5 words.  The program should print the words in reverse order.__ &rarr;
 
@@ -121,7 +121,7 @@ __Write a program that asks for exactly 5 words.  The program should print the w
 </section>
 
 <section markdown="block">
-###  Example Output
+###   Example Output
 
 {% highlight python %}
 Word please!
@@ -139,7 +139,7 @@ check out my amazing program
 </section>
 
 <section markdown="block">
-###  Example Implementation
+###   Example Implementation
 
 {% highlight python %}
 sentence = ''
@@ -154,7 +154,7 @@ print(sentence)
 {% endcomment %}
 
 <section markdown="block">
-### An ATM Program
+###  An ATM Program
 
 __Create a program that simulates an ATM__ &rarr;
 
@@ -169,7 +169,7 @@ __Create a program that simulates an ATM__ &rarr;
 </section>
 
 <section markdown="block">
-### Example Output 
+###  Example Output 
 
 {% highlight python %}
 Your current balance is 5
@@ -200,7 +200,7 @@ k, thx bye
 
 
 <section markdown="block">
-### Example Implementation
+###  Example Implementation
 
 {% highlight python %}
 balance = 5
@@ -222,7 +222,7 @@ while command != 'q' and command != 'Q':
 </section>
 
 <section markdown="block">
-### Generate Random Bits
+###  Generate Random Bits
 
 __Write the following program__ &rarr;
 
@@ -241,7 +241,7 @@ how many bits (between 4 and 8)?
 </section>
 
 <section markdown="block">
-### Random Bits Solution!
+###  Random Bits Solution!
  
 {% highlight python %}
 import random

@@ -4,12 +4,12 @@ title: Built-in Modules
 ---
 
 <section markdown="block" class="title-slide">
-# Built-In Modules
+#  Built-In Modules
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 So... again, we learned a few built-in functions.  These are all available by default.
 
@@ -23,7 +23,7 @@ So... again, we learned a few built-in functions.  These are all available by de
 </section>
 
 <section markdown="block">
-### Modules
+###  Modules
 
 __module__ (as defined in THINKSCI):
 
@@ -32,7 +32,7 @@ __module__ (as defined in THINKSCI):
 </section>
 
 <section markdown="block">
-### Modules Continued
+###  Modules Continued
 
 So... what does that actually mean?
 
@@ -48,7 +48,7 @@ import random
 </section>
 
 <section markdown="block">
-### So... What Can These Modules Do?
+###  So... What Can These Modules Do?
 
 * math
 	* __pi__ &rarr;
@@ -61,7 +61,7 @@ import random
 </section>
 
 <section markdown="block">
-### We Know How to Call Functions
+###  We Know How to Call Functions
 <aside>But How Do You Do It From Modules?</aside>
 
 Call or use these definitions by using the module name as the prefix and dot (__.__)... and then the function name
@@ -71,7 +71,7 @@ Call or use these definitions by using the module name as the prefix and dot (__
 </section>
 
 <section markdown="block">
-### Let's See math and random in Use
+###  Let's See math and random in Use
 
 {% highlight python %}
 import math
@@ -89,7 +89,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### Let's Simulate Rolling a Six Sided Die Twice
+###  Let's Simulate Rolling a Six Sided Die Twice
 
 __Use random to "roll" dice; print out the two die rolls__&rarr;
 

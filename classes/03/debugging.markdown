@@ -4,18 +4,18 @@ title: Errors and Debugging
 ---
 
 <section markdown="block" class="title-slide">
-# Errors and Debugging
+#  Errors and Debugging
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Ugh. My Program Doesn't Work
+##  Ugh. My Program Doesn't Work
 <aside>What do I do?</aside>
 </section>
 
 
 <section markdown="block">
-### Types of Errors 
+###  Types of Errors 
 
 Let's take a look at some things that may prevent your program from _working_.
 
@@ -31,7 +31,7 @@ __Can we categorize these errors?__ &rarr;
 </section>
 
 <section markdown="block">
-### Syntax Errors
+###  Syntax Errors
 
 A __syntax error__ is an error caused when your program does not follow the rules that define the allowable combinations of characters/symbols for a correctly written program in a particular language.
 
@@ -46,7 +46,7 @@ If you have a syntax error, your program cannot even be executed because the Pyt
 </section>
 
 <section markdown="block">
-### Runtime Errors
+###  Runtime Errors
 
 A __runtime error__ is an error that occurs while a syntactically correct program is running. Runtime errors will cause your program to stop (_crash_) if you do not have special code to handle them. 
 
@@ -61,15 +61,15 @@ __What are some examples of runtime errors?__ &rarr;
 
 
 <section markdown="block">
-### Logic Errors
+###  Logic Errors
 
 A __logic error__ is in an error that occurs in program that is syntactically correct, does not contain runtime errors... but behaves in a way that is unintended or unanticipated. That is, it does not achieve the goals of what the program is meant to do.
 
 __Find the logic error below.__ &rarr;
 
 {% highlight python %}
-# ask the user for three integers
-# print out the sum of all three integers
+#  ask the user for three integers
+#  print out the sum of all three integers
 num1 = int(input("Give me the first integer\n> "))
 num2 = int(input("Give me the second integer\n> "))
 num3 = int(input("Give me the third integer\n> ")) 
@@ -81,13 +81,13 @@ print(num1 + num2 + num2)
 
 
 <section markdown="block">
-### Ok. So How Do We Fix Errors?
+###  Ok. So How Do We Fix Errors?
 
 1. don't make mistakes in the first place :P (obvs... but how?)
 2. debugging
 </section>
 <section markdown="block">
-### How to Avoid Bugs
+###  How to Avoid Bugs
 
 __What are some ways of avoiding bugs?__ &rarr;
 
@@ -101,7 +101,7 @@ programs all at once)
 </section>
 
 <section markdown="block">
-### Debugging Overview
+###  Debugging Overview
 
 __What are some ways that you can isolate and find the root cause of errors (we know a couple, we'll introduce a few more)?__ &rarr;
 
@@ -115,15 +115,15 @@ __What are some ways that you can isolate and find the root cause of errors (we 
 </section>
 
 <section markdown="block">
-### Working Through Code Line-by-Line
+###  Working Through Code Line-by-Line
 
 This is the simplest, and most important way of finding bugs. __Just read your code!__ &rarr;
 
 Reading through this code carefully would reveal the error!
 
 {% highlight python %}
-# ask the user for three integers
-# print out the sum
+#  ask the user for three integers
+#  print out the sum
 num1 = int(input("Give me the first integer\n> "))
 num2 = int(input("Give me the second integer\n> "))
 num3 = int(input("Give me the third integer\n> ")) 
@@ -137,7 +137,7 @@ This is the most important method of debugging because __this helps increase you
 
 
 <section markdown="block">
-### Print Stuff Out!
+###  Print Stuff Out!
 
 Print out the values of variables to help you isolate where the issue is:
 
@@ -158,7 +158,7 @@ We'll see that the input looks correct... so clearly, the issue is in the calcul
 </section>
 
 <section markdown="block">
-### Use the Debugger 
+###  Use the Debugger 
 
 A __debugger__ is software that lets you step through your code line by line... and it allows you to inspect the values of variables that exist up to a specific line.
 
@@ -172,7 +172,7 @@ A __debugger__ is software that lets you step through your code line by line... 
 </section>
 
 <section markdown="block">
-### Python Tutor
+###  Python Tutor
 
 [Python Tutor](pythontutor.com) is similar to IDLE's debugger, but you access it online.
 

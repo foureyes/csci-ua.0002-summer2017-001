@@ -4,12 +4,12 @@ title:  Making Modules
 ---
 
 <section markdown="block" class="title-slide">
-# Making Modules
+#  Making Modules
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Modules
+###  Modules
 
 * a __module__ is just a file!
 * ...a file with Python code in it
@@ -23,7 +23,7 @@ title:  Making Modules
 </section>
 
 <section markdown="block">
-### Creating a Module
+###  Creating a Module
 
 We can actually create our own modules.
 
@@ -37,18 +37,18 @@ We can actually create our own modules.
 </section>
 
 <section markdown="block">
-### Creating a Module Example
+###  Creating a Module Example
 
 __Try this on your own... create 2 files: greetings.py and using_a_module.py &rarr;__
 
 {% highlight python %}
-#greetings.py
+# greetings.py
 def hello():
 	return "hi there"
 {% endhighlight %}
 
 {% highlight python %}
-#using_a_module.py
+# using_a_module.py
 import greetings
 print(greetings.hello())
 {% endhighlight %}
@@ -57,7 +57,7 @@ Run it!
 </section>
 
 <section markdown="block">
-### Some Questions
+###  Some Questions
 
 __What would happen if you didn't have an import? &rarr;__
 __What would happen if you put in the extension of your file name? &rarr;__
@@ -78,7 +78,7 @@ ImportError: No module named py
 </section>
 
 <section markdown="block">
-### Why Create Your Own Modules?
+###  Why Create Your Own Modules?
 
 * organizing your code
 	* keep related code together
@@ -89,6 +89,6 @@ ImportError: No module named py
 </section>
 
 <section markdown="block">
-## [Exercises](exercises.html)
+##  [Exercises](exercises.html)
 </section>
 

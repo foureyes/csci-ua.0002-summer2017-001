@@ -3,12 +3,12 @@ layout: slides
 title: References, Aliasing, and Indexes 
 ---
 <section markdown="block" class="title-slide">
-# References, Aliasing, and Indexes
+#  References, Aliasing, and Indexes
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Aliasing 
+###  Aliasing 
 
 In the following code, a and b refer to the same object.  The object is a list, which is a __mutable__ type.  __What will be printed out in the following code?__ &rarr;
 
@@ -30,7 +30,7 @@ See in [python tutor](http://pythontutor.com/visualize.html#code=a+%3D+%5B5,+3,+
 </section>
 
 <section markdown="block">
-### Aliasing Continued
+###  Aliasing Continued
 
 It's not the same thing for immutable objects though. 
 
@@ -44,7 +44,7 @@ print(b)
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# upper doesn't change the original string anyway!
+#  upper doesn't change the original string anyway!
 hello
 hello
 {% endhighlight %}
@@ -52,7 +52,7 @@ hello
 </section>
 
 <section markdown="block">
-### Cloning
+###  Cloning
 
 If you'd like to copy a list (rather than alias), you can __clone__ a list by using __slicing__.  
 
@@ -62,7 +62,7 @@ If you'd like to copy a list (rather than alias), you can __clone__ a list by us
 {% highlight python %}
 a = [1, 2, 3]
 
-# cloned!
+#  cloned!
 b = a[0:3]
 {% endhighlight %}
 
@@ -74,7 +74,7 @@ b = a[:]
 </section>
 
 <section markdown="block">
-### In Functions...
+###  In Functions...
 
 When you pass a list as an argument to a function: 
 
@@ -98,7 +98,7 @@ See in [Python tutor](http://pythontutor.com/visualize.html#code=numbers+%3D+%5B
 </section>
 
 <section markdown="block">
-### Changing in Place
+###  Changing in Place
 
 It's possible to create a function that modifies the parameter that was passed in.  Both a (outside of the function) and number (within the function) point to the same actual object.  In this case, there's no return value; instead the list is modified in place (nothing is returned).
 
@@ -122,7 +122,7 @@ print(a)
 </section>
 
 <section markdown="block">
-### Square Every Element
+###  Square Every Element
 
 __Create a function called squared; implement it two different ways:__ &rarr;
 
@@ -133,7 +133,7 @@ __Create a function called squared; implement it two different ways:__ &rarr;
 </section>
 
 <section markdown="block">
-### Square Every Element (New List)
+###  Square Every Element (New List)
 
 {% highlight python %}
 def squared(numbers):
@@ -149,7 +149,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### Square Every Element (In Place)
+###  Square Every Element (In Place)
 
 {% highlight python %}
 a = [1, 2, 3]
@@ -163,7 +163,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### Iterating Over Every Item in a List
+###  Iterating Over Every Item in a List
 
 __What is the code that we would use to print out every element in the following list?__ &rarr;
 
@@ -181,7 +181,7 @@ for name in names:
 </section>
 
 <section markdown="block">
-### Indexes
+###  Indexes
 
 __What code would we use to print out the 1st element in the following list, and then the 2nd element?__ &rarr;
 
@@ -200,7 +200,7 @@ print(names[1])
 </section>
 
 <section markdown="block">
-### Indexes Continued
+###  Indexes Continued
 
 __In the previous example, what type was the index?  Are indexes sequential or random?__
 
@@ -212,7 +212,7 @@ __In the previous example, what type was the index?  Are indexes sequential or r
 </section>
 
 <section markdown="block">
-### Iteration and Indexes
+###  Iteration and Indexes
 
 __Is it possible to generate the indexes used in the print statements below without hardcoding the values?  If so, how?__ &rarr;
 
@@ -230,7 +230,7 @@ print(names[1])
 </section>
 
 <section markdown="block">
-### For Loops and Indexes
+###  For Loops and Indexes
 
 __Use a for loop to print out every element in the list below, with the index of the element before it.__ &rarr;
 
@@ -253,7 +253,7 @@ for i in range(0, len(names)):
 </section>
 
 <section markdown="block">
-### While Loops and Indexes
+###  While Loops and Indexes
 
 __How can we generate indexes with a while loop?__ &rarr;
 
@@ -278,7 +278,7 @@ while i < len(names):
 </section>
 
 <section markdown="block">
-### Enumerate
+###  Enumerate
 
 We also looked at a built in function called __enumerate__.  
 
@@ -299,7 +299,7 @@ for i, name in t:
 
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 __Write a function that takes a list as an input and returns the list in reverse order (btw, there's already a list method that does this) &rarr;__
 
@@ -311,7 +311,7 @@ __Write a function that takes a list as an input and returns the list in reverse
 </section>
 
 <section markdown="block">
-### Another (More Destructive Way) to Reverse a List
+###  Another (More Destructive Way) to Reverse a List
 
 __Can you use pop to do it? &rarr;__
 
@@ -323,7 +323,7 @@ __Can you use pop to do it? &rarr;__
 </section>
 
 <section markdown="block">
-### But Wait - What Happened?
+###  But Wait - What Happened?
 
 __What's the output of the pop() version of the solution? &rarr;__
 

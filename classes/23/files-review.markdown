@@ -3,12 +3,12 @@ layout: slides
 title: File I/O 
 ---
 <section markdown="block" class="title-slide">
-# File I/O
+#  File I/O
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Storing Data
+###  Storing Data
 
 __What's the difference between volatile and non-volatile memory, and what are some examples of each?__ &rarr;
 
@@ -20,7 +20,7 @@ __What's the difference between volatile and non-volatile memory, and what are s
 </section>
 
 <section markdown="block">
-### Storing Data in Main Memory
+###  Storing Data in Main Memory
 
 __What are the consequences of your data being stored in your computer's main memory?__ &rarr;
 
@@ -35,7 +35,7 @@ Store data as a file on non-volatile memory.
 </section>
 
 <section markdown="block">
-### open
+###  open
 
 __In Python, what built-in function do we use to interact with files?  How many parameters does it have, and what does it return?__ &rarr;
 
@@ -53,25 +53,25 @@ __In Python, what built-in function do we use to interact with files?  How many 
 </section>
 
 <section markdown="block">
-### A File Object ...
+###  A File Object ...
 
 * is an object that allows your program to manipulate/read/write to an actual file on disk
 * to create a file object and open a file, use the built-in function, __open__()
 
 {% highlight python %}
-# my_input_file is a file object
+#  my_input_file is a file object
 my_output_file = open("myfile.txt", "w")
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Putting Data Into a File
+###  Putting Data Into a File
 
 __What are the steps for opening a file and putting data into it?  What file object method is used for putting data into a file?__ &rarr;
 </section>
 
 <section markdown="block">
-### Writing to a File
+###  Writing to a File
 
 1. Get a file object using open with write mode: __open('filename', 'w')__
 	* filename is the file to be opened
@@ -85,30 +85,30 @@ __What are the steps for opening a file and putting data into it?  What file obj
 </section>
 
 <section markdown="block">
-### Writing to a File Code
+###  Writing to a File Code
 
 {% highlight python %}
-# open using mode 'w'
+#  open using mode 'w'
 my_output_file = open("myfile.txt", "w")
 
-# use the write method
+#  use the write method
 f.write("Monday\n")
 f.write("Tuesday\n")
 f.write("Wednesday\n")
 
-# close when you're done
+#  close when you're done
 f.close()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Retrieving Data From a File
+###  Retrieving Data From a File
 
 __What are the steps for opening a file and retrieving data from it?  What file object methods can be used for reading data from a file?__ &rarr;
 </section>
 
 <section markdown="block">
-### Reading a File
+###  Reading a File
 
 1. Get a file object using open with read mode: __open('filename', 'r')__
 	* filename is the file to be opened
@@ -124,7 +124,7 @@ __What are the steps for opening a file and retrieving data from it?  What file 
 </section>
 
 <section markdown="block">
-### Methods for Reading a File
+###  Methods for Reading a File
 
 All of the following methods do not have any parameters.
 
@@ -135,7 +135,7 @@ All of the following methods do not have any parameters.
 </section>
 
 <section markdown="block">
-### Examples
+###  Examples
 
 The following examples assume the presence of a file called __ingredients.txt__ ([download here](ingredients.txt) - right-click and save as) in the same folder/directory as your program.
 
@@ -151,7 +151,7 @@ The contents of the file is:
 </section>
 
 <section markdown="block">
-### Reading a File With Iteration
+###  Reading a File With Iteration
 
 __A file object is actually iterable!__ &rarr;
 
@@ -168,7 +168,7 @@ my_input_file.close()
 </section>
 
 <section markdown="block">
-### Output of Reading a File With Iteration
+###  Output of Reading a File With Iteration
 
 Notice the extra new lines...
 
@@ -189,7 +189,7 @@ print(line.strip())
 </section>
 
 <section markdown="block">
-### Reading a File With readline()
+###  Reading a File With readline()
 
 __The readline() method also reads in one line at a time__ &rarr;
 
@@ -209,7 +209,7 @@ my_input_file.close()
 </section>
 
 <section markdown="block">
-### Output of Reading a File With readline()
+###  Output of Reading a File With readline()
 
 As with iteration, there are extra new lines:
 
@@ -231,7 +231,7 @@ print(line.strip())
 
 
 <section markdown="block">
-### Reading a File With readlines()
+###  Reading a File With readlines()
 
 __You can also call readlines (with an s) to just read the the entire contents of a file as a list__ &rarr;
 
@@ -248,7 +248,7 @@ my_input_file.close()
 </section>
 
 <section markdown="block">
-### Output of Reading a File With readlines()
+###  Output of Reading a File With readlines()
 
 The list is printed out.  Notice the newlines (as usual!). 
 
@@ -266,7 +266,7 @@ for line in lines:
 
 
 <section markdown="block">
-### Finally, Reading a File with read()
+###  Finally, Reading a File with read()
 
 __Use the read() method on your file handle object to read the file in all at once.__  
 
@@ -281,7 +281,7 @@ print(contents)
 </section>
 
 <section markdown="block">
-### Output of Reading a File With read()
+###  Output of Reading a File With read()
 
 Contents contains a string representing all of the data in the file.
 
@@ -294,11 +294,11 @@ Contents contains a string representing all of the data in the file.
 
 
 <section markdown="block">
-## Some Exercises
+##  Some Exercises
 </section>
 
 <section markdown="block">
-### Double the Ingredients
+###  Double the Ingredients
 
 * using the original [ingredients.txt](ingredients.txt) file...
 * open the file
@@ -308,11 +308,11 @@ Contents contains a string representing all of the data in the file.
 </section>
 
 <section markdown="block">
-## Let's Do This Step By Step
+##  Let's Do This Step By Step
 </section>
 
 <section markdown="block">
-### Reading the Ingredients
+###  Reading the Ingredients
 
 __Let's try printing out every line in the ingredients file first:__ &rarr;
 
@@ -327,13 +327,13 @@ my_input_file.close()
 </section>
 
 <section markdown="block">
-### Extracting Meaningful Information
+###  Extracting Meaningful Information
 
 __Let's add code to get the number out of each line, double it, and print it out along with the ingredient:__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# there's a problem with this solution...
+#  there's a problem with this solution...
 my_input_file = open('ingredients.txt', 'r')
 for line in my_input_file:
 	number = int(line[0])
@@ -347,13 +347,13 @@ __This solution works for the data that's currently in the file, but...__
 </section>
 
 <section markdown="block">
-### Extracting Meaningful Information Part 2
+###  Extracting Meaningful Information Part 2
 
 __What if the number in the beginnin of the line had 2 digits? ...like 10:cloves of garlic.__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# use split on the string...
+#  use split on the string...
 my_input_file = open('ingredients.txt', 'r')
 for line in my_input_file:
 	clean_line = line.strip()
@@ -366,14 +366,14 @@ my_input_file.close()
 </section>
 
 <section markdown="block">
-### Extracting Meaningful Information Part 2
+###  Extracting Meaningful Information Part 2
 
 __Now... let's write out the ingredients rather than printing out to the screen.__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
 my_input_file = open('ingredients.txt', 'r')
-# add a file to write to
+#  add a file to write to
 my_output_file = open('ingredients.txt', 'w')
 for line in my_input_file:
 	clean_line = line.strip()
@@ -389,7 +389,7 @@ my_output_file.close()
 
 {% comment %}
 <section markdown="block">
-### More Reading and Writing
+###  More Reading and Writing
 
 * read the contents of a file called names.txt
 * the file will have first names in it
@@ -411,14 +411,14 @@ Alice
 
 
 <section markdown="block">
-### A Potential Solution
+###  A Potential Solution
 
 {% highlight python %}
 file_in = open("names.txt", "r")
 names = file_in.readlines()
-# or alternatively...
-# contents = file_in.read()
-# names = contents.split("\n")
+#  or alternatively...
+#  contents = file_in.read()
+#  names = contents.split("\n")
 names.sort()
 file_in.close()
 file_out = open("names_sorted.txt", "w")
@@ -431,7 +431,7 @@ file_out.close()
 {% endcomment %}
 
 <section markdown="block">
-### Jane Austen
+###  Jane Austen
 
 You can download a text version of [Pride and Prejudice](http://www.gutenberg.org/cache/epub/1342/pg1342.txt) from Project Gutenberg
 
@@ -442,14 +442,14 @@ Also... these are [sort](http://en.wikipedia.org/wiki/Sense_and_Sensibility_and_
 </section>
 
 <section markdown="block">
-### Downloading the File
+###  Downloading the File
 
 Save the text version of [Pride and Prejudice](http://www.gutenberg.org/cache/epub/1342/pg1342.txt) in the same folder that your program is in.
 
 </section>
 
 <section markdown="block">
-### Pig Latin
+###  Pig Latin
 
 {% highlight python %}
 def to_pig_latin(w):
@@ -475,7 +475,7 @@ def to_pig_latin(w):
 </section>
 
 <section markdown="block">
-### Translate Passage
+###  Translate Passage
 
 {% highlight python %}
 def translate_passage(passage):
@@ -494,15 +494,15 @@ def translate_passage(passage):
 </section>
 
 <section markdown="block">
-### Putting it All Together
+###  Putting it All Together
 
 {% highlight python %}
-# open file for reading
+#  open file for reading
 fh_in = open('pg1342.txt', 'r')
 s = fh_in.read()
 fh_in.close()
 
-# translate and write
+#  translate and write
 fh_out = open('pg1342_translated.txt', 'w')
 fh_out.write(translate_passage(s))
 fh_out.close()

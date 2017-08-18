@@ -4,12 +4,12 @@ title: About Class #25
 ---
 
 <section markdown="block" class="title-slide">
-# About Class #25
+#  About Class #25
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * Review File I/O
 * Review Exceptions
@@ -19,7 +19,7 @@ title: About Class #25
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * Homework #10 is due this evening
 * Homework #11, the __last__ homework for this class will be posted later this evening, along with a small extra credit
@@ -27,7 +27,7 @@ title: About Class #25
 
 
 <section markdown="block">
-### Midterm #2
+###  Midterm #2
 
 * Midterm #2 grades are posted
 * We'll go over solutions at end of class

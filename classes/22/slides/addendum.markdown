@@ -4,12 +4,12 @@ title:  Addendum to List Methods
 ---
 
 <section markdown="block" class="title-slide">
-# Addendum to List Methods
+#  Addendum to List Methods
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Questions
+###  Questions
 
 1. can __remove__() remove the last occurrence?
 2. can __pop__() take an argument?
@@ -17,7 +17,7 @@ title:  Addendum to List Methods
 </section>
 
 <section markdown="block">
-### Remove the Last Occurrence
+###  Remove the Last Occurrence
 
 Unfortunately, there's no way to do it with remove().
 
@@ -28,7 +28,7 @@ With the features and types that we know, how can we do this?
 </section>
 
 <section markdown="block">
-### Remove the Last Occurrence
+###  Remove the Last Occurrence
 
 __pop()__ can actually take an optional argument - the index that you want removed!  __What does this print out? &rarr;__
 
@@ -51,7 +51,7 @@ print(a)
 </section>
 
 <section markdown="block">
-### By the Way...
+###  By the Way...
 
 There are a few other list [methods in the documentation](http://docs.python.org/3.2/library/stdtypes.html#mutable-sequence-types). 
 
@@ -63,5 +63,5 @@ I won't cover these in the exam or homework; you can use them if you like...
 </section>
 
 <section markdown="block">
-## [Iteration Over Sequences Using Indexes](iteration-indexes.html)
+##  [Iteration Over Sequences Using Indexes](iteration-indexes.html)
 </section>

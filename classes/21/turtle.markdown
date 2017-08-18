@@ -3,12 +3,12 @@ layout: slides
 title: Turtle Graphics 
 ---
 <section markdown="block" class="title-slide">
-# Turtle Graphics
+#  Turtle Graphics
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Turtle
+###  Turtle
 
 __turtle__ is a Python module...
 
@@ -22,7 +22,7 @@ __turtle__ is a Python module...
 </section>
 
 <section markdown="block">
-### Some History
+###  Some History
 
 So, what's this __Logo__ thing about?
 
@@ -35,7 +35,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### Seymour Papert
+###  Seymour Papert
 
 * Papert, in particular, is well known for his work in education and computing
 * developed an influential theory on learning called _[constructionism](http://en.wikipedia.org/wiki/Constructionist_learning)_
@@ -45,7 +45,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### (And Like Many Great Computer Scientists, He Has a Beard)
+###  (And Like Many Great Computer Scientists, He Has a Beard)
 
 <div class="img-container" markdown="block">![Seymour Papert](../../resources/img/papert.jpg)
 </div>
@@ -53,7 +53,7 @@ So, what's this __Logo__ thing about?
 </section>
 
 <section markdown="block">
-### Great, So... Why Turtle?
+###  Great, So... Why Turtle?
 
 Imagine you have a turtle hanging out on the beach...
 
@@ -62,7 +62,7 @@ Imagine you have a turtle hanging out on the beach...
 </section>
 
 <section markdown="block">
-### Turtles Drawing Stuff
+###  Turtles Drawing Stuff
 
 * imagine further that it's a robotic turtle (__AWESOME!__)
 * ...that you can give commands to
@@ -75,7 +75,7 @@ Imagine you have a turtle hanging out on the beach...
 </section>
 
 <section markdown="block">
-### What Does That Mean for Us?
+###  What Does That Mean for Us?
 
 So... in Python, we now have access to our own drawing turtle
 
@@ -90,7 +90,7 @@ So... in Python, we now have access to our own drawing turtle
 </section>
 
 <section markdown="block">
-### Hello Turtle
+###  Hello Turtle
 <aside>Enough Talk.  What Does This Code Actually Look Like?</aside>
 
 This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running it.
@@ -100,7 +100,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### About the Drawing Environment
+###  About the Drawing Environment
 
 * obviously, we're drawing on a two-dimensional plane
 * the turtle starts at the center
@@ -111,7 +111,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### About the Drawing Environment Continued
+###  About the Drawing Environment Continued
 
 * you can use __leo.forward(200)__ as a clue!
 * if that drew a 200 pixel line, then, maybe
@@ -121,7 +121,7 @@ This draws a line (that's exactly 200 pixels).  (exciting).  Let's try running i
 </section>
 
 <section markdown="block">
-### A Few Tips for Running Programs
+###  A Few Tips for Running Programs
 
 Running these programs (from IDLE or from Terminal!) cause a new window to pop up.  You may encounter some _minor annoyances_:
 
@@ -133,7 +133,7 @@ Running these programs (from IDLE or from Terminal!) cause a new window to pop u
 </section>
 
 <section markdown="block">
-### More Tips for Running Turtle
+###  More Tips for Running Turtle
 * if there's an __error__, the window of your __program may hang__ &rarr;
 	* close the interactive shell to get rid of it
 	* ...or force quit the window
@@ -143,7 +143,7 @@ Running these programs (from IDLE or from Terminal!) cause a new window to pop u
 </section>
 
 <section markdown="block">
-### Let's Dissect That Code
+###  Let's Dissect That Code
 
 bring in the turtle module
 {% highlight python %}
@@ -160,7 +160,7 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-### Let's Dissect That Code Continued
+###  Let's Dissect That Code Continued
 tell the turtle to move forward 200 pixels
 {% highlight python %}
 leo.forward(200)
@@ -172,7 +172,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Objects
+###  Objects
 
 So... I used the word __object__ there a few times.  What does that actually mean?
 
@@ -184,7 +184,7 @@ So... I used the word __object__ there a few times.  What does that actually mea
 </section>
 
 <section markdown="block">
-### Methods
+###  Methods
 
 * a __method__ is essentially a function that's associated with a particular object
 * you can _call_ a method just like a function... but you have to use the dot operator
@@ -199,14 +199,14 @@ dir("hello")
 </section>
 
 <section markdown="block">
-### Let's Look at That Code Again...
+###  Let's Look at That Code Again...
 {% highlight python %}
 {% include classes/13/hello.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### The Basic Steps Are...
+###  The Basic Steps Are...
 
 What did we have to do?
 
@@ -217,7 +217,7 @@ What did we have to do?
 </section>
 
 <section markdown="block">
-### So, That's Some Boilerplate Stuff
+###  So, That's Some Boilerplate Stuff
 
 We should probably convert our hello program into a template.  You'll need to write this stuff every time you create a program with turtle:
 
@@ -227,7 +227,7 @@ We should probably convert our hello program into a template.  You'll need to wr
 </section>
 
 <section markdown="block">
-### A Note On Names
+###  A Note On Names
 
 * in the template, I use __t__ as the variable name for my turtle.  
 * it's just a variable name; it can be anything you want (same with __wn__, but you have to change wn everywhere you see it)
@@ -239,11 +239,11 @@ We should probably convert our hello program into a template.  You'll need to wr
 </section>
 
 <section markdown="block">
-## BTW, I Definitely Encourage You to Follow Along When I Code Up Examples!
+##  BTW, I Definitely Encourage You to Follow Along When I Code Up Examples!
 </section>
 
 <section markdown="block">
-### Basic Turtle Methods
+###  Basic Turtle Methods
 
 These are all methods that you can call on your __Turtle__ object.
 
@@ -259,7 +259,7 @@ t.right(45)
 </section>
 
 <section markdown="block">
-### Forward, Right, Left, Back - Code
+###  Forward, Right, Left, Back - Code
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -269,7 +269,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-### Screen and Pen Drawing Attributes
+###  Screen and Pen Drawing Attributes
 
 Methods you can call on your __Turtle__ object:
 
@@ -291,14 +291,14 @@ wn.bgcolor("pink")
 </section>
 
 <section markdown="block">
-### Color, Background and Pen Size
+###  Color, Background and Pen Size
 {% highlight python %}
 {% include classes/13/color.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Moving Without Drawing
+###  Moving Without Drawing
 
 Methods you can call on your __Turtle__ object:
 
@@ -311,7 +311,7 @@ t.up()  # picks the pen up, doesn't draw when the turtle moves
 
 
 <section markdown="block">
-### Pen Up, Pen Down
+###  Pen Up, Pen Down
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -321,7 +321,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-### Going Somewhere?
+###  Going Somewhere?
 
 A method you can call on your __Turtle__ object:
 
@@ -333,7 +333,7 @@ t.goto(200, 200)  # picks the pen up, doesn't draw when the turtle moves
 </section>
 
 <section markdown="block">
-### Goto
+###  Goto
 
 __BTW... what do you think this draws? &rarr;__
 
@@ -343,7 +343,7 @@ __BTW... what do you think this draws? &rarr;__
 </section>
 
 <section markdown="block">
-### A Confused Turtle
+###  A Confused Turtle
 
 A quick demo using goto: __let's try incorporating random elements to our drawings!__ &rarr;
 
@@ -354,7 +354,7 @@ A quick demo using goto: __let's try incorporating random elements to our drawin
 </div>
 </section>
 <section markdown="block">
-###  Let's Use What We Know to Create a Square!
+###   Let's Use What We Know to Create a Square!
 
 __How would we tell the turtle to create a square with the upper left corner at the origin? Each side should be 200px long.  We just learned goto, so let's try that.&rarr;__
 
@@ -366,7 +366,7 @@ __How would we tell the turtle to create a square with the upper left corner at 
 </section>
 
 <section markdown="block">
-### Another Square!
+###  Another Square!
 
 __Same thing, but this time, just use forward or back and either left or right.  &rarr;__
 
@@ -378,7 +378,7 @@ __Same thing, but this time, just use forward or back and either left or right. 
 </section>
 
 <section markdown="block">
-### For a Square....
+###  For a Square....
 
 __How can we simplify the previous version?  There was a lot of repeated code! &rarr;__
 
@@ -392,7 +392,7 @@ Clearly, this calls for a __for loop__!
 </section>
 
 <section markdown="block">
-### Loops for Squares?
+###  Loops for Squares?
 
 Ugh... so, every time we want a square, we have to write another loop? That seems a bit cumbersome. 
 
@@ -411,7 +411,7 @@ How about we write a function?
 </section>
 
 <section markdown="block">
-### draw_square Function
+###  draw_square Function
 
 __Write a function to draw a square with a side of length 200.__ &rarr;
 
@@ -421,7 +421,7 @@ __Write a function to draw a square with a side of length 200.__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# turtle setup
+#  turtle setup
 
 function draw_square():
 	for i in range(4):
@@ -438,7 +438,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Cool Function, Bro... But...
+###  Cool Function, Bro... But...
 
 So, our function worked pretty well for drawing a square, but there's a major shortcoming. __What's not so great about the draw_square function that we created?__ &rarr;
 
@@ -457,7 +457,7 @@ def draw_square(side_length):
 </section>
 
 <section markdown="block">
-### Ok, Now What? Using draw_square(...)
+###  Ok, Now What? Using draw_square(...)
 
 Eh? That was a lot of work, but for what. __Let's try our new draw square_function by drawing _a lot_ of squares!__ &rarr;
 
@@ -476,25 +476,25 @@ for size in range(10, 501, 10):
 </section>
 
 <section markdown="block">
-### Y So Slow?
+###  Y So Slow?
 
 It's fun watching the turtle draw stuff for the first couple of times you work on your program, but it gets _super annoying_ immediately after that. 
 
 Just like cooking shows where the food magically appears all cooked, __we can get to the drawing results faster by adding these two lines of code__: &rarr;
 
 {% highlight python %}
-# after creating a turtle and a screen...
+#  after creating a turtle and a screen...
 
 t.hideturtle()
 wn.tracer(0)
 
-# after drawing stuff...
+#  after drawing stuff...
 wn.update()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### hideturtle, tracer, update
+###  hideturtle, tracer, update
 
 Ok... so those two special methods for drawing more quickly were:
 
@@ -506,7 +506,7 @@ Ok... so those two special methods for drawing more quickly were:
 
 
 <section markdown="block">
-### Enough With Squares
+###  Enough With Squares
 
 __Long live pentagons!__ More sides equals _more_ better, right!?
 
@@ -521,7 +521,7 @@ But first. Some geometry
 </section>
 
 <section markdown="block">
-### Planning for a Pentagon
+###  Planning for a Pentagon
 
 So, for a pentagon, __when we apply the calculations from the previous slide...__ &rarr;
 
@@ -532,7 +532,7 @@ So, for a pentagon, __when we apply the calculations from the previous slide..._
 
 
 <section markdown="block">
-### Pentagons
+###  Pentagons
 
 Ok, so that means we have 5 sides, and the turtle has to turn 72 degrees. __Let's create a draw_pentagon function__ &rarr;
 
@@ -549,7 +549,7 @@ draw_pentagon(200)
 </section>
 
 <section markdown="block">
-### Same but Different
+###  Same but Different
 
 Let's check out our draw_square and draw_pentagon functions. __Can anyone find another _thing_ to parameterize?__ &rarr;
 
@@ -572,7 +572,7 @@ The number of sides!
 </section>
 
 <section markdown="block">
-### Why. Stop. At. Squares and Pentagons. Polygonz!
+###  Why. Stop. At. Squares and Pentagons. Polygonz!
 
 So many shapes. __Let's create one function that could draw a square, pentagon or even a tetradecagon__. &rarr;
 
@@ -590,7 +590,7 @@ Remember the following calculations:
 </section>
 
 <section markdown="block">
-### draw_poly
+###  draw_poly
 
 {% highlight python %}
 def draw_poly(sides, side_length):
@@ -605,7 +605,7 @@ def draw_poly(sides, side_length):
 
 
 <section markdown="block">
-### Polygonz!
+###  Polygonz!
 
 __Let's draw a bunch of polgons, starting with a rectangle, going up to and including a 10-gon.__ &rarr;
 
@@ -626,7 +626,7 @@ for sides in range(3, 11):
 
 
 <section markdown="block">
-### Circle
+###  Circle
 
 We were kind of approaching a circle at the end there. __This is a pretty decent approximation.__ &rarr;
 
@@ -643,7 +643,7 @@ t.circle(50)
 
 
 <section markdown="block">
-### ontimer
+###  ontimer
 
 __Let's bring time into the mix!__ &rarr;
 
@@ -659,16 +659,16 @@ __On to an example...__ &rarr;
 </section>
 
 <section markdown="block">
-### ontimer Example
+###  ontimer Example
 
 __What will happen when this program is run?__ &rarr;
 
 {% highlight python %}
-# usual turtle set up above is omitted
+#  usual turtle set up above is omitted
 t.hideturtle()
 wn.tracer(0)
 
-# assuming draw_square function was defined above
+#  assuming draw_square function was defined above
 def draw_stuff():
     draw_square(20)
     t.up()
@@ -686,7 +686,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### ontimer Example Continued
+###  ontimer Example Continued
 
 Let's modify our __draw_stuff__ method ever so slightly. __What will happen when this program is run?__ &rarr;
 
@@ -700,13 +700,13 @@ def draw_stuff():
     # move ontimer into the function body
     wn.ontimer(draw_stuff, 500)
 
-# now call draw_stuff once...
+#  now call draw_stuff once...
 draw_stuff()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### clear
+###  clear
 
 To __reset the drawings on the screen__, just call __clear__ on your turtle object!
 
@@ -718,7 +718,7 @@ This is actually kind of handy because... __we can do clear the screen before dr
 </section>
 
 <section markdown="block">
-### Animation!
+###  Animation!
 
 Clearing the screen before we draw a square at a new position __has the effect of animation!__ &rarr;
 
@@ -739,7 +739,7 @@ def draw_stuff():
 
 
 <section markdown="block">
-### Putting Everything Together
+###  Putting Everything Together
 
 Ok ... so this is a bit ambitious. Let's try creating a bouncing circle. __Starting with some setup code:__ &rarr;
 
@@ -750,14 +750,14 @@ t, wn = turtle.Turtle(), turtle.Screen()
 
 turtle_x, turtle_y, turtle_dx, turtle_dy = [0], [0], [0], [-0.1]
 
-# store acceleration
+#  store acceleration
 acc = -0.5
 
-# turn animation of turtles off
+#  turn animation of turtles off
 wn.tracer(0)
 t.hideturtle()
 
-# draw function goes here
+#  draw function goes here
 
 draw()
 wn.mainloop()
@@ -766,7 +766,7 @@ wn.mainloop()
 
 
 <section markdown="block">
-### Putting Everything Together
+###  Putting Everything Together
 
 Aaaand... __filling in our draw function__ &rarr;
 
@@ -792,7 +792,7 @@ def draw():
 </section>
 
 <section markdown="block">
-### Reviewing Objects and Methods
+###  Reviewing Objects and Methods
 
 __What's an object and what's a method? &rarr;__
 
@@ -802,7 +802,7 @@ __What's an object and what's a method? &rarr;__
 </section>
 
 <section markdown="block">
-### Again a Few Tips for Running Programs
+###  Again a Few Tips for Running Programs
 
 Running these programs (from IDLE or from Terminal!) cause a new window to pop up.
 

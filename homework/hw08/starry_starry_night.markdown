@@ -10,7 +10,7 @@ Draw some stars!
 Requirements
 -----
 
-### Part 1
+###  Part 1
 
 * customize the colors of your drawing (choose whatever colors you like)
     * change the background color
@@ -28,7 +28,7 @@ Requirements
 
 ![star middle](http://foureyes.github.io/csci-ua.0002-fall2015-008/resources/img/turtle/starry_1.png)
 
-### Part 2
+###  Part 2
 
 * comment out your function call for drawing a single star from the previous part
 * now, instead of drawing a single star, draw several stars using a for loop
@@ -40,7 +40,7 @@ Requirements
 
 ![stars curved](http://foureyes.github.io/csci-ua.0002-fall2015-008/resources/img/turtle/starry_3.png)
 
-### Part 3
+###  Part 3
 
 * again, comment out your code for drawing several stars from the previous part
 * now, create another function called __generate_star_data__
@@ -58,10 +58,10 @@ Requirements
 <pre>
 star_data = generate_star_data(2)
 print(star_data)
-# prints out: [[-250, 121, 49], [100, 0, 20]] 
+#  prints out: [[-250, 121, 49], [100, 0, 20]] 
 </pre>
 
-### Part 4
+###  Part 4
 
 * use the function from the previous part to generate a list of 40 stars (a list of 40 sub lists)
 * save the result of this into a global variable (that is, it should be a variable defined outside of all of your functions)

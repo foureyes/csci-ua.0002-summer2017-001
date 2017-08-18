@@ -3,15 +3,15 @@ layout: default
 title: Tutoring Schedule
 nav-state: tutoring
 ---
-# Tutoring Schedule
+#  Tutoring Schedule
 
-## Email Tutor
+##  Email Tutor
 
 Send your tutoring questions via email to Peter.
 
 csciua02@gmail.com
 
-## Lab Tutors
+##  Lab Tutors
 
 Tutors are available on a first-come-first-serve basis on weekdays at the [labs at 14 Washington Place](http://www.nyu.edu/its/labs/wash/) (they'll be in the glass rooms at the back of the lab)... and on Sundays at [the West 4th Street Lab](http://www.nyu.edu/its/labs/fourth/).
 

@@ -4,12 +4,12 @@ title: About Class #27
 ---
 
 <section markdown="block" class="title-slide">
-# About Class #27
+#  About Class #27
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * Review
 * Exercises
@@ -17,7 +17,7 @@ title: About Class #27
 
 
 <section markdown="block">
-### Homework / Extra Credit 
+###  Homework / Extra Credit 
 
 * extra credit, homework #11 are both due on Friday (with Saturday grace period)
 * homework #6 grades are posted
@@ -27,7 +27,7 @@ title: About Class #27
 
 
 <section markdown="block">
-### Final Exam
+###  Final Exam
 
 * __date:__ {{ site.final_date }}
 * __time:__ {{ site.final_time }}
@@ -35,7 +35,7 @@ title: About Class #27
 </section>
 
 <section markdown="block">
-### Sample Questions
+###  Sample Questions
 
 They __do not indicate the number of questions on the exam or the ratio of _difficult_ to regular questions__, and they have some questions that would be extra credit on the actual exam (such as recursion).
 
@@ -48,7 +48,7 @@ They __do not indicate the number of questions on the exam or the ratio of _diff
 
 
 <section markdown="block">
-### Review Session
+###  Review Session
 
 I've sent in a request for the following date and time:
 
@@ -60,7 +60,7 @@ __PLEASE LET ME KNOW if you're planning on attending.__
 </section>
 
 <section markdown="block">
-### Catching Up
+###  Catching Up
 
 __Tutoring Theme Days at the labs at 14 Washington Place__
 
@@ -73,7 +73,7 @@ __Tutoring Theme Days at the labs at 14 Washington Place__
 </section>
 
 <section markdown="block">
-## Additional Resources
+##  Additional Resources
 
 * [http://learnpythonthehardway.org/book/](http://learnpythonthehardway.org/book/)
 * [http://www.codecademy.com/tracks/python](http://www.codecademy.com/tracks/python)

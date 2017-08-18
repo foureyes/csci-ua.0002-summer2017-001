@@ -50,11 +50,11 @@ Schedule & Notes
 <a name="class1"></a><!---------- start --------------->
 
 <section markdown="block">
-### MON 5/22, Class #1
+###  MON 5/22, Class #1
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Introductions 
 * About Programming
@@ -66,11 +66,11 @@ Schedule & Notes
 <a name="class2"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 5/23, Class #2
+###  TUE 5/23, Class #2
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Values, Types, Operations, Variables
 * Input / Output
@@ -81,11 +81,11 @@ Schedule & Notes
 <a name="class3"></a><!---------- start --------------->
 
 <section markdown="block">
-### WED 5/24, Class #3
+###  WED 5/24, Class #3
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Values, Types, Operations, Variables Continued
 * Built-in Functions
@@ -98,12 +98,12 @@ Schedule & Notes
 <a name="class4"></a><!---------- start --------------->
 
 <section markdown="block">
-### THU 5/25, Class #4
+###  THU 5/25, Class #4
 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Continue Printing and Formatting
 * Conditionals
@@ -115,11 +115,11 @@ Schedule & Notes
 <a name="class5"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 5/30, Class #5
+###  TUE 5/30, Class #5
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Modules and If Statements Continued
 * While Loops
@@ -130,11 +130,11 @@ Schedule & Notes
 <a name="class6"></a><!---------- start --------------->
 
 <section markdown="block">
-### WED 5/31, Class #6 
+###  WED 5/31, Class #6 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * While Loops
 * Accumulator Variables
@@ -145,11 +145,11 @@ Schedule & Notes
 <a name="class7"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### THU 6/1, Class #7 (Programming Assignment)
+###  THU 6/1, Class #7 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * In-class programming assignment
 * Preview For Loops
@@ -159,11 +159,11 @@ Schedule & Notes
 <a name="class8"></a><!---------- start --------------->
 
 <section markdown="block">
-### MON 6/5, Class #8 
+###  MON 6/5, Class #8 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * For Loops
 * While vs For
@@ -176,11 +176,11 @@ Schedule & Notes
 <a name="class9"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 6/6, Class #9
+###  TUE 6/6, Class #9
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Functions Continued
 
@@ -189,11 +189,11 @@ Schedule & Notes
 <a name="class10"></a><!---------- start --------------->
 
 <section class="review" markdown="block">
-### WED 6/7, Class #10 
+###  WED 6/7, Class #10 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Strings
 
@@ -202,11 +202,11 @@ Schedule & Notes
 <a name="class11"></a><!---------- start --------------->
 
 <section class="review" markdown="block">
-### THU 6/8, Class #11 (Review)
+###  THU 6/8, Class #11 (Review)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Review Session for Midterm 
 </article> {% include classes/class-11.markdown %}</div> </section> 
@@ -214,18 +214,18 @@ Schedule & Notes
 <a name="class12"></a><!---------- start --------------->
 
 <section markdown="block" class="exam">
-### MON 6/12, Midterm
+###  MON 6/12, Midterm
 
 </section> 
 
 <a name="class13"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 6/13, Class #13 
+###  TUE 6/13, Class #13 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Testing
 * Scope
@@ -236,12 +236,12 @@ Schedule & Notes
 <a name="class14"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### WED 6/14, Class #14 (Programming Assignment)
+###  WED 6/14, Class #14 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
 
-#### Topics
+####  Topics
 
 * In-class programming assignment
 </article> {% include classes/class-14.markdown %} </div> </section> 
@@ -249,11 +249,11 @@ Schedule & Notes
 <a name="class15"></a><!---------- start --------------->
 
 <section markdown="block">
-### THU 6/15, Class #15 
+###  THU 6/15, Class #15 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Lists
 
@@ -262,11 +262,11 @@ Schedule & Notes
 <a name="class16"></a><!---------- start --------------->
 
 <section markdown="block">
-### Mon 6/19, Class #16 
+###  Mon 6/19, Class #16 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Lists Continued
 </article> {% include classes/class-16.markdown %}</div> </section> 
@@ -275,11 +275,11 @@ Schedule & Notes
 <a name="class17"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 6/20, Class #17 
+###  TUE 6/20, Class #17 
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics 
+####  Topics 
 
 * Turtle
 </article> {% include classes/class-17.markdown %} </div> </section> 
@@ -288,11 +288,11 @@ Schedule & Notes
 <a name="class18"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### WED 6/21, Class #18 (Programming Assignment)
+###  WED 6/21, Class #18 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * In-class programming assignment
 * File I/O
@@ -303,7 +303,7 @@ Schedule & Notes
 <a name="class19"></a><!---------- start --------------->
 
 <section markdown="block" class="review">
-### THU 6/22, Class #19 
+###  THU 6/22, Class #19 
 
 <div class="class-details">
 <article class="topics" markdown="block">
@@ -316,7 +316,7 @@ Schedule & Notes
 <a name="class20"></a><!---------- start --------------->
 
 <section markdown="block" class="review">
-### THU 6/26, Class #20 
+###  THU 6/26, Class #20 
 
 <div class="class-details">
 <article class="topics" markdown="block">
@@ -325,7 +325,7 @@ Schedule & Notes
 
 </article> {% include classes/class-20.markdown %}</div> </section> 
 
-### Upcoming Classes
+###  Upcoming Classes
 
 * 21: 6/27 - Tue
 * 22: 6/28 - Wed
@@ -341,11 +341,11 @@ Schedule & Notes
 <a name="class12"></a><!---------- start --------------->
 
 <section markdown="block">
-### THU 3/02, Class #12
+###  THU 3/02, Class #12
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * For Loops Continued
 * Nested Loops
@@ -365,11 +365,11 @@ Schedule & Notes
 <a name="class21"></a><!---------- start --------------->
 
 <section class="review" markdown="block">
-### TUE 4/11, Class #21
+###  TUE 4/11, Class #21
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Lists Continued
 * Graphics (Turtle Module)
@@ -380,11 +380,11 @@ Schedule & Notes
 
 <section class="review" markdown="block" class="workshop">
 
-### THU 4/13, Class #22 (Programming Assignment)
+###  THU 4/13, Class #22 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * In-class programming assignment
 </article> {% include classes/22/materials.markdown %} </div> </section> 
@@ -392,11 +392,11 @@ Schedule & Notes
 <a name="class23"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 4/18, Class #23
+###  TUE 4/18, Class #23
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * File I/O
 * Exceptions
@@ -407,11 +407,11 @@ Schedule & Notes
 <a name="class24"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### THU 4/20, Class #24 (Programming Assignment)
+###  THU 4/20, Class #24 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * In-class programming assignment
 </article> {% include classes/24/materials.markdown %} </div> </section> 
@@ -420,11 +420,11 @@ Schedule & Notes
 <a name="class25"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 4/25, Class #25
+###  TUE 4/25, Class #25
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Dictionaries
 
@@ -434,11 +434,11 @@ Schedule & Notes
 <a name="class26"></a><!---------- start --------------->
 
 <section markdown="block" class="workshop">
-### THU 4/27, Class #26 (Programming Assignment)
+###  THU 4/27, Class #26 (Programming Assignment)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * In-class programming assignment
 </article> {% include classes/26/materials.markdown %}</div> </section> 
@@ -447,11 +447,11 @@ Schedule & Notes
 <a name="class27"></a><!---------- start --------------->
 
 <section markdown="block">
-### TUE 5/02, Class #27
+###  TUE 5/02, Class #27
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * TBD
 </article> {% include classes/27/materials.markdown %} </div> </section> 
@@ -461,11 +461,11 @@ Schedule & Notes
 <a name="class28"></a><!---------- start --------------->
 
 <section markdown="block" class="review">
-### THU 5/04, Class #28 (Review)
+###  THU 5/04, Class #28 (Review)
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Topics
+####  Topics
 
 * Review Session for Final Exam
 
@@ -474,18 +474,18 @@ Schedule & Notes
 
 <section markdown="block" class="exam">
 {% if site.course_section_2 %} 
-###  Final Exam
+###   Final Exam
 
 <div class="class-details">
 <article class="topics" markdown="block">
-#### Section {{ site.course_section }}
+####  Section {{ site.course_section }}
 
 * room: {{ site.final_room }}
 * date: {{ site.final_date }}
 * time: {{ site.final_time }}
 </article>
 <article class="due" markdown="block">
-#### Section {{ site.course_section_2 }}
+####  Section {{ site.course_section_2 }}
 
 * room: {{ site.final_room_2 }}
 * date: {{ site.final_date_2 }}
@@ -499,7 +499,7 @@ Schedule & Notes
 </article>
 </div>
 {% else %}
-###  {{ site.final_date }}
+###   {{ site.final_date }}
 
 <div class="class-details">
 <article markdown="block">

@@ -3,12 +3,12 @@ layout: slides
 title: Turtle Animation 
 ---
 <section markdown="block" class="title-slide">
-# Turtle Animation
+#  Turtle Animation
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Additional Turtle Methods
+###  Additional Turtle Methods
 
 * __clear__() - removes drawing from screen
 * __hideturtle__() - does not show turtle (triangle)
@@ -23,7 +23,7 @@ t.circle(15)
 
 
 <section markdown="block">
-### Additional Screen Methods
+###  Additional Screen Methods
 
 * __tracer__(int) - when called with 0, turns off animation of turtle movement
 * __update__() - when tracer is 0, use this to refresh the screen (show drawing)
@@ -37,7 +37,7 @@ wn.ontimer(draw, 30)
 </section>
 
 <section markdown="block">
-### Turtle/No Turtle Example
+###  Turtle/No Turtle Example
 
 Hide turtle, no trace...
 
@@ -46,21 +46,21 @@ import turtle
 
 t, wn = turtle.Turtle(), turtle.Screen()
 
-# turn animation of turtles off
-# t.hideturtle()
-# wn.tracer(0)
+#  turn animation of turtles off
+#  t.hideturtle()
+#  wn.tracer(0)
 
 for i in range(100):
     t.forward(i * 2)
     t.left(45)
 
-# wn.update()
+#  wn.update()
 wn.mainloop()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Timer
+###  Timer
 
 Create a draw function, call it every 50 milliseconds.
 
@@ -87,7 +87,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Uh.  Why?
+###  Uh.  Why?
 
 We can sort of see where this is going.  To animate we'll need to:
 
@@ -97,7 +97,7 @@ We can sort of see where this is going.  To animate we'll need to:
 </section>
 
 <section markdown="block">
-### Animation
+###  Animation
 
 Drawing a new screen at a set interval allows us to mimic frame by frame animation.  A flip book example:
 
@@ -106,7 +106,7 @@ Drawing a new screen at a set interval allows us to mimic frame by frame animati
 </section>
 
 <section markdown="block">
-### Draw a Screen
+###  Draw a Screen
 
 {% highlight python %}
 import turtle
@@ -130,23 +130,23 @@ def draw():
 </section>
 
 <section markdown="block">
-### Setup Code
+###  Setup Code
 
 {% highlight python %}
 t, wn = turtle.Turtle(), turtle.Screen()
 
-# don't show the turtle
+#  don't show the turtle
 t.hideturtle()
 
-# turn animation of turtles off
+#  turn animation of turtles off
 wn.tracer(0)
 
-# store x and y values in a mutable global variable
-# so that they can be changed from draw function
-# (rather than use globals keyword)
+#  store x and y values in a mutable global variable
+#  so that they can be changed from draw function
+#  (rather than use globals keyword)
 sprite = {'x':0, 'y':0}
 
-# start off our draw function!
+#  start off our draw function!
 draw()
 
 wn.mainloop()
@@ -154,7 +154,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### And Another (with Acceleration!)
+###  And Another (with Acceleration!)
 {% highlight python %}
 def draw():
     t.clear()
@@ -177,23 +177,23 @@ def draw():
 </section>
 
 <section markdown="block">
-### The Setup for Acceleration
+###  The Setup for Acceleration
 {% highlight python %}
         
 t, wn = turtle.Turtle(), turtle.Screen()
 
-# don't show the turtle
+#  don't show the turtle
 t.hideturtle()
 
-# turn animation of turtles off
+#  turn animation of turtles off
 wn.tracer(0)
 
-# store x and y values in a mutable global variable
-# so that they can be changed from draw function
-# (rather than use globals keyword)
+#  store x and y values in a mutable global variable
+#  so that they can be changed from draw function
+#  (rather than use globals keyword)
 sprite = {'x':0, 'y':0, 'dy':-0.1, 'acc_y':-0.5}
 
-# start off our draw function!
+#  start off our draw function!
 draw()
 
 wn.mainloop()

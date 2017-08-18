@@ -1,6 +1,6 @@
 <a name="class2"></a>
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 * {{ site.bookq }} - Chapter 1
@@ -10,7 +10,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [Review](classes/02/review.html)
 * [Hello](classes/02/hello.html) 
@@ -23,7 +23,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 <a name="homework1"></a>
 

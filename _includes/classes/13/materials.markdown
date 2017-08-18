@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 Quiz #6
 
@@ -10,7 +10,7 @@ Quiz #6
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 {% comment %}
@@ -34,7 +34,7 @@ Quiz #6
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 <!--
 Readings
@@ -56,7 +56,7 @@ Assignments
 * [Returning Values](classes/14/returning_values.html)
 
 
-### Readings
+###  Readings
 
 __{{site.bookq}}__
 
@@ -68,7 +68,7 @@ __{{site.bookt}}__
 
 <a name="homework6"></a>
 
-### Homework #6
+###  Homework #6
 
 * Due __March 27th__ at 11PM (no grace period)
 * Submit all files via __NYU Classes__ 

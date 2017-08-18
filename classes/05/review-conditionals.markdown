@@ -4,12 +4,12 @@ title: Review Conditionals
 ---
 
 <section markdown="block" class="title-slide">
-# Review - Conditionals
+#  Review - Conditionals
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Boolean Values
+###  Boolean Values
 
 __What are the two possible Boolean values?  How are they represented in Python?__ &rarr;
 
@@ -21,7 +21,7 @@ __What are the two possible Boolean values?  How are they represented in Python?
 </section>
 
 <section markdown="block">
-### A Quick Aside on bool Types
+###  A Quick Aside on bool Types
 
 __If bool is the name of the type, what do you expect the name of the function to convert to this type is?__  &rarr;
 
@@ -37,7 +37,7 @@ True
 </section>
 
 <section markdown="block">
-### == And =
+###  == And =
 __What's the difference between == and =?__ &rarr;
 
 <div class="incremental" markdown="block"> 
@@ -53,7 +53,7 @@ __What's the difference between == and =?__ &rarr;
 </section>
 
 <section markdown="block">
-### The Equality Operator 
+###  The Equality Operator 
 
 Some details about how __==__ works:
 
@@ -71,7 +71,7 @@ A few examples:
 </section>
 
 <section markdown="block">
-### If Statements
+###  If Statements
 __How do we construct an if statement?  Why does indentation matter?__
 
 <div class="incremental" markdown="block"> 
@@ -89,7 +89,7 @@ print("after my if statement")
 </section>
 
 <section markdown="block">
-### On Indentation
+###  On Indentation
 __Um, BTW - how do we know when a block of code ends?__ &rarr;
 
 <div class="incremental" markdown="block"> 
@@ -99,12 +99,12 @@ __Um, BTW - how do we know when a block of code ends?__ &rarr;
 </section>
 
 <section markdown="block">
-### This or That
+###  This or That
 __What construct (keyword) would you used to execute a block of code only if the condition in the original if-statement is not met?  What is the syntax for using it?__ &rarr;
 
 <div class="incremental" markdown="block"> 
 {% highlight python %}
-# use the keyword, else
+#  use the keyword, else
 if some_boolean_expression:
 	print('yes, that\'s true!')
 else:
@@ -117,7 +117,7 @@ Note that else will always have a corresponding if statement.
 
 
 <section markdown="block">
-### What's the Output? Part 1!
+###  What's the Output? Part 1!
 
 __What's the output of this program?__ &rarr;
 
@@ -144,7 +144,7 @@ four
 
 
 <section markdown="block">
-### What's the Output? Part 2!
+###  What's the Output? Part 2!
 
 __What is the output of this program if the user enters 'Yes', 'yes', and 'whatevs'?__ &rarr;
 
@@ -174,7 +174,7 @@ you have 12 doughnuts
 </section>
 
 <section markdown="block">
-### What's the Output? Part 3!
+###  What's the Output? Part 3!
 
 __What happens if the user enters 16?__ &rarr;
 
@@ -198,7 +198,7 @@ no, because it is always comparing a string to an int
 </section>
 
 <section markdown="block">
-### Number Guessing Game
+###  Number Guessing Game
 
 __Create a game that__ &rarr;
 
@@ -219,7 +219,7 @@ yeah, you got it!
 </section>
 
 <section markdown="block">
-### A Possible Solution
+###  A Possible Solution
 
 {% highlight python %}
 secret = 5
@@ -234,14 +234,14 @@ else:
 
 
 <section markdown="block">
-### A Few Terms
+###  A Few Terms
 
 if statement __header__ line and __body__:
 
 {% highlight python %}
 n = int(input("number plz\n>")
 
-# if statement header line
+#  if statement header line
 if n == 42:
 
 	# if statement body
@@ -253,7 +253,7 @@ if n == 42:
 </section>
 
 <section markdown="block">
-### One Last Pass
+###  One Last Pass
 
 You can use the keyword __pass__ to tell Python to do nothing.  __What do you think this prints out?__ &rarr;
 
@@ -268,7 +268,7 @@ nothing!
 
 {% comment %}
 <section markdown="block">
-## [Boolean Logic](boolean-logic.html)
+##  [Boolean Logic](boolean-logic.html)
 <aside markdown="block">
 [Oh, and a handout](../../resources/handouts/class05/input-types-if.pdf)
 </aside>

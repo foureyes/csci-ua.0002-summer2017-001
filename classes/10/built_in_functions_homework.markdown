@@ -3,16 +3,16 @@ layout: slides
 title: Material from Homework
 ---
 <section markdown="block" class="title-slide">
-# Material from Homework, Homework Solutions
+#  Material from Homework, Homework Solutions
 {% include title-slide-footer.html %}
 </section>
 <section markdown="block">
-## Built-In Functions (from Homework)
+##  Built-In Functions (from Homework)
 
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 Python has a bunch of built in functions that are available for you to use with importing a module. We've seen some of these before:
 
@@ -26,7 +26,7 @@ __In the homework, you were asked to do research on some additional functions.__
 </section>
 
 <section markdown="block">
-### Built-In Functions Continued
+###  Built-In Functions Continued
 
 Finding the length of a string and formatting a number:
 
@@ -39,7 +39,7 @@ Finding the length of a string and formatting a number:
 </section>
 
 <section markdown="block">
-### Built-In Functions Continued Some More
+###  Built-In Functions Continued Some More
 
 Rounding and absolute value...
 
@@ -52,12 +52,12 @@ Rounding and absolute value...
 </section>
 
 <section markdown="block">
-## Selected Homework Solutions
+##  Selected Homework Solutions
 
 </section>
 
 <section markdown="block">
-###  Homework Solutions
+###   Homework Solutions
 
 __hw1__
 
@@ -74,7 +74,7 @@ __hw2__
 </section>
 
 <section markdown="block">
-###  Homework Solutions Continued
+###   Homework Solutions Continued
 
 __hw3__
 

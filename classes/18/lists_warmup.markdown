@@ -3,13 +3,13 @@ layout: slides
 title: List Warm-Ups
 ---
 <section markdown="block" class="title-slide">
-# List Warm-Ups
+#  List Warm-Ups
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Swap First and Second
+###  Swap First and Second
 
 Write a function called __swappy__:
 
@@ -21,13 +21,13 @@ Write a function called __swappy__:
 
 {% highlight python %}
 print(swappy(['a', 'b', 'c']))
-# prints ['b', 'c', 'a']
+#  prints ['b', 'c', 'a']
 {% endhighlight %}
 </section>
 
 
 <section markdown="block">
-### Swap First and Second 
+###  Swap First and Second 
 
 Here's one way to do it...
 
@@ -43,7 +43,7 @@ def swappy(my_list):
 </section>
 
 <section markdown="block">
-### An Average Point
+###  An Average Point
 
 Write a function called __average_point__:
 
@@ -55,12 +55,12 @@ Write a function called __average_point__:
 
 {% highlight python %}
 print(average_point([[2, 2], [3, 1], [4, 0]]))
-# prints out [3.0, 1.0]
+#  prints out [3.0, 1.0]
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### An Average Point Solution
+###  An Average Point Solution
 
 Nested lists can be tricky sometimes, but here's a solution that could work:
 
@@ -77,7 +77,7 @@ def average_point(points):
 </section>
 
 <section markdown="block">
-### All Y
+###  All Y
 
 Using the same list of points (a list of lists) as the previous example, write a function called __all_y__:
 
@@ -101,7 +101,7 @@ def all_y(points):
 </section>
 
 <section markdown="block">
-### Sorting an List Without Sort!
+###  Sorting an List Without Sort!
 
 1. go through each position in the list and look at that element
 2. compare the value of the current element with the value of the next element
@@ -113,7 +113,7 @@ def all_y(points):
 </section>
 {% comment %}
 <section markdown="block">
-### 
+###  
 </section>
 <div class="incremental" markdown="block">
 {% highlight python %}

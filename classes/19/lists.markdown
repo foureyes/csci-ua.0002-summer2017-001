@@ -3,14 +3,14 @@ layout: slides
 title: Lists 
 ---
 <section markdown="block" class="title-slide">
-# Lists
+#  Lists
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
 
-### Sequences
+###  Sequences
 
 We've seen __numeric__ types, like int, float and complex.  Another kind/classification of type is a __sequence__. A __sequence__:
 
@@ -27,7 +27,7 @@ Sequences support operations like:
 </section>
 
 <section markdown="block">
-### Strings are Sequences
+###  Strings are Sequences
 
 A __string__ is an ordered sequence of characters.  It is a __sequence__ type.  It supports:
 
@@ -42,7 +42,7 @@ A __string__ is an ordered sequence of characters.  It is a __sequence__ type.  
 </section>
 
 <section markdown="block">
-### Lists
+###  Lists
 
 A __list__ is another sequence type.  
 
@@ -51,13 +51,13 @@ A __list__ is another sequence type.
 * an example of a list of ints and strings
 
 {% highlight python %}
-# a list of ints
+#  a list of ints
 stuff = [1, "one", 2, "two"]
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### List Literals
+###  List Literals
 
 Constructing a list using a list literal looks like this:
 {% highlight python %}
@@ -72,7 +72,7 @@ Constructing a list using a list literal looks like this:
 </section>
 
 <section markdown="block">
-### Printing Lists
+###  Printing Lists
 
 You can pass lists directly to the built-in print function.  It will output the list as if it were a string literal: 
 
@@ -92,7 +92,7 @@ Some numbers in a list: [2, 3, 5, 7]
 </section>
 
 <section markdown="block">
-### Built-in List Operators and Functions
+###  Built-in List Operators and Functions
 
 Because a __list__ is just another __sequence type__ many of the built-in operators and functions that work with strings behave similarly with lists.
 
@@ -106,7 +106,7 @@ Because a __list__ is just another __sequence type__ many of the built-in operat
 
 
 <section markdown="block">
-### Indexing Operations
+###  Indexing Operations
 
 __What will the following code output? &rarr;__
 
@@ -133,7 +133,7 @@ finn
 
 
 <section markdown="block">
-### Indexing Operations Continued
+###  Indexing Operations Continued
 
 __What will the following code output? &rarr;__
 
@@ -160,7 +160,7 @@ TypeError: list indices must be integers, not float
 </section>
 
 <section markdown="block">
-### Indexing Operations Continued Some More!
+###  Indexing Operations Continued Some More!
 
 Using the list below, __How would you retrieve "homer"... once using a positive index, and another time using a negative index? &rarr;__
 
@@ -177,7 +177,7 @@ simpsons[-2]
 </section>
 
 <section markdown="block">
-### Indexing Operations Summary
+###  Indexing Operations Summary
 
 * just like characters in a string, elements in a list can be accessed by their index (place)
 * indexes start at 0 
@@ -187,7 +187,7 @@ simpsons[-2]
 </section>
 
 <section markdown="block">
-### Iterating Over a List
+###  Iterating Over a List
 
 Just like iterating over a sequence of characters...
 
@@ -198,7 +198,7 @@ Just like iterating over a sequence of characters...
 </section>
 
 <section markdown="block">
-### Iterating Over a List Example
+###  Iterating Over a List Example
 
 __What will the following for loop print out? &rarr;__
 
@@ -218,7 +218,7 @@ False
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 Slicing also works on lists.  __What will the folloing code output? &rarr;__
 
@@ -247,7 +247,7 @@ print(colors[0:100])
 </section>
 
 <section markdown="block">
-### Slicing Summary
+###  Slicing Summary
 
 Again... like slicing strings.
 
@@ -258,7 +258,7 @@ Again... like slicing strings.
 
 
 <section markdown="block">
-### Equality Operators
+###  Equality Operators
 
 Lists are compared lexicographically using comparison of corresponding elements; to be equal each element must compare equal and the two sequences must be of the __same type__ and have the __same length__.
 
@@ -284,7 +284,7 @@ True
 </section>
 
 <section markdown="block">
-### Greater Than, Less Than
+###  Greater Than, Less Than
 
 If not equal, the sequences are ordered the same as their __first differing elements__. 
 
@@ -315,7 +315,7 @@ False
 </section>
 
 <section markdown="block">
-### Addition and Multiplication
+###  Addition and Multiplication
 
 Multiplication and addition of lists are similar to the same operations on strings.  __What will the following code output? &rarr;__
 
@@ -337,7 +337,7 @@ print(numbers * 2)
 </section>
 
 <section markdown="block">
-### Addition and Multiplication Summary
+###  Addition and Multiplication Summary
 
 * list concatenation 
 	* __+__
@@ -350,7 +350,7 @@ print(numbers * 2)
 </section>
 
 <section markdown="block">
-### len()
+###  len()
 
 You can still use the built-in function, len, on lists. __What do you think the following code will output? &rarr;__
 
@@ -375,7 +375,7 @@ print(len(c))
 
 
 <section markdown="block">
-### Mutability
+###  Mutability
 
 Unlike strings, however, lists are __mutable__.  That means that you can reassign a value at an index!  __What will the following code print out? &rarr;__
 
@@ -393,7 +393,7 @@ Unlike strings, however, lists are __mutable__.  That means that you can reassig
 </section>
 
 <section markdown="block">
-### List Methods
+###  List Methods
 
 Lists are __objects__, and they have a slew of __methods__ that you can call on them.  However, because lists are mutable, many methods actually __change the list in place__!  Let's see how this differs from strings:
 
@@ -413,7 +413,7 @@ hello
 </section>
 
 <section markdown="block">
-### List Methods Continued
+###  List Methods Continued
 
 So.... why does this matter?
 
@@ -428,7 +428,7 @@ So.... why does this matter?
 
 
 <section markdown="block">
-### Some methods that you can call on lists
+###  Some methods that you can call on lists
 
 {% highlight python %}
 li = [1, 2, 3]
@@ -445,7 +445,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Adding Elements
+###  Adding Elements
 
 1. __append__(_object_) - append object to end of list, even another list! 
 2. __extend__(_iterable_) - appends all items of one iterable (list, string, etc.) to the list the method was called on
@@ -457,7 +457,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Removing Elements
+###  Removing Elements
 
 1. __remove__(object) - removes first occurrence of object in list
 2. __pop__() - __returns and removes__ the last element, takes an optional argument to specify index
@@ -467,7 +467,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Miscellaneous Methods
+###  Miscellaneous Methods
 
 1. __sort__() - sorts a list in place &rarr;
 2. __count__(object) - counts the number of occurrences of object in the original list &rarr;
@@ -476,7 +476,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Some Exercises
+###  Some Exercises
 
 * make the last element in a list the first element
 * filter a list of strings
@@ -484,7 +484,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Make the First Element Last
+###  Make the First Element Last
 
 * define a function called last_to_first
 * it should take a list as an argument
@@ -497,7 +497,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Make the First Element Last Solution v1
+###  Make the First Element Last Solution v1
 
 {% highlight python %}
 {% include classes/19/last_to_first.py %}
@@ -505,7 +505,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Make the First Element Last Solution v2
+###  Make the First Element Last Solution v2
 
 {% highlight python %}
 {% include classes/19/last_to_first_pop_insert.py %}
@@ -513,7 +513,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Filtering a List
+###  Filtering a List
 
 __Implement a function called more_characters_than: &rarr;__
 
@@ -527,7 +527,7 @@ __Implement a function called more_characters_than: &rarr;__
 </section>
 
 <section markdown="block">
-### Filtering a List Example Output
+###  Filtering a List Example Output
 
 {% highlight pycon %}
 print(more_characters_than(["zebra", "cow", "tiger"], 4))
@@ -536,7 +536,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### Filtering a List Solution
+###  Filtering a List Solution
 
 (btw, there's already a filter function in Python)
 
@@ -546,7 +546,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### Average
+###  Average
 
 * define a function called average
 * it should take a list of numbers as an argument
@@ -556,7 +556,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### Implementing Average
+###  Implementing Average
 
 {% highlight python %}
 {% include classes/18/average.py %}
@@ -571,7 +571,7 @@ def average(numbers):
 </section>
 
 <section markdown="block">
-### Looking for something?
+###  Looking for something?
 
 Testing for membership within a list is similar to testing for a character in a string.  Use the __in__ operator.  It returns True if the operand on the left is an element in the list on right.  __What does the following code print out? &rarr;__
 
@@ -596,7 +596,7 @@ ramen for breakfast
 </section>
 
 <section markdown="block">
-### Deleting List Items
+###  Deleting List Items
 
 You can delete list items using __del__ statement:  
 
@@ -643,7 +643,7 @@ ranma and maison ikkoku and scott pilgrim
 </section>
 
 <section markdown="block">
-### Split and Join
+###  Split and Join
 
 __If I have the following list, how do I put together each element with an exclamation point and space between each element? How do I turn the resulting string back to a list? &rarr;__
 
@@ -661,7 +661,7 @@ print(names.split("! "))
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 The random module offers some methods that can be used on lists:
 

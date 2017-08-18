@@ -4,12 +4,12 @@ title: Homework and Handouts
 ---
 
 <section markdown="block" class="title-slide">
-# Homework and Handouts
+#  Homework and Handouts
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Handouts
+###  Handouts
 
 * [Reading a Program](../../resources/handouts/class01/reading-a-program.pdf)
 * [Types, Variables, Operators, Comments](../../resources/handouts/class03/types-variables-operators-comments.pdf)
@@ -18,7 +18,7 @@ title: Homework and Handouts
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * homeworks 2 through 4 (1 is kind of easy...)
 * first two parts of homework 5

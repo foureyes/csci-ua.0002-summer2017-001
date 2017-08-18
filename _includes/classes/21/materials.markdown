@@ -1,11 +1,11 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 Selected Slides from Previous Lecture
 
@@ -20,7 +20,7 @@ Today's Slides
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 * [Chapter 3 Hello, little turtles!](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html)
 

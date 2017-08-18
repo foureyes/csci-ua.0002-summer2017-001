@@ -3,11 +3,11 @@ layout: slides
 title: CS Courses Next Semester
 ---
 <section markdown="block" class="title-slide">
-# CS Courses Next Semester
+#  CS Courses Next Semester
 {% include title-slide-footer.html %}
 </section>
 <section markdown="block">
-### Hi. So I'm Teaching a Bunch of Courses Next Semester
+###  Hi. So I'm Teaching a Bunch of Courses Next Semester
 
 
 Check out the list of [Spring 2016 Courses](http://cs.nyu.edu/webapps/spring2016/Undergraduate/courses)
@@ -20,7 +20,7 @@ If you want to continue working with Python (or if you're considering a web prog
 </section>
 
 <section markdown="block">
-### Considering Becoming a CS Major or Minor?
+###  Considering Becoming a CS Major or Minor?
 
 Take a look at... the requirements for [majors](http://cs.nyu.edu/webapps/content/academic/undergrad/majors) and [minors](http://cs.nyu.edu/webapps/content/academic/undergrad/minors)
 

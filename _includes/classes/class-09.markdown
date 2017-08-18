@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * Quiz #6 (Functions)
 
@@ -11,7 +11,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * __In-class handout on for loops__
     * [handout](resources/handouts/in-class/for-loops-nested-cond.pdf)
@@ -37,7 +37,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Due Before Class on Tuesday 6/13 9AM (after midterm)
 

@@ -3,18 +3,18 @@ layout: slides
 title: About Class #21 
 ---
 <section markdown="block" class="title-slide">
-# About Class #21
+#  About Class #21
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Midterm #2
+###  Midterm #2
 
 * it's on Wednesday, 11/18
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 For the review... we can go over (your choice):
 
@@ -33,7 +33,7 @@ For the review... we can go over (your choice):
 </section>
 
 <section markdown="block">
-### Major Topics Covered in Midterm #2
+###  Major Topics Covered in Midterm #2
 
 Topics in the Exam
 
@@ -51,7 +51,7 @@ Potentially Extra Credit
 
 <!--
 <section markdown="block">
-### Homework #6, #7
+###  Homework #6, #7
 
 
 
@@ -62,7 +62,7 @@ Potentially Extra Credit
 </section>
 
 <section markdown="block">
-### Homework #6 
+###  Homework #6 
 * [prime.py](../../resources/code/hw7/prime.py)
 	* [a common error with prime.py](http://www.pythontutor.com/visualize.html#code=def+is_prime(n)%3A%0A++++for+i+in+range(2,+n)%3A%0A++++++++if+n+%25+i+%3D%3D+0%3A%0A++++++++++++return+False%0A++++++++else%3A%0A++++++++++++return+True%0A%0Aprint('Is+9+prime%3F+'+%2B+str(is_prime(9)))&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0)
 	* placement of break or return
@@ -76,7 +76,7 @@ Potentially Extra Credit
 
 
 <section markdown="block">
-### Course Materials for Review
+###  Course Materials for Review
 
 * __modules__ #5 through #8 (nested loops through lists)
 * __slides__
@@ -87,7 +87,7 @@ Potentially Extra Credit
 </section>
 
 <section markdown="block">
-### Readings 
+###  Readings 
 
 {{ site.bookq }}
 
@@ -102,7 +102,7 @@ Potentially Extra Credit
 </section>
 
 <section markdown="block">
-### Additional Readings from _How to Think Like a Computer Scientist_
+###  Additional Readings from _How to Think Like a Computer Scientist_
  
 * [Chapter 3 Hello, little turtles!](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html) (Extra Credit)
 * [Chapter 4 Functions](http://openbookproject.net/thinkcs/python/english3e/functions.html)
@@ -114,7 +114,7 @@ Potentially Extra Credit
 
 
 <section markdown="block">
-### Kinds of Questions
+###  Kinds of Questions
 
 * 3 or 5 code from scratch 
 	* mostly derived from concepts in homework or slides
@@ -128,7 +128,7 @@ Potentially Extra Credit
 </section>
 
 <section markdown="block">
-### Additional Review Session
+###  Additional Review Session
 
 <aside>And if you haven't had enough, yet...</aside>
 
@@ -139,7 +139,7 @@ In addition to the in class review... I will be running another session:
 </section>
 
 <section markdown="block">
-### About Your Midterm #2 Score
+###  About Your Midterm #2 Score
 
 
 * if you score 10% points more than your midterm 1...

@@ -1,6 +1,6 @@
 <a name="class20"></a>
 
-###Slides
+### Slides
 * [About Class #20](classes/20/meta.html)
 * [Lists So Far (Review)](classes/20/lists_review.html)
 * [List Exercises](classes/20/list_exercises.html)
@@ -9,7 +9,7 @@
 
 
 
-### Readings
+###  Readings
 
 __{{ site.bookq }}__
 
@@ -21,7 +21,7 @@ __{{ site.bookt }}__
 
 <a name="homework9"></a>
 
-### Homework #9 
+###  Homework #9 
 
 (solutions for previous homeworks posted after the weekend)
 
@@ -40,7 +40,7 @@ These are in order of __increasing difficulty__.
 4. [balance.py](homework/hw09/balance.py)
 
 {% comment %}
-### Selected Homework Solutions
+###  Selected Homework Solutions
 
 __hw7__
 

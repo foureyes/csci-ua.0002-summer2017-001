@@ -4,12 +4,12 @@ title: Built-in Modules Review
 ---
 
 <section markdown="block" class="title-slide">
-# Modules Review
+#  Modules Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### First, Built-In Functions!
+###  First, Built-In Functions!
 
 Before we went into modules, we _briefly_ looked at a few more built-in functions.  __What were they &rarr;__
 
@@ -24,7 +24,7 @@ Before we went into modules, we _briefly_ looked at a few more built-in function
 </section>
 
 <section markdown="block">
-### Modules
+###  Modules
 <aside>Even more functionality can be found in <em>modules</em></aside>
 
 __What's a module? &rarr;__
@@ -37,7 +37,7 @@ __What's a module? &rarr;__
 </section>
 
 <section markdown="block">
-### The Modules That We're Familiar With
+###  The Modules That We're Familiar With
 
 __We learned about three modules.  What are they, and what are some functions and constants that they contain? &rarr;__
 
@@ -49,7 +49,7 @@ __We learned about three modules.  What are they, and what are some functions an
 </section>
 
 <section markdown="block">
-### Using Functions and Constants in Modules
+###  Using Functions and Constants in Modules
 
 __Let's write a program that:&rarr;__
 
@@ -69,7 +69,7 @@ print(m)
 </section>
 
 <section markdown="block">
-### Import and the Dot Operator
+###  Import and the Dot Operator
 
 We use the keyword, __import__, followed by the __name of the module__ to bring in a module.
 
@@ -86,7 +86,7 @@ sys.exit()
 
 
 <section markdown="block">
-### The Import Statement
+###  The Import Statement
 
 When you use the import statement...
 
@@ -103,7 +103,7 @@ import math
 
 
 <section markdown="block">
-### The math Module
+###  The math Module
 
 * math
 	* __pi__ - a constant that contains the value of pi&rarr; 
@@ -116,7 +116,7 @@ import math
 </section>
 
 <section markdown="block">
-### The random and sys Modules
+###  The random and sys Modules
 * random
 	* __random__() - return a random float that's between 0 and 1
 	* __randint__(a, b) - returns a random int that's a <= n <= b
@@ -127,7 +127,7 @@ import math
 
 
 <section markdown="block">
-### Rationale for Modules
+###  Rationale for Modules
 
 Modules are used:
 
@@ -137,7 +137,7 @@ Modules are used:
 </section>
 
 <section markdown="block">
-### Behind the Scenes
+###  Behind the Scenes
 <aside>A Closer Look at Modules</aside>
 What happens when we import?
 
@@ -147,7 +147,7 @@ What happens when we import?
 </section>
 
 <section markdown="block">
-### An Example Module
+###  An Example Module
 
 In fact, we can make our own modules!  We'll take a look at this later, but to illustrate how modules work, we can create two files in the same directory:
 
@@ -156,11 +156,11 @@ In fact, we can make our own modules!  We'll take a look at this later, but to i
 
 {% highlight python %}
 print(d1)
-# my_awesome_module.py
+#  my_awesome_module.py
 print("inside my_awesome_module")
 x = 42
 
-# hello.py
+#  hello.py
 import my_awesome_module
 print("hello")
 print(my_awesome_module.x)
@@ -168,7 +168,7 @@ print(my_awesome_module.x)
 </section>
 
 <section markdown="block">
-### An Example Module Continued
+###  An Example Module Continued
 
 __What do you think will be output when we run hello.py? &rarr;__
 
@@ -184,7 +184,7 @@ hello
 
 
 <section markdown="block">
-### Um... So Where Are All of Those Other Modules?
+###  Um... So Where Are All of Those Other Modules?
 <aside markdown="block">
 They're Definitely _Not_ in the Current Directory
 </aside>
@@ -197,22 +197,22 @@ Where do sys, math, random, and other modules come from?  If modules are just fi
 </section>
 
 <section markdown="block">
-### Where Was That?
+###  Where Was That?
 
 For example, on __OSX Mountain Lion__ and __Python 3.3__, you may be able to find modules in:
 
 {% highlight python %}
-# for me, it's here:
+#  for me, it's here:
 /usr/local/Cellar/python3/3.3.2/Frameworks/Python.framework/Versions/3.3/lib/python3.3/
 
-# for you, maybe somewhere in....
+#  for you, maybe somewhere in....
 /System/Library/Frameworks/Python.framework/Versions/ ...
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### Why Do Modules Exist?
+###  Why Do Modules Exist?
 
 That's great, but why bother with using and/or creating modules (aside, of course, from bringing in additional built-in functionality)?
 
@@ -222,7 +222,7 @@ That's great, but why bother with using and/or creating modules (aside, of cours
 </section>
 
 <section markdown="block">
-### Three Modules Out of ??? / HALP!
+###  Three Modules Out of ??? / HALP!
 
 There are many more modules to explore.  Check out the [official documentation](http://docs.python.org/py3k/library/index.html) for a more comprehensive list.  You'll find modules like:
 
@@ -234,7 +234,7 @@ There are many more modules to explore.  Check out the [official documentation](
 </section>
 
 <section markdown="block">
-### HALP!!!
+###  HALP!!!
 To find help on these modules:
 
 * the first place to look is obvs the [official documentation](http://docs.python.org/py3k/library/index.html) 
@@ -256,17 +256,17 @@ To find help on these modules:
 </section>
 
 <section markdown="block">
-### How About a Practical Application, PLZ?
+###  How About a Practical Application, PLZ?
 
 __Rewrite our guess number game so that it uses a random number instead of a hardcoded one. It should display the correct answer after you guess.&rarr;__
 
 {% highlight pycon %}
-# Run 1:
+#  Run 1:
 Guess a number between 1 and 10!
 > 5
 Nope, I was thinking of 10.
 
-# Run 2:
+#  Run 2:
 Guess a number between 1 and 10!
 > 8
 You guessed right; I was thinking of 8.

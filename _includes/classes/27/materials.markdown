@@ -1,11 +1,11 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 Optional Topic(s)
 
@@ -35,7 +35,7 @@ __Final Exam Practice__
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 
 </article>

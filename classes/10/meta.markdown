@@ -3,12 +3,12 @@ layout: slides
 title: Review for Midterm #1 
 ---
 <section markdown="block" class="title-slide">
-# About Class #10
+#  About Class #10
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-###  Today's Class
+###   Today's Class
 
 * about the exam
 	* exam format
@@ -20,7 +20,7 @@ title: Review for Midterm #1
 </section>
 
 <section markdown="block">
-### Review
+###  Review
 
 Also... there's an __out-of-class review__:
 
@@ -31,7 +31,7 @@ Also... there's an __out-of-class review__:
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * homework #3 grades should be posted by this weekend
 * make sure you're _comfortable_ with homework #4!

@@ -1,6 +1,6 @@
 <a name="class27"></a>
 
-### Slides
+###  Slides
 
 * [About Class #27](classes/27/meta.html)
 * [Finish Up Dictionaries](classes/26/dictionaries.html) and [Dictionaries Review](classes/27/dictionaries.html)
@@ -12,7 +12,7 @@
 
 -->
 
-### Final Exam Practice Questions
+###  Final Exam Practice Questions
 
 About the practice questions:
 

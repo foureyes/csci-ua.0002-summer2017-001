@@ -3,24 +3,24 @@ layout: slides
 title: Review 
 ---
 <section markdown="block" class="title-slide">
-# Review
+#  Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Aliasing 
+###  Aliasing 
 
 I have a variable called __fungi__.  It's a list of strings.  I'd like to create an __alias__ called __same_as_fungi__ for it - that is, I'd like to create a variable name that refers to the same object as the original. 
 {% highlight python %}
 fungi = ['yeasts', 'molds', 'mushrooms']
-# create an alias here called same_as_fungi
+#  create an alias here called same_as_fungi
 same_as_fungi.pop()
 print('fungi %s' % (fungi))
 print('same_as_fungi %s' % (same_as_fungi))
 
-# resulting output: 
-# fungi ['yeasts', 'molds']
-# same_as_fungi ['yeasts', 'molds']
+#  resulting output: 
+#  fungi ['yeasts', 'molds']
+#  same_as_fungi ['yeasts', 'molds']
 {% endhighlight %}
 
 <div class="incremental" markdown="block">
@@ -31,19 +31,19 @@ same_as_fungi = fungi
 </section>
 
 <section markdown="block">
-### What if We Wanted to Make a Copy
+###  What if We Wanted to Make a Copy
 
 Let's __clone__ an existing list rather than creating an __alias__ for it.  How can you write this in code?
 
 {% highlight python %}
 fungi = ['yeasts', 'molds', 'mushrooms']
-# clone here; call it copy_of_fungi
+#  clone here; call it copy_of_fungi
 copy_of_fungi .pop()
 print('fungi %s' % (fungi))
 print('copy_of_fungi %s' % (copy_of_fungi))
-# results in
-# fungi ['yeasts', 'molds', 'mushrooms']
-# copy_of_fungi ['yeasts', 'molds']
+#  results in
+#  fungi ['yeasts', 'molds', 'mushrooms']
+#  copy_of_fungi ['yeasts', 'molds']
 {% endhighlight %}
 
 <div class="incremental" markdown="block">
@@ -51,13 +51,13 @@ You can use __slicing__ to clone:
 
 {% highlight python %}
 copy_of_fungi = fungi[:]
-# or copy_of_fungi = fungi[0:len(fungi)]
+#  or copy_of_fungi = fungi[0:len(fungi)]
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### In Functions 
+###  In Functions 
 
 When you pass a list as an argument to a function, you're actually passing a reference to the list.  __What will the following code print out? &rarr;__
 
@@ -85,7 +85,7 @@ None
 </section>
 
 <section markdown="block">
-### Remove Vowels From Every Element in a List
+###  Remove Vowels From Every Element in a List
 
 __Create a function called no_vowels_please; implement it two different ways:__ &rarr;
 
@@ -96,7 +96,7 @@ __Create a function called no_vowels_please; implement it two different ways:__ 
 </section>
 
 <section markdown="block">
-### First...
+###  First...
 
 __Let's create a reusable function that will remove vowels for us!__ &rarr;
 
@@ -116,7 +116,7 @@ assert 'ntlp' == remove_vowels('antelope')
 </section>
 
 <section markdown="block">
-### Remove Vowels From Every Element in a List (New List)
+###  Remove Vowels From Every Element in a List (New List)
 
 __Implement no_vowels_please__ &rarr;
 
@@ -134,7 +134,7 @@ assert ['rdvrk', 'ntlp'] == no_vowels_please(['aardvark', 'antelope'])
 </section>
 
 <section markdown="block">
-### Remove Vowels From Every Element in a List (In Place)
+###  Remove Vowels From Every Element in a List (In Place)
 
 __Implement no_vowels_please_in_place__ &rarr;
 
@@ -152,7 +152,7 @@ assert ['rdvrk', 'ntlp'] == animals
 </section>
 
 <section markdown="block">
-### Iterating Over a List Using Indexes
+###  Iterating Over a List Using Indexes
 
 Notice that the _in place_ version accessed every element in the list using a for loop and __generated indexes__.  This is possible because:
 
@@ -162,7 +162,7 @@ Notice that the _in place_ version accessed every element in the list using a fo
 
 
 <section markdown="block">
-### We Could Have Used a While Loop Too
+###  We Could Have Used a While Loop Too
 
 __Implementation of no_vowels_please_in_place with a while loop...__ &rarr;
 
@@ -183,7 +183,7 @@ assert ['rdvrk', 'ntlp'] == animals
 </section>
 
 <section markdown="block">
-### And Finally, With Enumerate
+###  And Finally, With Enumerate
 
 __Implementation of no_vowels_please_in_place with enumerate...__ &rarr;
 
@@ -202,7 +202,7 @@ assert ['rdvrk', 'ntlp'] == animals
 
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 Iterating using indexes is useful for changing things in place, but it's also necessary for certain algorithms.  For example, bubble sort requires an awareness of the following element.  Here's an example of reversing a list... 
 
@@ -212,7 +212,7 @@ Iterating using indexes is useful for changing things in place, but it's also ne
 </section>
 
 <section markdown="block">
-### Again, With List Comprehensions
+###  Again, With List Comprehensions
 
 __We can actually replace our new list version of no_vowels_please with a single list comprehension...__ &rarr;
 
@@ -236,7 +236,7 @@ print(no_vowels)
 </section>
 
 <section markdown="block">
-### Filtering With List Comprehensions
+###  Filtering With List Comprehensions
 
 We can use list comprehensions to filter lists as well... __let's create a list comprehension that takes a list of words and returns a new list that only contains words that end in 'k'__ &rarr;
 
@@ -254,7 +254,7 @@ print(last_letter_k)
 </section>
 
 <section markdown="block">
-### List Comprehensions Summary
+###  List Comprehensions Summary
 
 * syntatic sugar (a _convenience_) for making new lists
 * again, list comprehensions __make new lists__.
@@ -265,7 +265,7 @@ print(last_letter_k)
 </section>
 
 <section markdown="block">
-### What's a Tuple?  
+###  What's a Tuple?  
 
 __What's a tuple and how is it different from a list?__
 
@@ -278,7 +278,7 @@ __What's a tuple and how is it different from a list?__
 </section>
 
 <section markdown="block">
-### Tuple Syntax
+###  Tuple Syntax
 
 __What's the syntax for creating a tuple?__
 
@@ -298,7 +298,7 @@ print(t)
 </section>
 
 <section markdown="block">
-### Tuple Operations, Functions and Methods
+###  Tuple Operations, Functions and Methods
 
 __What can and can't you do with tuples?__
 
@@ -318,7 +318,7 @@ __What can and can't you do with tuples?__
 </section>
 
 <section markdown="block">
-### Multiple Assignment / Unpacking
+###  Multiple Assignment / Unpacking
 
 We've seen tuples before in multiple assignment
 
@@ -334,7 +334,7 @@ first_name, last_name = ("Timothy", "Tupleton")
 </section>
 
 <section markdown="block">
-### Lists of Tuples
+###  Lists of Tuples
 
 __What's the type of person in every iteration?  How many iterations are there?  What does this print out?__
 
@@ -357,7 +357,7 @@ for person in smarties:
 </section>
 
 <section markdown="block">
-### Lists of Tuples Exercise
+###  Lists of Tuples Exercise
 
 __Write a function called hello...__
 
@@ -380,7 +380,7 @@ Hello Ms. Knowitall!
 </section>
 
 <section markdown="block">
-### Lists of Tuples Exercise Solutions
+###  Lists of Tuples Exercise Solutions
 
 __We can do this a couple of ways...__
 
@@ -392,12 +392,12 @@ __We can do this a couple of ways...__
 </section>
 
 <section markdown="block">
-### Lists of Tuples Exercise Solutions
+###  Lists of Tuples Exercise Solutions
 
 By the way, if we wanted to include the first name... we could use the code below.  __Why does this work__
 
 {% highlight python %}
-# tuples can be used in string formatting as is!
+#  tuples can be used in string formatting as is!
 def hello(t):
 	for person in t:
 		print("Hello %s. %s %s!" % (person))
@@ -409,7 +409,7 @@ As mentioned in the previous class, we use tuples in familiar constructs in Pyth
 </section>
 
 <section markdown="block">
-### Run Length Encoding
+###  Run Length Encoding
 
 __Run length encoding__ is a simple method of compressing data by:
 
@@ -426,25 +426,25 @@ __What's the run length encoded version of "cccaaabbb"?__
 </section>
 
 <section markdown="block">
-### Encode!
+###  Encode!
 
 __Let's write some pseudocode.  What are some ways to solve this?__
 
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# keep track of the current letter
-# keep track of the current letter count
-# keep track of all previous letters and counts (what's a good data structure for this?)
-# go through every letter in the string
-# when we first see a letter, count it as 1, if we see it again, increment that count
-# stop incrementing when we see another letter (reset values)
+#  keep track of the current letter
+#  keep track of the current letter count
+#  keep track of all previous letters and counts (what's a good data structure for this?)
+#  go through every letter in the string
+#  when we first see a letter, count it as 1, if we see it again, increment that count
+#  stop incrementing when we see another letter (reset values)
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-###  A Possible Solution
+###   A Possible Solution
 
 {% highlight python %}
 {% include classes/25/rle.py %}

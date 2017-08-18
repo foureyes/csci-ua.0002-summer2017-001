@@ -3,12 +3,12 @@ layout: slides
 title: List Methods 
 ---
 <section markdown="block" class="title-slide">
-# List Methods
+#  List Methods
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Lists are (Mutable) Objects 
+###  Lists are (Mutable) Objects 
 
 Lists are __objects__, and they have a slew of __methods__ that you can call on them: 
 
@@ -31,7 +31,7 @@ hello
 </section>
 
 <section markdown="block">
-### List Methods Continued
+###  List Methods Continued
 
 So.... why does this matter?
 
@@ -46,7 +46,7 @@ So.... why does this matter?
 
 
 <section markdown="block">
-### Some methods that you can call on lists
+###  Some methods that you can call on lists
 
 {% highlight python %}
 li = [1, 2, 3]
@@ -63,7 +63,7 @@ li = [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Adding Elements
+###  Adding Elements
 
 * __append__(_object_) - append object to end of list, even another list! 
 * __extend__(_iterable_) - appends all items of one iterable (list, string, etc.) to the original list
@@ -77,7 +77,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Removing Elements
+###  Removing Elements
 
 * __remove__(object) - removes first occurrence of object in list
 * __pop__() - __returns and removes__ the last element, takes an optional argument to specify index
@@ -89,7 +89,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Miscellaneous Methods
+###  Miscellaneous Methods
 
 * __sort__() - sorts a list in place &rarr;
 * __count__(object) - counts the number of occurrences of object in the original list &rarr;
@@ -98,7 +98,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Some Exercises
+###  Some Exercises
 
 * make the last element in a list the first element
 * filter a list of strings
@@ -106,7 +106,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Make the First Element Last
+###  Make the First Element Last
 
 * define a function called last_to_first
 * it should take a list as an argument
@@ -119,7 +119,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Make the First Element Last Solution v1
+###  Make the First Element Last Solution v1
 
 {% highlight python %}
 {% include classes/19/last_to_first.py %}
@@ -127,7 +127,7 @@ Usage notes:
 </section>
 
 <section markdown="block">
-### Make the First Element Last Solution v2
+###  Make the First Element Last Solution v2
 
 {% highlight python %}
 {% include classes/19/last_to_first_pop_insert.py %}
@@ -139,7 +139,7 @@ Usage notes:
 <!--
 
 <section markdown="block">
-## [Lists, Strings, and Random ](lists_strings_random.html)
+##  [Lists, Strings, and Random ](lists_strings_random.html)
 </section>
 
 -->

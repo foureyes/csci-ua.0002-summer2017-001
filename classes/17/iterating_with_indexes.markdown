@@ -3,12 +3,12 @@ layout: slides
 title: Iteration Using Indexes 
 ---
 <section markdown="block" class="title-slide">
-# Iteration Using Indexes
+#  Iteration Using Indexes
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Indexing Into a Sequence
+###  Indexing Into a Sequence
 
 How do we retrieve an element at a specific place from a list or a string?  For example, __to get the second element from the list a = [1, 2, 3], what code would I write? &rarr;__
 
@@ -20,7 +20,7 @@ a[1]
 </section>
 
 <section markdown="block">
-### Indexes
+###  Indexes
 
 What are some attributes of list and string __indexes__? That is... when you index into a sequence type... 
 
@@ -36,7 +36,7 @@ What are some attributes of list and string __indexes__? That is... when you ind
 </section>
 
 <section markdown="block">
-### Generating a Sequence of Integers
+###  Generating a Sequence of Integers
 
 One way of iterating over every item in a list or a string is to go through each element by indexing.  
 
@@ -51,7 +51,7 @@ Hint: there are two ways to do this using constructs / statements that we've use
 </section>
 
 <section markdown="block">
-### For Loops and Indexes
+###  For Loops and Indexes
 
 __Use a for loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -72,7 +72,7 @@ for i in range(0, len(a)):
 </section>
 
 <section markdown="block">
-### While Loops and Indexes
+###  While Loops and Indexes
 
 __Use a while loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -94,7 +94,7 @@ while i < len(a):
 </section>
 
 <section markdown="block">
-### The "Usual" Way
+###  The "Usual" Way
 
 __Finally, to round things out, use a for loop - without indexes - to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -108,7 +108,7 @@ for word in a:
 </section>
 
 <section markdown="block">
-### Incrementing Every Element
+###  Incrementing Every Element
 
 Let's try adding one to every element in a list.
 
@@ -127,7 +127,7 @@ numbers[3] = numbers[3] + 1
 </section>
 
 <section markdown="block">
-### Incrementing Every Element Continued
+###  Incrementing Every Element Continued
 
 But, of course, it would be better if we didn't have to manually re-assign every index explicitly. Maybe we can...
 
@@ -145,7 +145,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 __Write a function that takes a list as an input and returns the list in reverse order (btw, there's already a list method that does this) &rarr;__
 
@@ -158,7 +158,7 @@ __Write a function that takes a list as an input and returns the list in reverse
 
 
 <section markdown="block">
-### Another (More Destructive Way) to Reverse a List
+###  Another (More Destructive Way) to Reverse a List
 
 __Can you use pop to do it? &rarr;__
 
@@ -170,7 +170,7 @@ __Can you use pop to do it? &rarr;__
 </section>
 
 <section markdown="block">
-### But Wait - What Happened?
+###  But Wait - What Happened?
 
 __What's the output of the pop() version of the solution? &rarr;__
 
@@ -188,7 +188,7 @@ __What's the output of the pop() version of the solution? &rarr;__
 </section>
 
 <section markdown="block">
-### Iterating with Indexes vs Regular Iteration
+###  Iterating with Indexes vs Regular Iteration
 
 __How do you know which kind of loop to use when both loops (using indexes vs using elements) seem pretty similar?__ &rarr;
 
@@ -208,6 +208,6 @@ If using an index is necessary... use the for i in range version. For example, s
 </section>
 {% comment %}
 <section markdown="block">
-## [Nested Loops, Nested Lists](nested_loops.html)
+##  [Nested Loops, Nested Lists](nested_loops.html)
 </section>
 {% endcomment %}

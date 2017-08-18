@@ -3,18 +3,18 @@ layout: slides
 title: Exceptions 
 ---
 <section markdown="block" class="title-slide">
-# Exceptions
+#  Exceptions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Exceptions
+###  Exceptions
 
 Errors that occur during runtime are called __exceptions__.
 </section>
 
 <section markdown="block">
-### Exceptions in the Wild
+###  Exceptions in the Wild
 
 __What are some exceptions that we've seen?  That is, what errors have occurred during runtime?__ 
 
@@ -29,7 +29,7 @@ __What are some exceptions that we've seen?  That is, what errors have occurred 
 </section>
 
 <section markdown="block">
-### Exception Examples
+###  Exception Examples
 
 {% highlight pycon %}
 Traceback (most recent call last):
@@ -55,7 +55,7 @@ TypeError: cannot concatenate 'str' and 'int' objects
 </section>
 
 <section markdown="block">
-###  A Closer Look at a Runtime Error
+###   A Closer Look at a Runtime Error
 {% highlight python %}
 Traceback (most recent call last):
   File "/tmp/exceptions.py", line 1, in <module>
@@ -72,7 +72,7 @@ We see the following details:
 </section>
 
 <section markdown="block">
-### Types of Exceptions 
+###  Types of Exceptions 
 
 A list of [all exception types](http://docs.python.org/3.2/library/exceptions.html) can be found at: [http://docs.python.org/3.2/library/exceptions.html](http://docs.python.org/3.2/library/exceptions.html)
 
@@ -86,7 +86,7 @@ The base exception is just Exception, but there are specific ones after that.  F
 </section>
 
 <section markdown="block">
-### What do all of These Errors Mean!?
+###  What do all of These Errors Mean!?
 
 * ZeroDivisionError
 * IndexError
@@ -105,13 +105,13 @@ The base exception is just Exception, but there are specific ones after that.  F
 </section>
 
 <section markdown="block">
-### So Many Exceptions
+###  So Many Exceptions
 
 The root Exception, and the other exception types that follow from it is called an __exception hierarchy__
 </section>
 
 <section markdown="block">
-### Great, so Now What?
+###  Great, so Now What?
 
 We can gracefully recover from exceptions!
 
@@ -119,7 +119,7 @@ For example, a common source of runtime errors is user input...
 </section>
 
 <section markdown="block">
-### A Short Program
+###  A Short Program
 
 Let's write a simple  __interactive program__ that converts inches to feet:
 
@@ -137,7 +137,7 @@ print(float(inches)/12)
 </section>
 
 <section markdown="block">
-### Soooo... That Works Great
+###  Soooo... That Works Great
 
 Let's try running the program...
 
@@ -156,7 +156,7 @@ ValueError: invalid literal for int() with base 10: 'asdf'
 </section>
 
 <section markdown="block">
-### Can We Prevent This Error from Happening?
+###  Can We Prevent This Error from Happening?
 
 __...Maybe!  Let's try a couple of things.__ &rarr;
 
@@ -181,7 +181,7 @@ print(s.isnumeric())
 </section>
 
 <section markdown="block">
-### "Defensive Programming" Continued
+###  "Defensive Programming" Continued
 
 __Any other ways to allow strings like 3.2 in, but still prevent strings that are not composed numbers and a decimal point?__ &rarr;
 
@@ -193,7 +193,7 @@ __Any other ways to allow strings like 3.2 in, but still prevent strings that ar
 </section>
 
 <section markdown="block">
-### EAFP
+###  EAFP
 
 Sometimes it's...
 
@@ -205,7 +205,7 @@ Sometimes it's...
 </section>
 
 <section markdown="block">
-### Exception Handling
+###  Exception Handling
 
 There's a construct in most programming languages that lets you handle exceptions.  In python, that construct is a __try-except__ block.  It's similar to an if-else:
 
@@ -218,7 +218,7 @@ except:
 </section>
 
 <section markdown="block">
-### try-except
+###  try-except
 
 * The __try__ block watches out for any statements within that block that causes errors.
 * If there is an error, the code in the __except__ block will be run. 
@@ -227,7 +227,7 @@ except:
 </section>
 
 <section markdown="block">
-### try-except Example 1
+###  try-except Example 1
 
 __What is the output of this code?__
 
@@ -247,7 +247,7 @@ sorry, try another!
 </section>
 
 <section markdown="block">
-### try-except Example 2
+###  try-except Example 2
 
 __What is the output of this code?__
 
@@ -267,7 +267,7 @@ except:
 </section>
 
 <section markdown="block">
-### Let's Take Another Look at Our Conversion Program
+###  Let's Take Another Look at Our Conversion Program
 
 __Let's modify our program so that it behaves in a similar way, but uses try-except instead of testing with an if statement first.__
 
@@ -288,12 +288,12 @@ except:
 </section>
 
 <section markdown="block">
-###  Other Exceptions
+###   Other Exceptions
 
 We saw that we could handle a ValueError in our program.  __Can that exception happen in the following program?  Are there any other exceptions (that we just talked about in an earlier slide) that can happen?__ &rarr;
 
 {% highlight python %}
-# of slices in a pie
+#  of slices in a pie
 people = input("how many people are eating pizza?\n>")
 print("Each person can have %s slices" % (8/int(people)))
 {% endhighlight %}
@@ -304,19 +304,19 @@ print("Each person can have %s slices" % (8/int(people)))
 </section>
 
 <section markdown="block">
-### Fixing the Pizza Pie Problems 
+###  Fixing the Pizza Pie Problems 
 
 __How do we fix it (original code below)?__ &rarr;
 
 {% highlight python %}
-# of slices in a pie
+#  of slices in a pie
 people = input("how many people are eating pizza?\n>")
 print("Each person can have %s slices" % (8/int(people)))
 {% endhighlight %}
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# of slizes in a pie
+#  of slizes in a pie
 people = input("how many people are eating pizza?\n>")
 try:
     print("Each person can have %s slices" % (8/int(people)))
@@ -327,7 +327,7 @@ except:
 </section>
 
 <section markdown="block">
-### Fixing the Pizza Pie Problems Continued
+###  Fixing the Pizza Pie Problems Continued
 
 What if we want to deal with ValueErrors and ZeroDivisionError differently?
 
@@ -338,7 +338,7 @@ Say either:
 </section>
 
 <section markdown="block">
-### Specific Exceptions, Multiple Except Blocks
+###  Specific Exceptions, Multiple Except Blocks
 
 You can catch specific exception types, and add an arbitrary number of except blocks for every exception type that may occur.
 
@@ -353,7 +353,7 @@ except NameOfErrorType2:
 </section>
 
 <section markdown="block">
-### Back to Pizza
+###  Back to Pizza
 
 __So... let's apply that to our pizza program__ &rarr;
 
@@ -380,7 +380,7 @@ except ValueError:
 
 
 <section markdown="block">
-### Implement Three Card Monte
+###  Implement Three Card Monte
 
 Here's a text version of [three card monte](http://en.wikipedia.org/wiki/Three-card_Monte).
 
@@ -410,7 +410,7 @@ you lose
 </section>
 
 <section markdown="block">
-### Three Card Monte Requirements
+###  Three Card Monte Requirements
 
 * in our version, we're using "cups"
 * keep a penny under 1 cup
@@ -425,7 +425,7 @@ you lose
 </section>
 
 <section markdown="block">
-###  A Potential Solution
+###   A Potential Solution
 
 {% highlight python %}
 import random

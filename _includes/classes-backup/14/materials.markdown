@@ -1,6 +1,6 @@
 <a name="class14"></a>
 
-###Slides
+### Slides
 * [About Class #14](classes/14/meta.html)
 * [Loops Recap](classes/14/loops.html)
 * [Turtle Review](classes/14/turtle_review.html)
@@ -10,12 +10,12 @@
 * [About Class #14, Midterm and Homework Review](classes/14/meta.html)
 * [Exercises](classes/14/exercises.html)
 
-### Handouts
+###  Handouts
 * [Midterm #1 solutions](resources/handouts/midterm_1_solutions.pdf)
 
 -->
 
-### Readings
+###  Readings
 
 __{{site.bookq}}__
 
@@ -27,7 +27,7 @@ __{{site.bookt}}__
 
 <a name="homework6"></a>
 
-### Homework #6
+###  Homework #6
 
 * Due __March 27th__ at 11PM (no grace period)
 * Submit all files via __NYU Classes__ 

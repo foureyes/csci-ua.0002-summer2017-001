@@ -3,12 +3,12 @@ layout: slides
 title: Modules 
 ---
 <section markdown="block" class="title-slide">
-# Modules
+#  Modules
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Built-in Modules
+###  Built-in Modules
 
 __What are some modules we've used, and what do they do? &rarr;__
 
@@ -21,7 +21,7 @@ __What are some modules we've used, and what do they do? &rarr;__
 </section>
 
 <section markdown="block">
-### The math Module
+###  The math Module
 
 * math
 	* __pi__ - a constant that contains the value of pi&rarr; 
@@ -32,7 +32,7 @@ __What are some modules we've used, and what do they do? &rarr;__
 </section>
 
 <section markdown="block">
-### The random Module
+###  The random Module
 * random
 	* __random__() - return a random float that's between 0 and 1&rarr;
 	* __randint__(a, b) - returns a random int that's a <= n <= b&rarr;
@@ -59,7 +59,7 @@ __What are some modules we've used, and what do they do? &rarr;__
 
 
 <section markdown="block">
-### Creating a Module
+###  Creating a Module
 
 We can actually create our own modules.
 
@@ -72,18 +72,18 @@ We can actually create our own modules.
 </section>
 
 <section markdown="block">
-### Creating a Module Example
+###  Creating a Module Example
 
 __Create 2 files: greetings.py and using_a_module.py &rarr;__
 
 {% highlight python %}
-#greetings.py
+# greetings.py
 def hello():
 	return "hi there"
 {% endhighlight %}
 
 {% highlight python %}
-#using_a_module.py
+# using_a_module.py
 import greetings
 print(greetings.hello())
 {% endhighlight %}
@@ -92,7 +92,7 @@ Run it!
 </section>
 
 <section markdown="block">
-### Some Questions
+###  Some Questions
 
 __What would happen if you didn't have an import? &rarr;__
 __What would happen if you put in the extension of your file name? &rarr;__
@@ -113,7 +113,7 @@ ImportError: No module named py
 </section>
 
 <section markdown="block">
-### Why Create Your Own Modules?
+###  Why Create Your Own Modules?
 
 What's the motivation for creating your own modules? 
 

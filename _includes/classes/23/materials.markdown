@@ -1,11 +1,11 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 <!--
 * [About Class #23](classes/23/meta.html)
@@ -26,7 +26,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Module #9 and Module #10 __Due Tuesday, April 25th, at 9am__
 

@@ -3,12 +3,12 @@ layout: slides
 title: List Exercises 
 ---
 <section markdown="block" class="title-slide">
-# List Exercises
+#  List Exercises
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### About List Exercises
+###  About List Exercises
 
 * note that the following exercises create and return new lists!
 * there are built-in functions and constructs in Python that make these exercises easier
@@ -19,7 +19,7 @@ title: List Exercises
 </section>
 
 <section markdown="block">
-### Pluralize All (Map)
+###  Pluralize All (Map)
 
 __Implement a function called pluralize_all: &rarr;__
 
@@ -33,7 +33,7 @@ __Implement a function called pluralize_all: &rarr;__
 </section>
 
 <section markdown="block">
-### Pluralize All ... Output
+###  Pluralize All ... Output
 
 {% highlight pycon %}
 print(pluralize_all(["zebra", "cow", "tiger"]))
@@ -44,7 +44,7 @@ print(pluralize_all(["zebra", "cow", "tiger"]))
 </section>
 
 <section markdown="block">
-### Pluralize All Potential Solution
+###  Pluralize All Potential Solution
 
 {% highlight python %}
 def pluralize_all(words):
@@ -57,7 +57,7 @@ def pluralize_all(words):
 
 
 <section markdown="block">
-### More Characters Than (Filter)
+###  More Characters Than (Filter)
 
 __Implement a function called more_characters_than: &rarr;__
 
@@ -71,7 +71,7 @@ __Implement a function called more_characters_than: &rarr;__
 </section>
 
 <section markdown="block">
-### More Characters Than Example
+###  More Characters Than Example
 
 {% highlight pycon %}
 print(more_characters_than(["zebra", "cow", "tiger"], 4))
@@ -80,7 +80,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### More Characters Than Potential Solution
+###  More Characters Than Potential Solution
 
 {% highlight python %}
 {% include classes/18/more_characters_than.py %}
@@ -88,7 +88,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### Average (Reduce)
+###  Average (Reduce)
 
 * define a function called average
 * it should take a list of numbers as an argument
@@ -98,7 +98,7 @@ print(more_characters_than(["zebra", "cow", "tiger"], 4))
 </section>
 
 <section markdown="block">
-### Implementing Average
+###  Implementing Average
 
 {% highlight python %}
 {% include classes/18/average.py %}
@@ -113,7 +113,7 @@ def average(numbers):
 </section>
 
 <section markdown="block">
-### Notes
+###  Notes
 
 Interested in other ways to do this?  __Check out...__ &rarr;
 
@@ -124,6 +124,6 @@ Interested in other ways to do this?  __Check out...__ &rarr;
 </section>
 
 <section markdown="block">
-## [Lists and Mutability](mutability.html)
+##  [Lists and Mutability](mutability.html)
 </section>
 

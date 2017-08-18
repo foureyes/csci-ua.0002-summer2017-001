@@ -3,12 +3,12 @@ layout: slides
 title: Tuples 
 ---
 <section markdown="block" class="title-slide">
-# Tuples
+#  Tuples
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Sequence Types
+###  Sequence Types
 
 We know two sequence types.  __What are they?__
 
@@ -19,7 +19,7 @@ We know two sequence types.  __What are they?__
 </section>
 
 <section markdown="block">
-### How Are Strings and Lists Similar?
+###  How Are Strings and Lists Similar?
 
 Sequence types support a number of operations... 
 
@@ -29,7 +29,7 @@ Sequence types support a number of operations...
 </section>
 
 <section markdown="block">
-### Sequence Operations and Functions
+###  Sequence Operations and Functions
 
 * __+__ concatenation - adds all of the elements from one sequence to another; returns a new sequence 
 * __*__ multiplication - repeats a sequence for the specified number of times; returns a new sequence
@@ -41,7 +41,7 @@ Sequence types support a number of operations...
 </section>
 
 <section markdown="block">
-### But Strings and Lists Are Different!
+###  But Strings and Lists Are Different!
 
 How are strings and lists different?
 
@@ -57,7 +57,7 @@ __But there's also another big difference.__
 </section>
 
 <section markdown="block">
-### A Third Sequence Type
+###  A Third Sequence Type
 
 Surely you must be thinking: _I really wish that my list was not mutable_
 
@@ -69,7 +69,7 @@ Surely you must be thinking: _I really wish that my list was not mutable_
 </section>
 
 <section markdown="block">
-### Tuples
+###  Tuples
 
 A __tuple__ is an immutable grouping of data.  Think of it as an immutable list.  
 
@@ -82,7 +82,7 @@ A __tuple__ is an immutable grouping of data.  Think of it as an immutable list.
 </section>
 
 <section markdown="block">
-### Tuple Syntax
+###  Tuple Syntax
 
 A tuple is really just a group of comma separated values.  A tuple literal is _just_ values and commas.  Really! (btw, [chugs exist, and are _a thing_](http://www.dogbreedinfo.com/chug.htm))
 
@@ -105,7 +105,7 @@ However... it's common to put parentheses around a tuple (in fact, when you prin
 
 
 <section markdown="block">
-### Seem Familiar?
+###  Seem Familiar?
 
 We've actually seen and used tuples in the past!  __Does anyone remember where we've seen tuples before?__
 
@@ -130,7 +130,7 @@ a, b, c = 1, 2, 3
 </section>
 
 <section markdown="block">
-### What About Function Parameters?
+###  What About Function Parameters?
 
 Aren't function parameters comma separated?
 
@@ -147,7 +147,7 @@ Aren't function parameters comma separated?
 </section>
 
 <section markdown="block">
-### Tuple Operations and Built-In Functions
+###  Tuple Operations and Built-In Functions
 
 * a tuple is a sequence type, so it has some operations that are similar to strings and lists... 
 * but there are some operations that it doesn't support
@@ -155,7 +155,7 @@ Aren't function parameters comma separated?
 </section>
 
 <section markdown="block">
-### Tuple Operations and Built-In Functions Continued
+###  Tuple Operations and Built-In Functions Continued
 
 __Let's try the following:__
 
@@ -169,7 +169,7 @@ __Let's try the following:__
 </section>
 
 <section markdown="block">
-### Tuple Operations Examples
+###  Tuple Operations Examples
 
 Some operations:
 
@@ -195,7 +195,7 @@ False
 </section>
 
 <section markdown="block">
-### Iteration
+###  Iteration
 
 Just like iterating over strings or lists.
 
@@ -206,7 +206,7 @@ for value in (1, 2, 3):
 </section>
 
 <section markdown="block">
-### Tuple Unpacking / Multiple Assignment
+###  Tuple Unpacking / Multiple Assignment
 
 We talked briefly talked about multiple assignment.  This is generally done with tuples, and when it's done with tuples, it's called  __tuple unpacking__. 
 
@@ -225,7 +225,7 @@ Protagonist
 </section>
 
 <section markdown="block">
-### Tuple Unpacking Examples
+###  Tuple Unpacking Examples
 
 __What does this code output?__
 
@@ -251,7 +251,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### More Info About Multiple Assignment
+###  More Info About Multiple Assignment
 
 Tuple unpacking is the most common way of performing multiple assignment... but the assignment operator is actually super flexible:
 
@@ -259,7 +259,7 @@ Tuple unpacking is the most common way of performing multiple assignment... but 
 </section>
 
 <section markdown="block">
-### List of Tuples
+###  List of Tuples
 
 A tuple within a list is retrieved as a single object, as with every other element in a list, when using our regular _for loop_variable in some_list_ syntax: 
 
@@ -278,7 +278,7 @@ You get each actual tuple, so this prints out:
 </section>
 
 <section markdown="block">
-### List of Tuples Continued
+###  List of Tuples Continued
 
 Unpacking works in for loops as well!  Imagine that each element is retrieved form the outer list.  Each element is a tuple which can be unpacked into multiple loop variables.
 
@@ -291,7 +291,7 @@ for first, last in characters:
 </section>
 
 <section markdown="block">
-### List of Tuples Example 
+###  List of Tuples Example 
 
 {% highlight python %}
 pairs_of_numbers = [(1, 2), (2, 3)]
@@ -308,7 +308,7 @@ for a, b in pairs_of_numbers:
 </section>
 
 <section markdown="block">
-### Returning Tuples
+###  Returning Tuples
 
 Tuples and tuple unpacking can provide a method of returning multiple values from a function. __What do you think this prints out?__
 
@@ -331,7 +331,7 @@ the x coordinate is 2
 </section>
 
 <section markdown="block">
-### Tuples Exercise 
+###  Tuples Exercise 
 
 * __What are two ways of programmatically drawing a square in turtle?__
 * __What are some ways of representing a series of four x, y coordinates?__
@@ -345,7 +345,7 @@ the x coordinate is 2
 </section>
 
 <section markdown="block">
-### Tuples Exercise 
+###  Tuples Exercise 
 
 1. create a tuple of tuple literals that represent x, y coordinates of corners of a square
 2. assume that the bottom left corner is at (0, 0) and the upper right is (0, 50)
@@ -355,13 +355,13 @@ the x coordinate is 2
 
 </section>
 <section markdown="block">
-### Template
+###  Template
 
 {% highlight python %}
 import turtle
 t = turtle.Turtle()
 wn = turtle.Screen()
-# your code here!
+#  your code here!
 wn.mainloop()
 {% endhighlight %}
 
@@ -371,7 +371,7 @@ wn.mainloop()
 
 
 <section markdown="block">
-### Tuples Solution 
+###  Tuples Solution 
 
 {% highlight python %}
 {% include classes/24/turtle_tuple_points.py %}
@@ -380,13 +380,13 @@ wn.mainloop()
 
 <section markdown="block">
 
-## That's cool and all... but _why would an immutable list ever be useful?_
+##  That's cool and all... but _why would an immutable list ever be useful?_
 
 
 </section>
 
 <section markdown="block">
-### When To Use Tuples Continued
+###  When To Use Tuples Continued
 
 * some Python constructs use tuples (interpolation, multiple assignment)
 * tuples are _write protected_

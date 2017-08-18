@@ -3,16 +3,16 @@ layout: slides
 title: About Class #7 
 ---
 <section markdown="block" class="title-slide">
-# Homework #1 Feedback
+#  Homework #1 Feedback
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## General Feedback
+##  General Feedback
 
 </section>
 <section markdown="block">
-### Output vs Program
+###  Output vs Program
 
 * please don't submit the output of your program
 * ... and don't send a copied and pasted version of your interaction with the interactive shell (that will give an error)
@@ -27,7 +27,7 @@ hello
 
 
 <section markdown="block">
-### Print vs String Concatenation
+###  Print vs String Concatenation
 
 __Using multiple arguments when calling print is not the same as using string concatenation.__
 
@@ -51,7 +51,7 @@ print("hello"" ""there")
 </section>
 
 <section markdown="block">
-### Variable Names
+###  Variable Names
 
 __One convention that we use for naming variables is: keep variable names lowercase__
 
@@ -70,7 +70,7 @@ GREETING = "hello"
 </section>
 
 <section markdown="block">
-### Operators
+###  Operators
 
 Try to use spaces between operators:
 
@@ -86,11 +86,11 @@ var x=5+(10*2)
 </section>
 
 <section markdown="block">
-## temperature.py, miles.py
+##  temperature.py, miles.py
 </section>
 
 <section markdown="block">
-### Floats / Ints
+###  Floats / Ints
 
 * totally optional, but if you want to accept floating point numbers, don't use int in your conversion
 * (__no points were taken off for this__)
@@ -105,11 +105,11 @@ var x=5+(10*2)
 </section>
 
 <section markdown="block">
-## tree.py
+##  tree.py
 </section>
 
 <section markdown="block">
-### Draw a Tree
+###  Draw a Tree
 
 * escape backslashes
 * add spaces before and after
@@ -124,7 +124,7 @@ print("/  \\")
 </section>
 
 <section markdown="block">
-### Lost in a Forest
+###  Lost in a Forest
 
 Your tree programs:
 
@@ -134,5 +134,5 @@ Your tree programs:
 
 
 <section markdown="block">
-## [Review](review.html)
+##  [Review](review.html)
 </section>

@@ -3,12 +3,12 @@ layout: slides
 title: About Class #17 
 ---
 <section markdown="block" class="title-slide">
-# About Class #17
+#  About Class #17
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 In Depth...
 
@@ -22,7 +22,7 @@ In Depth...
 </section>
 
 <section markdown="block">
-### About the _Second_ Midterm
+###  About the _Second_ Midterm
 
 * __midterm #2__ is in just over two weeks - __Thursday, 4/16__
 	* again, it takes place in class, so come on time!
@@ -32,14 +32,14 @@ In Depth...
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * __Homework #5__ grades to be posted by end of this week
 * __Homework #7__ is due Friday, April 3rd, no grace period
 </section>
 
 <section markdown="block">
-### Selected Homework Solutions
+###  Selected Homework Solutions
 
 For homework #5 (nested loops):
 
@@ -53,7 +53,7 @@ For homework #5 (nested loops):
 </section>
 
 <section markdown="block">
-### Reviewing Types, Conditionals, Loops, and Functions
+###  Reviewing Types, Conditionals, Loops, and Functions
 
 Want a __refresher__ on some earlier topics? Need help __catching up__? Loved the earlier material so much, you want to hear about it again? 
 
@@ -66,5 +66,5 @@ Want a __refresher__ on some earlier topics? Need help __catching up__? Loved th
 
 <section markdown="block">
 
-## [Scope Recap](review_scope.html)
+##  [Scope Recap](review_scope.html)
 </section>

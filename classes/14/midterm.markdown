@@ -3,13 +3,13 @@ layout: slides
 title: Midterm #1 
 ---
 <section markdown="block" class="title-slide">
-# Midterm #1
+#  Midterm #1
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
 
-### Midterm Results
+###  Midterm Results
 
 * possible points: 42, +1 extra credit
 * median: 36.5 (about 87%)
@@ -20,7 +20,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### Exams
+###  Exams
 
 * generally, the 1st midterm covers easier material than the second midterm
 * (the second midterm will be __slightly more difficult__)
@@ -29,7 +29,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### Opportunities for Extra Credit / Augmenting Exam Average
+###  Opportunities for Extra Credit / Augmenting Exam Average
 
 * if your score on your second midterm is 10 percentage points above your first midterm, __your second midterm will be counted twice__
 * there will be a small extra credit to add some points to your lower midterm score if you did not meet the above criteria

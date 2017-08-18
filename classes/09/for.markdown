@@ -3,12 +3,12 @@ layout: slides
 title: For Loops 
 ---
 <section markdown="block" class="title-slide">
-# For Loops
+#  For Loops
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Loops, In General
+###  Loops, In General
 
 Does anyone remember the two broad  __categories__ of loops?  __What are they, and how are they different?__ &rarr;
 
@@ -19,7 +19,7 @@ Does anyone remember the two broad  __categories__ of loops?  __What are they, a
 </section>
 
 <section markdown="block">
-### Condition Controlled Loops in Python
+###  Condition Controlled Loops in Python
 
 __What programming construct (repetition structure) do we use in Python to create a condition-controlled loop?__ &rarr;
 
@@ -29,14 +29,14 @@ A __while__ loop is a repetition structure in Python that repeats a block of cod
 </section>
 
 <section markdown="block">
-## Count-Controlled Loops
+##  Count-Controlled Loops
 
 <aside>In Python, <em>for loops</em> are count-controlled loops.</aside>
 
 </section>
 
 <section markdown="block">
-### For Loops
+###  For Loops
 
 An Example
 
@@ -58,7 +58,7 @@ Its output:
 
 
 <section markdown="block">
-### For Loop Syntax
+###  For Loop Syntax
 
 __for loops__ repeat code by iterating over every item in some group / collection of items:
 
@@ -85,7 +85,7 @@ Again, the same example:
 </section>
 
 <section markdown="block">
-### Let's Break That Down a Bit
+###  Let's Break That Down a Bit
 
 A __for__ loop:
 
@@ -100,11 +100,11 @@ A __for__ loop:
 
 
 <section markdown="block">
-## For Loops - Details, Details, Details
+##  For Loops - Details, Details, Details
 </section>
 
 <section markdown="block">
-### What Does It Do?
+###  What Does It Do?
 
 A __for__ loop:
 
@@ -116,7 +116,7 @@ A __for__ loop:
 </section>
 
 <section markdown="block">
-### For Loops
+###  For Loops
 
 A more technical explanation is: __for loops__ iterate over every item in an __iterable object__.  
 
@@ -132,7 +132,7 @@ An _iterable object_:
 </section>
 
 <section markdown="block">
-### Range and Range Objects
+###  Range and Range Objects
 
 A __range__ object is another data type!  It represents an _arithmetic sequence_, such as 0, 1, 2, 3, 4.
 
@@ -144,21 +144,21 @@ A __range__ object is another data type!  It represents an _arithmetic sequence_
 </section>
 
 <section markdown="block">
-### Showing the Results of Range
+###  Showing the Results of Range
 
 __Let's see if we can make sense of this:__ &rarr;
 
 {% highlight python %}
-# make a range object - an arithmetic sequence from 0 through 5
+#  make a range object - an arithmetic sequence from 0 through 5
 numbers = range(5)
 
-# let's look at that object
+#  let's look at that object
 print(numbers)
 
-# what type is it?
+#  what type is it?
 print(type(numbers))
 
-# can we actually see the sequence?  yes, but we have to use list.
+#  can we actually see the sequence?  yes, but we have to use list.
 print(list(numbers))
 {% endhighlight %}
 
@@ -172,7 +172,7 @@ range(0, 5)
 </section>
 
 <section markdown="block">
-### So... All of That Meant...
+###  So... All of That Meant...
 
 * there's a type called __range__
 * the string representation of a range shows you the original arguments that you passed in
@@ -180,7 +180,7 @@ range(0, 5)
 </section>
 
 <section markdown="block">
-### Quick Summary So Far...
+###  Quick Summary So Far...
 
 We've learned two new built in functions
 
@@ -191,13 +191,13 @@ We've learned two new built in functions
 </section>
 
 <section markdown="block">
-## Range Life...
+##  Range Life...
 
 <aside>The built-in function, range(), creates range objects - convenient, eh?</aside>
 </section>
 
 <section markdown="block">
-### Range 
+###  Range 
 
 __range()__ returns a __range object__, an arithmetic sequence of numbers.  
 
@@ -211,7 +211,7 @@ __range()__ returns a __range object__, an arithmetic sequence of numbers.
 </section>
 
 <section markdown="block">
-### Range (Continued)
+###  Range (Continued)
 
 (continued from previous slide)
 
@@ -221,7 +221,7 @@ __range()__ returns a __range object__, an arithmetic sequence of numbers.
 </section>
 
 <section markdown="block">
-### Some Other Things You Should Know About Range
+###  Some Other Things You Should Know About Range
 
 * negative _step_ goes backwards
 	* range(8, 3, -2) &rarr; 8, 6, 4
@@ -232,7 +232,7 @@ __range()__ returns a __range object__, an arithmetic sequence of numbers.
 </section>
 
 <section markdown="block">
-### Guess That Series of Numbers
+###  Guess That Series of Numbers
 <aside>Fun!</aside>
 
 __Given the following calls to the range function, what is the start, stop, and step?  What is the resulting arithmetic sequence? &rarr;__
@@ -242,7 +242,7 @@ __Given the following calls to the range function, what is the start, stop, and 
 range(3)
 {% endhighlight %}
 {% highlight python %}
-# start:0, end:3, step:1
+#  start:0, end:3, step:1
 0, 1, 2
 {% endhighlight %}
 
@@ -250,7 +250,7 @@ range(3)
 range(10, 16)
 {% endhighlight %}
 {% highlight python %}
-# start:10, end:16, step:1
+#  start:10, end:16, step:1
 10, 11, 12, 13, 14, 15
 {% endhighlight %}
 
@@ -258,7 +258,7 @@ range(10, 16)
 range(-2, 3)
 {% endhighlight %}
 {% highlight python %}
-# start:-2, end:3, step:1
+#  start:-2, end:3, step:1
 -2, -1, 0, 1, 2
 {% endhighlight %}
 
@@ -266,7 +266,7 @@ range(-2, 3)
 </section>
 
 <section markdown="block">
-### Guess That Series of Numbers
+###  Guess That Series of Numbers
 <aside>MORE Fun!</aside>
 
 __What is the start, stop, and step?  What is the resulting arithmetic sequence? &rarr;__
@@ -277,7 +277,7 @@ __What is the start, stop, and step?  What is the resulting arithmetic sequence?
 range(200, 501, 100)
 {% endhighlight %}
 {% highlight python %}
-# start:200, end:501, step:100
+#  start:200, end:501, step:100
 200, 300, 400, 500
 {% endhighlight %}
 
@@ -285,7 +285,7 @@ range(200, 501, 100)
 range(0, 10, 5)
 {% endhighlight %}
 {% highlight python %}
-# start:0, end:10, step: 5
+#  start:0, end:10, step: 5
 0, 5
 {% endhighlight %}
 
@@ -293,7 +293,7 @@ range(0, 10, 5)
 range(5, -11, -5)
 {% endhighlight %}
 {% highlight python %}
-# start:5, end:-11, step:-5
+#  start:5, end:-11, step:-5
 5, 0, -5, -10
 {% endhighlight %}
 </div>
@@ -301,11 +301,11 @@ range(5, -11, -5)
 
 
 <section markdown="block">
-## For Loop Examples
+##  For Loop Examples
 </section>
 
 <section markdown="block">
-### And Now, Back to For Loops
+###  And Now, Back to For Loops
 <aside>A Slightly Different Example</aside>
 
 {% highlight python %}
@@ -326,7 +326,7 @@ for whatevs in range(1, 4):
 </section>
 
 <section markdown="block">
-### Let's Take a Closer Look
+###  Let's Take a Closer Look
 
 {% highlight python %}
 for whatevs in range(1, 4):
@@ -347,7 +347,7 @@ __Going over this step-by-step, what is the value of whatevs, and what is printe
 </section>
 
 <section markdown="block">
-### Another For Loop Example
+###  Another For Loop Example
 {% highlight python %}
 for num in range(6, 13, 3):
 	result = num * num
@@ -368,7 +368,7 @@ __And... step-by-step, that's: &rarr;__
 </section>
 
 <section markdown="block">
-### How About Another?
+###  How About Another?
 
 __What is the output of this code? Let's read through it line-by-line to figure it out. &rarr;__
 
@@ -392,11 +392,11 @@ let's skip this one
 
 
 <section markdown="block">
-## For Loop Exercises
+##  For Loop Exercises
 </section>
 
 <section markdown="block">
-### Some Quick Excercises
+###  Some Quick Excercises
 
 __Let's do these together &rarr;__
 
@@ -406,7 +406,7 @@ __Let's do these together &rarr;__
 </section>
 
 <section markdown="block">
-### Fizz Buzz
+###  Fizz Buzz
 * [fizz buzz](http://c2.com/cgi/wiki?FizzBuzzTest)
 * print out 1 to 100 ...with the following exceptions:
 * for multiples of three, print out "Fizz" instead of the number 
@@ -416,7 +416,7 @@ __Let's do these together &rarr;__
 </section>
 
 <section markdown="block">
-### FizzBuzz Output
+###  FizzBuzz Output
 {% highlight python %}
 1
 2
@@ -438,18 +438,18 @@ Buzz
 </section>
 
 <section markdown="block">
-### FizzBuzz Solution
+###  FizzBuzz Solution
 {% highlight python %}
 {% include classes/09/fizzbuzz.py %}
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-## Using an Accumulator Variable
+##  Using an Accumulator Variable
 </section>
 
 <section markdown="block">
-### Accumulator Variable
+###  Accumulator Variable
 
 An __accumulator__ variable is a variable used to keep the running total of a repeated calculation or operation that's within a loop:  
 
@@ -463,7 +463,7 @@ Some examples include:
 </section>
 
 <section markdown="block">
-### Summing Numbers
+###  Summing Numbers
 * sum the first 1-100 numbers, print out the resulting the sum 
 * (which, of course, [doesn't need a loop](http://betterexplained.com/articles/techniques-for-adding-the-numbers-1-to-100/))
 * (and there's [this story](http://en.wikipedia.org/wiki/Carl_Friedrich_Gauss#Anecdotes))
@@ -477,7 +477,7 @@ Some examples include:
 </section>
 
 <section markdown="block">
-### Counting Dice For Loop
+###  Counting Dice For Loop
 
 __Roll a die 1000 times; count how many times a one is rolled!  Print out the result.  Use a for loop.&rarr;__
 
@@ -489,7 +489,7 @@ __Roll a die 1000 times; count how many times a one is rolled!  Print out the re
 </section>
 
 <section markdown="block">
-### Counting Dice While Loop
+###  Counting Dice While Loop
 
 __Roll a die 1000 times; count how many times a one is rolled!  Print out the result.  Use a while loop.&rarr;__
 
@@ -501,11 +501,11 @@ __Roll a die 1000 times; count how many times a one is rolled!  Print out the re
 </section>
 
 <section markdown="block">
-## Using User Input to Influence Number of Repetitions
+##  Using User Input to Influence Number of Repetitions
 </section>
 
 <section markdown="block">
-### Controlling a For Loop With User Input
+###  Controlling a For Loop With User Input
 
 In while loops, we saw that the condition that keeps the loop running could be a condition based on user input.
 
@@ -519,7 +519,7 @@ Although for loops aren't based on a condition, we can base the number of repeti
 </section>
 
 <section markdown="block">
-### A Ladder
+###  A Ladder
 
 __Make me a ladder!__ &rarr;
 
@@ -541,7 +541,7 @@ How tall do you want this ladder to be?
 </section>
 
 <section markdown="block">
-### A Ladder Implementation
+###  A Ladder Implementation
 
 (Or... two implementations, really)
 {% highlight python %}
@@ -550,11 +550,11 @@ height = int(input('How tall do you want this ladder to be?'))
 for i in range(height):
 	print('========\n|      |')
 
-# or... just multiply instead of using the for loop
-# print(height * '========\n|      |')
+#  or... just multiply instead of using the for loop
+#  print(height * '========\n|      |')
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-## [While Loops vs For Loops](vs.html)
+##  [While Loops vs For Loops](vs.html)
 </section>

@@ -3,12 +3,12 @@ layout: slides
 title: Dictionaries 
 ---
 <section markdown="block" class="title-slide">
-# Dictionaries
+#  Dictionaries
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-###  Dictionaries
+###   Dictionaries
 
 __What's a dictionary?__
 
@@ -19,7 +19,7 @@ __What's a dictionary?__
 </section>
 
 <section markdown="block">
-###  Dictionaries Syntax
+###   Dictionaries Syntax
 
 __What's the syntax for a dictionary literal?  What delimits dictionaries?  What separates each name value pair?  What joins each name to a value?__
 
@@ -37,7 +37,7 @@ __What's the syntax for a dictionary literal?  What delimits dictionaries?  What
 </section>
 
 <section markdown="block">
-### Retrieving Values at Keys 
+###  Retrieving Values at Keys 
 
 __How do you retrieve a value at a key from a dictionary?  What happens if the key doesn't exist?__
 
@@ -47,7 +47,7 @@ pizza = {"crust":"thin", "topping":"mushrooms"}
 print(pizza["topping"])
 print(pizza["extra topping"])
 
-#...
+# ...
 {% endhighlight %}
 
 {% highlight python %}
@@ -62,7 +62,7 @@ KeyError: 'extra topping'
 
 
 <section markdown="block">
-### Using the get Method
+###  Using the get Method
 
 You can also retrieve a value from a dictionary without having to worry about KeyErrors by calling the __get__ method with two arguments:
 
@@ -84,21 +84,21 @@ peppers
 </section>
 
 <section markdown="block">
-### Key/Value Pairs 
+###  Key/Value Pairs 
 
 So... things are a bit different when _adding_ keys and values to a dictionary.  There is __no error__ if you use a key that doesn't exist in order to assign a value to it (that is... to create a new key/value pair).
 
 {% highlight python %}
-# look ma, no keys!
+#  look ma, no keys!
 d = {}
-# but I can assign with no probz
+#  but I can assign with no probz
 d["problems"] = None
 d["another key"] = "another value"
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Key/Value Pairs Continued
+###  Key/Value Pairs Continued
 
 If the key already exists... and you use the assignment operator, you are just associating a new value with an existing key.
 
@@ -122,7 +122,7 @@ None
 </section>
 
 <section markdown="block">
-### Creating New Keys/Values
+###  Creating New Keys/Values
 
 __So.... how do you create a new key/value pair in a dictionary?__
 
@@ -141,13 +141,13 @@ pizza['sauce'] = 'tomato'
 
 
 <section markdown="block">
-### Setting a New Key or Incrementing an Existing
+###  Setting a New Key or Incrementing an Existing
 
 If you're storing numbers as key values, and you want to increment a value at key or initialize it to 1 if it doesn't exist...
 
 {% highlight python %}
 d['a'] += 1
-# ...but I don't know if a exists
+#  ...but I don't know if a exists
 {% endhighlight %}
 
 You can catch an exception, or use get
@@ -163,7 +163,7 @@ d['a'] = d.get('a', 0) + 1
 </section>
 
 <section markdown="block">
-### Dictionaries and Mutability
+###  Dictionaries and Mutability
 
 __Are dictionaries mutable or immutable?__
 
@@ -173,13 +173,13 @@ Dictionaries are __mutable__!
 {% highlight python %}
 d = {}
 d["did not exist before"] = "some value"
-# ok!
+#  ok!
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### We Can Iterate Over Dictionaries
+###  We Can Iterate Over Dictionaries
 
 __Let's run this code.  What would you expect this to print?  Does it match what actually happens?__
 
@@ -200,7 +200,7 @@ size
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 __What can we conclude about dictionaries and iteration bsed on the output from the previous slides?__ &rarr;
 
@@ -211,7 +211,7 @@ __What can we conclude about dictionaries and iteration bsed on the output from 
 </section>
 
 <section markdown="block">
-### Iterating Over Every Key and Value
+###  Iterating Over Every Key and Value
 
 Another common way of iterating over a dictionary is to convert it to a list of tuples using the __items__() method.  It returns a list like object of tuples w/ the first element in each tuple the key, and the second, the value.  __What does the code below output?__
 
@@ -231,7 +231,7 @@ for i in t:
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 __Of course, we can unpack that list of tuples.  How do we rewrite this using tuple unpacking?__
 
@@ -253,7 +253,7 @@ for k, v in t:
 </section>
 
 <section markdown="block">
-### Order!
+###  Order!
 
 __Remember that the dictionaries are _unorderd_...__
 
@@ -272,7 +272,7 @@ crust thin
 </section>
 
 <section markdown="block">
-### sorted
+###  sorted
 
 One last thing (that's not unique to dictionaries)...
 
@@ -294,7 +294,7 @@ print(sorted(numbers, key=abs))
 </section>
 
 <section markdown="block">
-### sorted on Dictionary Values
+###  sorted on Dictionary Values
 
 We can use __sorted__ to iterate over a dictionary (which is inherently unordered) by value:
 
@@ -306,7 +306,7 @@ for name in sorted(pg, key=pg.get):
 </section>
 
 <section markdown="block">
-### Summary Questions
+###  Summary Questions
 
 * how do we construct a dictionary literal?
 * how do we create an empty dictionary?
@@ -320,7 +320,7 @@ for name in sorted(pg, key=pg.get):
 </section>
 
 <section markdown="block">
-### Summary Answers
+###  Summary Answers
 
 * dictionaries are delimited by curly braces, key value pairs are separated by commas, with each key and value joined by a colon
 * {}
@@ -336,7 +336,7 @@ for name in sorted(pg, key=pg.get):
 
 
 <section markdown="block">
-### Dictionaries Exercise
+###  Dictionaries Exercise
 
 * write a program that asks the user for a word
 * the program should output the total number of times each character in the word appears in the word
@@ -352,7 +352,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 1
+###  Counting Letters Version 1
 
 {% highlight python %}
 {% include classes/25/count_v1.py %}
@@ -360,7 +360,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 2
+###  Counting Letters Version 2
 
 {% highlight python %}
 {% include classes/25/count_v2.py %}
@@ -368,7 +368,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 3
+###  Counting Letters Version 3
 
 {% highlight python %}
 {% include classes/25/count_v3.py %}
@@ -377,7 +377,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Dice Rolls 
+###  Counting Dice Rolls 
 
 * roll two thee sided dice simultaneously 1000 times
 * count the frequency of the results... 2 through 6
@@ -389,7 +389,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Dice Rolls Solution 
+###  Dice Rolls Solution 
 
 We've done this before; here's a solution that uses a different variable for each possible number:
 
@@ -414,7 +414,7 @@ print("twos: %s, threes: %s, fours: %s, fives: %s, sixes %s" % (twos, threes, fo
 </section>
 
 <section markdown="block">
-### This Could be Less Tedious!
+###  This Could be Less Tedious!
 
 __Try reimplementing our dice program so that it uses a dictionary to store the frequency of rolls (each roll as a key, each value as a count).__  (hint: use the get method or use a try-except to deal with keys that don't exist).
 
@@ -431,14 +431,14 @@ print(freq_dice_rolls)
 </section>
 
 <section markdown="block">
-### Further Exercises
+###  Further Exercises
 
 * keeping track of inventory
 * phone book
 </section>
 
 <section markdown="block">
-## [Review](review.html)
+##  [Review](review.html)
 </section>
 
 

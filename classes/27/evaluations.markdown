@@ -4,12 +4,12 @@ title: Evaluations
 ---
 
 <section markdown="block" class="title-slide">
-# Evaluations
+#  Evaluations
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Course Evaluations
+###  Course Evaluations
 
 * end of class
 * five minutes

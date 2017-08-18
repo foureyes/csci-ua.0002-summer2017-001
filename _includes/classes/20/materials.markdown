@@ -1,17 +1,17 @@
 {% comment %}  
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Homework #8 __Due Sunday, December 4th, at 11PM__ 
 

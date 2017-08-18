@@ -3,13 +3,13 @@ layout: slides
 title: File I/O 
 ---
 <section markdown="block" class="title-slide">
-# File I/O
+#  File I/O
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Where's My Stuff?
+###  Where's My Stuff?
 
 When our programs are run, we usually have a bunch of variables that store numbers, lists, strings and all sorts of other data.  __But where do you think this data is actually stored?__ &rarr;
 
@@ -20,7 +20,7 @@ Our program and the data that our programs have been using is stored in your com
 </section>
 
 <section markdown="block">
-### RAM!?
+###  RAM!?
 
 Your computer's __main memory__ or __RAM__ (random access memory) is an example of __volatile memory__.
 
@@ -35,7 +35,7 @@ Hard drives, flash drives, CDs and DVDs
 </section>
 
 <section markdown="block">
-### Storing Data in Main Memory
+###  Storing Data in Main Memory
 
 __What are the consequences of your data being stored in your computer's main memory?__ &rarr;
 
@@ -46,7 +46,7 @@ __What are the consequences of your data being stored in your computer's main me
 </section>
 
 <section markdown="block">
-### I Want Data to Last Longer Than That
+###  I Want Data to Last Longer Than That
 
 __What if we want to persist our data beyond the lifetime of the running program... or through on-off cycles?__ &rarr;
 
@@ -57,14 +57,14 @@ __What if we want to persist our data beyond the lifetime of the running program
 </section>
 
 <section markdown="block">
-### File Input and Output
+###  File Input and Output
 
 * we can store data in files!
 * Python can handle file input and output - __file I/O__
 </section>
 
 <section markdown="block">
-### open
+###  open
 
 Python has a __built-in__ function called __open__.  
 
@@ -82,7 +82,7 @@ Python has a __built-in__ function called __open__.
 </section>
 
 <section markdown="block">
-### A File Object ...
+###  A File Object ...
 
 * is an object that allows your program to manipulate/read/write to an actual file on disk
 * to create a file object and open a file, use the built-in function, __open__()
@@ -90,7 +90,7 @@ Python has a __built-in__ function called __open__.
 </section>
 
 <section markdown="block">
-### Writing to a File
+###  Writing to a File
 
 {% highlight python %}
 f = open("test.txt", "w")
@@ -108,7 +108,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Using open to Write to a File
+###  Using open to Write to a File
 
 Let's look at __open__ and __write__ in more detail:
 
@@ -126,7 +126,7 @@ __write(s)__
 </section>
 
 <section markdown="block">
-### Lottery Ticket
+###  Lottery Ticket
 
 Write a program that creates a lottery ticket.  The lottery ticket should:
 
@@ -147,7 +147,7 @@ Lucky Number
 </section>
 
 <section markdown="block">
-### Pseudocode #1
+###  Pseudocode #1
 
 {% highlight python %}
 """
@@ -164,7 +164,7 @@ for each number in list
 </section>
 
 <section markdown="block">
-### Pseudocode #2
+###  Pseudocode #2
 
 {% highlight python %}
 """
@@ -183,12 +183,12 @@ for every number in the list
 </section>
 
 <section markdown="block">
-### Potential Solution
+###  Potential Solution
 
 {% highlight python %}
 import random
 
-# generate list of sorted unique random numbers
+#  generate list of sorted unique random numbers
 random_number_list = []
 while len(random_number_list) < 5:
     n = random.randint(1, 59) 
@@ -196,7 +196,7 @@ while len(random_number_list) < 5:
         random_number_list.append(n)
 random_number_list.sort()
 
-# write out the list of numbers to a file
+#  write out the list of numbers to a file
 file_handle = open('lotto.txt', 'w')        
 file_handle.write('Lucky Numbers\n')
 for n in random_number_list:
@@ -205,13 +205,13 @@ for n in random_number_list:
 </section>
 
 <section markdown="block">
-### How About Some Tidying Up
+###  How About Some Tidying Up
 
 __Can we abstract out some of this code into a reusable function?__ &rarr;
 </section>
 
 <section markdown="block">
-### Another Version
+###  Another Version
 
 {% highlight python %}
 import random
@@ -237,7 +237,7 @@ for n in observed:
 </section>
 
 <section markdown="block">
-### Another Version Continued
+###  Another Version Continued
 
 {% highlight python %}
 random_number_list = unique_random_list(5, 1, 59)
@@ -252,7 +252,7 @@ for n in random_number_list:
 
 
 <section markdown="block">
-### BTDubz (re random)
+###  BTDubz (re random)
 
 By the way... (of course) there's already a function in the random module that does this: 
 
@@ -272,7 +272,7 @@ By the way... (of course) there's already a function in the random module that d
 </section>
 
 <section markdown="block">
-### Reading a File
+###  Reading a File
 
 To open a file in read mode, use "r" as the second argument:
 
@@ -283,7 +283,7 @@ f = open("test.txt", "r")
 </section>
 
 <section markdown="block">
-### Reading a File
+###  Reading a File
 
 Once you have a __file object__ (sometimes called a file handle), you can read the contents of a file by: using one of the following methods on your __file handle object__:
 
@@ -304,7 +304,7 @@ __Why would you use one method over another?__
 </section>
 
 <section markdown="block">
-### The Easiest Way to Read a File
+###  The Easiest Way to Read a File
 
 Once you have a file object, you can actually _iterate_ over the file object itself. That is, you can use a __for loop__ to loop over every line in the __file object__:
 
@@ -317,7 +317,7 @@ for line in f:
 </section>
 
 <section markdown="block">
-### Using readline
+###  Using readline
 
 __readline__() takes no arguments, and it returns a string.
 
@@ -326,7 +326,7 @@ __readline__() takes no arguments, and it returns a string.
 </section>
 
 <section markdown="block">
-### Using readline Continued
+###  Using readline Continued
 
 __To use readline to read the contents of a file, loop forever (or at least until we know that we're at the end of a file! ...__
 
@@ -344,7 +344,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Using readline() Continued More!
+###  Using readline() Continued More!
 
 Using the test.txt file we've used in previous examples:
 
@@ -375,7 +375,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Reading a File in All At Once
+###  Reading a File in All At Once
 
 Use the __read__() method on your file handle object to read the file in all at once.  __read__() returns the entire contents of a file (including newlines) as a string.
 
@@ -388,7 +388,7 @@ print(contents)
 </section>
 
 <section markdown="block">
-### Reading a File in All At Once
+###  Reading a File in All At Once
 
 Use the __readlines__() method on your file handle object to read the file in all at once as a list, with each line being a single element in the list. 
 
@@ -402,7 +402,7 @@ for line in lines:
 </section>
 
 <section markdown="block">
-### Memory Efficiency
+###  Memory Efficiency
 
 __Which function uses more main memory, readline or read/readlines? Why?__ &rarr;
 
@@ -414,17 +414,17 @@ __Which function uses more main memory, readline or read/readlines? Why?__ &rarr
 
 
 <section markdown="block">
-## Some Notes...
+##  Some Notes...
 </section>
 
 <section markdown="block">
-### A File Object and For Loops
+###  A File Object and For Loops
 
 __Again, a file object is itself an iterable (you can loop over it using a for loop)... and it reads in chunks of the file as you go along__ &rarr;
  
 {% highlight python %}
 f = open('my_file.txt', 'r')
-# read chunks at a time
+#  read chunks at a time
 for line in f:
   print(line)
 {% endhighlight %}
@@ -433,7 +433,7 @@ for line in f:
 
 
 <section markdown="block">
-### Creating Text Files with IDLE
+###  Creating Text Files with IDLE
 
 Some of these exercises require you to work with existing text files. So, __how do you create these files__? &rarr;
 
@@ -447,7 +447,7 @@ IDLE can be used to work on files that _aren't_ Python programs. __To save a _pl
 </section>
 
 <section markdown="block">
-### Multiple File Objects
+###  Multiple File Objects
 
 __You can have more than one file object open at a time. The following example:__ &rarr; 
 
@@ -463,17 +463,17 @@ for line in input_file:
 </section>
 
 <section markdown="block">
-### File System and Paths
+###  File System and Paths
 
 Oh... make sure you know about your [file system and how paths work (see these slides!)](paths.html) &rarr;
 </section>
 
 <section markdown="block">
-## An Exercise
+##  An Exercise
 </section>
 
 <section markdown="block">
-### Reading and Writing
+###  Reading and Writing
 
 * read the contents of a file called names.txt
 * the file will have first names in it
@@ -495,14 +495,14 @@ Alice
 
 
 <section markdown="block">
-### A Potential Solution
+###  A Potential Solution
 
 {% highlight python %}
 file_in = open("names.txt", "r")
 names = file_in.readlines()
-# or alternatively...
-# contents = file_in.read()
-# names = contents.split("\n")
+#  or alternatively...
+#  contents = file_in.read()
+#  names = contents.split("\n")
 names.sort()
 file_in.close()
 file_out = open("names_sorted.txt", "w")

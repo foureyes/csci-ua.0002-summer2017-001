@@ -3,12 +3,12 @@ layout: slides
 title: If Statements - Advanced 
 ---
 <section markdown="block" class="title-slide">
-# How to (Un)Complicate Things With If Statements
+#  How to (Un)Complicate Things With If Statements
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### if Statements
+###  if Statements
 
 __if__ statements allow for the conditional execution of code:
 
@@ -22,7 +22,7 @@ if some_boolean_expression:
 </section>
 
 <section markdown="block">
-### if-else Statements
+###  if-else Statements
 
 __if-else__ statements will execute one block of code if the condition is true... or another block if it's false:
 
@@ -39,12 +39,12 @@ else:
 </section>
 
 <section markdown="block">
-## elif
+##  elif
 <aside>Like Smashing Together Your Two Favorite Keywords</aside>
 </section>
 
 <section markdown="block">
-### elif Is the New _Else If_
+###  elif Is the New _Else If_
 
 We can use __elif__ to chain together a series of conditions.  This allows us to create multiple flows of execution (more than two), but - at most - only one path will be executed (__even if more than one condition is true__). 
 
@@ -56,7 +56,7 @@ We can use __elif__ to chain together a series of conditions.  This allows us to
 </section>
 
 <section markdown="block">
-### elif Syntax
+###  elif Syntax
 
 Let's see what it looks like...
 
@@ -76,7 +76,7 @@ else:
 </section>
 
 <section markdown="block">
-### elif Syntax Explained
+###  elif Syntax Explained
 
 * __if__ statement like usual
 * go back one level of indentation to mark that the previous code block has ended
@@ -90,7 +90,7 @@ else:
 </section>
 
 <section markdown="block">
-### A Trivial elif Example
+###  A Trivial elif Example
 
 __Translate an athlete's finishing placement (1st, 2nd and 3rd) into its Olympic medal value: 1 for gold, 2 for silver, 3 for bronze and anything else means no medal &rarr;__.  Do this by asking for user input.  For example:
 
@@ -110,7 +110,7 @@ no medal for you!
 </section>
 
 <section markdown="block">
-### Medals... Solution!
+###  Medals... Solution!
 
 {% highlight python %}
 {% include classes/06/medals_elif.py %}
@@ -119,7 +119,7 @@ no medal for you!
 </section>
 
 <section markdown="block">
-### How About This?
+###  How About This?
 
 __Would this solution work?__ &rarr;
 
@@ -145,7 +145,7 @@ Nope! If you put in 1, both `gold` and `no medal for you!` are printed out
 
 </section>
 <section markdown="block">
-### Another elif Example
+###  Another elif Example
 <aside>Let's have some more cake...</aside>
 __Let's do this exercise using elif...__ &rarr;
 
@@ -153,8 +153,8 @@ __Let's do this exercise using elif...__ &rarr;
 Do you want cake?
 > yes
 Here, have some cake.
-# > no ... no cake for you
-# > bleargh ... i don't understand
+#  > no ... no cake for you
+#  > bleargh ... i don't understand
 {% endhighlight %}
 
 <div class="incremental" markdown="block">
@@ -165,7 +165,7 @@ Here, have some cake.
 </section>
 
 <section markdown="block">
-### And How Did That Compare To Consecutive If Statements?
+###  And How Did That Compare To Consecutive If Statements?
 
 __We could have impemented this using consecutive if statements.__ &rarr;
 
@@ -177,7 +177,7 @@ __We could have impemented this using consecutive if statements.__ &rarr;
 </section>
 
 <section markdown="block">
-### An if in Your if
+###  An if in Your if
 
 You can actually nest if statements within each other:
 
@@ -195,7 +195,7 @@ else:
 </section>
 
 <section markdown="block">
-### Let's See Cake With Nested If Statements
+###  Let's See Cake With Nested If Statements
 
 __We could have impemented this using nested if statements.__ &rarr;
 
@@ -207,7 +207,7 @@ __We could have impemented this using nested if statements.__ &rarr;
 </section>
 
 <section markdown="block">
-### And How Did That Compare To Consecutive Nested If Statements?
+###  And How Did That Compare To Consecutive Nested If Statements?
 
 __What do you think the decision trees look like?.__ &rarr; (Oh, and BTW, what's a decision tree? ...It's a graph that shows all possible decisions and the outcomes of those decisions.)
 
@@ -219,7 +219,7 @@ __What do you think the decision trees look like?.__ &rarr; (Oh, and BTW, what's
 </section>
 
 <section markdown="block">
-### And How About Speed?
+###  And How About Speed?
 
 __We could make an educated guess.__ &rarr;
 
@@ -235,7 +235,7 @@ __We could make an educated guess.__ &rarr;
 </section>
 
 <section markdown="block">
-### We're Not Finished Yet...
+###  We're Not Finished Yet...
 <aside>I'm bad at making decisions...</aside>
 
 * __Add "maybe" as a potential answer?__ &rarr;  
@@ -258,7 +258,7 @@ Here, have some cake.
 </section>
 
 <section markdown="block">
-### Adding 'yeah' and 'maybe'...
+###  Adding 'yeah' and 'maybe'...
 
 {% highlight python %}
 {% include classes/06/cake_yeah_maybe.py %}
@@ -266,7 +266,7 @@ Here, have some cake.
 </section>
 
 <section markdown="block">
-### Lastly, Everything Together
+###  Lastly, Everything Together
 
 __Write a program that names the rolls of two dice in a dice game called craps...__ &rarr;
 
@@ -281,7 +281,7 @@ __Write a program that names the rolls of two dice in a dice game called craps..
 </section>
 
 <section markdown="block">
-### Craps - Example Interaction
+###  Craps - Example Interaction
 
 {% highlight python %}
 What roll did you get for the first die?
@@ -299,7 +299,7 @@ Easy Four
 </section>
 
 <section markdown="block">
-### Name That Craps Roll
+###  Name That Craps Roll
 
 {% highlight python %}
 {% include classes/06/craps.py %}
@@ -307,7 +307,7 @@ Easy Four
 </section>
 
 <section markdown="block">
-### Nesting If Statements
+###  Nesting If Statements
 
 * we saw this above to motivate our __elif__ example
 * it behaves as you'd expect
@@ -319,7 +319,7 @@ Easy Four
 </section>
 
 <section markdown="block">
-### Nesting If Statements Example
+###  Nesting If Statements Example
 
 The coffee shop has a special for half price pastries on Fridays after 4 (16:00... or 16).  __Ask for day and time, and make a recommendation (buy now, wait x hours or don't buy).__ &rarr;
 
@@ -340,7 +340,7 @@ Just wait 4 more hours
 </section>
 
 <section markdown="block">
-### Pastry Buying Guide
+###  Pastry Buying Guide
 
 {% highlight python %}
 {% include classes/06/pastry_buying_guide.py %}
@@ -349,7 +349,7 @@ Just wait 4 more hours
 
 
 <section markdown="block">
-### How to Order Conditions
+###  How to Order Conditions
 
 * if more than one condition in a series of elif's is true 
 	* only the first true condition is executed!
@@ -360,7 +360,7 @@ Just wait 4 more hours
 </section>
 
 <section markdown="block">
-### Ordering Conditions Continued!
+###  Ordering Conditions Continued!
 
 The intention of the following code is to:
 
@@ -383,7 +383,7 @@ elif n == 101:
 </section>
 
 <section markdown="block">
-### How to Order Conditions Continued Some More!
+###  How to Order Conditions Continued Some More!
 
 __Of course, we could fix this.  There are a few ways...__ &rarr;
 
@@ -405,11 +405,11 @@ elif n == 101:
 </section>
 
 <section markdown="block">
-## Equivalent Conditions
+##  Equivalent Conditions
 </section>
 
 <section markdown="block">
-### Logical Opposites 
+###  Logical Opposites 
 A way to get rid of not operators is to use the opposite logical operator:
 
 [Logical Opposites from {{ site.bookt }} ](http://openbookproject.net/thinkcs/python/english3e/conditionals.html)
@@ -427,11 +427,11 @@ Consequently
 </section>
 
 <section markdown="block">
-### Logical Opposites Continued
+###  Logical Opposites Continued
 __How can we rewrite this without the not?__&rarr;
 
 {% highlight python %}
-# Example from {{ site.bookt }}
+#  Example from {{ site.bookt }}
 if not (age >= 17):
     print("Hey, you're too young to get a driving licence!")
 {% endhighlight %}
@@ -445,7 +445,7 @@ if age < 17:
 </section>
 
 <section markdown="block">
-### De Morgan's Law
+###  De Morgan's Law
 * not (x and y)  ==  (not x) or (not y)
 * not (x or y)   ==  (not x) and (not y)
 * {{ site.bookt }} example
@@ -456,7 +456,7 @@ __Let's try truth tables for these!__ &rarr;
 </section>
 
 <section markdown="block">
-### De Morgan's Law Truth Tables
+###  De Morgan's Law Truth Tables
 
 {% highlight bash %}
 x | y | not (x and y)   x | y | (not x) or (not y)
@@ -476,7 +476,7 @@ f | f | t              f | f | t
 </section>
 
 <section markdown="block">
-### De Morgan's Law 
+###  De Morgan's Law 
 
 __How can we rewrite this fragment of code from {{ site.bookt }}?__
 
@@ -496,7 +496,7 @@ __Can we simplify this using some combination of Demorgan's laws and/or logical 
 </section>
 
 <section markdown="block">
-### De Morgan's Law Continued
+###  De Morgan's Law Continued
 
 __Let's rewrite this if statement__ &rarr;
 
@@ -526,11 +526,11 @@ if (sword_charge < 0.90) or (shield_energy < 100):
 </div>
 </section>
 <section markdown="block">
-## Truthiness and Style
+##  Truthiness and Style
 </section>
 
 <section markdown="block">
-### Truthiness
+###  Truthiness
 
 See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-value-testing) on the _intrinsic_ boolean value of various types.  The following values are considered false:
 
@@ -541,7 +541,7 @@ See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-v
 </section>
 
 <section markdown="block">
-### Truthiness Examples
+###  Truthiness Examples
 
 {% highlight python %}
 a = ""
@@ -560,18 +560,18 @@ if a:
 </section>
 
 <section markdown="block">
-### Using Logical Operators
+###  Using Logical Operators
 
 __What's the difference between the following two code samples?__&rarr;
 {% highlight python %}
-# sample 1
+#  sample 1
 answer = 'no'
 if answer == 'yes' or answer == 'YES' or answer == 'Yes':
 	print('you said yes')
 else:
 	print('you said no')
 
-# sample 2
+#  sample 2
 if answer == 'yes' or 'YES' or 'Yes':
 	print('you said yes')
 else:
@@ -581,13 +581,13 @@ answer = 'no'
 </section>
 
 <section markdown="block">
-### Using Logical Operators Continued
+###  Using Logical Operators Continued
 
 {% highlight python %}
-# boolean expression in sample 1
+#  boolean expression in sample 1
 answer == 'yes' or answer == 'YES' or answer == 'Yes':
 
-# boolean expression in sample 2
+#  boolean expression in sample 2
 answer == 'yes' or 'YES' or 'Yes':
 {% endhighlight %}
 
@@ -598,19 +598,19 @@ answer == 'yes' or 'YES' or 'Yes':
 </section>
 
 <section markdown="block">
-### Another Note About Style
+###  Another Note About Style
 * remember idioms?
 * http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html#testing-for-truth-values
 * more elegant to test intrinsic truth values than using equality operator
 {% highlight python %}
 b = True
-# instead of if b == True
+#  instead of if b == True
 if b:
 	print("b")
 
 s = "catz!"
-# to test if the value is not empty string 
-# (rather than s != "")
+#  to test if the value is not empty string 
+#  (rather than s != "")
 if s:
 	print(s)
 
@@ -619,32 +619,32 @@ if s:
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game!
+###  Let's Write a Mini Quiz Game!
 
 __Write a program to ask a couple of questions about the book, Dune.__ &rarr;
 
 {% highlight python %}
-#  ______            _        _______ 
-# (  __  \ |\     /|( (    /|(  ____ \
-# | (  \  )| )   ( ||  \  ( || (    \/
-# | |   ) || |   | ||   \ | || (__    
-# | |   | || |   | || (\ \) ||  __)   
-# | |   ) || |   | || | \   || (      
-# | (__/  )| (___) || )  \  || (____/\
-# (______/ (_______)|/    )_)(_______/
-# 
-# What is the name of the desert planet that's informally called Dune?
-# > Arrakis
-# You got it right!
-# What valuable resource is only found on Dune?
-# > cheese?
-# Nope, the answer is: spice
-# You got 1 questions right! 
+#   ______            _        _______ 
+#  (  __  \ |\     /|( (    /|(  ____ \
+#  | (  \  )| )   ( ||  \  ( || (    \/
+#  | |   ) || |   | ||   \ | || (__    
+#  | |   | || |   | || (\ \) ||  __)   
+#  | |   ) || |   | || | \   || (      
+#  | (__/  )| (___) || )  \  || (____/\
+#  (______/ (_______)|/    )_)(_______/
+#  
+#  What is the name of the desert planet that's informally called Dune?
+#  > Arrakis
+#  You got it right!
+#  What valuable resource is only found on Dune?
+#  > cheese?
+#  Nope, the answer is: spice
+#  You got 1 questions right! 
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game (Continued)!
+###  Let's Write a Mini Quiz Game (Continued)!
 
 Let's get some requirements down:
 
@@ -657,7 +657,7 @@ Let's get some requirements down:
 </section>
 
 <section markdown="block">
-### We Don't Have To Jump Right Into Code!
+###  We Don't Have To Jump Right Into Code!
 
 __So, first, what's our plan?__ &rarr;
 
@@ -666,7 +666,7 @@ __So, first, what's our plan?__ &rarr;
 </section>
 
 <section markdown="block">
-### Let's Write a Mini Quiz Game! (Continued Some More)!
+###  Let's Write a Mini Quiz Game! (Continued Some More)!
 
 What are some ways that we can be more tolerant about capitalization?  That is... what if we wanted to accept these answers:
 
@@ -677,5 +677,5 @@ Another wrinkle might be to have different output based on which version of the 
 </section>
 
 <section markdown="block">
-## [Modules Are Up Next!](modules.html)
+##  [Modules Are Up Next!](modules.html)
 </section>

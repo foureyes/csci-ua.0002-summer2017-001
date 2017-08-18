@@ -3,12 +3,12 @@ layout: slides
 title: Nested Loops, Nested Lists 
 ---
 <section markdown="block" class="title-slide">
-# Nested Loops, Nested Lists
+#  Nested Loops, Nested Lists
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block" class="title-slide">
-### Nested Loops
+###  Nested Loops
 
 Loops can be nested within each other:
 
@@ -18,7 +18,7 @@ Loops can be nested within each other:
 </section>
 
 <section markdown="block" class="title-slide">
-### A Silly Example
+###  A Silly Example
 
 __How many times does this code print "um. what?"__
 
@@ -39,7 +39,7 @@ for i in range(2):
 </section>
 
 <section markdown="block">
-### Another Example (Still Silly)
+###  Another Example (Still Silly)
 
 __How many lines are printed in the following example?  Why?  What are the first two lines printed?__
 
@@ -51,14 +51,14 @@ for i in range(4):
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# eight lines are printed
-# the inner loop results in 2 printed lines, the outer loop does that 4 times
+#  eight lines are printed
+#  the inner loop results in 2 printed lines, the outer loop does that 4 times
 
-# the first two are...
+#  the first two are...
 i is 0, j is 0
 i is 0, j is 1
 
-# the last two are...
+#  the last two are...
 i is 3, j is 0
 i is 3, j is 1
 {% endhighlight %}
@@ -66,7 +66,7 @@ i is 3, j is 1
 </section>
 
 <section markdown="block">
-### Yet Another Example
+###  Yet Another Example
 
 __How many lines are printed in the following example?  What are the first four lines printed out?__
 
@@ -78,7 +78,7 @@ while True:
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# infinite!
+#  infinite!
 0
 1
 2
@@ -89,7 +89,7 @@ while True:
 </section>
 
 <section markdown="block">
-### A Closer Look
+###  A Closer Look
 
 * again, the inner-most loop must finish iterating before the next outer loop goes on to its next iteration
 * variables outside of an inner loop are accessible to the inner loop
@@ -107,7 +107,7 @@ for i in range(4):
 </section>
 
 <section markdown="block">
-### Let's See Some Examples
+###  Let's See Some Examples
 
 * draw an x
 * finding the first n primes using trial division
@@ -115,7 +115,7 @@ for i in range(4):
 </section>
 
 <section markdown="block">
-### Draw an X
+###  Draw an X
 
 __Write a function called draw_an_x:__
 
@@ -144,7 +144,7 @@ O        O
 </section>
 
 <section markdown="block">
-### Draw an X Pseudocode
+###  Draw an X Pseudocode
 
 {% highlight python %}
 """
@@ -161,7 +161,7 @@ for the number of rows (that is the length of the X)...
 </section>
 
 <section markdown="block">
-### Draw an X Solution
+###  Draw an X Solution
 
 {% highlight python %}
 {% include classes/26/stripes.py  %}
@@ -169,7 +169,7 @@ for the number of rows (that is the length of the X)...
 </section>
 
 <section markdown="block">
-### Finding the First n Primes
+###  Finding the First n Primes
 
 __Write a function called first_n_primes:__
 
@@ -190,7 +190,7 @@ print(first_n_primes(5))
 </section>
 
 <section markdown="block">
-### Finding the First n Primes Pseudocode
+###  Finding the First n Primes Pseudocode
 
 {% highlight python %}
 """
@@ -207,7 +207,7 @@ while that list of primes is less than n...
 </section>
 
 <section markdown="block">
-### First n Primes
+###  First n Primes
 
 {% highlight python %}
 {% include classes/26/first_n_primes.py  %}
@@ -215,7 +215,7 @@ while that list of primes is less than n...
 </section>
 
 <section markdown="block">
-### Chess Board Squares
+###  Chess Board Squares
 
 __Print out the names of each square on a chess board using nested loops &rarr;__  See [this article on chess notation](http://www.chessstrategiesblog.com/chess-notation/):
 
@@ -237,7 +237,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 </section>
 
 <section markdown="block">
-### Chess Board Squares Solution
+###  Chess Board Squares Solution
 
 {% highlight python %}
 {% include classes/26/chess.py  %}
@@ -245,7 +245,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 </section>
 
 <section markdown="block">
-### Strings and Grids
+###  Strings and Grids
 
 There's a pattern in the past couple of strings and nested loops that we've seen:
 
@@ -257,7 +257,7 @@ There's a pattern in the past couple of strings and nested loops that we've seen
 
 
 <section markdown="block">
-### Strings and Grids Continued
+###  Strings and Grids Continued
 
 {% highlight python %}
 col = "a8\na7\na6\na5\na4\na3\na2\na1\n"
@@ -279,7 +279,7 @@ col = col + "b8\nb7\nb6\nb5\nb4\nb3\nb2\nb1\n"
 </section>
 
 <section markdown="block">
-### Values in Lists
+###  Values in Lists
 
 __What types of objects can a list hold?__
 
@@ -296,7 +296,7 @@ Any arbitrary value!
 </section>
 
 <section markdown="block">
-### Lists in Lists
+###  Lists in Lists
 
 So, yes.  You can have a list in yr list ([wikipedia does!](http://en.wikipedia.org/wiki/List_of_lists_of_lists)).  __But why!?  What are some things that you could use nested lists for?__
 
@@ -311,7 +311,7 @@ So, yes.  You can have a list in yr list ([wikipedia does!](http://en.wikipedia.
 </section>
 
 <section markdown="block">
-### Creating Nested Lists
+###  Creating Nested Lists
 
 Let's take a look at three ways of creating nested lists:
 
@@ -321,7 +321,7 @@ Let's take a look at three ways of creating nested lists:
 </section>
 
 <section markdown="block">
-### List Literals
+###  List Literals
 
 We can simply use list literal syntax (lots brackets and commas!).
 
@@ -338,7 +338,7 @@ a = [[1, 2, 3, 4], [1, 2, 3, 4], [1, 2, 3, 4]]
 </section>
 
 <section markdown="block">
-### Appending Lists to Lists
+###  Appending Lists to Lists
 
 Alternatively, you can:
 
@@ -358,7 +358,7 @@ a.append([1, 2, 3, 4])
 </section>
 
 <section markdown="block">
-### Appending Lists to Lists Continued
+###  Appending Lists to Lists Continued
 
 Both of the previous solutions get old really fast!  __Can I do the same with less manual repetition?__
 
@@ -375,14 +375,14 @@ for i in range(3):
 </section>
 
 <section markdown="block">
-### Chess Board Revisited
+###  Chess Board Revisited
 
 Instead of just having a string representation of our chess board, __can we represent it as a list?__
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# Yes!
-# first two rows...
+#  Yes!
+#  first two rows...
 board = [["a8", "b8", "c8", "d8", "e8", "f8", "g8", "h8"], ["a7", "b7", "c7", "d7", "e7", "f7", "g7", "h7"]] 
 {% endhighlight %}
 </div>
@@ -390,7 +390,7 @@ board = [["a8", "b8", "c8", "d8", "e8", "f8", "g8", "h8"], ["a7", "b7", "c7", "d
 </section>
 
 <section markdown="block">
-### Chess Board Revisited... 
+###  Chess Board Revisited... 
 
 __How could we create this nested list without using list literals?__ 
 
@@ -405,7 +405,7 @@ __How could we create this nested list without using list literals?__
 </section>
 
 <section markdown="block">
-### Reading Elements from a Nested List
+###  Reading Elements from a Nested List
 
 You can access an element within a list that's within a list by indexing __twice__!  
 * the first index is the place in the outer list
@@ -414,12 +414,12 @@ You can access an element within a list that's within a list by indexing __twice
 {% highlight python %}
 a = [['foo', 'bar'],['baz', 'qux']]
 print(a[0][1])
-# gives back bar
+#  gives back bar
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Lists in Lists Example
+###  Lists in Lists Example
 
 Here's a list of lists that represents a tic-tac-toe board.  __What does this code output? &rarr;__
 
@@ -440,7 +440,7 @@ x
 </section>
 
 <section markdown="block">
-### Changing Values in Nested Lists
+###  Changing Values in Nested Lists
 
 In addition to retrieving values from nested lists, we can also change values.
 
@@ -452,13 +452,13 @@ In addition to retrieving values from nested lists, we can also change values.
 a = [[1, 1, 1, 1], [1, 1, 1, 1]]
 a[0][3] = "not a one"
 print(a)
-# results in: 
-# [[1, 1, 1, 'not a one'], [1, 1, 1, 1]]
+#  results in: 
+#  [[1, 1, 1, 'not a one'], [1, 1, 1, 1]]
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Tic Tac Toe Again
+###  Tic Tac Toe Again
 
 Let's look at our tic tac toe board again.  It's x's turn to go.  __Where should an x be placed to win the game?  In code, how would we change the element at that position from space (" ") to "x"?__ 
 
@@ -468,7 +468,7 @@ tic_tac_toe = [[" ", " ", " "],[" ", "x", " "],["o", "o", "x"]]
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# put an x at 0, 0 (the upper left-hand corner)
+#  put an x at 0, 0 (the upper left-hand corner)
 tic_tac_toe = [[" ", " ", " "],[" ", "x", " "],["o", "o", "x"]]
 tic_tac_toe[0][0] = "x"
 print(tic_tac_toe)
@@ -477,7 +477,7 @@ print(tic_tac_toe)
 </section>
 
 <section markdown="block">
-### Looping Over Lists in Lists
+###  Looping Over Lists in Lists
 
 We saw how we could use nested loops in various example programs.  We'll also need nested loops if we want to look at every element within a nested list.  First, let's stick to one loop.  __How many times does this loop run?  What's the type of the loop variable called _inner_?  What's the last thing that gets printed out?__
 
@@ -495,14 +495,14 @@ for inner in a:
 </section>
 
 <section markdown="block">
-### Every Single Element
+###  Every Single Element
 
 Because each inner element is also a list, we can loop over that as well!  __Print out every number in this list on its own line:__
 
 {% highlight python %}
 a = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
-# your code...
-# results in
+#  your code...
+#  results in
 1
 2
 3
@@ -522,13 +522,13 @@ for inner in a:
 </section>
 
 <section markdown="block">
-### Changing All Elements in a Nested List 
+###  Changing All Elements in a Nested List 
 
 Let's try changing every element in the previous so that it is twice the amount as the original.  Let's do this __in place__.  That is, we're modifying the list itself.
 </section>
 
 <section markdown="block">
-### Changing All Elements in a Nested List... 
+###  Changing All Elements in a Nested List... 
 
 If I want to change the first element in the first list to twice the amount __what could would I use to do that?__ 
 
@@ -552,7 +552,7 @@ a[1][0] = a[1][0] * 2
 </section>
 
 <section markdown="block">
-### A Pattern for Changing Elements
+###  A Pattern for Changing Elements
 
 __Notice the pattern?__
 
@@ -571,7 +571,7 @@ a[1][0] = a[1][0] * 2
 </section>
 
 <section markdown="block">
-### Nested Loops and List Indexes
+###  Nested Loops and List Indexes
 
 We've seen similar patterns when we used nested loops:  
 
@@ -588,7 +588,7 @@ print(a)
 </section>
 
 <section markdown="block">
-### Tic-Tac-Toe, One Last Time
+###  Tic-Tac-Toe, One Last Time
 
 Printing out our tic-tac-toe board
 
@@ -617,7 +617,7 @@ __Let's try to create a string representation of the board so that when it's pri
 </section>
 
 <section markdown="block">
-### Tic Tac Toe Printing
+###  Tic Tac Toe Printing
 
 {% highlight python %}
 {% include classes/26/tic_tac_toe.py  %}

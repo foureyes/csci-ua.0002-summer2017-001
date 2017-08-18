@@ -1,10 +1,10 @@
 <a name="class28"></a>
 
-### Review Slides 
+###  Review Slides 
 
 * [About Class #28](classes/28/meta.html)
 
-#### Recent Topics
+####  Recent Topics
 
 * [Review Exceptions](classes/25/exceptions.html)
 * [Review Tuples](classes/25/tuples.html)
@@ -16,7 +16,7 @@
 * [List Comprehensions](classes/25/list_comprehensions.html)
 -->
 
-#### Previous Review Slides
+####  Previous Review Slides
 
 Midterm #2
 
@@ -31,7 +31,7 @@ Midterm #1
 
 * [Review Variables, Statements, Expressions, Types, Operators, Loops, and Conditionals](classes/11/review.html)
 
-#### Selected Homework Solutions
+####  Selected Homework Solutions
 
 Homework 10
 
@@ -48,14 +48,14 @@ Homework 11
 * [upper_and_constrain.py](resources/code/hw11/upper_and_constrain.py)
 
 
-### Final Exam 
+###  Final Exam 
 
 * __date:__ {{ site.final_date }}
 * __time:__ {{ site.final_time }}
 * __room:__ {{ site.final_room }}
 
 
-#### Final Exam Practice
+####  Final Exam Practice
 
 * [Final Exam Practice Questions - Set 1](resources/handouts/final/final_practice_questions_set_1.pdf)
 * [Final Exam Practice Questions - Set 1 - Solutions](resources//handouts/final/final_practice_questions_set_1_solutions.pdf)
@@ -63,7 +63,7 @@ Homework 11
 * [Final Exam Practice Questions - Set 2 - Solutions](resources/handouts/final/final_practice_questions_set_2_solutions.pdf)
 
 
-#### Midterm 1 and 2 Solutions and Practice Questions
+####  Midterm 1 and 2 Solutions and Practice Questions
 
 * [Midterm 1 Practice](resources/handouts/midterm_1/midterm_1_practice.pdf)
 * [Midterm 1 Practice Solutions](resources/handouts/midterm_1/midterm_1_practice_solutions.pdf)
@@ -73,9 +73,9 @@ Homework 11
 * [Midterm 2 Solutions](resources/handouts/midterm_2/midterm_2_solutions.pdf)
 
 
-### Readings
+###  Readings
 
-#### {{ site.bookq }}
+####  {{ site.bookq }}
 
 * Chapter 1: Introduction to Computers  and Programming
 * Chapter 2: Input, Processing, and Output
@@ -91,7 +91,7 @@ Homework 11
 * Chapter 12: Recursion 
 {% endcomment %}
 
-#### {{ site.bookt }}
+####  {{ site.bookt }}
 
 * [Chapter 1 The way of the program](http://www.openbookproject.net/thinkcs/python/english3e/way_of_the_program.html)
 * [Chapter 2 Variables, expressions, and statements](http://www.openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)

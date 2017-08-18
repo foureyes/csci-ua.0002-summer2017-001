@@ -340,7 +340,7 @@ not when you import this as a module (relevant for feeling_quizzy.py)
 * at the end of this file... add:
 
 {% highlight python %}
-# this means... if this file is the actual file being run...
+#  this means... if this file is the actual file being run...
 if __name__ == '__main__':
 {% endhighlight %}
 

@@ -3,12 +3,12 @@ layout: slides
 title: About Class #12 
 ---
 <section markdown="block" class="title-slide">
-# About Class #12
+#  About Class #12
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * nested loops
 * creating functions
@@ -16,7 +16,7 @@ title: About Class #12
 
 <!--
 <section markdown="block">
-### Quizzes and Homework 
+###  Quizzes and Homework 
 
 * Quiz 6 and Module 6 due on Wednesday (will be posted late this evening)
 * Homework to be posted a by the end of this week, and will be due on Sunday, as usual
@@ -27,7 +27,7 @@ title: About Class #12
 
 
 <section markdown="block">
-### Midterm #1
+###  Midterm #1
 
 * grades posted by early next week
 * partial credit

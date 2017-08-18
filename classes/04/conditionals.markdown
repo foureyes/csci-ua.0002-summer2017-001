@@ -4,12 +4,12 @@ title: Conditionals
 ---
 
 <section markdown="block" class="title-slide">
-# Conditionals
+#  Conditionals
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Controlling Program Flow w/ Conditionals
+###  Controlling Program Flow w/ Conditionals
 A __conditional__ allows a decision to be made about which code path to take.  
 
 * allows for __conditional__ execution of code.
@@ -27,7 +27,7 @@ What do you think the two possible values are for __boolean values__?
 
 
 <section markdown="block">
-### The bool Type
+###  The bool Type
 Python represents these boolean values using the __bool type__.  The __bool type__ has two possible values:
 
 * True
@@ -40,7 +40,7 @@ Some things to pay attention to...
 </section>
 
 <section markdown="block">
-### Boolean Expressions / The Equality Operator
+###  Boolean Expressions / The Equality Operator
 A __boolean expression__ is just an expression that eventually evaluates to a boolean value.  
 
 * True evaluates to True
@@ -55,7 +55,7 @@ The __equality operator__, __==__ (double equals), will test the left and right 
 </section>
 
 <section markdown="block">
-### if Statements
+###  if Statements
 We use __if__ statements to conditionally execute code.  
 
 * they start with the __keyword__ __if__
@@ -73,7 +73,7 @@ if True:
 </section>
 
 <section markdown="block">
-### if Statements continued
+###  if Statements continued
 This will also work with equality operators and variables
 {% highlight python %}
 x = 5
@@ -84,7 +84,7 @@ if x == y:
 </section>
 
 <section markdown="block">
-###  Let's Make a Game!
+###   Let's Make a Game!
 Let's try making a number guessing game.  Here's the expected output:
 {% highlight python %}
 Guess the number that I'm thinking of
@@ -94,12 +94,12 @@ you got it!
 </section>
 
 <section markdown="block">
-### Review
+###  Review
 * What's the equality operator in Python?
 * What are the two possible values for the bool type?
 * How do we write an if statement?
 </section>
 
 <section markdown="block">
-## [Next... a Quick Note on Statements, Expressions, Values](expressions.html)
+##  [Next... a Quick Note on Statements, Expressions, Values](expressions.html)
 </section>

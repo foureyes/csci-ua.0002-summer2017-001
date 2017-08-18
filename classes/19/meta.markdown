@@ -3,19 +3,19 @@ layout: slides
 title: About Class #19 
 ---
 <section markdown="block" class="title-slide">
-# About Class #19
+#  About Class #19
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Class #19 Topics
+###  Class #19 Topics
 
 __More About Lists!__ 
 
 </section>
 
 <section markdown="block">
-### Midterm #2
+###  Midterm #2
 
 * 4/16!
 * functions (especially returning values and scope), strings, and lists
@@ -24,7 +24,7 @@ __More About Lists!__
 </section>
 
 <section markdown="block">
-### Review Sessions
+###  Review Sessions
 
 __Please contact me if you'd like an out-of-class review session__. Some potential times are:
 
@@ -40,7 +40,7 @@ Or...
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * Homework #8 due Saturday
 * A shorter assignment, Homework #9, will be posted slightly early, and will be due a couple of days before the exam
@@ -49,7 +49,7 @@ Or...
 
 {% comment %}
 <section markdown="block">
-### Homework #6
+###  Homework #6
 
 Speaking of homework #6... some selected solutions:
 
@@ -58,7 +58,7 @@ Speaking of homework #6... some selected solutions:
 </section>
 
 <section markdown="block">
-### Homework #8 
+###  Homework #8 
 
 Did someone say something about homework #8?
 

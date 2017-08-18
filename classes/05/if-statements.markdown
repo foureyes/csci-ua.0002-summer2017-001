@@ -4,16 +4,16 @@ title: If Statements
 ---
 
 <section markdown="block" class="title-slide">
-# If Statements / Conditionals
+#  If Statements / Conditionals
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Back to the Lecture at Hand?
+##  Back to the Lecture at Hand?
 </section>
 
 <section markdown="block">
-### Anatomy of an If Statement (Again)
+###  Anatomy of an If Statement (Again)
 
 __Write an if statement testing if a and b are _not_ equal.  If they're not equal, print the value of a and b twice.__ &rarr;
 {% highlight python %}
@@ -31,7 +31,7 @@ a, b = "foo", "bar"
 </section>
 
 <section markdown="block">
-### Let's See That Again
+###  Let's See That Again
 <aside>Now With More Blank Lines</aside>
 
 {% highlight python %}
@@ -51,7 +51,7 @@ if a != b:
 </section>
 
 <section markdown="block">
-### Oh Yeah, Else What?
+###  Oh Yeah, Else What?
 
 We can use __else__ to execute code if the original condition was not met
 
@@ -62,7 +62,7 @@ We can use __else__ to execute code if the original condition was not met
 </section>
 
 <section markdown="block">
-### What About Multiple Chained Conditions?
+###  What About Multiple Chained Conditions?
 What if __else__ is not fine-grained enough?  For example, how about a program that asks for cake and handles a yes, no, or anything other than...
 
 {% highlight python %}
@@ -83,7 +83,7 @@ I do not understand.
 </section>
 
 <section markdown="block">
-### Consecutive Ifs
+###  Consecutive Ifs
 __One way to do it is consecutive if statements...__ &rarr;
 
 <div class="incremental" markdown="block">
@@ -100,7 +100,7 @@ if answer != 'yes' and answer != 'no':
 </section>
 
 <section markdown="block">
-### Else If (elif)
+###  Else If (elif)
 
 We can use __elif__ to chain a series of conditions, where only one path of code will be executed
 
@@ -116,7 +116,7 @@ We can use __elif__ to chain a series of conditions, where only one path of code
 </section>
 
 <section markdown="block">
-### elif Example
+###  elif Example
 <aside>Let's have some more cake...</aside>
 __How would we redo the cake exercise with elif?__ &rarr;
 
@@ -134,7 +134,7 @@ else:
 </section>
 
 <section markdown="block">
-### Nesting If Statements
+###  Nesting If Statements
 
 * it behaves as you'd expect
 * remember to get indentation right

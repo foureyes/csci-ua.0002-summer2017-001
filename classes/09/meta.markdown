@@ -3,12 +3,12 @@ layout: slides
 title: Meta 
 ---
 <section markdown="block" class="title-slide">
-# About Class #9
+#  About Class #9
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * for loops
 * while vs for
@@ -16,7 +16,7 @@ title: Meta
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * Grades for homework 1 and 2 already posted
 * Grades for homework 3 posted this evening
@@ -27,7 +27,7 @@ Homework #4 is due on Wednesday!
 
 {% comment %}
 <section markdown="block">
-## Speaking of Homework #2 ...
+##  Speaking of Homework #2 ...
 
 <aside>Let's check out a few solutions.</aside>
 
@@ -35,7 +35,7 @@ Homework #4 is due on Wednesday!
 
 
 <section markdown="block">
-### days.py
+###  days.py
 
 {% highlight python %}
 """
@@ -61,7 +61,7 @@ Thursday
 </section>
 
 <section markdown="block">
-### days.py solution
+###  days.py solution
 
 {% highlight python %}
 n = int(input("Please enter the number of your day\n> "))
@@ -85,7 +85,7 @@ if n == 6:
 </section>
 
 <section markdown="block">
-### days.py notes
+###  days.py notes
 
 * easier to call int once at the beginning than multiple times during each compare
 * this could have been done with elif
@@ -93,7 +93,7 @@ if n == 6:
 </section>
 
 <section markdown="block">
-### numbers.py
+###  numbers.py
 
 {% highlight python %}
 """
@@ -123,7 +123,7 @@ Please enter a number
 </section>
 
 <section markdown="block">
-### numbers.py solution
+###  numbers.py solution
 
 {% highlight python %}
 while True:
@@ -143,7 +143,7 @@ while True:
 </section>
 
 <section markdown="block">
-### numbers.py notes
+###  numbers.py notes
 
 * this was a bit _difficult_
 * common strategy was to use a combination of modulo and integer division
@@ -152,7 +152,7 @@ while True:
 </section>
 
 <section markdown="block">
-### stadium.py
+###  stadium.py
 
 {% highlight python %}
 """
@@ -184,7 +184,7 @@ The total income is: $360!
 </section>
 
 <section markdown="block">
-### stadium.py solution
+###  stadium.py solution
 
 {% highlight python %}
 def display_total_cost(a, b, c):
@@ -204,7 +204,7 @@ main()
 </section>
 
 <section markdown="block">
-### stadium.py notes
+###  stadium.py notes
 
 * instructions for stadium asked for both a _main_ function and another function called _display_total_cost_
 * the display_total_cost function takes three parameters!
@@ -215,7 +215,7 @@ main()
 
 
 <section markdown="block">
-### Midterm #1
+###  Midterm #1
 
 Coming up soon!
 

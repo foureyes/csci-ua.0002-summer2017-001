@@ -3,12 +3,12 @@ layout: slides
 title: Namespaces and Scope 
 ---
 <section markdown="block" class="title-slide">
-# Namespaces and Scope
+#  Namespaces and Scope
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Namespaces
+###  Namespaces
 
 * a __namespace__ is a mapping of names to objects
 * {{ site.bookt }} refers to __namespaces__ as a collection of _identifiers_ (variable names, function names, etc.) that belong to a module or a function
@@ -17,7 +17,7 @@ title: Namespaces and Scope
 </section>
 
 <section markdown="block">
-### Scope
+###  Scope
 
 What's __scope__ again?
 
@@ -34,7 +34,7 @@ What's __scope__ again?
 
 
 <section markdown="block">
-### Three Scopes in Python
+###  Three Scopes in Python
 
 There are three important scopes in Python:
 
@@ -48,7 +48,7 @@ There are three important scopes in Python:
 </section>
 
 <section markdown="block">
-### Scope
+###  Scope
 
 * identifiers in the __global scope__ (that is, the file), are available everywhere, __even in functions__
 * however, within a function, identifiers in the __local scope__ take precedence
@@ -56,7 +56,7 @@ There are three important scopes in Python:
 </section>
 
 <section markdown="block">
-### Accessing a Variable Outside of a Function 
+###  Accessing a Variable Outside of a Function 
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -70,7 +70,7 @@ Oddly... it's fine.  Something is printed out.  It seems like the function has a
 </section>
 
 <section markdown="block">
-### How About Variables Declared Inside a Function?
+###  How About Variables Declared Inside a Function?
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -84,7 +84,7 @@ Uh-oh.  Looks like you can't access variables that are inside a function.
 </section>
 
 <section markdown="block">
-### How About Parameters?
+###  How About Parameters?
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -98,7 +98,7 @@ This is the same as the previous slide.  You can't access the parameters (by the
 </section>
 
 <section markdown="block">
-### And Lastly... 
+###  And Lastly... 
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -112,7 +112,7 @@ Hmmm... it looks like names created within a function are _local_ to that functi
 </section>
 
 <section markdown="block">
-### What Does This All Mean?
+###  What Does This All Mean?
 
 A __scope__ holds the current set of available names (_identifiers_) and the values that they refer to.  
 
@@ -127,13 +127,13 @@ def foo():
 	c = "bar"
 	print(b)
 	print(c)
-# what will this print out?
+#  what will this print out?
 foo()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Scope
+###  Scope
 
 Variables that are defined in your function (one indentation level in), however, are only available within your function.  They are _local_ to that function.  The example below won't work.
 
@@ -148,7 +148,7 @@ print(c)
 </section>
 
 <section markdown="block">
-### Scope Continued
+###  Scope Continued
 
 Furthermore, variables that are declared within a function that have the same name as a global variable are totally different variables/values!  They don't overwrite the outer, global variable (there's a way to do this, though).  What will this print?
 
@@ -171,7 +171,7 @@ on toast
 </section>
 
 <section markdown="block">
-### Scope Summary
+###  Scope Summary
 
 * variables and function definitions declared outside of a function (in the __global scope__) can be accessed within a function
 * variables declared inside of a function (__local__) cannot be accessed outside of a function (they're __out of scope__)
@@ -181,14 +181,14 @@ on toast
 
 
 <section markdown="block">
-### A Quick Look At Turtle
+###  A Quick Look At Turtle
 
 There's a small difference between these two functions.  __What is it?  Do both functions _work_?__
 
 Program 1:
 
 {% highlight python %}
-# other setup code implied
+#  other setup code implied
 t = turtle.Turtle()
 def draw_blue_line(length):
 	t.color('blue')
@@ -198,7 +198,7 @@ def draw_blue_line(length):
 Program 2:
 
 {% highlight python %}
-# other setup code implied
+#  other setup code implied
 t = turtle.Turtle()
 def draw_blue_line(t, length):
 	t.color('blue')
@@ -207,7 +207,7 @@ def draw_blue_line(t, length):
 </section>
 
 <section markdown="block">
-### Turtle Continued
+###  Turtle Continued
 
 * both functions work fine
 * the first snippet of code relies on a turtle named t to exist outside of a function definition
@@ -216,7 +216,7 @@ def draw_blue_line(t, length):
 </section>
 
 <section markdown="block">
-### Two Turtles 
+###  Two Turtles 
 
 __(btw, what would happen if I didn't pass in t?  let's try it...)&rarr;__
 {% highlight python %}
@@ -239,5 +239,5 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-## [A (Very) Brief Foray Into Recursion](recursion.html)
+##  [A (Very) Brief Foray Into Recursion](recursion.html)
 </section>

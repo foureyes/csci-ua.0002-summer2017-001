@@ -4,12 +4,12 @@ title: Break and Continue
 ---
 
 <section markdown="block" class="title-slide">
-# Break and Continue
+#  Break and Continue
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Break
+###  Break
 
 The __break__ statement:
 
@@ -20,7 +20,7 @@ The __break__ statement:
 </section>
 
 <section markdown="block">
-### Break Example
+###  Break Example
 
 Using break in a for loop to: 
 
@@ -40,7 +40,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### Break Question \#1
+###  Break Question \#1
 
 __What does this code output?__&rarr;
 {% highlight python %} 
@@ -65,7 +65,7 @@ fin
 </section>
 
 <section markdown="block">
-### Break Question \#2
+###  Break Question \#2
 
 __Fill out the body of this while loop so that it stops asking continue when the input is exactly 'n'.__&rarr;
 
@@ -86,7 +86,7 @@ print('done')
 </section>
 
 <section markdown="block">
-###  Break Question \#2 Potential Solution
+###   Break Question \#2 Potential Solution
 {% highlight python %} 
 while True:
 	keep_going = input('Continue?\n>')
@@ -98,7 +98,7 @@ print('done')
 </section>
 
 <section markdown="block">
-###  Approximating Square Root
+###   Approximating Square Root
 
 You can calculate a square root by hand using __Newton's method for finding square roots__.
 
@@ -106,9 +106,9 @@ You can calculate a square root by hand using __Newton's method for finding squa
 * a better approximation can be found with the following formula
 
 {% highlight python %}
-# original_number is the number that we're trying to find the sqrt of
-# current_guess is the current candidate for result of sqrt
-# better_guess is a slightly better approximation / guess
+#  original_number is the number that we're trying to find the sqrt of
+#  current_guess is the current candidate for result of sqrt
+#  better_guess is a slightly better approximation / guess
 
 better_guess = (current_guess + original_number/current_guess)/2
 {% endhighlight %}
@@ -117,7 +117,7 @@ better_guess = (current_guess + original_number/current_guess)/2
 </section>
 
 <section markdown="block">
-###  Approximating Square Root
+###   Approximating Square Root
 
 __Write a program the approximates the square root by using the method described in the previous slides. &rarr;__
 
@@ -138,7 +138,7 @@ enter a number
 </section>
 
 <section markdown="block">
-###  Approximating Square Root Potential Solution
+###   Approximating Square Root Potential Solution
 
 {% highlight python %}
 {% include classes/12/newtons.py %}
@@ -146,7 +146,7 @@ enter a number
 </section>
 
 <section markdown="block">
-###  Tell me When to Stop
+###   Tell me When to Stop
 
 __Count down from 10 to 1...&rarr;__
 
@@ -171,7 +171,7 @@ type 'stop' to end countdown!
 </section>
 
 <section markdown="block">
-### Tell me When to Stop Solution
+###  Tell me When to Stop Solution
 
 {% highlight python %}
 {% include classes/12/countdown.py %}
@@ -179,7 +179,7 @@ type 'stop' to end countdown!
 </section>
 
 <section markdown="block">
-### Continue
+###  Continue
 
 The __continue__ statement immediately skips to the next iteration of the loop.  This works for both for and while loops.
 
@@ -192,7 +192,7 @@ for i in range(4):
 </section>
 
 <section markdown="block">
-### Counting (Yet Again)
+###  Counting (Yet Again)
 
 __Count to 15 by 1s, skip multiples of 3.  Use continue.  &rarr;__
 
@@ -206,7 +206,7 @@ __Count to 15 by 1s, skip multiples of 3.  Use continue.  &rarr;__
 </section>
 
 <section markdown="block">
-### Counting (Yet Again)
+###  Counting (Yet Again)
 
 A solution using continue.
 
@@ -216,7 +216,7 @@ A solution using continue.
 </section>
 
 <section markdown="block">
-### Counting (Another)
+###  Counting (Another)
 
 __Count to 30 by 3's, skip all 20's &rarr;__
 
@@ -236,7 +236,7 @@ __Count to 30 by 3's, skip all 20's &rarr;__
 </section>
 
 <section markdown="block">
-### Counting (Another)
+###  Counting (Another)
 
 A solution using continue...
 
@@ -246,7 +246,7 @@ A solution using continue...
 </section>
 
 <section markdown="block">
-### Break and Continue
+###  Break and Continue
 
 * generally, you can use a while with some condition as an alternative to break
 * you can also potentially use an if statement with a different boolean expression as an alternative to continue
@@ -257,6 +257,6 @@ A solution using continue...
 
 <!--
 <section markdown="block">
-## [Turtle](turtle.html)
+##  [Turtle](turtle.html)
 </section>
 -->

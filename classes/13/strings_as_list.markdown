@@ -3,12 +3,12 @@ layout: slides
 title: Strings as a Compound Data Type
 ---
 <section markdown="block" class="title-slide">
-# Strings as a Compound Data Type
+#  Strings as a Compound Data Type
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Strings as a Sequence of Characters
+###  Strings as a Sequence of Characters
 
 * we can treat a string as a sequence of characters
 * each character can be referred to by its place in the string
@@ -20,7 +20,7 @@ title: Strings as a Compound Data Type
 </section>
 
 <section markdown="block">
-### String Indexes
+###  String Indexes
 
 Let's take the string "cool cat!".  __What is the index of the first 'c'? What character is at index 1.  How about index 4? &rarr;__
 {% highlight python %}
@@ -44,7 +44,7 @@ Let's take the string "cool cat!".  __What is the index of the first 'c'? What c
 </section>
 
 <section markdown="block">
-### The Last Index
+###  The Last Index
 __What index is the last character of each of these strings? &rarr;__
 
 1. "foo"
@@ -62,7 +62,7 @@ The last index is the length of the string - 1
 </section>
 
 <section markdown="block">
-### Some More Index Exercises
+###  Some More Index Exercises
 1. What's the index of '__h__' in "__hello__"?
 2. What's the index of '__o__' in "__hello__"?
 3. What's the index of the second '__l__' in "__hello__"?
@@ -81,7 +81,7 @@ The last index is the length of the string - 1
 </section>
 
 <section markdown="block">
-### Indexing Into a String
+###  Indexing Into a String
 
 You can reference a specific character in a string (__indexing__) by: 
 
@@ -98,7 +98,7 @@ a_string[an_index]
 </section>
 
 <section markdown="block">
-### Indexing Examples
+###  Indexing Examples
 
 {% highlight python %}
 >>> "hello"[0]
@@ -114,7 +114,7 @@ a_string[an_index]
 </section>
 
 <section markdown="block">
-### Indexing Exercises
+###  Indexing Exercises
 
 __What does the following code output.  Let's walk through it line by line. &rarr;__
 
@@ -137,7 +137,7 @@ l
 </section>
 
 <section markdown="block">
-### Negative Indexes Also Work
+###  Negative Indexes Also Work
 
 -1 is the index of the last letter, -2, second to last, etc. ...__What does the following program output?  Let's go through it line by line. &rarr;__
 
@@ -158,7 +158,7 @@ c
 </section>
 
 <section markdown="block">
-### One Last Note About Indexing
+###  One Last Note About Indexing
 
 * strings are __not__ _mutable_
 	* you can read values by indexing into a string
@@ -178,7 +178,7 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-### Using Every Character in a String
+###  Using Every Character in a String
 
 What if we want to do something to each character in a string?  Manually and explicitly using indexes would be time consuming!  What if I wanted to:
 
@@ -187,7 +187,7 @@ What if we want to do something to each character in a string?  Manually and exp
 </section>
 
 <section markdown="block">
-### Looping Over Each Character
+###  Looping Over Each Character
 
 We can iterate over every character that's in a string.  
 
@@ -196,7 +196,7 @@ We can iterate over every character that's in a string.
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# for loops!
+#  for loops!
 for c in "hello":
   print(c)
 {% endhighlight %}
@@ -204,7 +204,7 @@ for c in "hello":
 </section>
 
 <section markdown="block">
-### For Loops and Strings
+###  For Loops and Strings
 
 {% highlight python %}
 my_crazy_string = "oh, my!"
@@ -230,7 +230,7 @@ y
 </section>
 
 <section markdown="block">
-### Write a Program That Iterates Over a String
+###  Write a Program That Iterates Over a String
 
 __Try implementing this program:__
 
@@ -248,7 +248,7 @@ for c in word:
 </section>
 
 <section markdown="block">
-### Letter in Word
+###  Letter in Word
 
 __Try implementing this function!__ (there's something that's built-in to Python that does this, and we'll see it later)
 
@@ -265,7 +265,7 @@ __Try implementing this function!__ (there's something that's built-in to Python
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 You can also retrieve a __substring__ from another string.  
 
@@ -283,7 +283,7 @@ This is done using slicing.  Slicing syntax works as follows:
 </section>
 
 <section markdown="block">
-### Slicing Syntax
+###  Slicing Syntax
 
 Looking at the slicing code again:
 
@@ -303,13 +303,13 @@ some_long_string[m:n]
 </section>
 
 <section markdown="block">
-### Substring Exercises 
+###  Substring Exercises 
 
 Write the slice to pick out the following substring from the original string:
 
 {% highlight python %}
 sentence = "hi bob!"
-#           0123456
+#            0123456
 {% endhighlight %}
 
 1. hi
@@ -326,7 +326,7 @@ sentence[3:6]
 </section>
 
 <section markdown="block">
-### Some Slicing Tricks
+###  Some Slicing Tricks
 
 * leaving out the first index (before the colon - m) starts at the beginning of the string
 * leaving out the second index (after the colon - n), ends at the end  of the string 
@@ -340,7 +340,7 @@ sentence[3:6]
 </section>
 
 <section markdown="block">
-###  An Easier Way to Tell if a Letter is in a Word
+###   An Easier Way to Tell if a Letter is in a Word
 __in__ and __not in__ or operators that each take two arguments.  They will test the membership of an element in a collection/sequence.  
 
 * in the case of strings, that's character in word
@@ -353,7 +353,7 @@ __in__ and __not in__ or operators that each take two arguments.  They will test
 </section>
 
 <section markdown="block">
-###  In / Not In Examples
+###   In / Not In Examples
 
 {% highlight pycon %}
 >>> 'c' in "cat"
@@ -364,7 +364,7 @@ False
 </section>
 
 <section markdown="block">
-### Some Potential Exercises 
+###  Some Potential Exercises 
 
 * is_digit
 	* accepts a string

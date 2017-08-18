@@ -4,12 +4,12 @@ title: Methods, Functions, and References
 ---
 
 <section markdown="block" class="title-slide">
-# Review - Methods, Functions, and References
+#  Review - Methods, Functions, and References
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Removing Elements
+###  Removing Elements
 
 __Name three ways to remove element(s) from a list &rarr;__
 
@@ -21,7 +21,7 @@ __Name three ways to remove element(s) from a list &rarr;__
 </section>
 
 <section markdown="block">
-### Removing Elements Example
+###  Removing Elements Example
 
 __What's the output of this code? &rarr;__
 {% highlight python %}
@@ -38,7 +38,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Removing Elements Notes
+###  Removing Elements Notes
 
 * __remove__ does not return a value
 * __remove__ gives an error when the value doesn't exist
@@ -49,7 +49,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements
+###  Adding Elements
 
 __Name two ways to remove element(s) from a list &rarr;__
 
@@ -60,7 +60,7 @@ __Name two ways to remove element(s) from a list &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Example
+###  Adding Elements Example
 
 __What's the output of this code? &rarr;__
 
@@ -71,7 +71,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Example Output
+###  Adding Elements Example Output
 
 {% highlight python %}
 ['red', 'green', 'blue']
@@ -82,14 +82,14 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Notes
+###  Adding Elements Notes
 
 * __append__ actually adds the entire object as a single element to the original list
 * __extend__ adds every element of a list or string to the original list
 </section>
 
 <section markdown="block">
-### Other List Functions
+###  Other List Functions
 
 * __What method can you use to find the number of occurrences of a value in a list?__
 * __What methods places a list's elements in order?__
@@ -101,7 +101,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Count and Sort Examples
+###  Count and Sort Examples
 
 __What's the output of this code? &rarr;__
 
@@ -120,7 +120,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Strings and Lists
+###  Strings and Lists
 
 * __What method can I use to turn a string into a list? &rarr;__
 * __What type of object is this method called on? &rarr;__
@@ -137,7 +137,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Strings and Lists Example
+###  Strings and Lists Example
 __Use this list to create a string separated by the word ' yikes! ' &rarr;__
 {% highlight python %}
 monsters = ['zombies', 'vampires', 'mummies']
@@ -157,7 +157,7 @@ oz = "lions and tigers and bears, oh my"
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 * __What function from the random module can be used to retrieve a random element from a list? &rarr;__
 * __What function from the random module can be used to mix up a list? &rarr;__
@@ -170,7 +170,7 @@ oz = "lions and tigers and bears, oh my"
 </section>
 
 <section markdown="block">
-### Generating Random Elements from a List
+###  Generating Random Elements from a List
 
 Using the alphabetically sorted list of sounds below... 
 
@@ -183,14 +183,14 @@ sounds = ['beep', 'buzz', 'fizz', 'honk']
 </section>
 
 <section markdown="block">
-### Generating Random Elements from a List Solution
+###  Generating Random Elements from a List Solution
 
 {% include classes/22/sounds.py %}
 
 </section>
 
 <section markdown="block">
-### References 
+###  References 
 
 __What's the output of the following code? &rarr;__
 
@@ -211,7 +211,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### References Continued
+###  References Continued
 
 __What's the output of the following code? &rarr;__
 
@@ -232,7 +232,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### Lists and Functions - the Long Way to Do It
+###  Lists and Functions - the Long Way to Do It
 
 __What's the output of the following code? &rarr;__
 
@@ -263,7 +263,7 @@ community is still ['Leonard', 'star-burns', 'the dean']
 </section>
 
 <section markdown="block">
-### Lists and Functions - a Shorter Way
+###  Lists and Functions - a Shorter Way
 
 __What's the output of the following code? &rarr;__
 
@@ -287,7 +287,7 @@ community is still ['Leonard', 'star-burns', 'the dean']
 </section>
 
 <section markdown="block">
-### Lists, Functions and References
+###  Lists, Functions and References
 
 __What's the output of the following code? &rarr;__
 
@@ -314,7 +314,7 @@ community is now ['Leonard']
 
 
 <section markdown="block">
-### Some Notes
+###  Some Notes
 
 * remember - __lists__ are __mutable__... functions like pop actually change the list
 * however, list slicing __returns a new list__
@@ -328,6 +328,6 @@ print(b)
 </section>
 
 <section markdown="block">
-## [Addendum to List Methods](addendum.html)
+##  [Addendum to List Methods](addendum.html)
 </section>
 

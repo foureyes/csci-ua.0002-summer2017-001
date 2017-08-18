@@ -1,13 +1,13 @@
 <article class="due" markdown="block">
 
-#### Due Today
+####  Due Today
 
 Nothing due today!
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 Warm-up
@@ -29,7 +29,7 @@ Warm-up
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 
 Homework #3 __Due Monday, 6/5, at 11PM__ 

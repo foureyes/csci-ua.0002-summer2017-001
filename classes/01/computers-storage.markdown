@@ -4,13 +4,13 @@ title: Computers and How They Store Data
 ---
 
 <section markdown="block" class="title-slide">
-# Computers and How They Store Data
+#  Computers and How They Store Data
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Hardware and Software
+###  Hardware and Software
 
 __So... um, what's the difference between hardware and software?__ &rarr;
 
@@ -21,7 +21,7 @@ __So... um, what's the difference between hardware and software?__ &rarr;
 </section>
 
 <section markdown="block">
-### Hardware
+###  Hardware
 
 * __hardware__ refers to all of the actual parts that a computer is made of
 * computers are composed of several specialized components
@@ -30,7 +30,7 @@ __So... um, what's the difference between hardware and software?__ &rarr;
 </section>
 
 <section markdown="block">
-### Major Components of a Computer System
+###  Major Components of a Computer System
 
 1. __the CPU__ (Central Processing Unit)
 2. __main memory__ (also called RAM or Random Access Memory)
@@ -41,7 +41,7 @@ __So... um, what's the difference between hardware and software?__ &rarr;
 </section>
 
 <section markdown="block">
-### The CPU (Central Processing Unit) 
+###  The CPU (Central Processing Unit) 
 
 __What does it do?__ &rarr;
 
@@ -60,7 +60,7 @@ __This may just be for the hardware geeks, but what are some examples of micropr
 </section>
 
 <section markdown="block">
-### Main Memory
+###  Main Memory
 
 __What does it do?__ &rarr;
 
@@ -75,7 +75,7 @@ __What does it do?__ &rarr;
 </section>
 
 <section markdown="block">
-### Secondary Storage
+###  Secondary Storage
 
 __What does it do?__ &rarr;
 
@@ -93,7 +93,7 @@ __What are some examples of non-volatile data stores?__ &rarr;
 </section>
 
 <section markdown="block">
-### You Know...
+###  You Know...
 
 <div class="img-container" markdown="block">
 
@@ -102,7 +102,7 @@ __What are some examples of non-volatile data stores?__ &rarr;
 </section>
 
 <section markdown="block">
-### Input and Output Devices
+###  Input and Output Devices
 
 These devices allow:
 
@@ -120,7 +120,7 @@ __What are some examples of input and output devices?__ &rarr;
 </section>
 
 <section markdown="block">
-### Software
+###  Software
 
 Hardware is nice and all, but...
 
@@ -132,7 +132,7 @@ Hardware is nice and all, but...
 </section>
 
 <section markdown="block">
-### Types of Software
+###  Types of Software
 
 * __operating systems__ (and other _system_ software)  
 	* the most fundamental set of programs on a computer 
@@ -148,11 +148,11 @@ Hardware is nice and all, but...
 </section>
 
 <section markdown="block">
-## Storing Data
+##  Storing Data
 </section>
 
 <section markdown="block">
-### It's All 0's and 1's
+###  It's All 0's and 1's
 
 * computers deal with data as a series of __bits__ or _binary digits_
 * a __bit__ (binary digit) can hold only one of two values, a __0__ or __1__
@@ -166,7 +166,7 @@ Hardware is nice and all, but...
 </section>
 
 <section markdown="block">
-### Bits 
+###  Bits 
 
 __How many pieces of information can be encoded into 1 bit?__ &rarr;
 
@@ -182,7 +182,7 @@ __How about 2 sequential bits?__ &rarr;
 </section>
 
 <section markdown="block">
-### Bytes 
+###  Bytes 
 
 A __byte__ is 8 bits.  __How many possible combinations of 0's and 1's are there in 8 bits?__ &rarr;
 
@@ -195,7 +195,7 @@ A __byte__ is 8 bits.  __How many possible combinations of 0's and 1's are there
 </section>
 
 <section markdown="block">
-### Storing Numbers 
+###  Storing Numbers 
 
 Using a binary numbering system, a computer can store the numbers 0 through 255 in a single _byte_.
 
@@ -218,7 +218,7 @@ Using a binary numbering system, a computer can store the numbers 0 through 255 
 </section>
 
 <section markdown="block">
-### Storing Numbers Continued
+###  Storing Numbers Continued
 
 * the first bit represents either 0 or 1 ...  __1__'s
 * the second bit represents either 0 or 1 ...  __2__'s
@@ -232,7 +232,7 @@ Using a binary numbering system, a computer can store the numbers 0 through 255 
 
 
 <section markdown="block">
-### Storing Numbers - Examples
+###  Storing Numbers - Examples
 
 * __00011100__
 	* (0 x 128) + (0 x 64) + (0 x 32) + (1 x 16) + (1 x 8) +  (1 x 4) + (0 x 2) + (0 x 1)
@@ -243,7 +243,7 @@ Using a binary numbering system, a computer can store the numbers 0 through 255 
 </section>
 
 <section markdown="block">
-### Storing Numbers - Questions
+###  Storing Numbers - Questions
 
 <div class="incremental" markdown="block">
 __00000001__ &rarr;
@@ -266,7 +266,7 @@ __00000100__ &rarr;
 </section>
 
 <section markdown="block">
-### Storing Numbers - Questions Continued
+###  Storing Numbers - Questions Continued
 
 <div class="incremental" markdown="block">
 __10000101__ &rarr;
@@ -285,7 +285,7 @@ __00100000__ &rarr;
 </section>
 
 <section markdown="block">
-### An Addendum to Storing Numbers
+###  An Addendum to Storing Numbers
 
 * note that this works well for integers... 
 * specifically 0 through 255
@@ -301,7 +301,7 @@ __00100000__ &rarr;
 </section>
 
 <section markdown="block">
-### Storing Letters and Other Characters
+###  Storing Letters and Other Characters
 
 Storing numbers is a breeze - using bits to represent binary numbers works well.  __How do you think letters and punctuation are stored using bits?__ &rarr;
 
@@ -311,7 +311,7 @@ Since it's easy to store numbers, use some sort of encoding scheme that translat
 </section>
 
 <section markdown="block">
-### ASCII
+###  ASCII
 
 One encoding scheme is called __ASCII__.
 
@@ -327,7 +327,7 @@ __How many different characters can be stored in 7 bits?__ &rarr;
 </section>
 
 <section markdown="block">
-### ASCII Continued
+###  ASCII Continued
 
 ASCII is an older encoding scheme that has some flaws.  __What do you think ASCII's major shortcoming is?__ &rarr;
 
@@ -339,7 +339,7 @@ ASCII is an older encoding scheme that has some flaws.  __What do you think ASCI
 </section>
 
 <section markdown="block">
-### Unicode
+###  Unicode
 
 The current __standard__ for consistently representing text through different character sets and encodings is called __unicode__. 
 
@@ -352,13 +352,13 @@ The current __standard__ for consistently representing text through different ch
 </section>
 
 <section markdown="block">
-## OK... So, How Does a Program Actually Run?
+##  OK... So, How Does a Program Actually Run?
 
 <aside>We already know the physical devices that make up a computer and we know how computers store data.</aside>
 </section>
 
 <section markdown="block">
-### How is a Program Executed?
+###  How is a Program Executed?
 
 __What part/component of your computer is responsible for executing a program?__
 
@@ -368,7 +368,7 @@ The CPU!
 </section>
 
 <section markdown="block">
-### The CPU Revisited
+###  The CPU Revisited
 
 The CPU can perform some very basic tasks and operations:
 
@@ -382,7 +382,7 @@ These operations vary from processor to processor by design.
 </section>
 
 <section markdown="block">
-### Machine Language
+###  Machine Language
 
 The CPU executes its operations based on instructions specified by a program.  However, computers really only understand 0's and 1's
 
@@ -394,13 +394,13 @@ The CPU executes its operations based on instructions specified by a program.  H
 </section>
 
 <section markdown="block">
-## Don't Panic.  We Won't be Programming in Machine Language!
+##  Don't Panic.  We Won't be Programming in Machine Language!
 
 <aside>What will we be programming in, then?</aside>
 </section>
 
 
 <section markdown="block">
-# [Let's Talk Programming Languages](programming-languages.html)
+#  [Let's Talk Programming Languages](programming-languages.html)
 </section>
 

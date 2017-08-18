@@ -4,16 +4,16 @@ title: Values and Types
 ---
 
 <section markdown="block" class="title-slide">
-#  Values, Types, and Comments
+#   Values, Types, and Comments
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-##  Values
+##   Values
 </section>
 
 <section markdown="block">
-###  What are Values?
+###   What are Values?
 * __values__ are just data
 	* for now, a __value__ is a number or a string (we'll see more __types__ of values later) 
 	* it can be stored in a variable 
@@ -25,7 +25,7 @@ title: Values and Types
 </section>
 
 <section markdown="block">
-###  A Note on Values in Code
+###   A Note on Values in Code
 The representation of a bare value in code is called a __literal__.
 
 * "a string " a __string literal__
@@ -34,11 +34,11 @@ The representation of a bare value in code is called a __literal__.
 </section>
 
 <section markdown="block">
-##  Data Types
+##   Data Types
 </section>
 
 <section markdown="block">
-###  Values can be Classified by Data Type
+###   Values can be Classified by Data Type
 A __data type__ is a set of values.  The type of a value determines how it can be used in expressions.  Sometimes __data type__ is also referred to as just __type__... or __class__.  
 
 __Today, we'll go over the following 4 types__
@@ -52,11 +52,11 @@ The last 3 are  __numeric types__.
 </section>
 
 <section markdown="block">
-##  Strings
+##   Strings
 </section>
 
 <section markdown="block">
-###  What's a String Again?
+###   What's a String Again?
 <div class="incremental" markdown="block">
 A __string__ is a sequence of characters.
 
@@ -68,7 +68,7 @@ A __string__ is a sequence of characters.
 
 
 <section markdown="block">
-###  Unbalanced Quotes
+###   Unbalanced Quotes
 __What do you think will happen if you have an extra quote?__ 
 
 Let's give it a try: &rarr;
@@ -84,7 +84,7 @@ If you don't have matching start and end quotes (__unbalanced quotes__) you'll g
 </section>
 
 <section markdown="block">
-###  Alternate String Syntax
+###   Alternate String Syntax
 <aside>You Don't Have to Stick to Double Quotes...</aside>
 You can use three different types of quotation marks:
 
@@ -110,7 +110,7 @@ one line.  omg!"""
 </section>
 
 <section markdown="block">
-###  Multiline Strings?
+###   Multiline Strings?
 * triple double quotes allow you to span multiple lines 
 * single or double quotes do not
 
@@ -125,7 +125,7 @@ SyntaxError: EOL while scanning string literal
 </section>
 
 <section markdown="block">
-###  A Quick Aside on Comments
+###   A Quick Aside on Comments
 A __comment__ is text in a program that is meant for the human reader; it isn't used by the interpreter.  A comment can be:
 
 * prefixed with the # token
@@ -133,7 +133,7 @@ A __comment__ is text in a program that is meant for the human reader; it isn't 
 
 These are both comments: &rarr;
 {% highlight python %}
-#  this is a comment
+#   this is a comment
 """
 so
 is
@@ -143,7 +143,7 @@ this
 </section>
 
 <section markdown="block">
-### A Hasty Escape
+###  A Hasty Escape
 What if I want to put in a character that has special meaning in a string?  Say, for example... a single or double quote?
 
 * you can use the backslash character before the special character
@@ -160,7 +160,7 @@ print("""some "double quotes"""")
 </section>
 
 <section markdown="block">
-### I Heard You Like Backslashes
+###  I Heard You Like Backslashes
 <aside>So I...</aside>
 
 __What if you want an _actual_ backslash in your string?__ &rarr;
@@ -174,7 +174,7 @@ print("I heard you like \\'s, So I put a \\ before your \\")
 </section>
 
 <section markdown="block">
-### New Lines (Again)
+###  New Lines (Again)
 
 You can actually represent a new line as a character by using:
 
@@ -191,13 +191,13 @@ print('two\nlines\n')
 </section>
 
 <section markdown="block">
-### On a Tropical Island
+###  On a Tropical Island
 <aside>A Quick Activity</aside>
 
 ![jake](../../resources/img/jake.jpeg)
 </section>
 <section markdown="block">
-### On a Tropical Island Lyrics
+###  On a Tropical Island Lyrics
 
 These are lyrics to a song called ["On a Tropical Island"](http://www.youtube.com/watch?v=E6-HjFQ_Jtg#t=14)... from a _fine_ cartoon named Adventure Time.  It has a bunch of new lines in it, as well as single quotes.
 
@@ -212,12 +212,12 @@ Askin' questions cause' they got all the answers.
 </section>
 
 <section markdown="block">
-## Numeric Types
+##  Numeric Types
 <aside>Integers, Floating Point Numbers and Complex Numbers</aside>
 </section>
 
 <section markdown="block">
-### Three Numeric Types
+###  Three Numeric Types
 The following types are all closely related; most of the same operations can be applied to all of them:
 
 1. __int__ (integer)
@@ -226,7 +226,7 @@ The following types are all closely related; most of the same operations can be 
 </section>
 
 <section markdown="block">
-###  int (integer)
+###   int (integer)
 
 __What's an integer?__
 
@@ -240,7 +240,7 @@ __What's an integer?__
 </section>
 
 <section markdown="block">
-###  __float__ (floating point)
+###   __float__ (floating point)
 
 __What's a floating point number?__
 
@@ -255,7 +255,7 @@ __...but what's a real number?__ &rarr;
 </section>
 
 <section markdown="block">
-###  Really Big or Really Small Numbers
+###   Really Big or Really Small Numbers
 Very __large__ or __small__ floating point numbers are expressed in scientific notation
 
 * 5555 ** 5.0 gives back 5.289569361832972e+18 (that is 5.2389 ... times 10 to the 18th power) &rarr;
@@ -271,7 +271,7 @@ Very __large__ or __small__ floating point numbers are expressed in scientific n
 </section>
 
 <section markdown="block">
-###  Uh-oh - That's Too Much
+###   Uh-oh - That's Too Much
 <aside>Overflow</aside>
 
 * unlike integers, floats have min and max values... if you have a value that's too big or too small
@@ -291,7 +291,7 @@ OverflowError: (34, 'Result too large')
 </section>
 
 <section markdown="block">
-### Complex Numbers
+###  Complex Numbers
 <aside>Um - Does anyone remember these?  I don't</aside>
 
 For completeness... __Python supports complex numbers__
@@ -301,7 +301,7 @@ For completeness... __Python supports complex numbers__
 </section>
 
 <section markdown="block">
-### Don't, Use, That, Comma
+###  Don't, Use, That, Comma
 Clearly, symbols have special meanings in numeric types
 
 * a decimal point signifies a floating point number
@@ -318,7 +318,7 @@ __However - Don't use commas!  They don't mean what you expect.__ &rarr;
 </section>
 
 <section markdown="block">
-### So You Don't Know What Type You Have
+###  So You Don't Know What Type You Have
 * There's a function called __type__
 * Let's look at it in the interactive shell &rarr;
 * Notice the arrow... it says it returns the "type" of the parameter passed in...
@@ -330,7 +330,7 @@ type(1.0)
 </section>
 
 <section markdown="block">
-### A Guessing Game
+###  A Guessing Game
 <aside>What type is it?</aside>
 
 1. __1__
@@ -346,7 +346,7 @@ type(1.0)
 </section>
 
 <section markdown="block">
-###  Reeeeeewind
+###   Reeeeeewind
 <aside>A Quick Recap</aside>
 * What do we call a bare value in code... like "foo" or 5?
 * Name three ways to represent a syntactically correct string in Python
@@ -359,5 +359,5 @@ type(1.0)
 </section>
 
 <section markdown="block">
-##  [Next: Operations and Variables](operations-and-variables.html)
+##   [Next: Operations and Variables](operations-and-variables.html)
 </section>

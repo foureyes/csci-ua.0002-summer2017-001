@@ -3,12 +3,12 @@ layout: slides
 title: Midterm Evaluations 
 ---
 <section markdown="block" class="title-slide">
-# Midterm Evaluations
+#  Midterm Evaluations
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Midterm Grades
+###  Midterm Grades
 
 As I mentioned in the last class, I'll be posting midterm grades by the end of October.  They'll be based on:
 
@@ -19,7 +19,7 @@ This should give you an indication of how you're doing in class, as well as area
 </section>
 
 <section markdown="block">
-### Not Just For You
+###  Not Just For You
 
 So, same goes for me.  There's also a course evaluation!
 
@@ -30,7 +30,7 @@ So, same goes for me.  There's also a course evaluation!
 </section>
 
 <section markdown="block">
-### Midterm Evaluations
+###  Midterm Evaluations
 
 1. I'll need a volunteer to deliver the evaluations to room 305 WWH
 2. I'll distribute midterm course evaluations and I'll leave the room for 5 minutes

@@ -3,12 +3,12 @@ layout: slides
 title: About Class #3 
 ---
 <section markdown="block" class="title-slide">
-# About Class #3
+#  About Class #3
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Today's Class...
+###  Today's Class...
 * some __administrative stuff__
 	* homework
 	* tutors
@@ -21,7 +21,7 @@ title: About Class #3
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * [homework is due on Thursday, February 5th at 11PM](../../schedule.html#homework1)
 * turn in homework (all files) via NYU Classes
@@ -32,7 +32,7 @@ title: About Class #3
 </section>
 
 <section markdown="block">
-### IDLE
+###  IDLE
 
 * IDLE is bundled with Python 3.4
 * it is automatically installed when you install Python
@@ -42,7 +42,7 @@ title: About Class #3
 </section>
 
 <section markdown="block">
-### Tutors
+###  Tutors
 
 * tutors will be available to help you with your work (for free!)
 	* the schedule should be posted by the end of this week
@@ -53,7 +53,7 @@ title: About Class #3
 </section>
 
 <section markdown="block">
-### Even More Help!
+###  Even More Help!
 
 * the readings are _legit_!
 	* {{ site.bookq }}
@@ -66,6 +66,6 @@ title: About Class #3
 </section>
 
 <section markdown="block">
-## [Now: A Quick Note on _Idioms and Style_](idioms-style.html)
+##  [Now: A Quick Note on _Idioms and Style_](idioms-style.html)
 </section>
 

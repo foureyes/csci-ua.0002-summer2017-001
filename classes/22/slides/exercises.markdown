@@ -3,11 +3,11 @@ layout: slides
 title: About Class #22 
 ---
 <section markdown="block">
-# Let's Try Implementing Rock Paper Scissors!
+#  Let's Try Implementing Rock Paper Scissors!
 </section>
 
 <section markdown="block">
-### Create a Function That Determines "Who" Won
+###  Create a Function That Determines "Who" Won
 
 * rock, paper, and scissors will be represented by r, p, and s
 * the function should take two arguments, one "hand" from player one, the other from player two
@@ -16,7 +16,7 @@ title: About Class #22
 </section>
 
 <section markdown="block">
-### Outcome
+###  Outcome
 {% highlight python %}
 def outcome(hand_one, hand_two):
 	if hand_one == hand_two:
@@ -29,7 +29,7 @@ def outcome(hand_one, hand_two):
 </section>
 
 <section markdown="block">
-### Example Output of Game
+###  Example Output of Game
 {% highlight python %}
 (r)ock, (p)aper, (s)cissors or (q)uit
 >r
@@ -47,7 +47,7 @@ SCORE: player: 1, computer: 0
 </section>
 
 <section markdown="block">
-### Game
+###  Game
 {% highlight python %}
 import random
 hands = ['r', 'p', 's']

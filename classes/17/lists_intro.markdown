@@ -3,12 +3,12 @@ layout: slides
 title: 
 ---
 <section markdown="block" class="title-slide">
-# Lists
+#  Lists
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Types of Types
+###  Types of Types
 
 There are higher classifications of types - like types of types! For example, the following types are numeric:
 
@@ -33,7 +33,7 @@ There are a group of types called sequences.
 </section>
 
 <section markdown="block">
-### We've Seen This Before in Strings
+###  We've Seen This Before in Strings
 
 Strings are a sequence type; they're an ordered set of characters.
 
@@ -87,7 +87,7 @@ KeyboardInterrupt
 </section>
 
 <section markdown="block">
-### Iterating Over a List
+###  Iterating Over a List
 
 Just like iterating over a sequence of charactersi...
 
@@ -97,7 +97,7 @@ Just like iterating over a sequence of charactersi...
 
 {% highlight python %}
 junk = ["skittles", "snickers", "nerds"]
-# candy is our loop variable... it will represent each element of the list
+#  candy is our loop variable... it will represent each element of the list
 for candy in junk:
 	print("I <3 {0}!".format(candy)) 
 {% endhighlight %}
@@ -133,7 +133,7 @@ for candy in junk:
 
 
 <section markdown="block">
-### Excercises
+###  Excercises
 
 * create a function called three_letter_words
 	* it takes a list

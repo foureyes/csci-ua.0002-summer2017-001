@@ -3,12 +3,12 @@ layout: slides
 title: Scope
 ---
 <section markdown="block" class="title-slide">
-# Scope
+#  Scope
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Global Variables and Function Definitions
+###  Global Variables and Function Definitions
 
 __In the following program, will something be printed out, nothing, or an error... and why?__ &rarr;
 
@@ -22,7 +22,7 @@ __s is a global variable__.  It is accessible everywhere, including the function
 </section>
 
 <section markdown="block">
-### Variables Declared Inside a Function
+###  Variables Declared Inside a Function
 
 __In the following program, will something be printed out, nothing, or an error... and why?__ &rarr;
 
@@ -36,7 +36,7 @@ An error occurs because s is inaccessible outside of the function definition.  _
 </section>
 
 <section markdown="block">
-### Parameters
+###  Parameters
 
 __In the following program, will something be printed out, nothing, or an error... and why?__ &rarr;
 
@@ -50,7 +50,7 @@ An error occurs.  You can't access the parameters (by their name) that you passe
 </section>
 
 <section markdown="block">
-### Precedence
+###  Precedence
 
 __In the following program, will something be printed out, nothing, or an error... and why?__ &rarr;
 
@@ -64,11 +64,11 @@ Variables _created_ within a function are _local_ to that function.  A function 
 </section>
 
 <section markdown="block">
-## A Quick Explanation
+##  A Quick Explanation
 </section>
 
 <section markdown="block">
-### Scope
+###  Scope
 
 A __scope__: 
 
@@ -78,7 +78,7 @@ A __scope__:
 </section>
 
 <section markdown="block">
-### Global Scope
+###  Global Scope
 
 * anything that we define in the top level of indentation in our program is said to be in the __global scope__
 * in the following example, the variables _a_ and _b_ are in the __global scope__
@@ -96,7 +96,7 @@ foo()
 </section>
 
 <section markdown="block">
-### Local Scope
+###  Local Scope
 
 Variables that are defined in your function (one indentation level in), however, are only available within your function.  They are _local_ to that function.  The example below won't work.
 
@@ -111,7 +111,7 @@ print(c)
 </section>
 
 <section markdown="block">
-### Local Scope Continued
+###  Local Scope Continued
 
 Variables that __are declared__ (created) within a function that have the same name as a global variable are totally different variables/values!  They don't overwrite the outer, global variable (there's a way to do this, though).  What will this print?
 
@@ -136,11 +136,11 @@ on toast
 </section>
 
 <section markdown="block">
-## A Little More Detail on That Last Point
+##  A Little More Detail on That Last Point
 </section>
 
 <section markdown="block">
-### What's (not) in a Name?
+###  What's (not) in a Name?
 
 
 __What is the exact error that you get if you try to use a variable, function or module that you haven't created yet?__ &rarr;
@@ -152,7 +152,7 @@ NameError (__Let's try it__ &rarr;)
 
 {% comment %}
 <section markdown="block">
-### Objects
+###  Objects
 
 
 __What is the the definition of an object again?__ &rarr;
@@ -165,11 +165,11 @@ __What is the the definition of an object again?__ &rarr;
 </section>
 
 <section markdown="block">
-## An Object is a Thing That a Variable Name Can Refer To
+##  An Object is a Thing That a Variable Name Can Refer To
 </section>
 
 <section markdown="block">
-### Objects and Names
+###  Objects and Names
 
 __What operator would you use to create a new variable name and bind a value / object to that name (that is, how do you make a name refer to an object)?__ &rarr;
 
@@ -181,7 +181,7 @@ __What operator would you use to create a new variable name and bind a value / o
 {% endcomment %}
 
 <section markdown="block">
-### Creating Names
+###  Creating Names
 
 * when you create a variable in a function, you're actually creating a name in the local scope
 * if there's a global variable that happens to be the same name, it is not affected!
@@ -189,7 +189,7 @@ __What operator would you use to create a new variable name and bind a value / o
 </section>
 
 <section markdown="block">
-### Finding Names
+###  Finding Names
 
 If you use a variable name in a function, __it will try to find that name in the following places in order__:
 
@@ -200,7 +200,7 @@ If you use a variable name in a function, __it will try to find that name in the
 
 </section>
 <section markdown="block">
-### And So?
+###  And So?
 
 __What does the following code print out?__
 
@@ -226,7 +226,7 @@ blue
 
 
 <section markdown="block">
-### Scope Summary
+###  Scope Summary
 
 * __global scope__ - variables and function definitions declared outside of a function; can be accessed everywhere - from current file or within function definition 
 * __local scope__ - variables declared inside of a function; cannot be accessed outside of the function they are created in

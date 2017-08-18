@@ -3,12 +3,12 @@ layout: slides
 title: Scrabble
 ---
 <section markdown="block" class="title-slide">
-# Scrabble
+#  Scrabble
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### And Now... Scrabble(?)
+###  And Now... Scrabble(?)
 
 Imagine that you're playing Scrabble (or... Words With Friends?).  
 
@@ -19,7 +19,7 @@ __t__, __r__, __c__, __a__
 </section>
 
 <section markdown="block">
-### Whatever List We Came Up With...
+###  Whatever List We Came Up With...
 
 _It's probably not complete_
 
@@ -43,12 +43,12 @@ __So ... who do you think would be _particularly_ good at finding valid scrabble
 </section>
 
 <section markdown="block">
-## As Always...  Let's let the computer do this for us
+##  As Always...  Let's let the computer do this for us
 
 </section>
 
 <section markdown="block">
-### You Saw This Coming
+###  You Saw This Coming
 
 Let's write a program that asks for a set of letters, and determines all of the valid words that can be created by that set of letters.  
 
@@ -74,7 +74,7 @@ tar
 </section>
 
 <section markdown="block">
-### Scrabble Solver
+###  Scrabble Solver
 
 * write a program that asks for input (a set of letters)
 * it should print out all of the combinations of letters that make valid words _in alphabetical order_
@@ -82,7 +82,7 @@ tar
 </section>
 
 <section markdown="block">
-### Some Questions About the Scrabble Solver....
+###  Some Questions About the Scrabble Solver....
 
 __What data will we need?__  __Can we break this problem down into smaller parts?__ &rarr;
 
@@ -98,7 +98,7 @@ __What data will we need?__  __Can we break this problem down into smaller parts
 </section>
 
 <section markdown="block">
-### We Know How to Do This (Mostly)
+###  We Know How to Do This (Mostly)
 
 So...  finding a list of valid words and loading it is the only part that's new for us.
 
@@ -109,15 +109,15 @@ So...  finding a list of valid words and loading it is the only part that's new 
 </section>
 
 <section markdown="block">
-## So... Let's Look at _File Input and Output_!
+##  So... Let's Look at _File Input and Output_!
 </section>
 
 <section markdown="block">
-## ... Aaaaaand We're Back!
+##  ... Aaaaaand We're Back!
 </section>
 
 <section markdown="block">
-### Scrabble Solver 
+###  Scrabble Solver 
 
 Write a program that...
 
@@ -139,7 +139,7 @@ ut
 </section>
 
 <section markdown="block">
-### A Strategy...
+###  A Strategy...
 
 * create a function called find_words
 	* it should take two arguments, 
@@ -153,7 +153,7 @@ ut
 * remeber to [download a word list - enable1.txt](http://www.puzzlers.org/pub/wordlists/enable1.txt)
 </section>
 <section markdown="block">
-### Pseudocode Without Going Through All Permutations
+###  Pseudocode Without Going Through All Permutations
 
 We could try finding every permutation of letters in a word, including substrings... and checking for a substring.
 
@@ -168,7 +168,7 @@ However, there's a way to do this by going through every word in the list and se
 </section>
 
 <section markdown="block">
-### Potential Solution With Readline
+###  Potential Solution With Readline
 
 {% highlight python %}
 def find_words(letters, dictionary):
@@ -195,7 +195,7 @@ def find_words(letters, dictionary):
 </section>
 
 <section markdown="block">
-### Potential Solution Iterating Over a File Object
+###  Potential Solution Iterating Over a File Object
 
 {% highlight python %}
 def find_words(letters, dictionary):
@@ -219,7 +219,7 @@ def find_words(letters, dictionary):
 </section>
 
 <section markdown="block">
-### Main Function
+###  Main Function
 
 {% highlight python %}
 def main():
@@ -235,7 +235,7 @@ main()
 </section>
 
 <section markdown="block">
-## Recursive Solution
+##  Recursive Solution
 
 __If you wanted to use recursion to get all permutations...__ &rarr;
 
@@ -260,7 +260,7 @@ print(find_perms('abc'))
 </section>
 
 <section markdown="block">
-## Or... Using a Module
+##  Or... Using a Module
 
 (But this just gives you permutations, doesn't include substrings).
 

@@ -3,12 +3,12 @@ layout: slides
 title: Nested Loops
 ---
 <section markdown="block" class="title-slide">
-# You Can Loop Within a Loop!
+#  You Can Loop Within a Loop!
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Nested Loops
+###  Nested Loops
 
 A __nested loop__ is just a loop inside the body of another loop.
 
@@ -17,7 +17,7 @@ It's loops [all the way down](http://en.wikipedia.org/wiki/Turtles_all_the_way_d
 </section>
 
 <section markdown="block">
-### Nested Loops Example
+###  Nested Loops Example
 
 __What does this print out? &rarr;__
 
@@ -45,7 +45,7 @@ for max in range(2, 5):
 </section>
 
 <section markdown="block">
-### Make Me a Passowrd, Plz
+###  Make Me a Passowrd, Plz
 
 __Let's create a password generator:&rarr;__
 
@@ -62,7 +62,7 @@ __Let's create a password generator:&rarr;__
 </section>
 
 <section markdown="block">
-### Password Generator Example Output
+###  Password Generator Example Output
 
 {% highlight python %}
 Please enter a password length (0 to exit)
@@ -80,7 +80,7 @@ Please enter a password length (0 to exit)
 </section>
 
 <section markdown="block">
-### Password Generator Solution
+###  Password Generator Solution
 
 {% highlight python %}
 {% include classes/09/pwgen.py  %}
@@ -88,7 +88,7 @@ Please enter a password length (0 to exit)
 </section>
 
 <section markdown="block">
-### Nested for Loops
+###  Nested for Loops
 
 __What does this code output? &rarr;__
 
@@ -115,14 +115,14 @@ i j
 </section>
 
 <section markdown="block">
-### Breaking Down Nested Loops
+###  Breaking Down Nested Loops
 
 * the inner most loop must finish iterating before the outer loop goes on to its next iteration
 * both loop variables are accessible in the body of the innermost loop
 </section>
 
 <section markdown="block">
-### Triangle
+###  Triangle
 
 __Try to draw this shape by using nested for loops: &rarr;__
 
@@ -141,7 +141,7 @@ __Try to draw this shape by using nested for loops: &rarr;__
 </section>
 
 <section markdown="block">
-### Potential Solution for Triangle
+###  Potential Solution for Triangle
 
 {% highlight python %}
 {% include classes/09/triangle.py %}

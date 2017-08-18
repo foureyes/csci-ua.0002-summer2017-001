@@ -3,12 +3,12 @@ layout: slides
 title: Euclidean Rhythms
 ---
 <section markdown="block" class="title-slide">
-# Euclidean Rhythms
+#  Euclidean Rhythms
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Oh, A Brief Diversion
+###  Oh, A Brief Diversion
 
 __How did Euclid's algorithm work again? Let's try it with 90 and 36.__
 
@@ -36,7 +36,7 @@ Done: 18
 </section>
 
 <section markdown="block">
-### Same But Different
+###  Same But Different
 
 That was the _original_ version of Euclid's algorithm. There are a couple of other variants. Here's one using the remainder (modulo).
 
@@ -63,7 +63,7 @@ Done: 18
 </section>
 
 <section markdown="block">
-### One More
+###  One More
 
 __How about 8 and 5?__ &rarr;
 
@@ -84,7 +84,7 @@ Done: 1
 </section>
 
 <section markdown="block">
-### Distributing Items Evenly
+###  Distributing Items Evenly
 
 Easy if 4 items in 8 slots. 
 
@@ -107,7 +107,7 @@ Easy if 4 items in 8 slots.
 </section>
 
 <section markdown="block">
-### Another One?
+###  Another One?
 
 __What if we have 13 slots, and we want to distribute 5 items into those thirteen slots evenly?__ &rarr;
 
@@ -122,7 +122,7 @@ __What if we have 13 slots, and we want to distribute 5 items into those thirtee
 </section>
 
 <section markdown="block">
-### A Little Like Euclid's Algorithm, Right?
+###  A Little Like Euclid's Algorithm, Right?
 
 * We try to divide the right hand side into the left evenly.
 * We end up with a remainder
@@ -131,7 +131,7 @@ __What if we have 13 slots, and we want to distribute 5 items into those thirtee
 </section>
 
 <section markdown="block">
-### And. I Just Want to Dance.
+###  And. I Just Want to Dance.
 
 What if we used that distribution method to place beats in a series of steps... to generate a rhythm?
 
@@ -148,5 +148,5 @@ Apparently, the Euclidean Algorithm can be used to generate rhythms.  A paper by
 </section>
 
 <section markdown="block">
-## [Functions / Odds and Ends ](functions.html)
+##  [Functions / Odds and Ends ](functions.html)
 </section>

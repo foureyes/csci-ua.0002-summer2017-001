@@ -3,19 +3,19 @@ layout: slides
 title: Objects and Methods 
 ---
 <section markdown="block" class="title-slide">
-# Objects and Methods
+#  Objects and Methods
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Objects and Methods
+###  Objects and Methods
 
 * __What's an object? &rarr;__
 * __What's a method? &rarr;__
 </section>
 
 <section markdown="block">
-### Objects
+###  Objects
 
 * __object__ - a _thing_ that a variable name can refer to
 * all of the values in Python are _things_
@@ -25,7 +25,7 @@ title: Objects and Methods
 </section>
 
 <section markdown="block">
-### Methods
+###  Methods
 
 * a __method__ is essentially a function that's associated with a particular object
 * you can _call_ a method just like a function... but you have to use the dot operator
@@ -35,7 +35,7 @@ title: Objects and Methods
 </section>
 
 <section markdown="block">
-### Examples of Objects
+###  Examples of Objects
 
 __What are some objects we've seen?__
 
@@ -51,7 +51,7 @@ __What are some objects we've seen?__
 </section>
 
 <section markdown="block">
-### Objects vs Types
+###  Objects vs Types
 
 Aren't those just types?  Yes!  But to be more specific:
 
@@ -62,7 +62,7 @@ Aren't those just types?  Yes!  But to be more specific:
 </section>
 
 <section markdown="block">
-### Examples of Objects
+###  Examples of Objects
 
 __What are some methods we've seen (for Turtle, str and list objects?)__
 
@@ -86,7 +86,7 @@ __What are some methods we've seen (for Turtle, str and list objects?)__
 </section>
 
 <section markdown="block">
-### Methods vs Functions
+###  Methods vs Functions
 
 Aren't those just functions?  Yes!  Well, sort of:
 

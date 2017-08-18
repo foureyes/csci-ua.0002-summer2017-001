@@ -4,7 +4,7 @@ title: Lists Odds and Ends Review
 ---
 
 <section markdown="block" class="title-slide">
-# Lists Odds and Ends Review
+#  Lists Odds and Ends Review
 {% include title-slide-footer.html %}
 </section>
 
@@ -33,7 +33,7 @@ ranma and maison ikkoku and scott pilgrim
 </section>
 
 <section markdown="block">
-### Split and Join
+###  Split and Join
 
 __If I have the following list, how do I put together each element with an exclamation point and space between each element? How do I turn the resulting string back to a list? &rarr;__
 
@@ -51,7 +51,7 @@ print(names.split("! "))
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 The random module offers some methods that can be used on lists:
 
@@ -69,7 +69,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### One Hand of Blackjack
+###  One Hand of Blackjack
 
 * try implementing a single hand of blackjack
 * use a commandline interface:
@@ -80,7 +80,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### Break Down the Problem
+###  Break Down the Problem
 
 * what data do we want to store, and how do we represent it?
 * shuffling and distributing cards
@@ -91,7 +91,7 @@ print(numbers)
 </section>
 
 <section markdown="block">
-### Representing Data
+###  Representing Data
 
 __What data do we want to store, and how do we represent it?__
 
@@ -103,7 +103,7 @@ __What data do we want to store, and how do we represent it?__
 </section>
 
 <section markdown="block">
-### Shuffling and Distributing Cards
+###  Shuffling and Distributing Cards
 
 __Write a short program that:__ &rarr;
 
@@ -113,7 +113,7 @@ __Write a short program that:__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# create deck and deal
+#  create deck and deal
 deck = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A'] * 4
 random.shuffle(deck)
 player_hand = []
@@ -126,7 +126,7 @@ for i in range(2):
 </section>
 
 <section markdown="block">
-### Calculating a Blackjack Hand
+###  Calculating a Blackjack Hand
 
 __Implement a function that takes a list of strings representing cards.  It should calculate the sum of the cards__
 
@@ -140,7 +140,7 @@ __Implement a function that takes a list of strings representing cards.  It shou
 </section>
 
 <section markdown="block">
-### Let's Think of Some Algorithms
+###  Let's Think of Some Algorithms
 
 __How about this one?__ &rarr;
 
@@ -154,7 +154,7 @@ __How about this one?__ &rarr;
 </section>
 
 <section markdown="block">
-### Calculating a Blackjack Hand
+###  Calculating a Blackjack Hand
 
 {% highlight python %}
 {% include classes/18/current_total.py %}
@@ -164,7 +164,7 @@ __How about this one?__ &rarr;
 
 
 <section markdown="block">
-### And The Rest
+###  And The Rest
 
 * dealing with user input
 * let the computer move
@@ -173,11 +173,11 @@ __How about this one?__ &rarr;
 </section>
 
 <section markdown="block">
-## Mutability Revisited
+##  Mutability Revisited
 </section>
 
 <section markdown="block">
-### Mutability - Strings and Lists
+###  Mutability - Strings and Lists
 
 * __Are strings mutable? &rarr;__
 * __Are lists mutable? &rarr;__
@@ -189,7 +189,7 @@ __How about this one?__ &rarr;
 </section>
 
 <section markdown="block">
-### Strings vs Lists... Indexing and Assignment
+###  Strings vs Lists... Indexing and Assignment
 
 __What's the output of the following code? &rarr;__
 
@@ -208,7 +208,7 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-### Lists, Indexing and Assignment
+###  Lists, Indexing and Assignment
 
 You can change values in a list!
 
@@ -219,12 +219,12 @@ You can change values in a list!
 {% highlight python %}
 really_famous_cats = ["nermal", "felix", "sylvester"]
 really_famous_cats[0] = "garfield"
-# assignment works just fine!
+#  assignment works just fine!
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### List Methods vs String Methods
+###  List Methods vs String Methods
 
 The behavior of the methods in lists and strings are consistent with the mutability of each type:
 
@@ -233,7 +233,7 @@ The behavior of the methods in lists and strings are consistent with the mutabil
 </section>
 
 <section markdown="block">
-### List Methods vs String Methods Example
+###  List Methods vs String Methods Example
 
 __What does this code output? &rarr;__
 {% highlight python %}
@@ -251,7 +251,7 @@ None
 </section>
 
 <section markdown="block">
-### Variables 
+###  Variables 
 
 __What's a variable? &rarr;__
 
@@ -264,7 +264,7 @@ __What's a variable? &rarr;__
 </section>
 
 <section markdown="block">
-### Variables as References
+###  Variables as References
 
 Imagine variables as names that point to objects:
 
@@ -278,7 +278,7 @@ a ------> [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Variables as References Continued
+###  Variables as References Continued
 
 Assignment is just pointing a reference.  When a new value is assigned to a name, it's the reference that's being changed.  
 
@@ -297,7 +297,7 @@ a ------> [4, 5, 6]
 </section>
 
 <section markdown="block">
-### Aliasing
+###  Aliasing
 
 When one variable is assigned to another variable, both variables end up referring to the same object:
 
@@ -315,7 +315,7 @@ b ---+
 </section>
 
 <section markdown="block">
-### Aliasing Continued
+###  Aliasing Continued
 
 The actual list object, [1, 2, 3], now has two names that refer to it.  Referencing the same object with more than one name is called __aliasing__.  
 
@@ -339,7 +339,7 @@ See in [python tutor](http://pythontutor.com/visualize.html#code=a+%3D+%5B1,+2,+
 </section>
 
 <section markdown="block">
-### Aliasing Continued Some More!
+###  Aliasing Continued Some More!
 
 __Aliasing causes side effects in mutable objects!__  However, it's a different story with immutable objects, like strings.  __What gets printed out here? &rarr;__
 
@@ -362,7 +362,7 @@ HELLO
 </section>
 
 <section markdown="block">
-### And if Aliasing Was Not the Intention
+###  And if Aliasing Was Not the Intention
 
 If you'd like to make a new list rather than refer to the same list (that is have each variable point to a different object - though two equal objects)...
 
@@ -376,14 +376,14 @@ b ------> [1, 2, 3]
 </section>
 
 <section markdown="block">
-### Cloning
+###  Cloning
 
 You can slice out the entire list to clone a list from the start index (0) to end index (len(list_of_elements) - 1):
 
 {% highlight python %}
 a = [1, 2, 3]
 
-# cloned!
+#  cloned!
 b = a[0:3]
 {% endhighlight %}
 
@@ -397,7 +397,7 @@ b = a[:]
 </section>
 
 <section markdown="block">
-### And What About Functions?
+###  And What About Functions?
 
 When parameters are passed to functions the value is a reference!  __What will this code print out? &rarr;__
 
@@ -415,7 +415,7 @@ See in [Python tutor](http://pythontutor.com/visualize.html#code=numbers+%3D+%5B
 </section>
 
 <section markdown="block">
-### References, Changing Values in Place
+###  References, Changing Values in Place
 
 This means that functions can be created that change values in place rather than returning a value.  For example, this function removes the last two elements of a list:
 
@@ -434,7 +434,7 @@ def remove_last_two_in_place(list_of_stuff):
 </section>
 
 <section markdown="block">
-### References, Changing Values in Place Continued
+###  References, Changing Values in Place Continued
 
 The function in the previous slide can be used to _mutate_ the argument passed in (similar behavior to the random.shuffle function or the sort method on lists):
 
@@ -443,7 +443,7 @@ The function in the previous slide can be used to _mutate_ the argument passed i
 numbers = [1, 2, 3, 4, 5]
 remove_last_two_in_place(a)
 print(numbers)
-# prints out [1, 2, 3]
+#  prints out [1, 2, 3]
 {% endhighlight %}
 
 * __numbers__ actually changed
@@ -452,11 +452,11 @@ print(numbers)
 
 
 <section markdown="block">
-## Iterating With Indexes
+##  Iterating With Indexes
 </section>
 
 <section markdown="block">
-### Indexing Into a Sequence
+###  Indexing Into a Sequence
 
 How do we retrieve an element at a specific place from a list or a string?  For example, __to get the second element from the list a = [1, 2, 3], what code would I write? &rarr;__
 
@@ -469,7 +469,7 @@ a[1]
 
 
 <section markdown="block">
-### Indexes
+###  Indexes
 
 What are some attributes of list and string __indexes__? That is... when you index into a sequence type... 
 
@@ -485,7 +485,7 @@ What are some attributes of list and string __indexes__? That is... when you ind
 </section>
 
 <section markdown="block">
-### Generating a Sequence of Integers
+###  Generating a Sequence of Integers
 
 One way of iterating over every item in a list or a string is to go through each element by indexing.  
 
@@ -500,7 +500,7 @@ Hint: there are two ways to do this using constructs / statements that we've use
 </section>
 
 <section markdown="block">
-### For Loops and Indexes
+###  For Loops and Indexes
 
 __Use a for loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -521,7 +521,7 @@ for i in range(0, len(a)):
 </section>
 
 <section markdown="block">
-### While Loops and Indexes
+###  While Loops and Indexes
 
 __Use a while loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -543,7 +543,7 @@ while i < len(a):
 </section>
 
 <section markdown="block">
-### The "Usual" Way
+###  The "Usual" Way
 
 __Finally, to round things out, use a for loop - without indexes - to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -557,7 +557,7 @@ for word in a:
 </section>
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 __Write a function that takes a list as an input and returns the list in reverse order (btw, there's already a list method that does this) &rarr;__
 
@@ -569,7 +569,7 @@ __Write a function that takes a list as an input and returns the list in reverse
 </section>
 
 <section markdown="block">
-### Another (More Destructive Way) to Reverse a List
+###  Another (More Destructive Way) to Reverse a List
 
 __Can you use pop to do it? &rarr;__
 
@@ -581,7 +581,7 @@ __Can you use pop to do it? &rarr;__
 </section>
 
 <section markdown="block">
-### But Wait - What Happened?
+###  But Wait - What Happened?
 
 __What's the output of the pop() version of the solution? &rarr;__
 
@@ -599,11 +599,11 @@ __What's the output of the pop() version of the solution? &rarr;__
 </section>
 
 <section markdown="block">
-## Nested Loops
+##  Nested Loops
 </section>
 
 <section markdown="block">
-### You Can Loop Within a Loop!
+###  You Can Loop Within a Loop!
 
 __What does this code output? &rarr;__
 
@@ -623,14 +623,14 @@ for i in range(2):
 </section>
 
 <section markdown="block">
-### Breaking Down Nested Loops
+###  Breaking Down Nested Loops
 
 * the inner most loop must finish iterating before the outer loop goes on to its next iteration
 * both loop variables are accessible in the body of the innermost loop
 </section>
 
 <section markdown="block">
-### Chess Board Squares
+###  Chess Board Squares
 
 __Print out the names of each square on a chess board using nested loops &rarr;__  See [this article on chess notation](http://www.chessstrategiesblog.com/chess-notation/):
 
@@ -652,7 +652,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 </section>
 
 <section markdown="block">
-### Chess Board Squares Solution
+###  Chess Board Squares Solution
 
 {% highlight python %}
 {% include classes/21/chess_board_coords.py  %}
@@ -662,7 +662,7 @@ a1 b1 c1 d1 e1 f1 g1 h1
 <!--
 
 <section markdown="block">
-### Sieve
+###  Sieve
 
 [Sieve of Eratosthenes](http://en.wikipedia.org/wiki/Sieve_of_Eratosthenes#Algorithm_complexity)
 
@@ -670,7 +670,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 1
+###  Sieve Version 1
 
 {% highlight python %}
 {% include classes/21/sieve.py  %}
@@ -678,7 +678,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 2
+###  Sieve Version 2
 
 {% highlight python %}
 {% include classes/21/sieve_true_false.py  %}
@@ -686,7 +686,7 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 </section>
 
 <section markdown="block">
-### Sieve Version 3
+###  Sieve Version 3
 
 {% highlight python %}
 {% include classes/21/sieve_with_del.py  %}
@@ -696,20 +696,20 @@ __Let's try to figure out a few different ways of doing this &rarr;__
 -->
 
 <section markdown="block">
-### Lists in Lists 
+###  Lists in Lists 
 
 You can access an element within a list that's within a list by indexing __twice__!  The first index is the place in the outer list, the second index is the place in the inner list.
 
 {% highlight python %}
 a = [['foo', 'bar'],['baz', 'qux']]
 print(a[0][1])
-# gives back bar
+#  gives back bar
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### Lists in Lists Example
+###  Lists in Lists Example
 
 __What does this code output? &rarr;__
 
@@ -730,7 +730,7 @@ print(a[1][0])
 </section>
 
 <section markdown="block">
-### Looping Over Lists in Lists
+###  Looping Over Lists in Lists
 
 {% highlight python %}
 a = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
@@ -747,11 +747,11 @@ print(a)
 </section>
 
 <section markdown="block" class="title-slide">
-## List Comprehensions
+##  List Comprehensions
 </section>
 
 <section markdown="block">
-### Create a List of Squares 
+###  Create a List of Squares 
 
 __How would I create a list of numbers that are the square root of 0 through 9?__ &rarr;
 
@@ -770,7 +770,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### Create a List of Squares 
+###  Create a List of Squares 
 
 __How would I create a list of numbers that are the square root of 0 through 9, but only include squares that are divisible by 2?__ &rarr;
 
@@ -790,7 +790,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### Quick Summary
+###  Quick Summary
 
 * in each instance, we created a list by starting with an empty list
 * ...using a for loop
@@ -799,7 +799,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### List Comprehensions
+###  List Comprehensions
 
 __List comprehensions__ are another, more concise way of creating lists.  A list comprehension is __syntactic sugar__ (syntax within a programming language that is designed to make things easier to read or to express) for the code that we created previously. 
 
@@ -807,7 +807,7 @@ List comprehensions __make new lists__.
 </section>
 
 <section markdown="block">
-### List Comprehension Syntax
+###  List Comprehension Syntax
 
 * consists of square brackets to make a list
 * a for loop-like expression within the brackets
@@ -816,7 +816,7 @@ List comprehensions __make new lists__.
 </section>
 
 <section markdown="block">
-### Two Examples: Squares, and Squares Divisible by 2
+###  Two Examples: Squares, and Squares Divisible by 2
 
 {% highlight python %}
 [x * x for x in range(10)]
@@ -825,7 +825,7 @@ List comprehensions __make new lists__.
 </section>
 
 <section markdown="block">
-### Another List Comprehension
+###  Another List Comprehension
 
 __Write a list comprehension that creates a new list by adding exclamation points to every element in an existing list.__ &rarr;
 
@@ -841,7 +841,7 @@ items = ['foo', 'bar', 'baz', 'busy']
 </section>
 
 <section markdown="block">
-### And Another List Comprehension!
+###  And Another List Comprehension!
 
 __Limit the previous list to strings of length 3.__ &rarr;
 
@@ -861,5 +861,5 @@ items = ['foo', 'bar', 'baz', 'busy']
 </section>
 
 <section markdown="block">
-## Review End
+##  Review End
 </section>

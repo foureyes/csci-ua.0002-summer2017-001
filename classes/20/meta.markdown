@@ -3,12 +3,12 @@ layout: slides
 title: About Class #20 
 ---
 <section markdown="block" class="title-slide">
-# About Class #20
+#  About Class #20
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Today's Topics
+###  Today's Topics
 
 More Lists!!!!!! (YEAH!)
 
@@ -19,7 +19,7 @@ More Lists!!!!!! (YEAH!)
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * __homework #6__ grades to be posted this weekend
 * selected solutions for homeworks will be posted Monday 
@@ -31,7 +31,7 @@ More Lists!!!!!! (YEAH!)
 
 
 <section markdown="block">
-### Midterm #2
+###  Midterm #2
 
 __IT'S NEXT WEEK__:  Thursday, April 16th
 
@@ -44,7 +44,7 @@ __IT'S NEXT WEEK__:  Thursday, April 16th
 </section>
 
 <section markdown="block">
-### Review Sessions
+###  Review Sessions
 
 Review #1:
 
@@ -61,5 +61,5 @@ Review #2
 
 </section>
 <section markdown="block">
-## [Lists Review](lists_review.html)
+##  [Lists Review](lists_review.html)
 </section>

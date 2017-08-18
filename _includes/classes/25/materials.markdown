@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * Module #09 and Quiz #09
 * Module #10 and Quiz #10
@@ -7,7 +7,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 Slides
 
@@ -28,6 +28,6 @@ Midterm Solutions
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 </article>

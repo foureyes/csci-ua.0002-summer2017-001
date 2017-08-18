@@ -1,18 +1,18 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * 12:30pm - Extended Homework Due Date
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Warm-up
 

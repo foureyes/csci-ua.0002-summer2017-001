@@ -4,16 +4,16 @@ title: Review
 ---
 
 <section markdown="block" class="title-slide">
-# Review (Variables, Strings, Integers, and User Input)
+#  Review (Variables, Strings, Integers, and User Input)
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## So... Let's Start with Variables
+##  So... Let's Start with Variables
 </section>
 
 <section markdown="block">
-### Variable
+###  Variable
 
 __In Python, what's a variable?&rarr;__
 
@@ -23,7 +23,7 @@ It's a name that refers to a value.
 </section>
 
 <section markdown="block">
-### Declaring Variables
+###  Declaring Variables
 
 __How do we declare a new variable name and assign it a value?&rarr;__
 
@@ -44,7 +44,7 @@ x = 42
 </section>
 
 <section markdown="block">
-### Naming Variables
+###  Naming Variables
 
 __Are there any rules for naming variables?&rarr;__
 
@@ -55,7 +55,7 @@ __Are there any rules for naming variables?&rarr;__
 </section>
 
 <section markdown="block">
-### Naming Variables Continued
+###  Naming Variables Continued
 
 __What are some stylistic _conventions_ that we follow when naming variables?&rarr;__
 
@@ -75,7 +75,7 @@ lots_of_words = 'cabbage, carrots, corn'
 </section>
 
 <section markdown="block">
-### Multiple Assignment
+###  Multiple Assignment
 
 __And... what if I want to assign values to multiple variables in just one line? &rarr;__ 
 
@@ -91,7 +91,7 @@ word, lots_of_words, x = 'cat', 'cabbage, carrots, corn', 12
 </section>
 
 <section markdown="block">
-### Swapping Values
+###  Swapping Values
 
 __What are two ways to swap values? &rarr;__ 
 
@@ -108,18 +108,18 @@ b = c
 {% endhighlight %}
 
 {% highlight python %}
-# the idiomatic / Pythonic way...
+#  the idiomatic / Pythonic way...
 a, b = b, a
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-## A Quick Look Back at String Operators
+##  A Quick Look Back at String Operators
 </section>
 
 <section markdown="block">
-### String Concatenation
+###  String Concatenation
 
 __What was string concatenation it again? &rarr;__ 
 
@@ -134,7 +134,7 @@ Using the addition operator to add strings together.  For example:
 </section>
 
 <section markdown="block">
-### String Concatenation Continued
+###  String Concatenation Continued
 
 Let's use variables!  __What happens when we run the program below? &rarr;__
 
@@ -155,7 +155,7 @@ Hi.  My name is Joe and I have 314 aardvarks.
 </section>
 
 <section markdown="block">
-### Another Version...
+###  Another Version...
 
 __Let's look at a very similar program.  What's different?  And what happens when we run the program? &rarr;__
 {% highlight python %}
@@ -169,7 +169,7 @@ print(greeting)
 
 <div class="incremental" markdown="block">
 {% highlight bash %}
-# we tried to add an int to a string!
+#  we tried to add an int to a string!
 Traceback (most recent call last):
   File "<stdin>", line 1, in <module>
 TypeError: Can't convert 'int' object to str implicitly
@@ -178,13 +178,13 @@ TypeError: Can't convert 'int' object to str implicitly
 </section>
 
 <section markdown="block">
-### Type Conversion
+###  Type Conversion
 
 __How do we fix this without changing the value of the variable named _number_of_pets_? &rarr;__
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# use the str function when you add the strings together!
+#  use the str function when you add the strings together!
 name = "Joe"
 number_of_pets = 314
 pets = "aardvarks"
@@ -198,11 +198,11 @@ print(greeting)
 
 
 <section markdown="block">
-## Now Let's See How Different Types Affect Numeric Operators
+##  Now Let's See How Different Types Affect Numeric Operators
 </section>
 
 <section markdown="block">
-### Addition, Subtraction, Division, Integer Division 
+###  Addition, Subtraction, Division, Integer Division 
 
 <aside>...All Work With Other Numeric Types</aside>
 
@@ -218,7 +218,7 @@ For example: &rarr;
 </section>
 
 <section markdown="block">
-### Addition, Subtraction, Division, Integer Division (Fails!)
+###  Addition, Subtraction, Division, Integer Division (Fails!)
 <aside>Doesn't Work so Well With Non-Numeric Types</aside>
 
 For example: &rarr;
@@ -234,7 +234,7 @@ For example: &rarr;
 </section>
 
 <section markdown="block">
-### An Exception: Multiplication
+###  An Exception: Multiplication
 
 Note that multiplication works with mixed operands: __strings__ and __integers__ 
 
@@ -249,7 +249,7 @@ For example: &rarr;
 </section>
 
 <section markdown="block">
-### Some More Type Conversions
+###  Some More Type Conversions
 
 __Let's fix the errors in this program without changing the values that are in _slices_ and _people_. &rarr;__
 
@@ -271,11 +271,11 @@ print("Slices per person: " + str(int(slices_per_person)))
 </section>
 
 <section markdown="block">
-## Let's Introduce the User Into the Mix!
+##  Let's Introduce the User Into the Mix!
 </section>
 
 <section markdown="block">
-### Functions...
+###  Functions...
 
 First off, __what's a function? &rarr;__
 
@@ -288,7 +288,7 @@ First off, __what's a function? &rarr;__
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 __What are some built-in functions that we've seen?__
 
@@ -300,7 +300,7 @@ __What are some built-in functions that we've seen?__
 </section>
 
 <section markdown="block">
-### _Calling_ a Function
+###  _Calling_ a Function
 
 __How do we _call_ (execute / run) a function?__
 
@@ -317,7 +317,7 @@ print("one", "two", "three")
 </section>
 
 <section markdown="block">
-### Ask the User!
+###  Ask the User!
 
 __What function do we use to ask the user for a value? &rarr;__
 
@@ -327,7 +327,7 @@ input
 </section>
 
 <section markdown="block">
-### The Input Function
+###  The Input Function
 
 __When we call input, what argument(s) does it take, and what is done with it? &rarr;__
 
@@ -337,7 +337,7 @@ Input takes one optional argument: the prompt that's printed out for the user.
 </section>
 
 <section markdown="block">
-### The Input Function Continued
+###  The Input Function Continued
 
 __Does the input function return (that is, _produce_) a value?  If so, what value is produced and what type is it?&rarr;__
 
@@ -348,7 +348,7 @@ __Does the input function return (that is, _produce_) a value?  If so, what valu
 </section>
 
 <section markdown="block">
-### Echo
+###  Echo
 
 __Let's write a very simple program together that: &rarr;__ 
 
@@ -371,7 +371,7 @@ print(something_to_echo)
 </section>
 
 <section markdown="block">
-### Repeat
+###  Repeat
 
 __Try to write a program that: &rarr;__
 
@@ -389,7 +389,7 @@ hellohellohellohellohello
 </section>
 
 <section markdown="block">
-### Repeat (an Implementation)
+###  Repeat (an Implementation)
 
 <aside>Here's One Way of Writing It</aside>
 {% highlight python %}
@@ -400,7 +400,7 @@ print(word * int(number))
 </section>
 
 <section markdown="block">
-### A Quick Summary of Input
+###  A Quick Summary of Input
 
 * the input() function takes an optional argument as a prompt
 * and it __always__ returns a __string__
@@ -411,5 +411,5 @@ print(word * int(number))
 </section>
 
 <section markdown="block">
-## [Picking up where we left off: functions](functions.html)
+##  [Picking up where we left off: functions](functions.html)
 </section>

@@ -3,7 +3,7 @@
 
 <article class="due" markdown="block">
 
-#### Due Today
+####  Due Today
 
 Nothing due today!
 
@@ -11,7 +11,7 @@ Nothing due today!
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 {% comment %}
 * [Homework and Tutoring](classes/03/homework.html)
@@ -39,15 +39,15 @@ Nothing due today!
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 
 </article>
 <!--
-### Slides
+###  Slides
 * [About Class #3](classes/03/about.html)
 
-### Handouts
+###  Handouts
 * [Types, Variables, Operators, Input and Comments](resources/handouts/class03/types-variables-operators-comments.pdf)
 * [Types, Variables, Operators, Input and Comments Solutions](resources/handouts/class03/types-variables-operators-comments-solutions.pdf)
 -->

@@ -4,13 +4,13 @@ title: Formatting
 ---
 
 <section markdown="block" class="title-slide">
-# Formatting Output
+#  Formatting Output
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Formatting With Print (Review) 
+###  Formatting With Print (Review) 
 
 __How can we format output with print (that is, control what gets printed out between separate arguments, and what gets printed out after the actual value)?__ &rarr;
 
@@ -22,7 +22,7 @@ __Let's check out some examples in the next slide.__ &rarr;
 </section>
 
 <section markdown="block">
-### Formatting With Print Examples
+###  Formatting With Print Examples
 
 * note that there are __no quotes__ around <code>sep</code> and <code>end</code>
 * these __keyword arguments__ go __after regular arguments__
@@ -41,7 +41,7 @@ print("foo", "bar", "baz", sep=", ", end="+")
 
 
 <section markdown="block">
-### The format() Function
+###  The format() Function
 
 The __format()__ function can be used to format a value __before you use it elsewhere__ (for example, before you print out to the user)
 
@@ -53,7 +53,7 @@ The __format()__ function can be used to format a value __before you use it else
 </section>
 
 <section markdown="block">
-### Padding Strings
+###  Padding Strings
 
 You can use format to ensure that you string has some number of characters in it. 
 
@@ -69,7 +69,7 @@ print(formatted)
 </section>
 
 <section markdown="block">
-###  Examples of Formatting Floats
+###   Examples of Formatting Floats
 
 Specifying places after decimal (. means decimal, number is the number of spaces, f means floating point format)
 
@@ -84,7 +84,7 @@ e = format (a, '>20,.2f') # pad it too!
 </section>
 
 <section markdown="block">
-###  Examples of Formatting Integers
+###   Examples of Formatting Integers
 
 Specifying places after decimal (, means add comma, d means integer)
 
@@ -96,7 +96,7 @@ print(format(a, '>20,d'))
 </section>
 
 <section markdown="block">
-### The Formal Specification
+###  The Formal Specification
 
 Ok... so if you want to know how __format__ really works:
 
@@ -119,7 +119,7 @@ type        ::=  "b" | "c" | "d" | "e" | "E" | "f" | "F" | "g" |
 </section>
 
 <section markdown="block">
-## Additional Notes
+##  Additional Notes
 
 __There are a few other minor details with format__ &rarr;
 
@@ -133,7 +133,7 @@ __There are a few other minor details with format__ &rarr;
 </section>
 
 <section markdown="block">
-## Let's Try This...
+##  Let's Try This...
 
 __What format string should we use to format the number 1000.32 so that it gives back a stirng composed of 20 characters:__ &rarr;
 

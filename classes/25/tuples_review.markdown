@@ -3,12 +3,12 @@ layout: slides
 title: Tuples 
 ---
 <section markdown="block" class="title-slide">
-# Tuples Review
+#  Tuples Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Sequence Types
+###  Sequence Types
 
 We know two sequence types.  __What are they?__
 
@@ -19,7 +19,7 @@ We know two sequence types.  __What are they?__
 </section>
 
 <section markdown="block">
-### How Are Strings and Lists Similar?
+###  How Are Strings and Lists Similar?
 
 Sequence types support a number of operations... 
 
@@ -29,7 +29,7 @@ Sequence types support a number of operations...
 </section>
 
 <section markdown="block">
-### Sequence Operations and Functions
+###  Sequence Operations and Functions
 
 * __+__ concatenation - adds all of the elements from one sequence to another; returns a new sequence 
 * __*__ multiplication - repeats a sequence for the specified number of times; returns a new sequence
@@ -41,7 +41,7 @@ Sequence types support a number of operations...
 </section>
 
 <section markdown="block">
-### Strings vs Lists
+###  Strings vs Lists
 
 __How are strings and lists different?__ &rarr;
 
@@ -56,7 +56,7 @@ __How are strings and lists different?__ &rarr;
 </section>
 
 <section markdown="block">
-### A Third Sequence Type
+###  A Third Sequence Type
 
 Last week, we learned about a third sequence type.  __What is it called... what is it, and how is different from lists and strings?__ &rarr;
 
@@ -73,7 +73,7 @@ Last week, we learned about a third sequence type.  __What is it called... what 
 </section>
 
 <section markdown="block">
-### Tuple Syntax
+###  Tuple Syntax
 
 __Write out the code that creates a tuple with three elements: "python", "java",  and "php"__ &rarr;
 
@@ -93,7 +93,7 @@ t = ("python", "java", "php")
 </section>
 
 <section markdown="block">
-### We've Used Tuples...
+###  We've Used Tuples...
 
 __Name two places where we've seen tuples before__ &rarr;
 
@@ -114,7 +114,7 @@ a, b, c = 1, 2, 3
 </section>
 
 <section markdown="block">
-### Not a Tuple
+###  Not a Tuple
 
 __What's a case where comma separated values ARE NOT a tuple?__ &rarr;
 
@@ -134,7 +134,7 @@ __What's a case where comma separated values ARE NOT a tuple?__ &rarr;
 
 
 <section markdown="block">
-### Tuple Operations and Built-In Functions 
+###  Tuple Operations and Built-In Functions 
 
 __Based on what we know about other sequence types, guess what operations, function and/or methods are supported by tuples?  How about ones that aren't?__&rarr;
 
@@ -150,7 +150,7 @@ __Based on what we know about other sequence types, guess what operations, funct
 </section>
 
 <section markdown="block">
-### Tuple Operations Examples
+###  Tuple Operations Examples
 
 Some operations:
 
@@ -176,7 +176,7 @@ False
 </section>
 
 <section markdown="block">
-### Iteration
+###  Iteration
 
 Just like iterating over strings or lists.
 
@@ -187,7 +187,7 @@ for value in (1, 2, 3):
 </section>
 
 <section markdown="block">
-### Tuple Unpacking / Multiple Assignment
+###  Tuple Unpacking / Multiple Assignment
 
 Multiple assignment is achieved by __tuple unpacking__. 
 
@@ -204,7 +204,7 @@ print(number, name)
 </section>
 
 <section markdown="block">
-### Tuple Unpacking 
+###  Tuple Unpacking 
 
 __What does this code output?__
 
@@ -230,7 +230,7 @@ php
 </section>
 
 <section markdown="block">
-### List of Tuples
+###  List of Tuples
 
 A tuple within a list is retrieved as a single object, as with every other element in a list, when using our regular _for loop_variable in some_list_ syntax: 
 
@@ -248,7 +248,7 @@ You get each actual tuple, so this prints out:
 </section>
 
 <section markdown="block">
-### List of Tuples Continued
+###  List of Tuples Continued
 
 Unpacking works in for loops as well!  
 
@@ -264,7 +264,7 @@ for first, last in characters:
 </section>
 
 <section markdown="block">
-### List of Tuples Example 
+###  List of Tuples Example 
 
 __What does the following code print out?__ &rarr;
 
@@ -283,7 +283,7 @@ hi
 </section>
 
 <section markdown="block">
-### Returning Tuples
+###  Returning Tuples
 
 Tuple unpacking can provide a method of returning multiple values from a function. __What does the follwing code output?__
 
@@ -309,7 +309,7 @@ print(original)
 
 
 <section markdown="block">
-### Turtle / Tuples Exercise 
+###  Turtle / Tuples Exercise 
 
 1. create a list of tuples that represent x, y coordinates of corners of a square
 2. assume that the bottom left corner is at (0, 0), the upper left is (0, 50), upper right (50, 50), lower right (50, 0)
@@ -320,13 +320,13 @@ print(original)
 import turtle
 t = turtle.Turtle()
 wn = turtle.Screen()
-# your code here!
+#  your code here!
 wn.mainloop()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Tuples Solution 
+###  Tuples Solution 
 
 {% highlight python %}
 {% include classes/24/turtle_tuple_points.py %}
@@ -334,7 +334,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### When To Use Tuples
+###  When To Use Tuples
 
 __In what situations would a tuple be useful?__ &rarr;
 

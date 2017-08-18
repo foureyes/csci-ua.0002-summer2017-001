@@ -3,12 +3,12 @@ layout: slides
 title: Homework #1 
 ---
 <section markdown="block" class="title-slide">
-# Homework #1 (Finally)
+#  Homework #1 (Finally)
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Points
+###  Points
 
 Homework #1 was __18 points__ total.
 
@@ -23,7 +23,7 @@ Homework #1 was __18 points__ total.
 </section>
 
 <section markdown="block">
-### Gimmeh Answers!
+###  Gimmeh Answers!
 
 __lyrics.py__ 
 
@@ -37,7 +37,7 @@ __mad_lib_lyrics.py__
 </section>
 
 <section markdown="block">
-### Gimmeh More Answers!
+###  Gimmeh More Answers!
 
 __exercises.py__
 
@@ -51,7 +51,7 @@ __tree.py__
 </section>
 
 <section markdown="block">
-### Some Meta
+###  Some Meta
 
 * received __28__ out of __34__ assignments
 * (__2__ via __email__, but I won't judge!)
@@ -63,7 +63,7 @@ __tree.py__
 </section>
 
 <section markdown="block">
-### Grading
+###  Grading
 
 * most exercises are going to be around __5 points__ (give or take a couple)
 * by default, you get __2 points__ just for handing something in that has no syntax errors! (nice!)
@@ -71,7 +71,7 @@ __tree.py__
 </section>
 
 <section markdown="block">
-### How Does This Grading Thing Work? 
+###  How Does This Grading Thing Work? 
 
 * our grader, Vincent and I break down the scores for each file prior to grading
 * Vincent goes through all of the assignments on blackboard, as well as the assignments I forward to him via email
@@ -80,7 +80,7 @@ __tree.py__
 </section>
 
 <section markdown="block">
-### OK.  Great, So What Did _You_ Do?
+###  OK.  Great, So What Did _You_ Do?
 
 * I read through Vincent's grades and comments
 * I take a look at the flagged assignments (for example, he noticed that a lot people were confused by lyrics.py)
@@ -90,7 +90,7 @@ __tree.py__
 </section>
 
 <section markdown="block">
-### Homework Policy
+###  Homework Policy
 
 Remember the [posted homework policy](../../#homework); I'm actually following that!
 
@@ -104,7 +104,7 @@ Remember the [posted homework policy](../../#homework); I'm actually following t
 </section>
 
 <section markdown="block">
-### Well, By _Following_, I Mean...
+###  Well, By _Following_, I Mean...
 
 * because of the holidays...
 * and because you're getting acclimated to how this class works...
@@ -113,11 +113,11 @@ I'll accept both __homework one and two without any penalties__ up through __Oct
 </section>
 
 <section markdown="block">
-## Turn In Your Homework!!! (Really)
+##  Turn In Your Homework!!! (Really)
 </section>
 
 <section markdown="block">
-### Some of This Stuff Is Difficult
+###  Some of This Stuff Is Difficult
 
 * __ask lots of questions in class__
 * work with the __tutors__
@@ -127,7 +127,7 @@ I'll accept both __homework one and two without any penalties__ up through __Oct
 </section>
 
 <section markdown="block">
-### A Quick Work on Collaboration
+###  A Quick Work on Collaboration
 
 * by default, the page on [academic integrity](http://www.cs.nyu.edu/webapps/content/academic/undergrad/academic_integrity) says that students are supposed to do all assignment individually, without collaboration
 * I expect that everyone's aware of this
@@ -137,7 +137,7 @@ I'll accept both __homework one and two without any penalties__ up through __Oct
 	* talk through potential solutions; algorithms are hard ([let's go shopping](http://itre.cis.upenn.edu/~myl/languagelog/archives/002892.html))
 </section>
 <section markdown="block">
-### Write Your Own Code!
+###  Write Your Own Code!
 
 With that said, though, __write your own code__
 
@@ -146,7 +146,7 @@ With that said, though, __write your own code__
 </section>
 
 <section markdown="block">
-### Bonus Stage
+###  Bonus Stage
 
 * [this](../../resources/txt/trees.txt)
 * [and this](http://www.catgifpage.com/)
@@ -154,5 +154,5 @@ With that said, though, __write your own code__
 </section>
 
 <section markdown="block">
-## [While We Were Doing That...](while.html)
+##  [While We Were Doing That...](while.html)
 </section>

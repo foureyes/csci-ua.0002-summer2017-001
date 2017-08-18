@@ -5,16 +5,16 @@ title: Boolean Logic
 ---
 
 <section markdown="block" class="title-slide">
-# Boolean Logic
+#  Boolean Logic
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Some Computer Science History...
+##  Some Computer Science History...
 </section>
 
 <section markdown="block">
-### For Context - What's this Boolean Stuff About?
+###  For Context - What's this Boolean Stuff About?
 <aside>It's This Guy...</aside>
 
 <div class="img-container" markdown="block">
@@ -23,7 +23,7 @@ title: Boolean Logic
 </section>
 
 <section markdown="block">
-### George Boole
+###  George Boole
 
 <aside markdown='block'>
 The _Father_ of Computer Science!  SCIENCE!
@@ -35,7 +35,7 @@ The _Father_ of Computer Science!  SCIENCE!
 </section>
 
 <section markdown="block">
-### In Python...
+###  In Python...
 As we talked about in the review, Python has a __bool__ type to represent Boolean values
 
 * True or False
@@ -45,11 +45,11 @@ As we talked about in the review, Python has a __bool__ type to represent Boolea
 </section>
 
 <section markdown="block">
-## Comparison Operators
+##  Comparison Operators
 </section>
 
 <section markdown="block">
-### Comparison Operators
+###  Comparison Operators
 __Can you guess what some of the comparison operators are?  Like I said, you already know one!__ 
 
 There are six comparison operators:
@@ -65,7 +65,7 @@ There are six comparison operators:
 </section>
 
 <section markdown="block">
-### Comparison Operators Continued
+###  Comparison Operators Continued
 * again - these operators always return a bool
 * these operators do what you would expect 
 	* __==__ - returns True if both sides are equal &rarr;
@@ -75,7 +75,7 @@ There are six comparison operators:
 </section>
 
 <section markdown="block">
-### Comparison Operators Have Feelings Too
+###  Comparison Operators Have Feelings Too
 <aside>Just as Sensitive to Type Mismatches as Numeric or String Operators.  Well... At Least Some Are</aside>
 
 __What do you think will happen if we compare 8 >= "four"?__ &rarr;
@@ -93,7 +93,7 @@ TypeError: unorderable types: int() >= str()
 </section>
 
 <section markdown="block">
-### Comparison Operators and Different Types
+###  Comparison Operators and Different Types
 * objects of different types, except different numeric types, are never equal
 	* equals (__==__) will always return False for different types &rarr;
 	* not equals (__!=__) will always return True for different types &rarr;
@@ -103,11 +103,11 @@ TypeError: unorderable types: int() >= str()
 </section>
 
 <section markdown="block">
-## Logical Operators
+##  Logical Operators
 </section>
 
 <section markdown="block">
-### What are Logical Operators?
+###  What are Logical Operators?
 
 __Logical Operators are operators that combine Boolean values.__  
 
@@ -116,7 +116,7 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###  Three Logical Operators:
+###   Three Logical Operators:
 1. __and__ - 
 	* takes two operands, one on each side 
 	* to return True, both sides of the operator must be True &rarr;
@@ -130,7 +130,7 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###  Logical Operators _in Action_
+###   Logical Operators _in Action_
 
 Note that these are all expressions that result in a value that's of type __bool__:
 
@@ -149,7 +149,7 @@ True
 </section>
 
 <section markdown="block">
-### That Can Get Complicated!
+###  That Can Get Complicated!
 
 <aside>Is There a Way to Show All Operands and Results?</aside>
 
@@ -163,7 +163,7 @@ __Yes__.  We'll use __truth tables__ to show what each operator will return.
 </section>
 
 <section markdown="block">
-### Truth Table - AND
+###  Truth Table - AND
 
 __and__ takes two operands.  Each operand can be True or False (or will evaluate to True or False!).  
 
@@ -186,7 +186,7 @@ __Can you guess how many possible combinations there are for these two operands?
 </section>
 
 <section markdown="block">
-### Truth Table - OR
+###  Truth Table - OR
 
 Let's fill out a truth table for __or__! &rarr;
 
@@ -207,7 +207,7 @@ Let's fill out a truth table for __or__! &rarr;
 </section>
 
 <section markdown="block">
-### Truth Table - NOT
+###  Truth Table - NOT
 
 Let's fill out a truth table for __not__! &rarr;
 
@@ -226,7 +226,7 @@ Let's fill out a truth table for __not__! &rarr;
 </section>
 
 <section markdown="block">
-### Let's Evaluate Some Simple Boolean Expressions
+###  Let's Evaluate Some Simple Boolean Expressions
 
 * True and False &rarr;
 * True and not False &rarr;
@@ -238,7 +238,7 @@ Let's fill out a truth table for __not__! &rarr;
 </section>
 
 <section markdown="block">
-### Chaining Operators
+###  Chaining Operators
 
 Boolean, comparison and other operators can be combined to create complex Boolean expressions!  For example:
 
@@ -257,7 +257,7 @@ True
 
 
 <section markdown="block">
-### Order of Operations / Operator Precedence
+###  Order of Operations / Operator Precedence
 The previous summary, but even more _summar-ied_
 
 * parentheses are evaluated first (obv)
@@ -269,7 +269,7 @@ The previous summary, but even more _summar-ied_
 </section>
 
 <section markdown="block">
-### A Quick Note About Boolean Operators and Style
+###  A Quick Note About Boolean Operators and Style
 <aside>Because This is Crazy...</aside>
 {% highlight python %}
 True and True or False and True and 10 * 10 + 10 == 110 and not False
@@ -279,7 +279,7 @@ True and True or False and True and 10 * 10 + 10 == 110 and not False
 </section>
 
 <section markdown="block">
-### An Exercise
+###  An Exercise
 
 __Evaluate the following boolean expression.__ &rarr;
 
@@ -300,7 +300,7 @@ True
 </section>
 
 <section markdown="block">
-### Another One
+###  Another One
 
 __Evaluate the following boolean expression.__ &rarr;
 
@@ -321,7 +321,7 @@ True
 </section>
 
 <section markdown="block">
-### One More Please?
+###  One More Please?
 
 __Evaluate the following boolean expression.__ &rarr;
 {% highlight python %}
@@ -341,7 +341,7 @@ False
 </section>
 
 <section markdown="block">
-### Short Circuit Evaluation
+###  Short Circuit Evaluation
 * if left hand side of boolean decides the outcome, no need to deal with the remainder of expression
 	* saves some processin' time!
 	* for example: `(false and (true and true and true or false))`
@@ -353,7 +353,7 @@ False
 </section>
 
 <section markdown="block">
-### Short Circuit Evaluation Continued
+###  Short Circuit Evaluation Continued
 __Can you think of some comparison or logical operators where short circuit evaluation wouldn't make sense?__
 
 <div class="incremental" markdown="block"> 
@@ -363,7 +363,7 @@ __Can you think of some comparison or logical operators where short circuit eval
 </section>
 
 <section markdown="block">
-### Review
+###  Review
 * comparison operators
 	* ==, !=, >, <, >=, <=
 	* comparing different types
@@ -374,5 +374,5 @@ __Can you think of some comparison or logical operators where short circuit eval
 </section>
 
 <section markdown="block">
-## [If We Feel Like Continuing](if-statements.html)
+##  [If We Feel Like Continuing](if-statements.html)
 </section>

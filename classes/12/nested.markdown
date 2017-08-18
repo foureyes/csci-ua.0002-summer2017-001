@@ -3,12 +3,12 @@ layout: slides
 title: Nested Loops Review 
 ---
 <section markdown="block" class="title-slide">
-# Nested Loops
+#  Nested Loops
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Nested Loops
+###  Nested Loops
 
 A __nested loop__ is just a loop inside the body of another loop.  
 
@@ -18,7 +18,7 @@ A __nested loop__ is just a loop inside the body of another loop.
 </section>
 
 <section markdown="block">
-### A Simple Case
+###  A Simple Case
 
 __How many times does the outer loop run?  For each run of the outer loop, how many times does the inner loop run?  How many times is "You're driving me loopy!" printed out?__ &rarr;
 
@@ -38,7 +38,7 @@ for i in range(5):
 
 
 <section markdown="block">
-### Cheers!
+###  Cheers!
 
 Write a program that asks for how many cheers, and then prints out the appropriate number of cheers. 
 
@@ -60,7 +60,7 @@ How many cheers shall we give?
 </section>
 
 <section markdown="block">
-### Some Questions to Ask...
+###  Some Questions to Ask...
 
 Based on this output...  __What parts are repeated and what kind of loops would you use for each part?__ &rarr;
 
@@ -83,7 +83,7 @@ How many cheers shall we give?
 </section>
 
 <section markdown="block">
-### Some Pseudocode
+###  Some Pseudocode
 
 __In pseudocode, how might we describe this program?__
 
@@ -101,7 +101,7 @@ as long as the number of cheers isn't zero
 </section>
 
 <section markdown="block">
-### A Cheers Implementation
+###  A Cheers Implementation
 
 __Using the output we've seen, implement the cheers program.__ &rarr;
 
@@ -126,7 +126,7 @@ while number_of_cheers > 0:
 </section>
 
 <section markdown="block">
-### Password Generator
+###  Password Generator
 
 Below is the output of a program that generates passwords based on a number that is input by the user. It's similar to the cheers example.
 
@@ -146,7 +146,7 @@ Please enter a pasword length (0 to exit)
 </section>
 
 <section markdown="block">
-### Password Generator
+###  Password Generator
 
 Create a program that generates passwords! The passwords only consist of digits, though...
 
@@ -159,7 +159,7 @@ Create a program that generates passwords! The passwords only consist of digits,
 </section>
 
 <section markdown="block">
-### Password Generator Solution
+###  Password Generator Solution
 
 {% highlight python %}
 {% include classes/09/pwgen.py  %}
@@ -167,7 +167,7 @@ Create a program that generates passwords! The passwords only consist of digits,
 </section>
 
 <section markdown="block">
-### Triangle 
+###  Triangle 
 
 Draw a triangle made of stars by using __nested loops__ to accumulate single characters.  Don't use string multiplication or string formatting. Here's the expected output:
 
@@ -188,7 +188,7 @@ Draw a triangle made of stars by using __nested loops__ to accumulate single cha
 </section>
 
 <section markdown="block">
-### Potential Solution for Triangle
+###  Potential Solution for Triangle
 
 {% highlight python %}
 {% include classes/09/triangle.py %}

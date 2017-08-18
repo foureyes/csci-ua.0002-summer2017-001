@@ -4,13 +4,13 @@ title: Types and Operator Precedence
 ---
 
 <section markdown="block" class="title-slide">
-# Types, Operators, and Precedence
+#  Types, Operators, and Precedence
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Types
+###  Types
 
 __We know about four or five types.  What are they?__
 
@@ -26,7 +26,7 @@ __We know about four or five types.  What are they?__
 </section>
 
 <section markdown="block">
-### Functions
+###  Functions
 
 __What's a function?  We know about seven built-in functions.  What are they?  What values do they expect?  What do they return?__
 
@@ -42,7 +42,7 @@ __What's a function?  We know about seven built-in functions.  What are they?  W
 </section>
 
 <section markdown="block">
-### Types and Operations
+###  Types and Operations
 
 __What are some numeric operations that we've used?__
 
@@ -59,7 +59,7 @@ __What are some numeric operations that we've used?__
 </section>
 
 <section markdown="block">
-### Types and Operations (Continued)
+###  Types and Operations (Continued)
 
 __What are some string operations that we've used?__
 
@@ -70,7 +70,7 @@ __What are some string operations that we've used?__
 </section>
 
 <section markdown="block">
-### Let's Talk About Comparison Operators
+###  Let's Talk About Comparison Operators
 
 __What are the six comparison operators that we learned about, and how do they work with different types?__
 
@@ -86,7 +86,7 @@ __What are the six comparison operators that we learned about, and how do they w
 </section>
 
 <section markdown="block">
-### Let's Talk About Logical Operators
+###  Let's Talk About Logical Operators
 
 __What are the three logical operators that we learned about?  Describe when each would return True.__ &rarr;
 
@@ -98,7 +98,7 @@ __What are the three logical operators that we learned about?  Describe when eac
 </section>
 
 <section markdown="block">
-### What Order Do All of These Operators Go In?
+###  What Order Do All of These Operators Go In?
 
 __So.  With all of these _types_ of operations, what order are they evaluated in?__ &rarr;
 
@@ -114,7 +114,7 @@ __So.  With all of these _types_ of operations, what order are they evaluated in
 </section>
 
 <section markdown="block">
-### Let's Try a Few...
+###  Let's Try a Few...
 
 __What boolean value does the following expression evaluate to?__ &rarr;
 {% highlight python %}
@@ -139,7 +139,7 @@ True
 </section>
 
 <section markdown="block">
-### Logical Operators and Their Operands
+###  Logical Operators and Their Operands
 
 __How many operands does each logical operator take... what type is each operand?__ &rarr;
 
@@ -151,7 +151,7 @@ __How many operands does each logical operator take... what type is each operand
 </section>
 
 <section markdown="block">
-### Watch Out for This!
+###  Watch Out for This!
 
 __Let's write a boolean expression that checks if the variable, _answer_, is equal to "yes" or "yeah":__ &rarr;
 
@@ -163,7 +163,7 @@ answer == "yes" or answer == "yeah"
 Note that the following __won't work__!
 
 {% highlight python %}
-# the logical operator, or, tries to treat "yeah" as a bool
+#  the logical operator, or, tries to treat "yeah" as a bool
 answer == "yes" or "yeah"
 {% endhighlight %}
 
@@ -182,7 +182,7 @@ False
 
 <section markdown="block">
 
-### Conditionals
+###  Conditionals
 
 * syntax - if, boolean expression, colon, indented body
 * note that the end result of comparisons... are essentially the same as bare literal
@@ -198,5 +198,5 @@ if True:
 </section>
 
 <section markdown="block">
-## [How to (Un)Complicate Things With If Statements](if-statements-advanced.html)
+##  [How to (Un)Complicate Things With If Statements](if-statements-advanced.html)
 </section>

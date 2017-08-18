@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 {% comment %}
 * Homework
@@ -8,7 +8,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 {% comment %}
 * [Slides](classes/01/intro.html)
@@ -17,7 +17,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 {% comment %}
 Readings
@@ -33,7 +33,7 @@ Assignments
 {% comment %}
 <a name="class2"></a>
 
-###Slides
+### Slides
 * [Review](classes/02/review.html)
 * [Hello](classes/02/hello.html) (maybe also revisit making errors from the previous class: [Reading and Writing Programs with IDLE](classes/01/reading-writing-programs.html#11.0))
 * [Values and Types](classes/02/values-and-types.html)
@@ -42,16 +42,16 @@ Assignments
 * [Design, Input, Processing, and Output](classes/02/design-input-output.html)
 * [Homework #1](#homework1)
 
-###Readings
+### Readings
 * {{site.bookq}} - Chapter 2 (Input, Processing, Output)
 * (optional) [{{site.bookt}} - Chapter 2](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
 
-### Vocabulary
+###  Vocabulary
 (optional) See [the glossary](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html#glossary) in {{ site.bookt}}, Chapter 2.
 
 <a name="homework1"></a>
 
-### Homework #1
+###  Homework #1
 
 * Due Thursday, February __5th__, before 11PM 
 * Submit __via NYU Classes__

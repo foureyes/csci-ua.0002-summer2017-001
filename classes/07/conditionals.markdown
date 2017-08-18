@@ -3,12 +3,12 @@ layout: slides
 title: If Statements - Advanced 
 ---
 <section markdown="block" class="title-slide">
-# Truthiness
+#  Truthiness
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Truthiness
+###  Truthiness
 
 See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-value-testing) on the _intrinsic_ boolean value of various types.  The following values are considered false:
 
@@ -20,7 +20,7 @@ See this [crazy chart](http://docs.python.org/py3k/library/stdtypes.html#truth-v
 </section>
 
 <section markdown="block">
-### Truthiness Examples
+###  Truthiness Examples
 
 {% highlight python %}
 a = ""
@@ -39,18 +39,18 @@ if a:
 </section>
 
 <section markdown="block">
-### Another Note About Style
+###  Another Note About Style
 * remember idioms?
 * [testing for truth values, python idioms](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html#testing-for-truth-values)
 * more elegant to test intrinsic truth values than using equality operator
 {% highlight python %}
 b = True
-# instead of if b == True
+#  instead of if b == True
 if b:
 	print("b")
 
 s = "catz!"
-# to test if the string exists
+#  to test if the string exists
 if s:
 	print(s)
 
@@ -58,5 +58,5 @@ if s:
 </section>
 
 <section markdown="block">
-## [And Finally... Loops](while.html)
+##  [And Finally... Loops](while.html)
 </section>

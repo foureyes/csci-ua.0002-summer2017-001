@@ -3,12 +3,12 @@ layout: slides
 title: About Class #24 
 ---
 <section markdown="block" class="title-slide">
-# About Class #24
+#  About Class #24
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * [Exceptions](exceptions.html)
 * [Review File I/O](files.html)
@@ -17,7 +17,7 @@ title: About Class #24
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * __homework #10__ is due next Tuesday
 * grades should be posted Friday evening / Saturday morning

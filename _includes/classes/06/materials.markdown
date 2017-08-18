@@ -1,12 +1,12 @@
 <article class="due" markdown="block">
-#### Due on Wednesday before Class
+####  Due on Wednesday before Class
 
 * Homework #2
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 <!--
 * [Slides](classes/01/intro.html)
@@ -15,7 +15,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Warm-up
 
@@ -43,14 +43,14 @@ Assignments
 <!--
 <a name="class6"></a>
 
-###Slides
+### Slides
 * [About Class #6](classes/06/meta.html)
 * [Types, Operators, Precedence](classes/06/types-operators-precedence.html)
 * [If Statements - Advanced](classes/06/if-statements-advanced.html)
 * [Preview Built-In Modules](classes/06/built-in-modules.html)
 * [String Formatting (Optional)](classes/06/string-formatting.html)
 
-### Readings
+###  Readings
 __{{ site.bookq }}__
 
 * Chapter 3 (Decision Structures and Boolean Logic) 
@@ -61,12 +61,12 @@ __{{ site.bookt }}__
 
 * [Chapter 5](http://openbookproject.net/thinkcs/python/english3e/) (but ignoring functions/turtle)
 
-### Vocabulary
+###  Vocabulary
 See [the glossary](http://openbookproject.net/thinkcs/python/english3e/conditionals#glossary) in {{ site.bookt }}, Chapter 5.
 
 <a name="homework3"></a>
 
-### Homework #3
+###  Homework #3
 
 * Due __February 19th__ (any submission before 11PM is on-time)
 * Submit all files via __NYU Classes__

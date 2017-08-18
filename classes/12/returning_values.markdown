@@ -3,16 +3,16 @@ layout: slides
 title: Returning Values 
 ---
 <section markdown="block" class="title-slide">
-# Creating Functions 
+#  Creating Functions 
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## First, Let's Make Sure We're Speaking the Same Language!
+##  First, Let's Make Sure We're Speaking the Same Language!
 </section>
 
 <section markdown="block">
-### A Function (Again)
+###  A Function (Again)
 
 __What's a function? &rarr;__
 
@@ -26,7 +26,7 @@ __What's a function? &rarr;__
 </section>
 
 <section markdown="block">
-### Examples
+###  Examples
 
 __What are some examples of built-in functions or functions in modules? &rarr;__
 
@@ -42,7 +42,7 @@ __What are some examples of built-in functions or functions in modules? &rarr;__
 </section>
 
 <section markdown="block">
-### Calling a Function
+###  Calling a Function
 
 __Define what it means to "call" a function.  How do we call a function?  &rarr;__
 
@@ -59,7 +59,7 @@ Syntactically, we call a function by writing &rarr;:
 </section>
 
 <section markdown="block">
-### Arguments 
+###  Arguments 
 
 Based on the definitions of __function__ and __calling a function__, __how can we define argument? &rarr;__
 
@@ -73,7 +73,7 @@ Based on the definitions of __function__ and __calling a function__, __how can w
 
 
 <section markdown="block">
-### Arguments / Parameters
+###  Arguments / Parameters
 What's the difference between an __argument__ and a __parameter__?
 
 * __argument__: value provided to a function when it's called
@@ -83,7 +83,7 @@ What's the difference between an __argument__ and a __parameter__?
 
 
 <section markdown="block">
-### Functions That Return Values
+###  Functions That Return Values
 
 We've used some functions that return values, and we looked at them in an earlier set of slides.  __What type of values do the following functions give back? &rarr;__
 
@@ -99,7 +99,7 @@ We've used some functions that return values, and we looked at them in an earlie
 </section>
 
 <section markdown="block">
-### We Can Define Our Own Functions!
+###  We Can Define Our Own Functions!
 <aside>Yes, Actually.</aside>
 
 {% highlight python %}
@@ -119,7 +119,7 @@ __What's the name of this function?  How many arguments do you think it takes?  
 
 
 <section markdown="block">
-### Defining a Function - Syntax
+###  Defining a Function - Syntax
 
 __Based on our examples, let's figure out how we define a function:__
 
@@ -138,7 +138,7 @@ def <function_name>(<zero_or_more_parameters>):
 </section>
 
 <section markdown="block">
-### The Function Header
+###  The Function Header
 
 1. the keyword, __def__ (this never changes)
 2. followed by the function's name
@@ -152,7 +152,7 @@ def <function_name>(<zero_or_more_parameters>):
 </section>
 
 <section markdown="block">
-### Parameters
+###  Parameters
 
 A __parameter__ is "a name used inside a function to _refer_ to the value which was passed to it as an argument".
 
@@ -162,7 +162,7 @@ A __parameter__ is "a name used inside a function to _refer_ to the value which 
 </section>
 
 <section markdown="block">
-### Function Body
+###  Function Body
 
 The __body__ of a function:
 
@@ -175,7 +175,7 @@ The __body__ of a function:
 </section>
 
 <section markdown="block">
-### ...And Back to Parameters
+###  ...And Back to Parameters
 
 Let's see what that means. Whatever values you pass in to the function, you can now refer to it within the body using the parameter's name (based on the position of the argument).
 
@@ -189,7 +189,7 @@ greet_more_input("hello", 5)
 </section>
 
 <section markdown="block">
-### Parameters Example 1:
+###  Parameters Example 1:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -208,7 +208,7 @@ greet_more_input("hola", 23)
 </section>
 
 <section markdown="block">
-### Parameters Example 2:
+###  Parameters Example 2:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -227,7 +227,7 @@ print(greet_more_input("hey " + "there", math.sqrt(25)))
 </section>
 
 <section markdown="block">
-### Parameters Example 3:
+###  Parameters Example 3:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -248,13 +248,13 @@ greet_more_input(num, greeting)
 </section>
 
 <section markdown="block">
-### Let's Take a Closer Look
+###  Let's Take a Closer Look
 
 {% highlight python %}
-#                    num       greeting
-#                      |        |
-#                    "hi"      20
-#                      |        |
+#                     num       greeting
+#                       |        |
+#                     "hi"      20
+#                       |        |
 def greet_more_input(greeting, num):
 	s = greeting * num
 	return s
@@ -266,7 +266,7 @@ print(greet_more_input(num, greeting))
 </section>
 
 <section markdown="block">
-### Function Definition
+###  Function Definition
 
 The entire block of code you wrote, the header and the body of the function, is called the __function definition__.  Here are a few things to note about your function definition:
 
@@ -279,7 +279,7 @@ The entire block of code you wrote, the header and the body of the function, is 
 </section>
 
 <section markdown="block">
-### Function Definition Example 1:
+###  Function Definition Example 1:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -297,7 +297,7 @@ hello
 </section>
 
 <section markdown="block">
-### Function Definition Example 2:
+###  Function Definition Example 2:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -307,13 +307,13 @@ def greet():
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# nothing (the function was never called after it was defined)
+#  nothing (the function was never called after it was defined)
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Function Definition Example 3:
+###  Function Definition Example 3:
 
 __If this is the only code in your program, and you run it, what will be printed to the screen?  Something, nothing, or an error? &rarr;__
 {% highlight python %}
@@ -325,14 +325,14 @@ def greet():
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# we called the function before defining it
+#  we called the function before defining it
 NameError: name 'greet' is not defined 
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### Program Flow
+###  Program Flow
 
 What we've seen so far:
 
@@ -343,7 +343,7 @@ What we've seen so far:
 </section>
 
 <section markdown="block">
-### Program Flow Coninued
+###  Program Flow Coninued
 
 Defining our own functions means:
 
@@ -356,7 +356,7 @@ Defining our own functions means:
 </section>
 
 <section markdown="block">
-### Program Flow Example
+###  Program Flow Example
 
 __Let's walk through this program line-by-line &rarr;__
 
@@ -375,7 +375,7 @@ print(exclaim("howdy", 10))
 </section>
 
 <section markdown="block">
-### Using a Main Function
+###  Using a Main Function
 
 Sometimes you'll see a function called main() within a program
 
@@ -391,7 +391,7 @@ Sometimes you'll see a function called main() within a program
 
 
 <section markdown="block">
-### Returning Values
+###  Returning Values
 
 * we can create _fruitful_ functions, that is... functions that return a value
 * define a function using __def__, and just use the keyword __return__, followed by the value that you want to give back
@@ -405,7 +405,7 @@ def greet(greeting, num):
 </section>
 
 <section markdown="block">
-### Without Return (None)
+###  Without Return (None)
 
 In this example, we do not have a return statement. This is still syntactically valid, but...
 
@@ -422,7 +422,7 @@ __None__ is a value that means the absence of a value!
 </section>
 
 <section markdown="block">
-### So, Now What?
+###  So, Now What?
 
 Now that you have a function that returns a value, you can use that function wherever you would use that value.
 
@@ -431,14 +431,14 @@ def greet(greeting, num):
 	s = greeting * num
 	return s
 
-# using the return value of greet as an argument to input!
+#  using the return value of greet as an argument to input!
 response = input(greet("hi", 3))
 print(response)
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### The return Statement
+###  The return Statement
 
 * the __return__ immediately stops the execution of a function
 * ...and returns the value that follows it
@@ -447,7 +447,7 @@ print(response)
 </section>
 
 <section markdown="block">
-### Some Examples of the Return Statement
+###  Some Examples of the Return Statement
 
 These functions are contrived examples of what you can do with return.  __What type and value do they return? &rarr;__
 
@@ -470,7 +470,7 @@ def baz():
 </section>
 
 <section markdown="block">
-### Let's Try Creating a Function That Returns a Value
+###  Let's Try Creating a Function That Returns a Value
 
 __Write a function that returns the area of a circle (&pi;r&sup2;)when given a radius, r.&rarr;__
 
@@ -485,7 +485,7 @@ def area(r):
 </section>
 
 <section markdown="block">
-### Area, Defined Again
+###  Area, Defined Again
 
 Another way to define our area function:
 
@@ -500,7 +500,7 @@ def area(r):
 </section>
 
 <section markdown="block">
-### Print vs Return
+###  Print vs Return
 
 __What's the difference between printing in a function and returning a value from a function? &rarr;__
 
@@ -516,7 +516,7 @@ def greet(greeting, num):
 </section>
 
 <section markdown="block">
-### Print vs Return Continued
+###  Print vs Return Continued
 
 What's the difference between printing in a function and returning a value from a function?  
 
@@ -535,7 +535,7 @@ def greet(greeting, num):
 
 
 <section markdown="block">
-### Stopping Execution
+###  Stopping Execution
 
 The return statement stops execution of your function immediately.  __What gets printed in the following example? &rarr;__
 
@@ -554,7 +554,7 @@ foo()
 </section>
 
 <section markdown="block">
-### Another Example...
+###  Another Example...
 
 Stopping execution again...
 
@@ -572,7 +572,7 @@ before return
 </section>
 
 <section markdown="block">
-### Multiple Return Statements
+###  Multiple Return Statements
 
 You can have multiple return statements in your function!  __Write a function that calculates absolute value. &rarr;__
 
@@ -588,7 +588,7 @@ def absolute_value(x):
 </section>
 
 <section markdown="block">
-### Some Exercises
+###  Some Exercises
 
 * create a function that returns the largest factor of a number that isn't the number itself
 * create two funcions: is_even and is_odd... 

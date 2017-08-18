@@ -3,12 +3,12 @@ layout: slides
 title: Strings Review 
 ---
 <section markdown="block" class="title-slide">
-# Strings - Review
+#  Strings - Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Indexing
+###  Indexing
 
 __What is the output of the following code? &rarr;__
 
@@ -45,7 +45,7 @@ print(question[3]) # --> q
 </section>
 
 <section markdown="block">
-### Summary for Indexing
+###  Summary for Indexing
 
 * an __index__ is the numeric position of an element within a collection of elements
 * the __first character__ in a string is at __index 0__
@@ -57,7 +57,7 @@ print(question[3]) # --> q
 </section>
 
 <section markdown="block">
-### Mutability
+###  Mutability
 
 __What is the output of the following code? &rarr;__
 
@@ -79,12 +79,12 @@ TypeError: 'str' object does not support item assignment
 </section>
 
 <section markdown="block">
-## Strings are Immutable
+##  Strings are Immutable
 </section>
 
 
 <section markdown="block">
-### Looping Over Each Character
+###  Looping Over Each Character
 
 __Write a function that takes a string and returns a new string with all of the spaces taken out.__ &rarr;
 
@@ -97,13 +97,13 @@ __Write a function that takes a string and returns a new string with all of the 
 {% highlight python %}
 s = remove_all_spaces("I want to go to there")
 print(s)
-# should give back: 
-# Iwanttogotothere
+#  should give back: 
+#  Iwanttogotothere
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Looping Over Each Character Continued
+###  Looping Over Each Character Continued
 
 {% highlight python %}
 def remove_space(s):
@@ -118,14 +118,14 @@ assert "Iwanttogotothere" == remove_space("I want to go to there"), "test remova
 </section>
 
 <section markdown="block">
-## You can go over every character in a string with a for loop!
+##  You can go over every character in a string with a for loop!
 </section>
 
 <div class="incremental" markdown="block">
 </div>
 
 <section markdown="block">
-### Looping Over Strings Summary / Syntax
+###  Looping Over Strings Summary / Syntax
 
 * __for loops allow us to iterate over every character in a string__  
 * it's similar to looping over a sequence of #'s
@@ -135,13 +135,13 @@ assert "Iwanttogotothere" == remove_space("I want to go to there"), "test remova
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 Write the slice to pick out the following substring from the original string:
 
 {% highlight python %}
 s = "chew"
-#    0123
+#     0123
 {% endhighlight %}
 
 1. hew (2 ways)
@@ -166,7 +166,7 @@ s[:]
 
 
 <section markdown="block">
-### Slicing Syntax
+###  Slicing Syntax
 
 
 {% highlight pycon %}
@@ -179,7 +179,7 @@ some_long_string[m:n]
 
 
 <section markdown="block">
-### Slicing Shortcuts
+###  Slicing Shortcuts
 
 * leaving out the first index (before the colon - m) starts at the beginning of the string
 * leaving out the second index (after the colon - n), ends at the end of the string 
@@ -196,7 +196,7 @@ some_long_string[m:n]
 </section>
 
 <section markdown="block">
-### In and Not In 
+###  In and Not In 
 
 __What is the output of the following code?__ &rarr;
 
@@ -220,7 +220,7 @@ print("cat" not in "work") # Tru
 </section>
 
 <section markdown="block">
-###  In / Not In 
+###   In / Not In 
 
 Use the __in__ operator!
 
@@ -235,7 +235,7 @@ Use the __in__ operator!
 
 
 <section markdown="block">
-###  In / Not In Notes
+###   In / Not In Notes
 
 Some other things to note:
 
@@ -255,7 +255,7 @@ True
 
 
 <section markdown="block">
-### Functions vs Methods
+###  Functions vs Methods
 
 __What's the difference between a function and a method?__ &rarr;
 
@@ -267,7 +267,7 @@ __What's the difference between a function and a method?__ &rarr;
 </section>
 
 <section markdown="block">
-### String Methods
+###  String Methods
 
 __Name as many string methods as you can...__ &rarr;
 
@@ -279,7 +279,7 @@ __Name as many string methods as you can...__ &rarr;
 </section>
 
 <section markdown="block">
-### String Methods
+###  String Methods
 
 1. __upper__() 
 2. __lower__()
@@ -293,7 +293,7 @@ __Name as many string methods as you can...__ &rarr;
 </section>
 
 <section markdown="block">
-### upper() and lower()
+###  upper() and lower()
 
 __upper__() and __lower__() return the string that the method was called on in either all uppercase or all lowercase.  __What would the following print out? &rarr;__
 
@@ -311,7 +311,7 @@ this should be lowercase
 </section>
 
 <section markdown="block">
-### isdigit() and isalpha()
+###  isdigit() and isalpha()
 
 __isdigit__() and __isalpha__() test whether a string is only numbers or letters (both return False if empty string).  __What would the following print out? &rarr;__
 
@@ -341,7 +341,7 @@ False
 
 
 <section markdown="block">
-### find()
+###  find()
 
 __find__() returns the first index where the argument (a character or substring) is found.  It returns -1 if the substring is not in the original string.
 
@@ -361,7 +361,7 @@ print("hello".find("lo"))
 </section>
 
 <section markdown="block">
-### strip()
+###  strip()
 
 __strip__() removes leading and trailing whitespace (it can also remove other leading and trailing characters).  What do you think this results 
 
@@ -377,7 +377,7 @@ spaces all around
 </section>
 
 <section markdown="block">
-### format()
+###  format()
 
 Format is like the string formatting operator, but possibly easier?! 
 
@@ -395,7 +395,7 @@ Format is like the string formatting operator, but possibly easier?!
 </section>
 
 <section markdown="block">
-### format() results
+###  format() results
 
 {% highlight python %}
 twenty elephants
@@ -407,7 +407,7 @@ twenty elephants
 </section>
 
 <section markdown="block">
-### isupper() and islower()
+###  isupper() and islower()
 
 __isupper__() and __islower__() return True if the string that is called on is the case specified.  __What does the following output?__ &rarr;
 
@@ -425,7 +425,7 @@ True
 </section>
 
 <section markdown="block">
-### More About Mutability...
+###  More About Mutability...
 
 String methods can't change the string object that they're called on.  __For example... what does the following print out?__ &rarr;
 
@@ -445,13 +445,13 @@ BEEP
 </section>
 
 <section markdown="block">
-### Strings are Immutable!
+###  Strings are Immutable!
 
 __String methods can't change the string object that they're called on.  Instead, they usually just give back a new string.__
 </section>
 
 <section markdown="block">
-### String Functions
+###  String Functions
 
 __Name as many built-in string functions as you can.  What do they do, what are their parameters, and what do they return?__ &rarr;
 

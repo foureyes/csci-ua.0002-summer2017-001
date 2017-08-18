@@ -4,12 +4,12 @@ title: String Formatting
 ---
 
 <section markdown="block" class="title-slide">
-# String Formatting
+#  String Formatting
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Putting Strings Together
+###  Putting Strings Together
 
 __We've already learned one way to put together strings. What is it? &rarr;__
 
@@ -20,7 +20,7 @@ __We've already learned one way to put together strings. What is it? &rarr;__
 </section>
 
 <section markdown="block">
-### There's Also String Formatting
+###  There's Also String Formatting
 
 __String formatting__ allows you to put placeholders in your string where values should go.  
 
@@ -36,7 +36,7 @@ print("this is a %s" % (s))
 </section>
 
 <section markdown="block">
-### Multiple Values
+###  Multiple Values
 
 * more than one %s in the string
 * each substitute value separated by comma
@@ -51,16 +51,16 @@ print(lyrics % (s1, s2))
 </section>
 
 <section markdown="block">
-### String Formatting
+###  String Formatting
 __What was it again?__
 
 <div class="incremental" markdown="block">
 Allowing placeholders in a string to accommodate variable / value substitution.
 
 {% highlight python %}
-# note the use of variables... 
-# string formatting doesn't have to consist of string literals!
-# values don't have to be strings!?
+#  note the use of variables... 
+#  string formatting doesn't have to consist of string literals!
+#  values don't have to be strings!?
 greeting = "Hi.  My name is %s and I have %s %s"
 name = "Joe"
 number_of_pets = 314
@@ -72,7 +72,7 @@ print(result)
 </section>
 
 <section markdown="block">
-### A Closer Look at String Formatting
+###  A Closer Look at String Formatting
 <aside>What just happened there?</aside>
 
 * we passed in a non-string type, and it didn't complain
@@ -85,7 +85,7 @@ print(result)
 </section>
 
 <section markdown="block">
-### When to Use String Formatting
+###  When to Use String Formatting
 * less _cumbersome_ than string concatenation
 * less error prone!  __why?__
 * however, it can get complicated
@@ -96,7 +96,7 @@ print(result)
 </section>
 
 <section markdown="block">
-### So, What Does print() Do?
+###  So, What Does print() Do?
 Both __string concatenation__ and __string formatting__ evaluate to a value - specifically a string!  That means:
 
 * you can assign it to a variable, etc!
@@ -110,7 +110,7 @@ As for print()
 </section>
 
 <section markdown="block">
-### Greetings (Revisited)
+###  Greetings (Revisited)
 __Write a program that asks for the user's name.  The program will print out "Hello (name)" using string formatting.  &rarr;__
 
 {% highlight bash %}
@@ -128,7 +128,7 @@ print("Hello %s" % (name))
 </section>
 
 <section markdown="block">
-### And Mistakes Were Made
+###  And Mistakes Were Made
 * string concatenation
 	* adding a numeric type (we saw this earlier) &rarr;
 	* missing quotes, missing plus symbol, etc.  &rarr;
@@ -138,5 +138,5 @@ print("Hello %s" % (name))
 </section>
 
 <section markdown="block">
-## [Built-In Modules In Depth!](modules.html)
+##  [Built-In Modules In Depth!](modules.html)
 </section>

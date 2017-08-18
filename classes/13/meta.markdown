@@ -3,13 +3,13 @@ layout: slides
 title: About Class #14 
 ---
 <section markdown="block" class="title-slide">
-# About Class #14
+#  About Class #14
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Topics
+###  Topics
 
 * testing and documentation
 * scope
@@ -20,7 +20,7 @@ title: About Class #14
 
 {% comment %}
 <section markdown="block">
-### Midterms
+###  Midterms
 
 Grades should be posted by next Monday
 
@@ -30,7 +30,7 @@ Grades should be posted by next Monday
 </section>
 
 <section markdown="block">
-### Homework
+###  Homework
 
 * homework #5 is due on Sunday 
 * (only 12 hour grace period)
@@ -41,7 +41,7 @@ Grades should be posted by next Monday
 
 {% comment %}
 <section markdown="block">
-### Homework #3 Comments
+###  Homework #3 Comments
 
 * [tip.py](../../homework/hw3/tip.py), [tip.py solution](../../resources/code/hw3/tip.py) 
 	* handling exactly 6 - consecutive ifs vs if / else
@@ -55,7 +55,7 @@ Grades should be posted by next Monday
 </section>
 
 <section markdown="block">
-### Homework #4 Comments
+###  Homework #4 Comments
 
 * [dice.py](../../homework/hw4/dice.py), [dice.py solution](../../resources/code/hw4/dice.py) 
 	* int or integer division instead of round

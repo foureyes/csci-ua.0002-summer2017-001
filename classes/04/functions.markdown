@@ -4,12 +4,12 @@ title: Functions
 ---
 
 <section markdown="block" class="title-slide">
-# A (Not So) Quick Peek at Making Our Own Functions
+#  A (Not So) Quick Peek at Making Our Own Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Functions
+###  Functions
 
 __What's a function (again)?__ &rarr;
 
@@ -19,7 +19,7 @@ A __function__ is a named sequence of statements that performs a specific task o
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 __What are some built-in functions that we just learned about?__ &rarr;
 
@@ -34,7 +34,7 @@ __What are some built-in functions that we just learned about?__ &rarr;
 </section>
 
 <section markdown="block">
-### Our Very Own Functions!
+###  Our Very Own Functions!
 
 * we can actually create our own functions
 * that means:
@@ -44,7 +44,7 @@ __What are some built-in functions that we just learned about?__ &rarr;
 </section>
 
 <section markdown="block">
-### Motivation for Creating Functions
+###  Motivation for Creating Functions
 
 __Why would the ability to create our own functions be useful?__ &rarr;
 
@@ -59,22 +59,22 @@ __Why would the ability to create our own functions be useful?__ &rarr;
 </section>
 
 <section markdown="block">
-### Just a Peek
+###  Just a Peek
 
 * we'll only cover enough about functions to be able to write some simple ones (they won't return values quite yet!)
 * we'll revisit functions _in-depth_ after the first midterm (early March)
 </section>
 
 <section markdown="block">
-### Defining a Function
+###  Defining a Function
 
 {% highlight python %}
-# without parameters (inputs)
+#  without parameters (inputs)
 def the_name_of_your_function():
 	# some code
 	print("do some useful stuff")
 
-# with parameters (inputs)
+#  with parameters (inputs)
 def the_name_of_your_function(parameter_1, paramter_2):
 	# some code
 	print("do some useful stuff with parameter_1 and parameter_2")
@@ -82,7 +82,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 </section>
 
 <section markdown="block">
-### Defining a Function Continued
+###  Defining a Function Continued
 
 1. a function definition always starts with the __reserved__ word, __def__ (__the function header__)
 2. ... followed by the name of your function
@@ -96,7 +96,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 </section>
 
 <section markdown="block">
-### What's This About an Indented Block?
+###  What's This About an Indented Block?
 
 * remember - in Python, __whitespace characters__ (such as space, tabs, newlines, etc.) are __significant__
 * __consecutive lines of code__ can be grouped together based on __indentation__
@@ -105,7 +105,7 @@ def the_name_of_your_function(parameter_1, paramter_2):
 </section>
 
 <section markdown="block">
-### An Indented Block for the Function Body
+###  An Indented Block for the Function Body
 
 {% highlight python %}
 def the_name_of_your_function(parameter_1, paramter_2):
@@ -113,13 +113,13 @@ def the_name_of_your_function(parameter_1, paramter_2):
 	print("something")
 	print("another thing")
 
-# outside of the function
+#  outside of the function
 print("and another thing")
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Let's Try Creating a Function!
+###  Let's Try Creating a Function!
 
 __Write a function called say_multilingual_meow:__ &rarr;
 
@@ -140,7 +140,7 @@ def say_multilingual_meow():
 </section>
 
 <section markdown="block">
-### Some Terminology
+###  Some Terminology
 
 
 __function definition__ - all of the code for a function
@@ -161,7 +161,7 @@ def say_multilingual_meow():
 </section>
 
 <section markdown="block">
-### Calling Your Function
+###  Calling Your Function
 
 So... now that you have a shiny new function, __how would you call it?__ &rarr;
 
@@ -186,7 +186,7 @@ say_multilingual_meow()
 
 
 <section markdown="block">
-### Let's See How This All Works!
+###  Let's See How This All Works!
 
 In one file, write the function definition and function call from the previous slides.  
 
@@ -215,7 +215,7 @@ done!
 </section>
 
 <section markdown="block">
-### Calling Your Function Continued
+###  Calling Your Function Continued
 
 So... [what actually happened there](http://www.pythontutor.com/visualize.html#code=def+say_multilingual_meow()%3A%0A%09japanese_meow+%3D+%22nyan%22%0A%09english_meow+%3D+%22meow%22%0A%09print(japanese_meow)%0A%09print(english_meow)%0A%0Asay_multilingual_meow()%0Aprint(%22done!%22)&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0)? &rarr;
 
@@ -237,7 +237,7 @@ print("done!")
 </section>
 
 <section markdown="block">
-### Before and After the Function Call
+###  Before and After the Function Call
 
 __What does this program output?__ &rarr;
 
@@ -257,7 +257,7 @@ print('woof')
 </section>
 
 <section markdown="block">
-### Before and After the Function Call... Output
+###  Before and After the Function Call... Output
 
 {% highlight python %}
 cat sounds:
@@ -269,7 +269,7 @@ woof
 </section>
 
 <section markdown="block">
-### Just the Definitions, Please!
+###  Just the Definitions, Please!
 
 Let's look at the same program, but without the function __call__.  __What do you think the output of this program will be if the function definition is the only code present in your program?__ &rarr;
 {% highlight python %}
@@ -290,7 +290,7 @@ def say_multilingual_meow():
 </section>
 
 <section markdown="block">
-### Just the Calls, Please!
+###  Just the Calls, Please!
 
 What about this version of the program (again, this is the only code in the program)? __What do you think the output will be?__ &rarr;
 
@@ -313,7 +313,7 @@ __A function has to be defined before it can be used.__
 </section>
 
 <section markdown="block">
-### Multiple Function Definitions
+###  Multiple Function Definitions
 
 You can define more than one function in your program!
 
@@ -327,7 +327,7 @@ def my_second_function():
 </section>
 
 <section markdown="block">
-### Functions in Functions
+###  Functions in Functions
 
 In fact, you can use a function that you've already defined in another function that you're creating.  __What do you think the output of this program will be?__ &rarr;
 
@@ -351,7 +351,7 @@ moo
 </section>
 
 <section markdown="block">
-### Functions in Functions Continued
+###  Functions in Functions Continued
 
 Notice that in the previous code...
 
@@ -371,7 +371,7 @@ main()
 </section>
 
 <section markdown="block">
-### "Local" Variables
+###  "Local" Variables
 
 * a __local__ variable is a variable created inside a function's definition
 * another way of saying this is: all of the variables in your function definition are __local__ to that function
@@ -383,7 +383,7 @@ main()
 </section>
 
 <section markdown="block">
-### "Local" Variables Continued
+###  "Local" Variables Continued
 
 
 {% highlight python %}
@@ -403,7 +403,7 @@ __a__ is within the __scope__ of my\_first\_function and __b__ is within the __s
 </section>
 
 <section markdown="block">
-### "Local" Variables Continued Some More
+###  "Local" Variables Continued Some More
 
 In fact... because variables defined within a function are local, using the variable name in two different functions doesn't cause any errors, and nothing gets overwritten. __What will this program output?__ &rarr;
 
@@ -426,13 +426,13 @@ my_first_function()
 </section>
 
 <section markdown="block">
-## A Main Function... 
+##  A Main Function... 
 
 <aside>A common use for defining functions is creating a single function, called main,  that contains your program's main line of logic</aside>
 </section>
 
 <section markdown="block">
-### Defining a Main Function
+###  Defining a Main Function
 
 * it is common practice to have the entirety of your program in a single function called main
 * with other additional functions defined outside as well
@@ -448,19 +448,19 @@ main()
 </section>
 
 <section markdown="block">
-### Main Function Continued
+###  Main Function Continued
 
 For example, these two programs are equivalent:
 
 {% highlight python %}
-# version 1
+#  version 1
 print("About to do stuff")
 print("Doing stuff")
 print("Done")
 {% endhighlight %}
 
 {% highlight python %}
-# version 2
+#  version 2
 def main():
 	print("About to do stuff")
 	print("Doing stuff")
@@ -471,7 +471,7 @@ main()
 </section>
 
 <section markdown="block">
-### Passing Data Into a Function
+###  Passing Data Into a Function
 
 All of the built-in functions that we've seen so far have values passed in to them:
 
@@ -486,14 +486,14 @@ So far, the functions that we've created __don't take any input__...
 </section>
 
 <section markdown="block">
-### Passing Data Into a Function Continued
+###  Passing Data Into a Function Continued
 
 Inputs to a function are defined by specifying the expected inputs between the parentheses 
 
 {% highlight python %}
 
-# this function expects 2 inputs when called:
-# parameter_1 and parameter_2
+#  this function expects 2 inputs when called:
+#  parameter_1 and parameter_2
 def name_of_function(parameter_1, parameter_2):
 	# do stuff with parameter_1 and parameter_2
 {% endhighlight %}
@@ -503,7 +503,7 @@ Note: parameters, just like __local__ variables, can only be accessed within the
 </section>
 
 <section markdown="block">
-### Parameters and Arguments Definitions
+###  Parameters and Arguments Definitions
 
 * a __parameter__ - is a variable that receives an argument that is passed into a function
 * __argument__ - a piece of data that is passed into a function
@@ -511,13 +511,13 @@ Note: parameters, just like __local__ variables, can only be accessed within the
 </section>
 
 <section markdown="block">
-### Parameters and Arguments
+###  Parameters and Arguments
 
 * the arguments that you pass into a function can be referenced within that function's body using the parameter's name 
 * this is __based on the position of the parameter__ and the __order that the arguments are passed in__ to the function call
 
 {% highlight python %}
-# this function has two parameters: greeting and num
+#  this function has two parameters: greeting and num
 def greet_more_input(greeting, num):
 	# that are used in the body
 	s = greeting * num
@@ -528,7 +528,7 @@ greet_more_input("hello", 5)
 </section>
 
 <section markdown="block">
-### Um.  What?
+###  Um.  What?
 
 The __position of the arguments__ in a function call __determine which parameters the arguments are bound to__.  In the [program below](http://www.pythontutor.com/visualize.html#code=%23++++++++++++++++++++++arguments%0A%23++++++++++++++++++++%22hello%22++++5%0A%23++++++++++++++++++++++%7C++++++++%7C%0Adef+greet_more_input(greeting,+num)%3A%0A++++%23+argument+values+are+now+bound+to+the+paramters,+greeting+and+num!%0A++++s+%3D+greeting+*+num%0A++++print(s)%0Agreet_more_input(%22hello%22,+5)&mode=display&cumulative=false&heapPrimitives=false&drawParentPointers=false&textReferences=false&showOnlyOutputs=false&py=3&curInstr=0):
 
@@ -538,9 +538,9 @@ The __position of the arguments__ in a function call __determine which parameter
 ("hello" was passed in first, 5 was passed in second)
 
 {% highlight python %}
-#                      arguments
-#                    "hello"    5
-#                      |        |
+#                       arguments
+#                     "hello"    5
+#                       |        |
 def greet_more_input(greeting, num):
 	# argument values are now bound to the paramters, greeting and num!
 	s = greeting * num
@@ -551,7 +551,7 @@ greet_more_input("hello", 5)
 </section>
 
 <section markdown="block">
-### Parameters Example 1:
+###  Parameters Example 1:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -570,7 +570,7 @@ greet_more_input("hola", 23)
 </section>
 
 <section markdown="block">
-### Parameters Example 2:
+###  Parameters Example 2:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -590,7 +590,7 @@ greet_more_input("hey " + "there", int(s))
 </section>
 
 <section markdown="block">
-### Parameters Example 3:
+###  Parameters Example 3:
 
 __Using the following function and function call, what are the values of both greeting and num within the function? &rarr;__
 
@@ -611,13 +611,13 @@ greet_more_input(num, greeting)
 </section>
 
 <section markdown="block">
-### Let's Take a Closer Look
+###  Let's Take a Closer Look
 
 {% highlight python %}
-#                    num       greeting
-#                      |        |
-#                    "hi"      20
-#                      |        |
+#                     num       greeting
+#                       |        |
+#                     "hi"      20
+#                       |        |
 def greet_more_input(greeting, num):
 	s = greeting * num
 	print(s)
@@ -630,7 +630,7 @@ greet_more_input(num, greeting)
 
 
 <section markdown="block">
-### Half the Number
+###  Half the Number
 
 Create a function called __half\_the\_number__:
 
@@ -643,7 +643,7 @@ def half_the_number(n):
 	half = n / 2
 	print(half)
 
-# don't forget to call the function!
+#  don't forget to call the function!
 def main():
 	half_the_number(20)
 
@@ -653,7 +653,7 @@ main()
 </section>
 
 <section markdown="block">
-### Area Square
+###  Area Square
 
 Create a function called __compute\_area\_square__()
 
@@ -671,7 +671,7 @@ def compute_area_square(length_of_side):
 </section>
 
 <section markdown="block">
-### Area Rectangle
+###  Area Rectangle
 
 Create a function called __compute\_area\_rectangle__()
 
@@ -689,7 +689,7 @@ def compute_area_rectangle(length, width):
 </section>
 
 <section markdown="block">
-### Let's Combine This With Input!
+###  Let's Combine This With Input!
 
 Use the previous function to __write a program that__: &rarr;
 
@@ -715,7 +715,7 @@ main()
 </section>
 
 <section markdown="block">
-###  Definitions Recap!
+###   Definitions Recap!
 
 Define the following terms:
 
@@ -727,7 +727,7 @@ Define the following terms:
 </section>
 
 <section markdown="block">
-###  Definitions Recap!
+###   Definitions Recap!
 
 * __function definition__ - all of the code for a function
 * __function header__ - the beginning of the function: its name and optional list of parameters, followed by a colon
@@ -736,7 +736,7 @@ Define the following terms:
 </section>
 
 <section markdown="block">
-###  Definitions Recap Continued!
+###   Definitions Recap Continued!
 
 Define the following terms:
 
@@ -749,7 +749,7 @@ Define the following terms:
 </section>
 
 <section markdown="block">
-###  Definitions Recap Continued!
+###   Definitions Recap Continued!
 
 * __main function__ - a function that contains the program's main line of logic
 * __local variable__ - variable created inside a function's definition (only accessible within that function)
@@ -759,9 +759,9 @@ Define the following terms:
 </section>
 
 <section markdown="block">
-## BTW - the functions that we've created so far don't return anything ...
+##  BTW - the functions that we've created so far don't return anything ...
 </section>
 
 <section markdown="block">
-## [If That Was Fun, Let's Try Conditionals](if-statements.html)
+##  [If That Was Fun, Let's Try Conditionals](if-statements.html)
 </section>

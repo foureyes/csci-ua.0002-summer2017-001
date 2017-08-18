@@ -1,6 +1,6 @@
 <a name="class23"></a>
 
-###Slides
+### Slides
 
 * [About Class #23](classes/23/meta.html)
 
@@ -24,7 +24,7 @@ __Optional__
 * [List Comprehensions](classes/23/list_comprehensions.html)
 -->
 
-### Readings
+###  Readings
 
 __{{ site.bookq }}__
 
@@ -38,7 +38,7 @@ __{{ site.bookt }}__
 <a name="homework10"></a>
 
 
-### Homework #10
+###  Homework #10
 
 * Due Tuesday, __12/28__, before 11PM 
 * Description of each assignment is in a comment in each file

@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 * Quiz / Module #8 (Lists)
 
@@ -10,7 +10,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [Lists Overview](classes/17/lists.html)
 * [List Methods](classes/17/list_methods.html)
@@ -27,7 +27,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 
 <!--

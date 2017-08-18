@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 {% comment %}
 * Homework
@@ -8,7 +8,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 {% comment %}
 * [Slides](classes/01/intro.html)
@@ -17,7 +17,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Homework #8 __Due Wednesday, April 19th, at 11PM__ 
 
@@ -47,24 +47,24 @@ Assignments
 {% comment %}
 <a name="class22"></a>
 
-###Slides
+### Slides
 * [About Class #22](classes/22/meta.html)
 * [Review Methods, Built in Functions, References](classes/22/review.html)
 * [Iteration Over Sequences Using Indexes](classes/22/iteration-indexes.html)
 * [Nested Loops, Nested Lists](classes/22/nested-loops.html)
 * [Making Modules](classes/22/modules.html)
 
-### Readings
+###  Readings
 
 * [THINKSCI - Chapter 11 - Lists](http://openbookproject.net/thinkcs/python/english3e/lists.html)
 * QUICKSTART - Chapter 7 - Data Structures (up to page 111)
 
-### Vocabulary
+###  Vocabulary
 * See [the glossary](http://openbookproject.net/thinkcs/python/english3e/lists.html#glossary) 
 
 <a name="homework9"></a>
 
-### Homework #9
+###  Homework #9
 
 * Due __Dec 8th__ (any submission on Saturday the 8th before midnight is on-time)
 * Submit all files __via blackboard__

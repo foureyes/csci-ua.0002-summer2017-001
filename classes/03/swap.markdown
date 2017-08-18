@@ -4,12 +4,12 @@ title: Swapping Values
 ---
 
 <section markdown="block" class="title-slide">
-# Swapping Values
+#  Swapping Values
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Here's a Quick Exercise on a Tiny Algorithm
+###  Here's a Quick Exercise on a Tiny Algorithm
 <aside>And Idioms, as Well!</aside>
 __If I have two variables, a and b, and they are set to 3 and 21 respectively, how would I swap their values in code? &rarr;__
 
@@ -27,7 +27,7 @@ print("a:", a, "b:", b)
 </section>
 
 <section markdown="block">
-### An Idiomatic Way to Do It
+###  An Idiomatic Way to Do It
 <aside>(read: easier)</aside>
 Here's another, more idiomatic way to do it
 {% highlight python %}
@@ -42,7 +42,7 @@ a, b = 3, 21
 </section>
 
 <section markdown="block">
-### Some BTWs
+###  Some BTWs
 * in Python, if something is idiomatic, it's called Pythonic
 * this swap example brings up a trickier part of programming: references and values
 	* if you're eager, or like being confused here's a link about references and values in Python:
@@ -51,5 +51,5 @@ a, b = 3, 21
 </section>
 
 <section markdown="block">
-## [Greeaaat.  Now, what do we do with all of these variables and assignments?](user-input.html)
+##  [Greeaaat.  Now, what do we do with all of these variables and assignments?](user-input.html)
 </section>

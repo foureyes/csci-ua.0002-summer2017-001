@@ -3,14 +3,14 @@ layout: slides
 title: Lists 
 ---
 <section markdown="block" class="title-slide">
-# Lists
+#  Lists
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
 
-### Sequences
+###  Sequences
 
 We've seen __numeric__ types, like int, float and complex.  Another kind/classification of type is a __sequence__. A __sequence__:
 
@@ -27,7 +27,7 @@ Sequences support operations like:
 </section>
 
 <section markdown="block">
-### Strings are Sequences
+###  Strings are Sequences
 
 A __string__ is an ordered sequence of characters.  It is a __sequence__ type.  It supports:
 
@@ -42,7 +42,7 @@ A __string__ is an ordered sequence of characters.  It is a __sequence__ type.  
 </section>
 
 <section markdown="block">
-### Lists
+###  Lists
 
 A __list__ is another sequence type.  
 
@@ -51,13 +51,13 @@ A __list__ is another sequence type.
 * an example of a list of ints and strings
 
 {% highlight python %}
-# a list of ints
+#  a list of ints
 stuff = [1, "one", 2, "two"]
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### List Literals
+###  List Literals
 
 Constructing a list using a list literal looks like this:
 {% highlight python %}
@@ -72,7 +72,7 @@ Constructing a list using a list literal looks like this:
 </section>
 
 <section markdown="block">
-### Printing Lists
+###  Printing Lists
 
 You can pass lists directly to the built-in print function.  It will output the list as if it were a string literal: 
 
@@ -92,7 +92,7 @@ Some numbers in a list: [2, 3, 5, 7]
 </section>
 
 <section markdown="block">
-### Indexing Operations Summary
+###  Indexing Operations Summary
 
 * an empty list is just []
 * just like characters in a string, elements in a list can be accessed by their index (place)
@@ -103,7 +103,7 @@ Some numbers in a list: [2, 3, 5, 7]
 </section>
 
 <section markdown="block">
-### Iterating Over a List
+###  Iterating Over a List
 
 Just like iterating over a sequence of characters...
 
@@ -114,7 +114,7 @@ Just like iterating over a sequence of characters...
 </section>
 
 <section markdown="block">
-### Iterating Over a List Example
+###  Iterating Over a List Example
 
 __What will the following for loop print out? &rarr;__
 
@@ -136,7 +136,7 @@ False
 
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 Slicing also works on lists.  __What will the folloing code output? &rarr;__
 
@@ -159,7 +159,7 @@ print(colors[0:100])
 </section>
 
 <section markdown="block">
-### Slicing Summary
+###  Slicing Summary
 
 Again... like slicing strings.
 
@@ -169,7 +169,7 @@ Again... like slicing strings.
 </section>
 
 <section markdown="block">
-### Equality Operators
+###  Equality Operators
 
 Equality operators work with lists as you'd expect:
 
@@ -191,7 +191,7 @@ True
 </section>
 
 <section markdown="block">
-### Addition and Multiplication
+###  Addition and Multiplication
 
 Multiplication and addition of lists are similar to the same operations on strings.  __What will the following code output? &rarr;__
 
@@ -213,7 +213,7 @@ print(numbers * 2)
 </section>
 
 <section markdown="block">
-### Addition and Multiplication Summary
+###  Addition and Multiplication Summary
 
 * list concatenation 
 	* __+__
@@ -226,7 +226,7 @@ print(numbers * 2)
 </section>
 
 <section markdown="block">
-### Mutability
+###  Mutability
 
 Unlike strings, however, lists are __mutable__.  That means that you can reassign a value at an index!  __What will the following code print out? &rarr;__
 
@@ -244,7 +244,7 @@ Unlike strings, however, lists are __mutable__.  That means that you can reassig
 </section>
 
 <section markdown="block">
-### Mutability and List Methods
+###  Mutability and List Methods
 
 __Remember - most list methods actually change the object that you're calling the method on!__  Many list methods don't return values... but there are some that do.  __What are some list methods that return values?__
 
@@ -255,7 +255,7 @@ __Remember - most list methods actually change the object that you're calling th
 </section>
 
 <section markdown="block">
-### Mutability and List Methods Continued
+###  Mutability and List Methods Continued
 
 __What does this code output?__
 {% highlight python %}
@@ -277,7 +277,7 @@ print(b)
 
 
 <section markdown="block">
-### Removing Elements
+###  Removing Elements
 
 __Name three ways to remove element(s) from a list &rarr;__
 
@@ -289,7 +289,7 @@ __Name three ways to remove element(s) from a list &rarr;__
 </section>
 
 <section markdown="block">
-### Removing Elements Example
+###  Removing Elements Example
 
 __What's the output of this code? &rarr;__
 {% highlight python %}
@@ -306,7 +306,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Removing Elements Notes
+###  Removing Elements Notes
 
 * __remove__ does not return a value
 * __remove__ gives an error when the value doesn't exist
@@ -317,7 +317,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements
+###  Adding Elements
 
 __Name two ways to remove element(s) from a list &rarr;__
 
@@ -328,7 +328,7 @@ __Name two ways to remove element(s) from a list &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Example
+###  Adding Elements Example
 
 __What's the output of this code? &rarr;__
 
@@ -339,7 +339,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Example Output
+###  Adding Elements Example Output
 
 {% highlight python %}
 ['red', 'green', 'blue']
@@ -350,14 +350,14 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Adding Elements Notes
+###  Adding Elements Notes
 
 * __append__ actually adds the entire object as a single element to the original list
 * __extend__ adds every element of a list or string to the original list
 </section>
 
 <section markdown="block">
-### Other List Functions
+###  Other List Functions
 
 * __What method can you use to find the number of occurrences of a value in a list?__
 * __What methods places a list's elements in order?__
@@ -369,7 +369,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Count and Sort Examples
+###  Count and Sort Examples
 
 __What's the output of this code? &rarr;__
 
@@ -388,7 +388,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Strings and Lists
+###  Strings and Lists
 
 * __What method can I use to turn a string into a list? &rarr;__
 * __What type of object is this method called on? &rarr;__
@@ -405,7 +405,7 @@ __What's the output of this code? &rarr;__
 </section>
 
 <section markdown="block">
-### Strings and Lists Example
+###  Strings and Lists Example
 __Use this list to create a string separated by the word ' yikes! ' &rarr;__
 {% highlight python %}
 monsters = ['zombies', 'vampires', 'mummies']
@@ -425,7 +425,7 @@ oz = "lions and tigers and bears, oh my"
 </section>
 
 <section markdown="block">
-### Random - Choice, Shuffle
+###  Random - Choice, Shuffle
 
 * __What function from the random module can be used to retrieve a random element from a list? &rarr;__
 * __What function from the random module can be used to mix up a list? &rarr;__
@@ -438,7 +438,7 @@ oz = "lions and tigers and bears, oh my"
 </section>
 
 <section markdown="block">
-### Generating Random Elements from a List
+###  Generating Random Elements from a List
 
 Using the alphabetically sorted list of sounds below... 
 
@@ -451,7 +451,7 @@ sounds = ['beep', 'buzz', 'fizz', 'honk']
 </section>
 
 <section markdown="block">
-### Generating Random Elements from a List Solution
+###  Generating Random Elements from a List Solution
 
 {% highlight python %}
 {% include classes/22/sounds.py %}
@@ -460,7 +460,7 @@ sounds = ['beep', 'buzz', 'fizz', 'honk']
 </section>
 
 <section markdown="block">
-### References 
+###  References 
 
 __What's the output of the following code? &rarr;__
 
@@ -481,7 +481,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### References Continued
+###  References Continued
 
 __What's the output of the following code? &rarr;__
 
@@ -503,7 +503,7 @@ print(b)
 
 
 <section markdown="block">
-### Lists, Functions and References
+###  Lists, Functions and References
 
 __What's the output of the following code? &rarr;__
 
@@ -521,8 +521,8 @@ print("numbers is now %s" % (numbers))
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# they're the same, a reference to numbers was passed in... as
-# a side effect of calling pop on things, numbers was changed too
+#  they're the same, a reference to numbers was passed in... as
+#  a side effect of calling pop on things, numbers was changed too
 result is [1]
 numbers is now [1]
 {% endhighlight %}
@@ -531,7 +531,7 @@ numbers is now [1]
 
 
 <section markdown="block">
-### A Few More Notes
+###  A Few More Notes
 
 * this side effect from passing references to functions only matter with mutable types
 	* strings and numbers can't be changed (there's no equivalent to append or sort)
@@ -548,7 +548,7 @@ print(b)
 </section>
 
 <section markdown="block">
-### Indexing Into a Sequence
+###  Indexing Into a Sequence
 
 How do we retrieve an element at a specific place from a list or a string?  For example, __to get the second element from the list a = [1, 2, 3], what code would I write? &rarr;__
 
@@ -560,7 +560,7 @@ a[1]
 </section>
 
 <section markdown="block">
-### Indexes
+###  Indexes
 
 What are some attributes of list and string indexes?  
 
@@ -583,7 +583,7 @@ print(a[i + 1])
 </section>
 
 <section markdown="block">
-### Generating a Sequence of Integers
+###  Generating a Sequence of Integers
 
 We generally don't care about indexes when we loop over a list, but an alternate way of iterating over every item is to go through each element by indexing.  
 
@@ -598,7 +598,7 @@ Hint: there are two ways to do this using constructs / statements that we've use
 </section>
 
 <section markdown="block">
-### For Loops and Indexes
+###  For Loops and Indexes
 
 __Use a for loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -619,7 +619,7 @@ for i in range(0, len(a)):
 </section>
 
 <section markdown="block">
-### While Loops and Indexes
+###  While Loops and Indexes
 
 __Use a while loop to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -641,7 +641,7 @@ while i < len(a):
 </section>
 
 <section markdown="block">
-### The "Usual" Way
+###  The "Usual" Way
 
 __Finally, to round things out, use a for loop - without indexes - to print out every element in the list a = ["quill", "qat", "quip"]: &rarr;__
 
@@ -655,7 +655,7 @@ for word in a:
 </section>
 
 <section markdown="block">
-### Reversing a List
+###  Reversing a List
 
 __Write a function that takes a list as an input and returns the list in reverse order (btw, there's already a list method that does this) &rarr;__
 
@@ -667,7 +667,7 @@ __Write a function that takes a list as an input and returns the list in reverse
 </section>
 
 <section markdown="block">
-### Another (More Destructive Way) to Reverse a List
+###  Another (More Destructive Way) to Reverse a List
 
 __Can you use pop to do it? &rarr;__
 
@@ -679,7 +679,7 @@ __Can you use pop to do it? &rarr;__
 </section>
 
 <section markdown="block">
-### But Wait - What Happened?
+###  But Wait - What Happened?
 
 __What's the output of the pop() version of the solution? &rarr;__
 
@@ -697,7 +697,7 @@ __What's the output of the pop() version of the solution? &rarr;__
 </section>
 
 <section markdown="block">
-### Some Common Patterns
+###  Some Common Patterns
 
 * a lot of list exercises that we do in class fall into one of these patterns:
 	* map - map a function to every element in a list, like half of every value
@@ -707,7 +707,7 @@ __What's the output of the pop() version of the solution? &rarr;__
 </section>
 
 <section markdown="block">
-### Map
+###  Map
 
 Apply a transformation to every element.  __Write a function that halves the value of every element of a list passed in.__  It returns a new list.
 
@@ -724,7 +724,7 @@ print(half_of_each(a))
 </section>
 
 <section markdown="block">
-### Reduce
+###  Reduce
 
 Reduce a list to a single value.  __Write a function that sums every element of a list passed in.__  It returns a value.
 
@@ -741,7 +741,7 @@ print(sum_all_numbers(a))
 </section>
 
 <section markdown="block">
-### Filter
+###  Filter
 
 Filter the elements in a list to create a new list.  __Write a function that takes a list passed in and returns a new list with only numbers that are less than 10.__ 
 

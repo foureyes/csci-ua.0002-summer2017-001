@@ -4,12 +4,12 @@ title: Calling Built-In Functions
 ---
 
 <section markdown="block" class="title-slide">
-# Calling Built-In Functions
+#  Calling Built-In Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Built-In Functions
+###  Built-In Functions
 
 Based on the previous slides, __name some functions that we've learned so far__ &rarr;
 
@@ -26,7 +26,7 @@ Based on the previous slides, __name some functions that we've learned so far__ 
 </section>
 
 <section markdown="block">
-### Using Built-In Functions
+###  Using Built-In Functions
 
 How do you use (_call_) built-in functions in your code?  __How would you call the function, str, on a value, 300 (that is, convert 300 to a string)?__ &rarr;
 
@@ -43,11 +43,11 @@ str(300)
 </section>
 
 <section markdown="block">
-## Parentheses after a function name signify that you're calling (executing) that function!
+##  Parentheses after a function name signify that you're calling (executing) that function!
 </section>
 
 <section markdown="block">
-### Using Built-In Functions with Multiple Input Values
+###  Using Built-In Functions with Multiple Input Values
 
 1. again start with the function name
 2. use parentheses to signify that you're calling a function
@@ -65,7 +65,7 @@ print("Hi ", "there")
 
 
 <section markdown="block">
-### Some Terminology
+###  Some Terminology
 
 * __call__ - using a function in your code, executing a function
 * __arguments__ - the actual literal values that a function is called with; 25 is the argument in _print(25)_
@@ -76,7 +76,7 @@ print("Hi ", "there")
 </section>
 
 <section markdown="block">
-### Talkin' the Talk
+###  Talkin' the Talk
 
 Using this code as an example:
 
@@ -97,7 +97,7 @@ x = int(num)
 </section>
 
 <section markdown="block">
-### Talkin' the Talk 2
+###  Talkin' the Talk 2
 
 
 {% highlight python %}
@@ -119,7 +119,7 @@ Note that __print does not return a value to your program; rather it _prints_ va
 
 
 <section markdown="block">
-### Composing Functions
+###  Composing Functions
 
 * you can call functions within functions
 * the value returned by the inner function calls are what's used as arguments to the outer function call
@@ -141,5 +141,5 @@ The type of the result of calling str(5 + 5), which __turns out to be?__ &rarr;
 </section>
 
 <section markdown="block">
-## [A Closer Look At a Built-In Function Called Input](input-review.html)
+##  [A Closer Look At a Built-In Function Called Input](input-review.html)
 </section>

@@ -4,12 +4,12 @@ title: Review Functions
 ---
 
 <section markdown="block" class="title-slide">
-# Review - Functions
+#  Review - Functions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Greetings
+###  Greetings
 
 Create a function called __display\_loud\_greeting__ ...
 
@@ -24,7 +24,7 @@ Create a function called __display\_loud\_greeting__ ...
 
 
 <section markdown="block">
-### Greetings Implementation 
+###  Greetings Implementation 
 
 Here's a possible implementation.  __If this were the only code in this program, what would the output be if we ran it?__ &rarr;
 
@@ -44,7 +44,7 @@ Yup.  That's nothing.
 </section>
 
 <section markdown="block">
-### Calling Greetings
+###  Calling Greetings
 
 So.... __how do we call this function (let's use the arguments, Jasper and 4)?__ &rarr;
 
@@ -62,7 +62,7 @@ display_loud_greeting("Jasper", 4)
 </section>
 
 <section markdown="block">
-### Detour - Some Definitions Revisited
+###  Detour - Some Definitions Revisited
 
 The previous slides mentioned function __call__, __parameters__ and __arguments__.  __What does it mean to call a function?  What is a parameter, and what is an argument__? &rarr;
  
@@ -76,7 +76,7 @@ The previous slides mentioned function __call__, __parameters__ and __arguments_
 
 
 <section markdown="block">
-### ....And More Definitions
+###  ....And More Definitions
 
 What is a __function definition__, __header__, and __body__?  What is meant by saying a __block__ of code? &rarr;
 
@@ -89,7 +89,7 @@ What is a __function definition__, __header__, and __body__?  What is meant by s
 </section>
 
 <section markdown="block">
-### Combined With User Input
+###  Combined With User Input
 
 * instead of hardcoding arguments, let's ask the user for some input!
 * __modify the program below so that it asks the user for a name and a number__ &rarr;
@@ -116,7 +116,7 @@ Hi Jasper!!!!
 
 
 <section markdown="block">
-### Combined With User Input - Implementation
+###  Combined With User Input - Implementation
 
 {% highlight python %}
 def display_loud_greeting(name, num_exclamation_points):
@@ -132,7 +132,7 @@ display_loud_greeting(name, number)
 
 
 <section markdown="block">
-### A Main Function
+###  A Main Function
 
 __How do we change the previous program so that all of the logic is contained within functions?__ &rarr;
 
@@ -156,7 +156,7 @@ main()
 </section>
 
 <section markdown="block">
-### Variables Inside a Function 
+###  Variables Inside a Function 
 
 __What's a local variable?  What's scope?__ &rarr;
 
@@ -170,7 +170,7 @@ __What's a local variable?  What's scope?__ &rarr;
 </section>
 
 <section markdown="block">
-### Local Variables
+###  Local Variables
 
 __What is the output of this program?__ &rarr;
 
@@ -193,5 +193,5 @@ fizz
 </section>
 
 <section markdown="block">
-## [Review: Conditionals](review-conditionals.html)
+##  [Review: Conditionals](review-conditionals.html)
 </section>

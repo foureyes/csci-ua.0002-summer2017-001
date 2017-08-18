@@ -3,12 +3,12 @@ layout: slides
 title: String Objects, String Methods, Built-Ins
 ---
 <section markdown="block" class="title-slide">
-# String Objects, String Methods, Built-Ins
+#  String Objects, String Methods, Built-Ins
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Objects
+###  Objects
 
 We're going to be talking about __objects__ ... _alot_. (And probably even more so, if you continue to 101, 102, etc.).
 
@@ -22,7 +22,7 @@ So, in the context of programming, an __object__ is:
 </section>
 
 <section markdown="block">
-### Methods
+###  Methods
 
 * a __method__ is essentially a function that's associated with a particular object
 * you can _call_ a method just like a function... but you have to use the dot operator
@@ -37,7 +37,7 @@ dir("hello")
 </section>
 
 <section markdown="block">
-### Strings as Objects!
+###  Strings as Objects!
 
 So, strings have some methods.  __Let's try them out! &rarr;__
 
@@ -56,16 +56,16 @@ help("a string".upper)
 </section>
 
 <section markdown="block">
-### The len() Method
+###  The len() Method
 
 Returns the length of a sequence.
 
 {% highlight python %}
 print(len("cat"))
-# gives 3
+#  gives 3
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-## [String Exercises](exercises.html)
+##  [String Exercises](exercises.html)
 </section>

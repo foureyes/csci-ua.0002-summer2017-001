@@ -3,12 +3,12 @@ layout: slides
 title: Midterm #1 
 ---
 <section markdown="block" class="title-slide">
-# Midterm #1
+#  Midterm #1
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### About the Midterm
+###  About the Midterm
 
 * __15__ questions
 * __54__ points total
@@ -16,7 +16,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### About the Midterm Continued
+###  About the Midterm Continued
 
 * easiest of the 3 exams
 * 3 code-from-scratch questions
@@ -26,7 +26,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### Midterm Results
+###  Midterm Results
 
 * __46 ~ 46.5__ (86%) - average
 * __46 ~ 46.5__ (86%) - median
@@ -35,7 +35,7 @@ title: Midterm #1
 </section>
 
 <section markdown="block">
-### Approximate Scale
+###  Approximate Scale
 
 Very rough scale...
 
@@ -48,7 +48,7 @@ Very rough scale...
 </section>
 
 <section markdown="block">
-### Most Difficult
+###  Most Difficult
 
 The two toughest questions were:
 
@@ -60,7 +60,7 @@ Majority only scored half the possible points on the previous two questions.
 </section>
 
 <section markdown="block">
-### Most Often Correct
+###  Most Often Correct
 
 These two questions were the most likely to be answered correctly:
 
@@ -70,11 +70,11 @@ These two questions were the most likely to be answered correctly:
 </section>
 
 <section markdown="block">
-### And Finally, Solutions
+###  And Finally, Solutions
 
 [See the annotated solutions.](../../resources/handouts/midterm_1_annotated.pdf)
 </section>
 
 <section markdown="block">
-## [Review For Loops, While vs For](review_loops.html)
+##  [Review For Loops, While vs For](review_loops.html)
 </section>

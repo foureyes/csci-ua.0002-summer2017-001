@@ -3,12 +3,12 @@ layout: slides
 title: List Comprehensions 
 ---
 <section markdown="block" class="title-slide">
-# List Comprehensions
+#  List Comprehensions
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Create a List of Squares 
+###  Create a List of Squares 
 
 __How would I create a list of numbers that are the square root of 0 through 9?__ &rarr;
 
@@ -27,7 +27,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### Create a List of Squares 
+###  Create a List of Squares 
 
 __How would I create a list of numbers that are the square root of 0 through 9, but only include squares that are divisible by 2?__ &rarr;
 
@@ -47,7 +47,7 @@ for i in range(10):
 </section>
 
 <section markdown="block">
-### Quick Summary
+###  Quick Summary
 
 * in each instance, we created a list by starting with an empty list
 * ...using a for loop
@@ -57,7 +57,7 @@ for i in range(10):
 
 
 <section markdown="block">
-### List Comprehensions
+###  List Comprehensions
 
 __List comprehensions__ are another, more concise way of creating lists.  A list comprehension is __syntactic sugar__ (syntax within a programming language that is designed to make things easier to read or to express) for the code that we created previously. 
 
@@ -65,7 +65,7 @@ List comprehensions __make new lists__
 </section>
 
 <section markdown="block">
-### List Comprehension Syntax
+###  List Comprehension Syntax
 
 * consists of square brackets to make a list
 * a for loop-like expression within the brackets
@@ -74,7 +74,7 @@ List comprehensions __make new lists__
 </section>
 
 <section markdown="block">
-### Two Examples: Squares, and Squares Divisible by 2
+###  Two Examples: Squares, and Squares Divisible by 2
 
 {% highlight python %}
 [x * x for x in range(10)]
@@ -83,7 +83,7 @@ List comprehensions __make new lists__
 </section>
 
 <section markdown="block">
-### Another List Comprehension
+###  Another List Comprehension
 
 __Write a list comprehension that creates a new list by adding exclamation points to every element in an existing list.__ &rarr;
 
@@ -99,7 +99,7 @@ items = ['foo', 'bar', 'baz', 'busy']
 </section>
 
 <section markdown="block">
-### And Another List Comprehension!
+###  And Another List Comprehension!
 
 __Limit the previous list to strings of length 3.__ &rarr;
 

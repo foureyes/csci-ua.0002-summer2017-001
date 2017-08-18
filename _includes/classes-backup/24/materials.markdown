@@ -1,6 +1,6 @@
 <a name="class24"></a>
 
-### Slides
+###  Slides
 
 __Topics__
 
@@ -21,7 +21,7 @@ __Topics__
 -->
 
 
-### Readings
+###  Readings
 
 __{{ site.bookq }}__
 

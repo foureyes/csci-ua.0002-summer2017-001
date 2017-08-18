@@ -1,5 +1,5 @@
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 <!--
 * Homework
@@ -8,7 +8,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 * [About Class #12](classes/12/meta.html)
 * [String Formatting with %](classes/12/string-formatting.html)
@@ -25,7 +25,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 * Complete the [Self Paced-Learning Module #6]({{ site.module6 }})
 * Take quiz #6 on NYU Classes
@@ -43,14 +43,14 @@ Assignments
 <!--
 <a name="class12"></a>
 
-###Slides
+### Slides
 * [About Class #12](classes/12/meta.html)
 * [For Loop, For vs While](classes/12/review_loops.html)
 * [Nested Loops](classes/12/nested.html)
 * [Break and Continue](classes/12/break_continue.html)
 * [Turtle, Objects, Methods](classes/12/turtle.html)
 
-### Readings
+###  Readings
 
 {{ site.bookq }}
 
@@ -61,7 +61,7 @@ Assignments
 * [Chapter 7 - Iteration](http://openbookproject.net/thinkcs/python/english3e/iteration.html)
 * [Chapter 3 - Turtle](http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html) (Turtle)
 
-### Vocabulary
+###  Vocabulary
 
 See the [ in Chapter 7 of {{ site.bookt }}](http://openbookproject.net/thinkcs/python/english3e/iteration.html#glossary) 
 
@@ -70,7 +70,7 @@ See the [ in Chapter 7 of {{ site.bookt }}](http://openbookproject.net/thinkcs/p
 
 
 
-### Homework #5
+###  Homework #5
 
 * Due __Mar 12th__ at 11PM
 * Submit all files via __NYU Classes__ 

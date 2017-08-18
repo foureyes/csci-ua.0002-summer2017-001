@@ -3,12 +3,12 @@ layout: slides
 title: Design, Input, Processing, and Output
 ---
 <section markdown="block" class="title-slide">
-# Design, Input, Processing, and Output
+#  Design, Input, Processing, and Output
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Review of the Programming Workflow
+###  Review of the Programming Workflow
 
 __What are steps involved in creating a program?__ &rarr;
 
@@ -24,7 +24,7 @@ __What are steps involved in creating a program?__ &rarr;
 </section>
 
 <section markdown="block">
-### Programming Workflow Continued
+###  Programming Workflow Continued
 
 Note that {{site.bookq}} mentions a very similar workflow (ehhh... they're pretty much say the same thing; I'd accept either on an exam):
 
@@ -37,7 +37,7 @@ Note that {{site.bookq}} mentions a very similar workflow (ehhh... they're prett
 </section>
 
 <section markdown="block">
-### Some Steps are More Important Than Others
+###  Some Steps are More Important Than Others
 
 __Which of these steps do you think is the most important?__ &rarr;
 
@@ -50,7 +50,7 @@ __Which of these steps do you think is the most important?__ &rarr;
 </section>
 
 <section markdown="block">
-### Requirements Gathering / Design
+###  Requirements Gathering / Design
 
 It would seem like the most important part of programming is... well... _programming_.  However, __determining what you're programming and how you're going to do it__ is arguably more important!  Before getting into code, you must:
 
@@ -63,7 +63,7 @@ It would seem like the most important part of programming is... well... _program
 </section>
 
 <section markdown="block">
-### Some Tools in Your Toolbox
+###  Some Tools in Your Toolbox
 
 {{ site.bookq }} introduces two tools to help start thinking about program design:
 
@@ -74,7 +74,7 @@ It would seem like the most important part of programming is... well... _program
 
 
 <section markdown="block">
-### Pseudocode
+###  Pseudocode
 
 Sometimes it's helpful to not have to deal with the syntax intricacies and implementation details with writing actual code.
 
@@ -91,7 +91,7 @@ if it's over the temperature threshold
 </section>
 
 <section markdown="block">
-### Flow Charts
+###  Flow Charts
 
 Flow charts help graphically depict the steps involved in a process or program.  Here are some  common elements in a flow chart:
 
@@ -101,7 +101,7 @@ Flow charts help graphically depict the steps involved in a process or program. 
 </section>
 
 <section markdown="block">
-### Fortune Telling Program
+###  Fortune Telling Program
 
 Imagine the following fortune telling program:
 
@@ -115,7 +115,7 @@ The corresponding flow chart may look like...
 </section>
 
 <section markdown="block">
-### Fortune Telling Program Flow Chart
+###  Fortune Telling Program Flow Chart
 
 Here's what the flow chart for the previous program might look like:
 
@@ -125,13 +125,13 @@ Here's what the flow chart for the previous program might look like:
 </section>
 
 <section markdown="block">
-## Make a Flow Chart for an ATM
+##  Make a Flow Chart for an ATM
 
 <aside>What do you think this would look like?</aside>
 </section>
 
 <section markdown="block">
-### ATM Flow Chart, Example 1
+###  ATM Flow Chart, Example 1
 
 <div class="img-container" markdown="block">
 ![ATM v1](../../resources/img/atm-flow.png)
@@ -139,7 +139,7 @@ Here's what the flow chart for the previous program might look like:
 </section>
 
 <section markdown="block">
-### ATM Flow Chart, Example 2
+###  ATM Flow Chart, Example 2
 
 <div class="img-container" markdown="block">
 ![ATM v2](../../resources/img/atm-flow-2.png)
@@ -147,7 +147,7 @@ Here's what the flow chart for the previous program might look like:
 </section>
 
 <section markdown="block">
-### Input, Processing, and Output
+###  Input, Processing, and Output
 
 The majority of the programs that we write in class will consist of:
 
@@ -157,5 +157,5 @@ The majority of the programs that we write in class will consist of:
 </section>
 
 <section markdown="block">
-## Which leads me to ... [Homework #1](../../schedule.html#homework1) (some basic input/output and processing)
+##  Which leads me to ... [Homework #1](../../schedule.html#homework1) (some basic input/output and processing)
 </section>

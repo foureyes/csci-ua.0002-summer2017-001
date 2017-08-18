@@ -7,7 +7,7 @@
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 
 <!--
@@ -17,7 +17,7 @@
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 Warm-up
 
@@ -46,12 +46,12 @@ Assignments
 <!--
 <a name="class8"></a>
 
-###Slides
+### Slides
 * [About Class #8](classes/08/meta.html)
 * [While Loops - Review](classes/08/while-revisited.html)
 * [For Loops](classes/08/for.html)
 
-### Readings 
+###  Readings 
 __{{ site.bookq }}__
 
 * Chapter 4 on while loops
@@ -61,12 +61,12 @@ __{{ site.bookt }}__
 
 * [{{ site.bookt }}](http://openbookproject.net/thinkcs/python/english3e/iteration.html) - Chapter 7, Iteration, Sections 7.1 through 7.8, but skipping 7.2 
 
-### Vocabulary
+###  Vocabulary
 See [the glossary](http://openbookproject.net/thinkcs/python/english3e/iteration.html#glossary) in {{ site.bookt }}, Chapter 7.
 
 <a name="homework4"></a>
 
-### Homework #4
+###  Homework #4
 
 __THERE IS NO GRACE PERIOD FOR THIS HOMEWORK; SUBMIT BEFORE DUE DATE__
 

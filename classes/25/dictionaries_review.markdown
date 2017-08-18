@@ -3,12 +3,12 @@ layout: slides
 title: Dictionaries Review 
 ---
 <section markdown="block" class="title-slide">
-# Dictionaries Review
+#  Dictionaries Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-###  Data Structures
+###   Data Structures
 
 Python has a few types of data or data structures that we've seen in the past.  Name some types...
 
@@ -22,7 +22,7 @@ Python has a few types of data or data structures that we've seen in the past.  
 </section>
 
 <section markdown="block">
-### Which Data Structure do I Use? 
+###  Which Data Structure do I Use? 
 
 __What data structure would I use for the following scenarios?__
 
@@ -38,7 +38,7 @@ __What data structure would I use for the following scenarios?__
 </section>
 
 <section markdown="block">
-### Another Data Type
+###  Another Data Type
 
 We have another data structure to add to our tool set - a __dictionary__  
 
@@ -48,7 +48,7 @@ We have another data structure to add to our tool set - a __dictionary__
 </section>
 
 <section markdown="block">
-###  Dictionaries
+###   Dictionaries
 
 __In Python, what's a dictionary?  Describe some characteristics of a dictionary.__ &rarr;
 
@@ -60,7 +60,7 @@ __In Python, what's a dictionary?  Describe some characteristics of a dictionary
 </section>
 
 <section markdown="block">
-###  Dictionary Syntax
+###   Dictionary Syntax
 
 * __What delimits dictionaries?__ &rarr;  
 * __What separates each key/value pair?__ &rarr;  
@@ -75,7 +75,7 @@ __In Python, what's a dictionary?  Describe some characteristics of a dictionary
 </section>
 
 <section markdown="block">
-###  Dictionary Syntax
+###   Dictionary Syntax
 
 In the following dictionary: 
 
@@ -97,7 +97,7 @@ In the following dictionary:
 </section>
 
 <section markdown="block">
-### Keys and Values
+###  Keys and Values
 
 * List indexes can only be ints  __What kind of values can dictionary keys be?__ &rarr;
 * __What about dictionary values?__ &rarr;
@@ -109,7 +109,7 @@ In the following dictionary:
 </section>
 
 <section markdown="block">
-### Retrieving Values at Keys 
+###  Retrieving Values at Keys 
 
 How do you retrieve a value at a key from a dictionary? __Here's a dictionary; get the value 4__ &rarr;
 
@@ -125,7 +125,7 @@ vehicle['wheels']
 </section>
 
 <section markdown="block">
-### Non-Existent Keys
+###  Non-Existent Keys
 
 What happens if the key doesn't exist? __What happens in the following code?__ &rarr;
 
@@ -146,7 +146,7 @@ KeyError: 'can fly'
 </section>
 
 <section markdown="block">
-### However!  Non-Existent Keys Continued...
+###  However!  Non-Existent Keys Continued...
 
 How do you add a new key/value pair to an existing dictionary? __Add the key 'can fly' to this dictionary, and set its value to the boolean value, False__ &rarr;
 
@@ -161,7 +161,7 @@ vehicle['can fly'] = True
 </section>
 
 <section markdown="block">
-### If the Key Does Exist
+###  If the Key Does Exist
 
 If the key already exists, using the assignment operator overwrites the existing value at that key. 
 
@@ -181,7 +181,7 @@ print(vehicle)
 </section>
 
 <section markdown="block">
-### A Quick Summary on Keys
+###  A Quick Summary on Keys
 
 * dictionary __keys__ must be immutable
 * you can use __indexing__ to retrieve values with keys - d['key']
@@ -190,7 +190,7 @@ print(vehicle)
 </section>
 
 <section markdown="block">
-### Some Other Dictionary Operations
+###  Some Other Dictionary Operations
 
 There are some familiar operations and functions that we can use on dictionaries:
 
@@ -211,7 +211,7 @@ len(d)
 </section>
 
 <section markdown="block">
-### Dictionary Methods
+###  Dictionary Methods
 
 __Name the two dictionary methods that we learned, and describe what they do__ &rarr;
 
@@ -222,7 +222,7 @@ __Name the two dictionary methods that we learned, and describe what they do__ &
 </section>
 
 <section markdown="block">
-### get
+###  get
 
 Soooo... __what does the get method do again, what are its arguments, and what does it return?__ &rarr;
 
@@ -236,7 +236,7 @@ Soooo... __what does the get method do again, what are its arguments, and what d
 </section>
 
 <section markdown="block">
-### Using the get Method
+###  Using the get Method
 
 __What does this output?__
 
@@ -257,7 +257,7 @@ hovercraft
 </section>
 
 <section markdown="block">
-### More Dictionary Methods
+###  More Dictionary Methods
 
 By the way, here are a few more dictionary methods:
 
@@ -269,7 +269,7 @@ By the way, here are a few more dictionary methods:
 </section>
 
 <section markdown="block">
-### values, keys
+###  values, keys
 
 __values__ and __keys__ give back _dictionary views_ (they essentially act like lists) of either all values or all keys of the dictionary that they're called on.  __What does this output?__ &rarr;
 
@@ -289,7 +289,7 @@ dict_values([False, 0, 'bathysphere'])
 </section>
 
 <section markdown="block">
-### pop
+###  pop
 
 __pop__ removes and returns the item at the key specified.  __What does this output?__&rarr;
 
@@ -312,7 +312,7 @@ False
 </section>
 
 <section markdown="block">
-### popitem
+###  popitem
 
 __popitem__ removes and returns an _arbitrary_ key/value pair.  __What does this output?__&rarr;
 
@@ -334,7 +334,7 @@ Note that the key/value pair removed and returned __will not always be the same!
 </section>
 
 <section markdown="block">
-### update
+###  update
 
 __update__ adds key/value pairs (or updates values if keys already exist) from another dictionary to the dictionary that update is called on.  __What does this output?__&rarr;
 
@@ -354,7 +354,7 @@ print(vehicle)
 
 
 <section markdown="block">
-### Changing a Value Based on the Existing Value
+###  Changing a Value Based on the Existing Value
 
 To change a value base on an existing value, such as incrementing a number, you can simply do something like this (adds one to the current value at fga):
 
@@ -366,7 +366,7 @@ d['fga'] = d['fga'] + 1
 </section>
 
 <section markdown="block">
-### Changing a Value Based on the Existing Value
+###  Changing a Value Based on the Existing Value
 
 But what if it doesn't exist yet?  __What happens here?__ &rarr;
 
@@ -385,7 +385,7 @@ KeyError: 'fga'
 </section>
 
 <section markdown="block">
-### Avoiding KeyError
+###  Avoiding KeyError
 
 __What are a couple of ways of working around incrementing a value at a key when there may be keys that don't exist?__ &rarr;
 
@@ -404,7 +404,7 @@ d['a'] = d.get('a', 0) + 1
 </section>
 
 <section markdown="block">
-### Dictionaries and Mutability
+###  Dictionaries and Mutability
 
 __Dictionaries are mutable!__
 
@@ -423,7 +423,7 @@ __What are some dictionary methods that change the dictionary in place?__ &rarr;
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries
+###  Iterating Over Dictionaries
 
 __What does this code print out?__ &rarr;
 
@@ -444,7 +444,7 @@ name
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 We can see that iterating over a dictionary gives back keys.  Additionally, the keys are unordered. __How would be get every key *and* value using the dictionary below?__ &rarr;
 
@@ -463,7 +463,7 @@ for attribute in vehicle:
 </section>
 
 <section markdown="block">
-### Back to the items Method!
+###  Back to the items Method!
 
 A dictionary can be converted to a list of tuples using the __items__() method.  
 
@@ -489,7 +489,7 @@ for pair in pairs:
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 __What's another way of looping over a dictionary to get keys and values without having to index into the original dictionary?__ &rarr;
 
@@ -509,7 +509,7 @@ for k, v in pairs:
 </section>
 
 <section markdown="block">
-### Some Quick Questions
+###  Some Quick Questions
 
 * name as many dictionary methods as you can!
 * name two ways of accessing a value at a key
@@ -521,7 +521,7 @@ for k, v in pairs:
 </section>
 
 <section markdown="block">
-### And Their Answers
+###  And Their Answers
 
 * pop, popitem, get, keys, values, update, etc.
 * __indexing__ with a __key__ or using __get__

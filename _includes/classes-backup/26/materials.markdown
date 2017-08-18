@@ -1,6 +1,6 @@
 <a name="class26"></a>
 
-### Slides
+###  Slides
 
 * [About Class #26](classes/26/meta.html)
 * [Review Tuples](classes/25/tuples.html), [Reviewing Iteration and Mutability](classes/25/list_iteration_mutability_review.html)
@@ -13,13 +13,13 @@
 * Review Materials from Class 25: [Exceptions](classes/25/exceptions.html), , and [List Comprehensions](classes/25/list_comprehensions.html)
 -->
 	
-### Readings
+###  Readings
 
 * [{{site.bookt}} - Dictionaries](http://www.openbookproject.net/thinkcs/python/english3e/dictionaries.html)
 
 <a name="homework11"></a>
 
-### Homework #11, Extra Credit
+###  Homework #11, Extra Credit
 
 Last Homework!
 

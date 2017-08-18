@@ -4,12 +4,12 @@ title: If Statements
 ---
 
 <section markdown="block" class="title-slide">
-# If Statements / Conditionals
+#  If Statements / Conditionals
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Controlling Program Flow w/ Conditionals
+###  Controlling Program Flow w/ Conditionals
 
 __What does an if statement allow you to do? &rarr;__
 
@@ -22,13 +22,13 @@ __What does an if statement allow you to do? &rarr;__
 </section>
 
 <section markdown="block">
-### Boolean Values
+###  Boolean Values
 
 __What are the two possible boolean values, and how are they represented in Python? &rarr;__
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# note the uppercase!
+#  note the uppercase!
 
 True
 False
@@ -38,7 +38,7 @@ False
 
 
 <section markdown="block">
-### Boolean Expressions / The Equality Operator
+###  Boolean Expressions / The Equality Operator
 
 Again, a  __boolean expression__ is just an expression that eventually evaluates to a boolean value.  Let's look a boolean expression that uses the __equality operator__.
 
@@ -52,7 +52,7 @@ The __equality operator__, __==__ (double equals), will test the left and right 
 </section>
 
 <section markdown="block">
-### The Equality Operator Continued
+###  The Equality Operator Continued
 
 When two values are compared, and they are of different types (except if they're both numeric), they are never considered equal.  For example, all of the following comparisons evaluate to False:
 
@@ -67,7 +67,7 @@ However, this gives us True (different types, but both types are numeric):
 </section>
 
 <section markdown="block">
-### if Statement Syntax
+###  if Statement Syntax
 Again, __if__ statements allow conditional code execution.
 
 1. start with the __keyword__ __if__
@@ -81,14 +81,14 @@ if 1 == 1:
 	print("this is")
 	print("true")
 
-# now we're out of the if statement
+#  now we're out of the if statement
 print("outta here")
 {% endhighlight %}
 
 </section>
 
 <section markdown="block">
-### if Statements continued
+###  if Statements continued
 
 The equality operator also works with variables:
 
@@ -102,7 +102,7 @@ if x == y:
 
 
 <section markdown="block">
-### A Quick Exercise
+###  A Quick Exercise
 
 __Let's try writing an if statement that checks if the variables a and b are equal.  If they're equal, print the sum of a and b, and then print out the product of both a and b. &rarr;__
 {% highlight python %}
@@ -111,7 +111,7 @@ a, b = 2, 2
 </section>
 
 <section markdown="block">
-### A Potential Solution 
+###  A Potential Solution 
 
 * begin with keyword __if__
 * condition
@@ -130,7 +130,7 @@ if a == b:
 </section>
 
 <section markdown="block">
-### Let's See That Again
+###  Let's See That Again
 <aside>Now With More Blank Lines</aside>
 
 * the body of an if statement ends when indentation goes back one level
@@ -149,7 +149,7 @@ if a == b:
 </section>
 
 <section markdown="block">
-### Oh Yeah, Else What?
+###  Oh Yeah, Else What?
 
 We can use __else__ to execute code if the original condition was not met.  After the body of an if-statement, add the following:
 
@@ -160,7 +160,7 @@ We can use __else__ to execute code if the original condition was not met.  Afte
 </section>
 
 <section markdown="block">
-### An if/else Example
+###  An if/else Example
 
 __What does this code print out?__
 
@@ -180,7 +180,7 @@ they're the same!
 </section>
 
 <section markdown="block">
-### An if/else Example
+###  An if/else Example
 
 __What does this code print out?__
 
@@ -200,7 +200,7 @@ they're different
 </section>
 
 <section markdown="block">
-### An if Example
+###  An if Example
 
 __What does this code print out?__
 
@@ -220,7 +220,7 @@ hello!
 </section>
 
 <section markdown="block">
-### Another if Example
+###  Another if Example
 
 __What does this code print out?__
 
@@ -241,7 +241,7 @@ hello!
 </section>
 
 <section markdown="block">
-###  Let's Make a Game!
+###   Let's Make a Game!
 __Try writing a number guessing game. &rarr;__  
 
 * keep track of a _secret number_ (choose whatever int value you'd like)
@@ -251,7 +251,7 @@ __Try writing a number guessing game. &rarr;__
 </section>
 
 <section markdown="block">
-### Example Interaction
+###  Example Interaction
 {% highlight bash %}
 Guess the number that I'm thinking of
 >4
@@ -266,7 +266,7 @@ You got it!
 </section>
 
 <section markdown="block">
-###  A Potential Solution
+###   A Potential Solution
 
 {% highlight python %}
 secret = 10
@@ -280,7 +280,7 @@ else:
 </section>
 
 <section markdown="block">
-### Review
+###  Review
 * What's the equality operator in Python?
 * What happens if I compare two different types using the equality operator?
 * What are the two possible values for the bool type?
@@ -289,5 +289,5 @@ else:
 </section>
 
 <section markdown="block">
-## [Next... a Quick Note on Statements, Expressions, Values](expressions.html)
+##  [Next... a Quick Note on Statements, Expressions, Values](expressions.html)
 </section>

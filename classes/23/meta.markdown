@@ -3,12 +3,12 @@ layout: slides
 title: About Class #23 
 ---
 <section markdown="block" class="title-slide">
-# About Class #23
+#  About Class #23
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Topics 
+###  Topics 
 
 * file i/o
 * exceptions
@@ -17,21 +17,21 @@ title: About Class #23
 </section>
 
 <section markdown="block">
-### Grades
+###  Grades
 
 * midterm #2 grades by end-of-week
 * grades for homework #6 and #7 to be posted by weekend
 </section>
 
 <section markdown="block">
-### Tutoring
+###  Tutoring
 
 No tutoring during Thanksgiving break
 </section>
 
 {% comment %}
 <section markdown="block">
-### Homework #8 Part 1
+###  Homework #8 Part 1
 
 <aside>And speaking of homework...</aside>
 
@@ -47,7 +47,7 @@ No tutoring during Thanksgiving break
 </section>
 
 <section markdown="block">
-### Homework #8 Part 2
+###  Homework #8 Part 2
 
 * [pig latin](../../homework/hw08/pig_latin.py)
 	* startswith prefix instead of slicing for comparisons
@@ -57,7 +57,7 @@ No tutoring during Thanksgiving break
 
 
 <section markdown="block">
-### Exercises / Additional Resources
+###  Exercises / Additional Resources
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 * [Codecademy](http://www.codecademy.com/tracks/python)
@@ -69,7 +69,7 @@ No tutoring during Thanksgiving break
 
 <!--
 <section markdown="block">
-### join and split
+###  join and split
 
 __What type/object are join and split called on?__ &rarr;
 

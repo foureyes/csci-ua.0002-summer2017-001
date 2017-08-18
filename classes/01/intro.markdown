@@ -3,12 +3,12 @@ layout: slides
 title: Introduction 
 ---
 <section markdown="block" class="title-slide">
-#  Hi
+#   Hi
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### I'm Joe Versoza
+###  I'm Joe Versoza
 <aside>
 We're going to be learning how to write some code.
 </aside>
@@ -18,7 +18,7 @@ We're going to be learning how to write some code.
 </section>
 
 <section markdown="block">
-### Nice to Meet You
+###  Nice to Meet You
 <aside>
 So, some things about you:
 </aside>
@@ -33,7 +33,7 @@ So, some things about you:
 </section>
 
 <section markdown="block">
-## About This Class
+##  About This Class
 <p>
 <aside>
 (Introduction to Computer Programming)
@@ -42,7 +42,7 @@ So, some things about you:
 </section>
 
 <section markdown="block">
-### What You Can Expect 
+###  What You Can Expect 
 <aside>
 By the end of this course, you should:
 </aside>
@@ -52,7 +52,7 @@ By the end of this course, you should:
 </section>
 
 <section markdown="block">
-### Logistics
+###  Logistics
 
 {% comment %}
 * We meet here, __{{ site.course_room }}__, {{ site.course_time }}
@@ -65,7 +65,7 @@ For future classes:
 </section>
 
 <section markdown="block">
-### The Course Site
+###  The Course Site
 * The course site is available at [http://cs.nyu.edu/~jversoza/](http://cs.nyu.edu/~jversoza/) 
 	* Follow the link to the course page... 
 	* Or use the incredibly difficult url to remember, write, and even say: [{{ site.course_url }}]({{ site.course_url }})
@@ -78,7 +78,7 @@ INFO - you can also get to this through Courant's list of courses
 </section>
 
 <section markdown="block">
-### Course Work
+###  Course Work
 * [Topics](../../index.html#topics)
 * [Grading](../../index.html#grading)
 * [Homework](../../index.html#homework)
@@ -90,7 +90,7 @@ INFO - you can also get to this through Courant's list of courses
 </section>
 
 <section markdown="block">
-### Contacting Me
+###  Contacting Me
 <aside>
 Let's talk, ok???
 </aside>
@@ -105,7 +105,7 @@ Let's talk, ok???
 </section>
 
 <section markdown="block">
-### Today
+###  Today
 <aside>
 We'll go over...
 </aside>
@@ -120,5 +120,5 @@ We'll go over...
 </section>
 
 <section markdown="block">
-#  [OK.  Let's go!](about-programming.html)
+#   [OK.  Let's go!](about-programming.html)
 </section>

@@ -3,12 +3,12 @@ layout: slides
 title: Lists Review 
 ---
 <section markdown="block" class="title-slide">
-# Lists Review
+#  Lists Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Sequences
+###  Sequences
 
 __What's a sequence, and what are some operations and built-in functions that sequences support?__ &rarr;
 
@@ -25,7 +25,7 @@ A __sequence__ is an ordered collection of elements.  Sequences support operatio
 </section>
 
 <section markdown="block">
-### Sequences Continued
+###  Sequences Continued
 
 We know two __sequence data types__.  __What are they?__ &rarr;
 
@@ -36,7 +36,7 @@ We know two __sequence data types__.  __What are they?__ &rarr;
 </section>
 
 <section markdown="block">
-### Lists
+###  Lists
 
 __What's a list?  What elements are allowed in a list?__ &rarr;
 
@@ -47,7 +47,7 @@ __What's a list?  What elements are allowed in a list?__ &rarr;
 </section>
 
 <section markdown="block">
-### List Syntax
+###  List Syntax
 
 In code, __what's one way to create a list (as in, using a list literal), and how is an empty list represented?__ &rarr;
 
@@ -68,7 +68,7 @@ an_empty_list = []
 
 
 <section markdown="block">
-### Indexing and Slicing Operations
+###  Indexing and Slicing Operations
 
 __How do we index into and slice out substrings of a list?__ &rarr;
 
@@ -85,7 +85,7 @@ __How do we index into and slice out substrings of a list?__ &rarr;
 </section>
 
 <section markdown="block">
-### About Indexes
+###  About Indexes
 
 __Speaking of indexes, what type should an index be (in both indexing and slicing)?__ &rarr;
 
@@ -105,7 +105,7 @@ TypeError: list indices must be integers, not float
 
 
 <section markdown="block">
-### Indexing 
+###  Indexing 
 
 Given a list __items__, __what are three ways to retrieve the last element (operations, functions  and methods are valid)?__ &rarr;
 
@@ -124,7 +124,7 @@ False
 </section>
 
 <section markdown="block">
-### An Aside on Pop
+###  An Aside on Pop
 
 __By the way, name the two theings that pop does when called on a list.__ &rarr;
 
@@ -135,7 +135,7 @@ __By the way, name the two theings that pop does when called on a list.__ &rarr;
 </section>
 
 <section markdown="block">
-### Speaking of Mutability
+###  Speaking of Mutability
 
 __What will happen when the code below is executed?  Is anything printed out?  Is there an error?  Does _nothing_ happen?__ &rarr;
 
@@ -153,7 +153,7 @@ print(items)
 
 
 <section markdown="block">
-### List of Lists 
+###  List of Lists 
 
 Using the same list:
 
@@ -173,7 +173,7 @@ stuff[2][2] = 'something'
 </section>
 
 <section markdown="block">
-### Every Item in a List
+###  Every Item in a List
 
 __How can I continuously retrieve every item in a list, one item at a time?__ &rarr;
 
@@ -188,7 +188,7 @@ for number in [24, 48, 12]:
 </section>
 
 <section markdown="block">
-### For Loops
+###  For Loops
 
 __What is the value of the loop variable, number, during each iteration?__ &rarr;
 
@@ -205,7 +205,7 @@ for number in [24, 48, 12]:
 </section>
 
 <section markdown="block">
-### Nested Lists
+###  Nested Lists
 
 __How do for loops work with nested lists?  What does this print out and what type is another\_list in each iteration?__ &rarr;
 
@@ -226,7 +226,7 @@ for another_list in stuff:
 </section>
 
 <section markdown="block">
-### Nested Lists Continued
+###  Nested Lists Continued
 
 __With the same list, how do I print out every element of every list on its own line with an exclamation point?__ &rarr;
 
@@ -244,7 +244,7 @@ for inner_list in stuff:
 </section>
 
 <section markdown="block">
-### Slicing
+###  Slicing
 
 __What will the following slices return? &rarr;__
 
@@ -267,7 +267,7 @@ print(numbers[0:100])
 </section>
 
 <section markdown="block">
-### Slicing Returns a New Sub List, It Does Not Alter the Original List!
+###  Slicing Returns a New Sub List, It Does Not Alter the Original List!
 
 __What will the following slices print? &rarr;__
 
@@ -286,7 +286,7 @@ print(nonsense)
 </section>
 
 <section markdown="block">
-### Comparison Operators
+###  Comparison Operators
 
 
 __What will the following code output?__ &rarr;
@@ -312,7 +312,7 @@ True
 </section>
 
 <section markdown="block">
-### Addition and Multiplication
+###  Addition and Multiplication
 
 __What will the following code output?__ &rarr;
 
@@ -332,7 +332,7 @@ print(a * 3)
 </section>
 
 <section markdown="block">
-### Length, Deletion and Membership 
+###  Length, Deletion and Membership 
 
 What operators and/or functions would I use to (and how would I use them):
 
@@ -343,7 +343,7 @@ What operators and/or functions would I use to (and how would I use them):
 </section>
 
 <section markdown="block">
-### Length, Deletion and Membership Continued
+###  Length, Deletion and Membership Continued
 
 {% highlight python %}
 >>> nonsense = ['foo', 'bar', 'baz', 'qux']
@@ -367,7 +367,7 @@ True
 </section>
 
 <section markdown="block">
-### List are (Mutable) Objects 
+###  List are (Mutable) Objects 
 
 Lists are __objects__, and they have a slew of __methods__ that you can call on them.  However, because lists are __mutable__, many methods actually __change the list in place__!  Let's see how this differs from strings:
 
@@ -387,7 +387,7 @@ hello
 </section>
 
 <section markdown="block">
-### Lists vs Strings
+###  Lists vs Strings
 
 __Name as many differences between lists and strings as you can!__ &rarr;
 
@@ -399,7 +399,7 @@ __Name as many differences between lists and strings as you can!__ &rarr;
 </section>
 
 <section markdown="block">
-### Back to Mutability
+###  Back to Mutability
 
 __Because lists are mutable, how do list methods typically work?  Do they return values?  Change the original object?__ &rarr;
 
@@ -411,7 +411,7 @@ __Because lists are mutable, how do list methods typically work?  Do they return
 </section>
 
 <section markdown="block">
-### Adding Elements
+###  Adding Elements
 
 __Name three methods that add elements to a list.  What does each method do?  What are each method's inputs and return value?__ &rarr;
 
@@ -424,7 +424,7 @@ __Name three methods that add elements to a list.  What does each method do?  Wh
 </section>
 
 <section markdown="block">
-### Removing Elements
+###  Removing Elements
 
 __Name two methods that delete elements from a list.  What does each method do?  What are each method's inputs and return value?__ &rarr;
 
@@ -437,7 +437,7 @@ __Name two methods that delete elements from a list.  What does each method do? 
 </section>
 
 <section markdown="block">
-### Miscellaneous Methods
+###  Miscellaneous Methods
 
 __Are there any other list methods that we know of?  What does each method do?  What are each method's inputs and return value?__ &rarr;
 
@@ -449,5 +449,5 @@ __Are there any other list methods that we know of?  What does each method do?  
 </section>
 
 <section markdown="block">
-## [List Exercises](list_exercises.html)
+##  [List Exercises](list_exercises.html)
 </section>

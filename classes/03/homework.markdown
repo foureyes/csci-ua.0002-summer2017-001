@@ -3,13 +3,13 @@ layout: slides
 title: Tutoring
 ---
 <section markdown="block" class="title-slide">
-# Homework and Tutoring
+#  Homework and Tutoring
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Tutoring has Officially Started!
+###  Tutoring has Officially Started!
 
 * out-of-class tutoring starts today!
 * [check out the schedule for both lab tutors and the etutor](http://cs.nyu.edu/courses/fall15/CSCI-UA.0002-002/common_syllabus/#tutoring)
@@ -20,7 +20,7 @@ title: Tutoring
 
 </section>
 <section markdown="block">
-### Reminder, Homework #1 
+###  Reminder, Homework #1 
 
 * it's __due on Wednesday, September 16th at 11pm__
 * submit via __NYU Classes__
@@ -29,7 +29,7 @@ title: Tutoring
 </section>
 
 <section markdown="block">
-### Obtaining the Homework
+###  Obtaining the Homework
 
 To view the instructions for the homework:
 
@@ -44,7 +44,7 @@ __Let's See__ &rarr;
 </section>
 
 <section markdown="block">
-### Doing the Homework
+###  Doing the Homework
 
 1. __read the instructions__ in the comments of each file carefully; get in touch with me if there is anything unclear
 2. __design your program__:
@@ -55,7 +55,7 @@ __Let's See__ &rarr;
 </section>
 
 <section markdown="block">
-### Doing the Homework Continued
+###  Doing the Homework Continued
 
 1. write your code outside of the comments (try to preserve the instructions at the top of the file)
 2. test your program
@@ -67,7 +67,7 @@ __Let's See__ &rarr;
 </section>
 
 <section markdown="block">
-### Submitting the Homework
+###  Submitting the Homework
 
 * __turn in homework via NYU Classes__
 	* upload as attachments to your homework submission
@@ -77,7 +77,7 @@ __Let's See__ &rarr;
 </section>
 
 <section markdown="block">
-### Need Help?
+###  Need Help?
 
 * work through the code line-by-line, use print statements, use the __debugger__, use __pythontutor__
 * review the relevant material

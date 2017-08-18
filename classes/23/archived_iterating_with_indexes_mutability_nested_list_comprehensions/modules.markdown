@@ -3,12 +3,12 @@ layout: slides
 title: Creating Modules 
 ---
 <section markdown="block" class="title-slide">
-# Creating Modules
+#  Creating Modules
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Modules
+###  Modules
 
 __What's a module again?__ &rarr;
 
@@ -25,7 +25,7 @@ __What's a module again?__ &rarr;
 </section>
 
 <section markdown="block">
-### Where Does Python Find Modules?
+###  Where Does Python Find Modules?
 
 * it checks the __list of directories of directories in variable called sys.path__ &rarr;
 * __the current directory (where your program is located) is always at the beginning of this list__
@@ -38,7 +38,7 @@ All Together Now...
 </section>
 
 <section markdown="block">
-### Let's Try Creating and Using Our Own Module
+###  Let's Try Creating and Using Our Own Module
 
 __Create a Python file; call it stringtools.py__ &rarr;  
 
@@ -49,7 +49,7 @@ __Create a Python file; call it stringtools.py__ &rarr;
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# in stringtools.py:
+#  in stringtools.py:
 def pluralize(word):
     return word + 's'
 {% endhighlight %}
@@ -57,7 +57,7 @@ def pluralize(word):
 </section>
 
 <section markdown="block">
-### ...And Using It
+###  ...And Using It
 
 Use the pluralize function in your stringtools module...__Create a new file; call it myprogram.py__ &rarr;
 
@@ -67,7 +67,7 @@ Use the pluralize function in your stringtools module...__Create a new file; cal
 
 <div class="incremental" markdown="block">
 {% highlight python %}
-# in myprogram.py
+#  in myprogram.py
 import stringtools
 user_response = input('Word plz>\n')
 plural_w = stringtools.pluralize(user_response)

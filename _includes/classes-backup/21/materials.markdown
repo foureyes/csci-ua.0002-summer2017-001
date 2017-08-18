@@ -1,6 +1,6 @@
 <a name="class21"></a>
 
-###Slides
+### Slides
 
 * [About Class #21 / Midterm](classes/21/meta.html)
 * from previous class, [List Exercises](classes/20/list_exercises.html)
@@ -14,7 +14,7 @@
  
 <a name="midterm2practice"></a>
 
-### Sample Exam Questions
+###  Sample Exam Questions
 
 * [Midterm #2 Practice Questions](resources/handouts/midterm_2/midterm_2_practice.pdf)
 	* gives you code-from-scratch questions to try
@@ -23,7 +23,7 @@
 * [Midterm #2 Practice Solutions](resources/handouts/midterm_2/midterm_2_practice_solutions.pdf)
 
 
-### Readings
+###  Readings
 
 __Slides from class #12 through class #20__
 
@@ -49,7 +49,7 @@ __{{ site.bookt }}__
 
 <a name="midterm2hw"></a>
 
-### Homework Solutions
+###  Homework Solutions
 
 hw5
 

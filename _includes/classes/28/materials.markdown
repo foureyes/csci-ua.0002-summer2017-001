@@ -1,13 +1,13 @@
 {% comment %}  
 <article class="due" markdown="block">
-#### Due Today
+####  Due Today
 
 
 
 </article>
 
 <article class="slides" markdown="block">
-#### Slides
+####  Slides
 
 __Final Exam__
 
@@ -116,7 +116,7 @@ Modules
 * Chapter 9: Dictionaries and Sets (only dictionaries and exceptions)
 * Chapter 12: Recursion  (as extra credit)
 
-#### {{ site.bookt }}
+####  {{ site.bookt }}
 
 * [Chapter 1 The way of the program](http://www.openbookproject.net/thinkcs/python/english3e/way_of_the_program.html)
 * [Chapter 2 Variables, expressions, and statements](http://www.openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html)
@@ -137,7 +137,7 @@ Modules
 </article>
 
 <article class="assignments" markdown="block">
-#### Assignments / Readings		
+####  Assignments / Readings		
 
 </article>
 {% endcomment %}

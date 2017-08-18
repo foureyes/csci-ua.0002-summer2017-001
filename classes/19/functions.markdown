@@ -3,12 +3,12 @@ layout: slides
 title: Functions 
 ---
 <section markdown="block" class="title-slide">
-# Functions 
+#  Functions 
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Function Definition
+###  Function Definition
 
 __What's a function?__
 
@@ -18,7 +18,7 @@ A __function__ is a named sequence of statements that performs some _useful_ ope
 </section>
 
 <section markdown="block">
-### Method Definition
+###  Method Definition
 
 __What's a method (well... in the context of programming, of course!)?__
 
@@ -28,7 +28,7 @@ A __method__ is an action that an object/_thing_ can do.  It's basically a funct
 </section>
 
 <section markdown="block">
-### Function Call Definition
+###  Function Call Definition
 
 __What's a function call?__ 
 
@@ -38,7 +38,7 @@ A __function call__ is the statement that actually executes a function.  It's ju
 </section>
 
 <section markdown="block">
-### Argument Definition
+###  Argument Definition
 
 __What's an argument (again, in the context of functions, of course)?__ 
 
@@ -49,7 +49,7 @@ An __argument__ is a value that's passed in to a function when a function is cal
 
 
 <section markdown="block">
-### None Definition
+###  None Definition
 
 __What's None?__
 
@@ -59,7 +59,7 @@ __None__ is a special value in Python that represents the absence of a value.
 </section>
 
 <section markdown="block">
-### Function Definition
+###  Function Definition
 
 What's the syntax for defining a function?
 
@@ -79,7 +79,7 @@ def <function_name>(<zero_or_more_parameters>):
 
 
 <section markdown="block">
-### Return
+###  Return
 
 What does __return__ do?
 
@@ -90,7 +90,7 @@ What does __return__ do?
 </section>
 
 <section markdown="block">
-### Return Continued
+###  Return Continued
 
 __What's value is given back if a function doesn't return anything?__
 
@@ -100,7 +100,7 @@ __None__
 </section>
 
 <section markdown="block">
-### Parameters Example
+###  Parameters Example
 
 __Using the following function and function call, what are the values of both greeting and num within the function? What's the output?&rarr;__
 
@@ -121,7 +121,7 @@ print(greet_more_input("hello".upper() * 2, int(math.sqrt(4))))
 </section>
 
 <section markdown="block">
-### And The Tricky One
+###  And The Tricky One
 
 __Using the following function and function call, what are the values of both greeting and num within the function? What's the output?&rarr;__
 
@@ -143,7 +143,7 @@ print(greet_more_input(num, greeting))
 </section>
 
 <section markdown="block">
-### Another Parameters Example
+###  Another Parameters Example
 {% highlight python %}
 {% include classes/16/join_three_strings.py %}
 {% endhighlight %}
@@ -170,7 +170,7 @@ join_three_strings(c, b, a)
 </section>
 
 <section markdown="block">
-### Parameters Summary
+###  Parameters Summary
 * __parameters__ 
 	* variable names used within a function 
 	* reference the values passed in as arguments
@@ -182,7 +182,7 @@ join_three_strings(c, b, a)
 </section>
 
 <section markdown="block">
-### Accessing a Variable Outside of a Function 
+###  Accessing a Variable Outside of a Function 
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -196,7 +196,7 @@ Oddly... it's fine.  Something is printed out.  It seems like the function has a
 </section>
 
 <section markdown="block">
-### How About Variables Declared Inside a Function?
+###  How About Variables Declared Inside a Function?
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -210,7 +210,7 @@ Uh-oh.  Looks like you can't access variables that are inside a function.
 </section>
 
 <section markdown="block">
-### How About Parameters?
+###  How About Parameters?
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -224,7 +224,7 @@ This is the same as the previous slide.  You can't access the parameters (by the
 </section>
 
 <section markdown="block">
-### And Lastly... 
+###  And Lastly... 
 
 __What do you think will happen here?  Will something be printed out?  Nothing?  Or an error?__
 
@@ -238,7 +238,7 @@ Hmmm... it looks like names created within a function are _local_ to that functi
 </section>
 
 <section markdown="block">
-### What Does This All Mean?
+###  What Does This All Mean?
 
 A __scope__ holds the current set of available names (variables) and the values that they point to.  
 
@@ -253,13 +253,13 @@ def foo():
 	c = "bar"
 	print(b)
 	print(c)
-# what will this print out?
+#  what will this print out?
 foo()
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Scope
+###  Scope
 
 Variables that are defined in your function (one indentation level in), however, are only available within your function.  They are _local_ to that function.  The example below won't work.
 
@@ -274,7 +274,7 @@ print(c)
 </section>
 
 <section markdown="block">
-### Scope Continued
+###  Scope Continued
 
 Furthermore, variables that are declared within a function that have the same name as a global variable are totally different variables/values!  They don't overwrite the outer, global variable (there's a way to do this, though).  What will this print?
 
@@ -297,7 +297,7 @@ on toast
 </section>
 
 <section markdown="block">
-### Scope Summary
+###  Scope Summary
 
 * variables declared outside of a function can be accessed within a function
 * variables declared inside of a function cannot be accessed outside of a function (they're __out of scope__)
@@ -308,7 +308,7 @@ on toast
 
 
 <section markdown="block">
-### Return Values
+###  Return Values
 __What's the difference between these two definitions of our function?  What gets printed out for each code sample? &rarr;__
 
 Version #1
@@ -327,7 +327,7 @@ print(join_three_strings('one', 'two', 'three'))
 </section>
 
 <section markdown="block">
-### Return Values Continued
+###  Return Values Continued
 The first definition (#1) returns a string, while the other (#2) doesn't return a value.  Here are the values that are returned from functions #1 and #2:
 
 1. 'one two three'
@@ -336,18 +336,18 @@ The first definition (#1) returns a string, while the other (#2) doesn't return 
 Note however, that the actual output is: 
 
 {% highlight python %}
-# version 1
+#  version 1
 one two three
 
-# version 2 (the print within the function gets executed, followed by the
-# print outside of the function)
+#  version 2 (the print within the function gets executed, followed by the
+#  print outside of the function)
 one two three
 None
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### The Return Statement
+###  The Return Statement
 * a function can return a value after it is called
 * this is done by using the __return__ statement
 * the __return__ statement immediately stops the execution of a function
@@ -358,19 +358,19 @@ None
 </section>
 
 <section markdown="block">
-### Defining a Function vs Calling a Function
+###  Defining a Function vs Calling a Function
 __What gets printed out for each version of code?__
 {% highlight python %}
-# version 1
+#  version 1
 {% include classes/16/join_three_strings.py %}
 {% endhighlight %}
 {% highlight python %}
-# version 2
+#  version 2
 {% include classes/16/join_three_strings.py %}
 join_three_strings('one', 'two', 'three')
 {% endhighlight %}
 {% highlight python %}
-# version 3
+#  version 3
 {% include classes/16/join_three_strings.py %}
 print(join_three_strings('one', 'two', 'three'))
 {% endhighlight %}
@@ -380,7 +380,7 @@ print(join_three_strings('one', 'two', 'three'))
 </section>
 
 <section markdown="block">
-### Testing Programs / Functions
+###  Testing Programs / Functions
 So far, we've tested our programs by:
 
 * printing things out to the screen
@@ -396,7 +396,7 @@ __What can we do to make testing less tedious and error prone? &rarr;__
 </section>
 
 <section markdown="block">
-### Assertions for Testing
+###  Assertions for Testing
 
 Let's get the computer to test it for us!  Assertions are a way to systematically check the state of our program.
 
@@ -406,7 +406,7 @@ Let's get the computer to test it for us!  Assertions are a way to systematicall
 </section>
 
 <section markdown="block">
-### Assert Syntax
+###  Assert Syntax
 
 {% highlight python %}
 assert <some condition>, "a string representing a test"
@@ -419,7 +419,7 @@ assert <some condition>, "a string representing a test"
 </section>
 
 <section markdown="block">
-### An Assertion Example
+###  An Assertion Example
 
 __Let's use assertions to test an incorrect implementation of our function - one that doesn't have spaces between the strings. &rarr;__
 
@@ -429,7 +429,7 @@ __Let's use assertions to test an incorrect implementation of our function - one
 {% endhighlight %}
 
 {% highlight python %}
-# output shows line number and error...
+#  output shows line number and error...
 Traceback (most recent call last):
   File "foo.py", line 4, in <module>
     assert "ha ha ha" == join_three_strings("ha", "ha", "ha"), "joined string should have spaces"
@@ -439,18 +439,18 @@ AssertionError: joined string should have spaces
 </section>
 
 <section markdown="block">
-### An Assertion Example That Actually Passes
+###  An Assertion Example That Actually Passes
 
 __Let's fix the program... and see what happens. &rarr;__
 
 {% highlight python %}
 {% include classes/16/join_three_strings_with_asserts_with_fix.py %}
-# results in no output
+#  results in no output
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Another Assertion Example
+###  Another Assertion Example
 
 __Let's use assertions to test an incorrect implementation of an absolute_value function &rarr;__
 {% highlight python %}
@@ -471,7 +471,7 @@ assert 0 == absolute_value(0), "absolute value of 0 is 0"
 </section>
 
 <section markdown="block">
-### Questions About Assertions
+###  Questions About Assertions
 * why use assertions
 	* to test specific portions of your program
 	* to cut down on manual testing
@@ -483,7 +483,7 @@ assert 0 == absolute_value(0), "absolute value of 0 is 0"
 </section>
 
 <section markdown="block">
-### Example Question #1
+###  Example Question #1
 
 * write a function called join_three_strings
 * it should take three arguments: a, b, c
@@ -504,7 +504,7 @@ one two three
 </section>
 
 <section markdown="block">
-### Example Question #1 Solution
+###  Example Question #1 Solution
 {% highlight python %}
 {% include classes/16/join_three_strings.py %}
 assert "one two three" == join_three_strings('one', 'two', 'three'), "three strings are joined with a space"
@@ -513,7 +513,7 @@ assert "1 2 3" === join_three_strings(1, 2, 3), "joins three ints as strings"
 </section>
 
 <section markdown="block">
-### Example Question #2 
+###  Example Question #2 
 
 __Using the function definition below, what is the value and type of _a_? &rarr;__
 

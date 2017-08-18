@@ -3,18 +3,18 @@ layout: slides
 title: Loops Recap 
 ---
 <section markdown="block" class="title-slide">
-# Loops Recap
+#  Loops Recap
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## Super Quick Review Before we Move On
+##  Super Quick Review Before we Move On
 
 </section>
 
 
 <section markdown="block">
-### Repeating Blocks of Code
+###  Repeating Blocks of Code
 
 Python has two looping structures:
 
@@ -23,7 +23,7 @@ Python has two looping structures:
 </section>
 
 <section markdown="block">
-### While Loops
+###  While Loops
 
 {% highlight python %}
 while some_boolean_expression:
@@ -38,7 +38,7 @@ while some_boolean_expression:
 </section>
 
 <section markdown="block">
-### For Loops
+###  For Loops
 
 {% highlight python %}
 for loop_variable in iterable_object:
@@ -53,7 +53,7 @@ for loop_variable in iterable_object:
 </section>
 
 <section markdown="block">
-### Controlling Loops
+###  Controlling Loops
 
 Python has two constructs to change the flow of a loop:
 
@@ -62,7 +62,7 @@ Python has two constructs to change the flow of a loop:
 </section>
 
 <section markdown="block">
-### break
+###  break
 
 * the break statement is used to immediately leave the body of the loop that it is in
 * the next statement to be executed is the first one after the body of the loop
@@ -87,7 +87,7 @@ done
 </section>
 
 <section markdown="block">
-### continue
+###  continue
 
 * the continue statement causes the program to immediately skip the processing of the rest of the body of the loop
 * ...but instead of jumping out of the loop, it _continues_ on to the next iteration
@@ -112,7 +112,7 @@ done
 </section>
 
 <section markdown="block">
-### Nested Loops
+###  Nested Loops
 
 Lastly, we've talked about nested loops.
 
@@ -122,7 +122,7 @@ Lastly, we've talked about nested loops.
 </section>
 
 <section markdown="block">
-### Squares!
+###  Squares!
 
 * __what are the x, y coordinates of the first square?__ &rarr;
 * __... and the second square?__ &rarr;
@@ -149,7 +149,7 @@ The first is at (0, 0), second is at (0, 25).
 </section>
 
 <section markdown="block">
-### Squares! Answers
+###  Squares! Answers
 
 * __the first square is drawn at (0, 0)__
 * __the second square is drawn at (0, 25)__
@@ -175,7 +175,7 @@ __Let's try this out!__ &rarr;
 </section>
 
 <section markdown="block">
-## [Turtle Review](turtle_review.html)
+##  [Turtle Review](turtle_review.html)
 </section>
 
 

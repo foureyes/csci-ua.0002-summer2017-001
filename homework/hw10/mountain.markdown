@@ -5,11 +5,11 @@ title: mountain.py
 <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 
 <style>
-#bd { 
+# bd { 
 	background-color: #eee;
 }
 
-#content {
+# content {
 	padding-top: 0 !important;
 }
 
@@ -76,7 +76,7 @@ img {
 
 <div markdown="block" class="assignment">
 
-# mountain.py (just for fun!)
+#  mountain.py (just for fun!)
 
 
 Write a program that randomly generates rocky mountains. Do this using:
@@ -94,7 +94,7 @@ Here's a few examples of mountains rendered by this program:
 
 <hr>
 
-## Part 0
+##  Part 0
 
 __Set up a turtle program__ and create a function called `draw_line`:
 
@@ -114,12 +114,12 @@ Test your program:
 ```
 ![line](../../resources/img/mountain_line.png)
 
-## Part 1
+##  Part 1
 
 Create a function called `get_midpoint`
 
 
-## Part 2
+##  Part 2
 
 Rather than use a hard-coded dictionary as your thesaurus, use an [external thesaurus file](thesaurus.txt) (right-click and save as... __to where your Python program is__) to populate the keys and values in your dictionary. Use the following line to read in your file (do not use absolute paths):
 
@@ -149,7 +149,7 @@ Generating the thesaurus will be the trickiest part:
 
 <hr>
 
-## Part 3
+##  Part 3
 
 Finally, modify your above program to write a song for you. It'll use another external file, the [lyrics to Taylor Swift's Bad Blood](bad_blood.txt), as a source for lyrics.
 
@@ -170,7 +170,7 @@ Cause INFANT now we got bad blood ...</code></pre>
 
 <hr>
 
-## (Optional) Part 4
+##  (Optional) Part 4
 
 If you're on OSX, you won't even have to sing the lyrics that you _"wrote"_! Instead, you can have the computer sing it for you. Use the following lines of code at the end of your programming, substituting the variable <code>lyrics</code> with your own variable that contains lyrics:
 

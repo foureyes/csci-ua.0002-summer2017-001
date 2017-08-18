@@ -3,13 +3,13 @@ layout: slides
 title: Turtle 
 ---
 <section markdown="block" class="title-slide">
-# Turtle 
+#  Turtle 
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-### Turtle 
+###  Turtle 
 
 __What's turtle?__
 
@@ -24,7 +24,7 @@ __What's turtle?__
 </section>
 
 <section markdown="block">
-### Using the turtle Module
+###  Using the turtle Module
 __Describe the basic steps for using the turtle module (what's the pseudocode) &rarr;__
 
 <div class="incremental" markdown="block">
@@ -36,7 +36,7 @@ __Describe the basic steps for using the turtle module (what's the pseudocode) &
 </section>
 
 <section markdown="block">
-### Actual Code
+###  Actual Code
 
 __And for the real code? &rarr;__
 
@@ -48,7 +48,7 @@ __And for the real code? &rarr;__
 </section>
 
 <section markdown="block">
-### A Quick Run Through What the Code Does...
+###  A Quick Run Through What the Code Does...
 
 bring in the turtle module
 {% highlight python %}
@@ -69,7 +69,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Creating a Turtle Object
+###  Creating a Turtle Object
 
 In the case of Turtle, there's no literal (like a string, int or list).  Instead, to create an object, you have to use something that looks like a function call (it's actually a __constructor__).  Calling Turtle() gives you back a Turtle object:
 
@@ -80,7 +80,7 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-### A Few Things to Remember...
+###  A Few Things to Remember...
 
 * the turtle starts at the center (0, 0)
 * the turtle is facing right (imagine that it's looking east)
@@ -88,7 +88,7 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-### Basic Turtle Methods
+###  Basic Turtle Methods
 
 These are all methods that you can call on your __Turtle__ object.
 
@@ -104,7 +104,7 @@ t.right(45)
 </section>
 
 <section markdown="block">
-### Screen and Pen Drawing Attributes
+###  Screen and Pen Drawing Attributes
 
 Methods you can call on your __Turtle__ object:
 
@@ -124,7 +124,7 @@ wn.bgcolor("pink")
 </section>
 
 <section markdown="block">
-### Moving Without Drawing
+###  Moving Without Drawing
 
 Methods you can call on your __Turtle__ object:
 
@@ -137,7 +137,7 @@ t.up()  # picks the pen up, doesn't draw when the turtle moves
 
 
 <section markdown="block">
-### Going Somewhere?
+###  Going Somewhere?
 
 A method you can call on your __Turtle__ object:
 
@@ -149,7 +149,7 @@ t.goto(200, 200)  # picks the pen up, doesn't draw when the turtle moves
 </section>
 
 <section markdown="block">
-### Example Question #1
+###  Example Question #1
 
 __What does this draw? &rarr;__
 
@@ -165,7 +165,7 @@ A square!
 </section>
 
 <section markdown="block">
-### Example Question #2
+###  Example Question #2
 
 __Finish this code to draw a square (same as previous)__
 {% highlight pycon %}
@@ -185,7 +185,7 @@ for i in range(4):
 </section>
 
 <section markdown="block">
-### Some Others
+###  Some Others
 
 * create a function that...
 * draw multiple...

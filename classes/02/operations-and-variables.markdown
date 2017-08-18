@@ -3,16 +3,16 @@ layout: slides
 title: Operations and Variables 
 ---
 <section markdown="block" class="title-slide">
-#  Operations and Variables
+#   Operations and Variables
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-##   Operations on Strings and Numeric Types
+##    Operations on Strings and Numeric Types
 </section>
 
 <section markdown="block">
-###  int operations 
+###   int operations 
 <aside>The Usual...</aside>
 
 As you'd expect: addition, subtraction and multiplication &rarr;
@@ -23,7 +23,7 @@ As you'd expect: addition, subtraction and multiplication &rarr;
 </section>
 
 <section markdown="block">
-###  Division is Special
+###   Division is Special
 
 * the division operator is __/__
 * __what do you think 5/2 gives__ &rarr;			
@@ -51,7 +51,7 @@ As you'd expect: addition, subtraction and multiplication &rarr;
 </section>
 
 <section markdown="block">
-###  We Don't Need No Decimal Points
+###   We Don't Need No Decimal Points
 <aside>Integer Division</aside>
 
 * the __integer division__ operator is __//__ (double forward slash)
@@ -71,7 +71,7 @@ As you'd expect: addition, subtraction and multiplication &rarr;
 </section>
 
 <section markdown="block">
-###  Modulo Operator (Remainder)
+###   Modulo Operator (Remainder)
 <aside>What's Left Over?</aside>
 * the remainder operator is % (the percent symbol)
 * __what would 5%2 give back?__ &rarr;
@@ -85,7 +85,7 @@ As you'd expect: addition, subtraction and multiplication &rarr;
 </section>
 
 <section markdown="block">
-###  Exponentiation 
+###   Exponentiation 
 <aside>We NEED MORE STARS</aside>
 * the exponentiation operator is __\*\*__ (two asterisks)
 * __what do we get for 2**2__? &rarr;
@@ -99,7 +99,7 @@ As you'd expect: addition, subtraction and multiplication &rarr;
 </section>
 
 <section markdown="block">
-###  Order of Operations
+###   Order of Operations
 <aside>Too Many Operators!  What To Do First?</aside>
 
 * as you would expect (remember PEMDAS?)
@@ -119,7 +119,7 @@ float! (division, even with integers, gives back floats)
 
 
 <section markdown="block">
-###  (Parentheses)
+###   (Parentheses)
 <aside>(I Use Them A Lot)</aside>
 * you can use parentheses to group expressions...
 * this will affect odrer of operations
@@ -134,7 +134,7 @@ float! (division, even with integers, gives back floats)
 </section>
 
 <section markdown="block">
-###  You Could Always Use It As a Calculator
+###   You Could Always Use It As a Calculator
 <aside>A Quick Activity</aside>
 
 __Translate this formula into Python code__ &rarr;
@@ -149,11 +149,11 @@ __Translate this formula into Python code__ &rarr;
 </section>
 
 <section markdown="block">
-##  str Operations
+##   str Operations
 </section>
 
 <section markdown="block">
-###  Multiplication!?
+###   Multiplication!?
 * the multiplication operator is __*__
 * it returns a new string with the original string duplicated the number of times specified by the operand on the right side
 * __what would "hey" * 3 return?__ &rarr;
@@ -167,7 +167,7 @@ __Translate this formula into Python code__ &rarr;
 </section>
 
 <section markdown="block">
-###  String Concatenation
+###   String Concatenation
 * use the __+__ to stitch together strings
 * it's basically just adding strings together
 * example: print("knocked " + "my" + "socks" + "off") &rarr;
@@ -187,13 +187,13 @@ __Translate this formula into Python code__ &rarr;
 </section>
 
 <section markdown="block">
-##  Let's repeat: string concatenation requires both operands to be strings
+##   Let's repeat: string concatenation requires both operands to be strings
 
 <aside>Otherwise you get an error!</aside>
 </section>
 
 <section markdown="block">
-###  Let's Fix It!
+###   Let's Fix It!
 <aside>Type Conversion...</aside>
 
 You can change from one type to another using __functions__ of the same name as the __type__ you are trying to convert to.  Let's look at what autocomplete says about the following functions and demo them.  &rarr;
@@ -204,7 +204,7 @@ You can change from one type to another using __functions__ of the same name as 
 </section>
 
 <section markdown="block">
-### And This Helps... How? 
+###  And This Helps... How? 
 __Let's fix our previous string concatenation__ &rarr;
 
 
@@ -224,7 +224,7 @@ __Let's fix our previous string concatenation__ &rarr;
 </section>
 
 <section markdown="block">
-###  Review
+###   Review
 * what operators do we use for exponentiation and integer division?
 * what does -10//3 give back?
 * what's an easy way of creating a string that has 100 exclamation points in it? 
@@ -232,7 +232,7 @@ __Let's fix our previous string concatenation__ &rarr;
 </section>
 
 <section markdown="block">
-###  A Quick Summary of Operators for Numeric Types
+###   A Quick Summary of Operators for Numeric Types
 
 __Name as many operators that work on numeric types as you can:__ &rarr;
 
@@ -248,7 +248,7 @@ __Name as many operators that work on numeric types as you can:__ &rarr;
 </section>
 
 <section markdown="block">
-###  A Quick Summary of String Operators
+###   A Quick Summary of String Operators
 
 __Name as many operators that work on strings as you can:__ &rarr;
 
@@ -260,11 +260,11 @@ __Name as many operators that work on strings as you can:__ &rarr;
 
 
 <section markdown="block">
-##  Variables
+##   Variables
 </section>
 
 <section markdown="block">
-###  What's a Variable?
+###   What's a Variable?
 * __variable__ - name that refers to a value
 * this terminology is important; very specific... __name__ and __value__
 * we can now use that name instead of the explicit value
@@ -272,7 +272,7 @@ __Name as many operators that work on strings as you can:__ &rarr;
 </section>
 
 <section markdown="block">
-###  So How Do Variables Actually Work?
+###   So How Do Variables Actually Work?
 {% highlight pycon %}
 some_variable_name = "a value"
 {% endhighlight %}
@@ -285,7 +285,7 @@ some_variable_name = "a value"
 </section>
 
 <section markdown="block">
-###  Another Aside - Interactive Shell
+###   Another Aside - Interactive Shell
 Whenever you type something in the interactive shell, it will always return a value. &rarr;
 
 * a value returns a value
@@ -295,7 +295,7 @@ Whenever you type something in the interactive shell, it will always return a va
 </section>
 
 <section markdown="block">
-###  Some More Miscellaneous Comments
+###   Some More Miscellaneous Comments
 * how can I tell if something is printed vs a value is returned?
 	* returning a string shows the string in quotes, while printing displays the string without quotes
 	* confusing for other types, just know that each line _gives back a value_ to your program, and consequently that value gets shown after each line is entered
@@ -306,7 +306,7 @@ Whenever you type something in the interactive shell, it will always return a va
 </section>
 
 <section markdown="block">
-###  Variables That Aren't Defined Yet
+###   Variables That Aren't Defined Yet
 * __what happens when you use a variable that doesn't exist?__ &rarr;	
 
 <div class="incremental" markdown="block">
@@ -322,7 +322,7 @@ NameError: name 'foo' is not defined
 </section>
 
 <section markdown="block">
-###  More About Reassignment
+###   More About Reassignment
 
 * you can reassign or rebind
 * __let's see that in action__ &rarr;
@@ -335,7 +335,7 @@ NameError: name 'foo' is not defined
 </section>
 
 <section markdown="block">
-###  Naming Variables
+###   Naming Variables
 * you can make them as long as you want... though I suppose it could crash your computer
 	* __what's an easy way to create a long variable name?__ &rarr;
 	* __btw, you can autocomplete in the shell by using tab__ &rarr;
@@ -346,7 +346,7 @@ NameError: name 'foo' is not defined
 </section>
 
 <section markdown="block">
-###  Am I a Valid Name?
+###   Am I a Valid Name?
 
 __Which of the following are valid variable names in Python?__
 
@@ -362,7 +362,7 @@ __Which of the following are valid variable names in Python?__
 </section>
 
 <section markdown="block">
-###  Let's Actually Use Some Variables
+###   Let's Actually Use Some Variables
 
 __Try the following on your own:__ &rarr;
 
@@ -374,5 +374,5 @@ __Try the following on your own:__ &rarr;
 </section>
 
 <section markdown="block">
-##  [User Input](user-input.html)
+##   [User Input](user-input.html)
 </section>

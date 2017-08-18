@@ -3,12 +3,12 @@ layout: slides
 title: Review 
 ---
 <section markdown="block" class="title-slide">
-# Review
+#  Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Programs and Programming Languages
+###  Programs and Programming Languages
 
  __What's a program?__
 
@@ -26,7 +26,7 @@ __How are programming languages similar to or different from natural languages?_
 </section>
 
 <section markdown="block">
-### Binary, Bits, and Bytes
+###  Binary, Bits, and Bytes
 
 __What are the possible values that a bit can hold?__ &rarr;
 
@@ -50,7 +50,7 @@ __What is 10000010 in decimal?__ &rarr;
 </section>
 
 <section markdown="block">
-### More About Programming Languages!
+###  More About Programming Languages!
 
 __What does a compiler do?__
 
@@ -66,7 +66,7 @@ Languages that have an explicit compilation step are generally thought of as com
 </section>
 
 <section markdown="block">
-### Tools
+###  Tools
 
 __What's the name of the language we're using?__
 
@@ -84,7 +84,7 @@ __Is python a high level or low level language?  Why?__
 </section>
 
 <section markdown="block">
-### Tools Continued
+###  Tools Continued
 
 __What extension is used for Python source code files?__
 
@@ -104,6 +104,6 @@ The interactive shell executes code as you enter each line; it give you immediat
 </section>
 
 <section markdown="block">
-## [How to Say Hello](hello.html)
+##  [How to Say Hello](hello.html)
 </section>
 

@@ -3,17 +3,17 @@ layout: slides
 title: Reading and Writing Slides
 ---
 <section markdown="block" class="title-slide">
-# Using IDLE to Write and Run Programs
+#  Using IDLE to Write and Run Programs
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-## Reading and Writing Python Files
+##  Reading and Writing Python Files
 </section>
 
 <section markdown="block">
-### About IDLE
+###  About IDLE
 
 __What are the two main ways that we can use IDLE? &rarr;__
 
@@ -25,7 +25,7 @@ __What are the two main ways that we can use IDLE? &rarr;__
 </section>
 
 <section markdown="block">
-### Again, You Can...
+###  Again, You Can...
 
 * run your program all at once (using Run &rarr; Run Module)
 
@@ -38,7 +38,7 @@ Lastly, if your program ever outputs anything, it should show up in the interact
 
 
 <section markdown="block">
-### Starting IDLE
+###  Starting IDLE
 <aside>IDLE is our IDE; we'll use it to read and write programs</aside>
 
 Just like what we did in the previous slides, to open IDLE:
@@ -52,7 +52,7 @@ DEMO - opening IDLE
 </section>
 
 <section markdown="block">
-### Starting IDLE Continued
+###  Starting IDLE Continued
 When you first open IDLE, you should see a window titled __"Python Shell"__
 
 * to reiterate, the __Python Shell__ is for entering and running programs __line-by-line__
@@ -62,7 +62,7 @@ When you first open IDLE, you should see a window titled __"Python Shell"__
 </section>
 
 <section markdown="block">
-### Managing Files 
+###  Managing Files 
 <aside>Creating New Files, Opening Recent Files, Running Files</aside>
 
 All file management activities can be found in the File menu:
@@ -79,11 +79,11 @@ DEMO - new window, open and run module
 </section>
 
 <section markdown="block">
-## (Again, Feel Free to Follow Along!)
+##  (Again, Feel Free to Follow Along!)
 </section>
 
 <section markdown="block">
-### A First Program
+###  A First Program
 
 __"Hello world!"__ is traditionally the first program you write when learning a new language.  It simply outputs "Hello world" (yeah, that's all).  __Follow these steps__:
 
@@ -103,7 +103,7 @@ print("Hello world!")
 </section>
 
 <section markdown="block">
-### Modifying Your Program
+###  Modifying Your Program
 <aside>Most of the time, we're editing existing programs rather than creating entirely new ones</aside>
 
 Let's modify the program that we just wrote:
@@ -122,7 +122,7 @@ print("Hi again!")
 </section>
 
 <section markdown="block">
-### Making Mistakes
+###  Making Mistakes
 <aside>Programs don't always work the way we expect them to!</aside>
 
 Let's purposely make a mistake, then fix it
@@ -146,7 +146,7 @@ print("Hola"
 </section>
 
 <section markdown="block">
-### Making More Mistakes
+###  Making More Mistakes
 <aside>That was syntactic mistake; what about errors that occur when the program is actually running?</aside>
 
 Let's make a run-time error:
@@ -172,7 +172,7 @@ DEMO - find the line
 </section>
 
 <section markdown="block">
-### Errors
+###  Errors
 
 Notice that we looked at two different _types_ of errors:
 
@@ -181,7 +181,7 @@ Notice that we looked at two different _types_ of errors:
 </section>
 
 <section markdown="block">
-### A Quick Note on Syntax Highlighting
+###  A Quick Note on Syntax Highlighting
 
 * The different colors represent different syntactic elements
 * Some examples include
@@ -197,11 +197,11 @@ DEMO - function and for loop for syntax highlighting
 </section>
 
 <section markdown="block">
-## The Output Window and Interactive Shell 
+##  The Output Window and Interactive Shell 
 </section>
 
 <section markdown="block">
-### The Interactive Shell
+###  The Interactive Shell
 * the output window can also be used to run Python code interactively
 * you can also go to Run &rarr; Python Shell to open an interactive session if it's closed
 * you can enter commands and have them return immediate feedback
@@ -214,7 +214,7 @@ DEMO - hello world in interactive shell
 </section>
 
 <section markdown="block">
-### Help!
+###  Help!
 
 Note that typing __help__ in the interactive shell _actually_ gives you help!  __Let's try it!__ &rarr;
 
@@ -232,5 +232,5 @@ __Additionally, you can check out the Python docs by going to Help &rarr; Python
 </section>
 
 <section markdown="block">
-## [Let's Provide Some Structure to Our Programming Process](programming-workflow.html)
+##  [Let's Provide Some Structure to Our Programming Process](programming-workflow.html)
 </section>

@@ -3,17 +3,17 @@ layout: slides
 title: Installing Tools Slides
 ---
 <section markdown="block" class="title-slide">
-# Installing Python
+#  Installing Python
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-## So You've Decided to Install Python 
+##  So You've Decided to Install Python 
 <aside>Yes!  You've made a good choice.</aside>
 </section>
 
 <section markdown="block">
-### You Probably Already Have a Version Installed
+###  You Probably Already Have a Version Installed
 <aside>It's probably the wrong one</aside>
 If you're on OSX or Ubuntu...
 
@@ -32,11 +32,11 @@ QUESTION - What version are we using in class?
 </section>
 
 <section markdown="block">
-## (BTW, If You Have Your Laptop, Feel Free to Follow Along!)
+##  (BTW, If You Have Your Laptop, Feel Free to Follow Along!)
 </section>
 
 <section markdown="block">
-### How To Determine What Version You're On
+###  How To Determine What Version You're On
 <aside markdown="block">
 This requires using the _commandline_
 </aside>
@@ -57,7 +57,7 @@ DEMO - show Python version
 </section>
 
 <section markdown="block">
-### Installation
+###  Installation
 <aside>If you don't have Python 3, you can install it...</aside>
 * on OSX and Windows:
 	* go to the Download section on python.org: [http://python.org/download/](http://python.org/download/)
@@ -70,7 +70,7 @@ DEMO - show Python version
 </section>
 
 <section markdown="block">
-### Installation Continued
+###  Installation Continued
 * you can test your installation by opening terminal or cmd.exe (see the [previous slide](installing-tools.html#4.0) on [checking Python version](installing-tools.html#4.0))
 * except, this time, you should have python 3 available, so __use "python3" instead of the regular python interpreter__: python3 --version
 * you can also try running IDLE
@@ -79,5 +79,5 @@ DEMO - show Python version
 </section>
 
 <section markdown="block">
-## [Let's See What IDLE Can Do](reading-writing-programs.html)
+##  [Let's See What IDLE Can Do](reading-writing-programs.html)
 </section>

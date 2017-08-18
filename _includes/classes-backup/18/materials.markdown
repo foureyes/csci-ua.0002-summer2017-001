@@ -1,13 +1,13 @@
 <a name="class18"></a>
 
-###Slides
+### Slides
 * [About Class #18](classes/18/meta.html)
 * [Strings Review](classes/18/strings_review.html)
 * Or check out the [review from the last class](classes/17/strings_built_in_functions.html) and [Ceasar Cipher](classes/17/strings_built_in_functions.html) 
 * [Lists](classes/18/lists.html)
 
 
-### Readings
+###  Readings
 __{{ site.bookq }}__
 
 * Chapter 8 on More About Strings
@@ -20,7 +20,7 @@ __{{ site.bookt }}__
 
 <a name="homework8"></a>
 
-### Homework #8
+###  Homework #8
 
 
 * Due __Apr 11th__ at 11PM

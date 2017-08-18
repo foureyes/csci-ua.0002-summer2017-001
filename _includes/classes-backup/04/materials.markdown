@@ -1,24 +1,24 @@
 <a name="class4"></a>
 
-### Slides
+###  Slides
 * [About Class #4](classes/04/meta.html)
 * [Review: Variables, String and Numeric Operators, User Input](classes/04/user-input.html)
 * [Functions](classes/04/functions.html)
 * [If Statements (Conditionals)](classes/04/if-statements.html)
 * [A Quick Note on Expressions and Values](classes/04/expressions.html)
 
-### Readings
+###  Readings
 * {{ site.bookq }} - Chapter 4 (Decision Structures and Boolean Logic)
 * Chapter 5 (only parts of 5.1 through 5.5 - up to "Keyword Arguments"
 * - for now)  
 * [{{ site.bookt }} - Chapter 5](http://openbookproject.net/thinkcs/python/english3e/conditionals.html) (just 5.1 and 5.5)
 
-### Vocabulary
+###  Vocabulary
 See [the glossary for chapter 2](http://openbookproject.net/thinkcs/python/english3e/variables_expressions_statements.html#glossary) [and chapter 5](http://openbookproject.net/thinkcs/python/english3e/conditionals.html#glossary).
 
 <a name="homework2"></a>
 
-### Homework #2
+###  Homework #2
 
 * Due __Feb 12th (any submission before 11PM is on-time)__
 * Submit all files via __NYU Classes__

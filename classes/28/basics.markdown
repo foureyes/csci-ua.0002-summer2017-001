@@ -3,17 +3,17 @@ layout: slides
 title: Variables, Statements, Expressions, Types, Operators 
 ---
 <section markdown="block" class="title-slide">
-# Variables, Statements, Expressions, Types, Operators
+#  Variables, Statements, Expressions, Types, Operators
 {% include title-slide-footer.html %}
 </section>
 
 
 <section markdown="block">
-## Values and Types
+##  Values and Types
 </section>
 
 <section markdown="block">
-### What are Values?
+###  What are Values?
 * __values__ are just data
 	* it can be stored in a variable 
 	* it can be computed in an expression
@@ -26,7 +26,7 @@ title: Variables, Statements, Expressions, Types, Operators
 </section>
 
 <section markdown="block">
-### Literals
+###  Literals
 
 The representation of a bare value in code is sometimes called a __literal__.
 
@@ -36,7 +36,7 @@ The representation of a bare value in code is sometimes called a __literal__.
 </section>
 
 <section markdown="block">
-### Values can be Classified by Data Type
+###  Values can be Classified by Data Type
 A __data type__ is a set of values.  The type of a value determines how it can be used in expressions.  Sometimes __data type__ is also referred to as just __type__... or __class__.  
 
 1. __str__ (string) - "yup, a string"
@@ -49,11 +49,11 @@ The last 3 are  __numeric types__.
 </section>
 
 <section markdown="block">
-## Strings, Integers and Floating Point Numbers
+##  Strings, Integers and Floating Point Numbers
 </section>
 
 <section markdown="block">
-### Strings
+###  Strings
 * a __string__ is a sequence of characters (any characters).
 * including spaces and punctuation
 	* and by spaces, I mean spaces, tabs, newlines, etc
@@ -66,7 +66,7 @@ The last 3 are  __numeric types__.
 
 
 <section markdown="block">
-### Unbalanced Quotes
+###  Unbalanced Quotes
 __What happens if you have an extra quote or a missing quote. &rarr;__ 
 
 <div class="incremental" markdown="block">
@@ -82,7 +82,7 @@ SyntaxError: invalid syntax
 </section>
 
 <section markdown="block">
-### There Are Three Ways to Quote Strings
+###  There Are Three Ways to Quote Strings
 
 __What are the three ways to quote strings?__
 
@@ -101,7 +101,7 @@ one line.  omg!"""
 </section>
 
 <section markdown="block">
-### When Would You Use One Over the Other?
+###  When Would You Use One Over the Other?
 
 * single or double quotes allow you to put in single or double quotes into a string without needing to __escape__ them
 	* "I'm"
@@ -110,7 +110,7 @@ one line.  omg!"""
 </section>
 
 <section markdown="block">
-### Constructing Strings / String Operators
+###  Constructing Strings / String Operators
 
 There are two ways to put strings together.  They correspond to two string operators.
 
@@ -122,7 +122,7 @@ __both operators return strings__
 
 
 <section markdown="block">
-### String Operators at a Glance
+###  String Operators at a Glance
 
 These are the string operators that we learned (note - they all return strings, but the types of arguments may vary depending on operator).  __What were they again? &rarr;__
 
@@ -134,7 +134,7 @@ These are the string operators that we learned (note - they all return strings, 
 </section>
 
 <section markdown="block">
-### Newlines and Escaping Characters 
+###  Newlines and Escaping Characters 
 If we need a character that has special meaning in a string, such as a single or double quote...
 
 * we can use the backslash character before the special character
@@ -152,7 +152,7 @@ print("""some "double quotes"""")
 
 
 <section markdown="block">
-### ints and floats
+###  ints and floats
 
 Integers and floating point numbers are both numeric types.
 
@@ -163,7 +163,7 @@ Integers and floating point numbers are both numeric types.
 </section>
 
 <section markdown="block">
-### Integers
+###  Integers
 
 __int__ - integers
 
@@ -173,7 +173,7 @@ __int__ - integers
 </section>
 
 <section markdown="block">
-### Floating Point Numbers
+###  Floating Point Numbers
 
 __float__  - floating point numbers
 
@@ -184,7 +184,7 @@ __float__  - floating point numbers
 </section>
 
 <section markdown="block">
-### Operators
+###  Operators
 * addition, multiplication and subtraction: __+__, __\*__, and __-__
 * division: __/__ (results in a float even if two integers - ex 10 / 2 &rarr; 5.0)
 * integer division: __//__ (next integer to the left - ex -23 // 3 &rarr; -8)
@@ -193,7 +193,7 @@ __float__  - floating point numbers
 </section>
 
 <section markdown="block">
-### Numeric Operator Precedence
+###  Numeric Operator Precedence
 
 __What order are these numeric operators evaluated in? &rarr;__
 
@@ -210,7 +210,7 @@ __What order are these numeric operators evaluated in? &rarr;__
 </section>
 
 <section markdown="block">
-### Numeric Operators and Type Compatibility
+###  Numeric Operators and Type Compatibility
 
 * most of these numeric operators will only work with numeric types (float, int)
 * if you try to add, subtract, divide with an numeric type and a string, you will get an error
@@ -218,7 +218,7 @@ __What order are these numeric operators evaluated in? &rarr;__
 </section>
 
 <section markdown="block">
-### Results of the Following Operations
+###  Results of the Following Operations
 
 __What are the resulting values and types after evaluating the following expressions? &rarr;__
 
@@ -236,7 +236,7 @@ __What are the resulting values and types after evaluating the following express
 </section>
 
 <section markdown="block">
-### Implementing a Formula
+###  Implementing a Formula
 
 An obvious use case for these numeric operations is implementing a formula.  
 
@@ -246,34 +246,34 @@ For example: __find the hypotenuse of a right triangle using this formula... h =
 {% highlight python %}
 import math
 x, y = 8, 6
-# you can also use (some value) ** 0.5
+#  you can also use (some value) ** 0.5
 h = math.sqrt(x ** 2 + y ** 2)
 {% endhighlight %}
 </div>
 </section>
 
 <section markdown="block">
-### A Shortcut
+###  A Shortcut
 
 We've used this in class... there's a shortcut to add a value to an existing variable (the same exists for subtraction as well).  __-=__ and __+=__ are shortcuts for decrementing or incrementing a variable...
 
 {% highlight python %}
 a = 0
 
-# increment a by one... just set the variable, a, equal to a + 1
+#  increment a by one... just set the variable, a, equal to a + 1
 a = a + 1
 
-# or... alternatively, use a shortcut +=:
+#  or... alternatively, use a shortcut +=:
 a += 1
 
-# you can add any value, not just 1
+#  you can add any value, not just 1
 a += 20
 {% endhighlight %}
 </section>
 
 
 <section markdown="block">
-### The bool Type
+###  The bool Type
 Python has a __bool__ type to represent Boolean values
 
 * True or False
@@ -284,7 +284,7 @@ Python has a __bool__ type to represent Boolean values
 </section>
 
 <section markdown="block">
-###A Guessing Game
+### A Guessing Game
 <aside>What type is it?</aside>
 
 1. __1__
@@ -300,7 +300,7 @@ Python has a __bool__ type to represent Boolean values
 </section>
 
 <section markdown="block">
-###A Guessing Game (Answers)
+### A Guessing Game (Answers)
 <aside>What type is it?</aside>
 
 1. __1__ - int
@@ -316,7 +316,7 @@ Python has a __bool__ type to represent Boolean values
 </section>
 
 <section markdown="block">
-### Conversion Functions
+###  Conversion Functions
 
 For each type that we learned, there's a function with the same name that will convert a value into that type.  They __always__ return their associated type!
 
@@ -328,7 +328,7 @@ For each type that we learned, there's a function with the same name that will c
 </section>
 
 <section markdown="block">
-### Conversion Functions Continued
+###  Conversion Functions Continued
 
 * note that __int()__ and __float()__ will only accept int and float _"like"_ values... "5" will be converted (even with spaces), but "five" will cause an error
 * these can be used to avoid errors when using numeric or string operators 
@@ -345,7 +345,7 @@ print(num + " red balloons")
 </section>
 
 <section markdown="block">
-### Other Built-In Functions
+###  Other Built-In Functions
 * __print__ - outputs value to screen; returns nothing
 * __input__ - prompts user for input; returns a str
 * __type__ - returns the type of the value passed in; returns a type object
@@ -354,7 +354,7 @@ print(num + " red balloons")
 </section>
 
 <section markdown="block">
-### A Word About input
+###  A Word About input
 
 * it takes one argument... which is what gets displayed to the user
 * the program will wait until the user provides input
@@ -364,7 +364,7 @@ print(num + " red balloons")
 </section>
 
 <section markdown="block">
-### Variables
+###  Variables
 
 * __variable__ - name that refers to a value
 * this terminology is important; very specific... __name__ and __value__
@@ -380,21 +380,21 @@ some_variable_name = "a value"
 </section>
 
 <section markdown="block">
-### Assignment vs Equality
+###  Assignment vs Equality
 
 __Don't confuse the assignment operator with the equality operator!__
 
 {% highlight pycon %}
-# one equal sign is assignment
+#  one equal sign is assignment
 a = 1  
 
-# two equal signs mean test for equality
+#  two equal signs mean test for equality
 a == 1
 {% endhighlight %}
 </section>
 
 <section markdown="block">
-### Reassignment / Rebinding
+###  Reassignment / Rebinding
 
 * you can reassign or rebind
 * __let's see that in action__ &rarr;
@@ -408,7 +408,7 @@ a == 1
 </section>
 
 <section markdown="block">
-### While We're on the Subject... Multiple Assignment
+###  While We're on the Subject... Multiple Assignment
 
 You can assign multiple variables in one line. (Yes... tuples)
 
@@ -423,7 +423,7 @@ You can assign multiple variables in one line. (Yes... tuples)
 
 
 <section markdown="block">
-### Naming Variables
+###  Naming Variables
 * names can only be alphanumeric (numbers and letters) or the underscore
 * the first character has to be a letter
 * __case sensitive__ - case matters
@@ -431,7 +431,7 @@ You can assign multiple variables in one line. (Yes... tuples)
 </section>
 
 <section markdown="block">
-### Am I a Valid Name?
+###  Am I a Valid Name?
 
 __Are these valid variable names? &rarr;__
 
@@ -444,7 +444,7 @@ __Are these valid variable names? &rarr;__
 </section>
 
 <section markdown="block">
-### Am I a Valid Name (Answers)?
+###  Am I a Valid Name (Answers)?
 
 __Are these valid variable names? &rarr;__
 
@@ -459,7 +459,7 @@ __Are these valid variable names? &rarr;__
 
 
 <section markdown="block">
-### Some Exercises
+###  Some Exercises
 * input that affects range
 	* ask for number
 	* say hello that many times

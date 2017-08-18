@@ -3,12 +3,12 @@ layout: slides
 title: File I/O Review 
 ---
 <section markdown="block" class="title-slide">
-# File I/O Review
+#  File I/O Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### A Quick Aside on Main Memory / RAM
+###  A Quick Aside on Main Memory / RAM
 
 Your computer stores data for your running programs in __main memory__ or __RAM__ (random access memory).  Ram is an example of __volatile memory__.
 
@@ -23,7 +23,7 @@ Some examples of non-volatile memory include:
 </section>
 
 <section markdown="block">
-### Storing Data in Main Memory
+###  Storing Data in Main Memory
 
 __What are the consequences of your data being stored in your computer's main memory?__ &rarr;
 
@@ -34,7 +34,7 @@ __What are the consequences of your data being stored in your computer's main me
 </section>
 
 <section markdown="block">
-### Storing Data Elsewhere...
+###  Storing Data Elsewhere...
 
 __What if we want to persist our data beyond the lifetime of the running program... or through on-off cycles?__ &rarr;
 
@@ -45,7 +45,7 @@ __What if we want to persist our data beyond the lifetime of the running program
 </section>
 
 <section markdown="block">
-### File Input and Output
+###  File Input and Output
 
 * we can store data in files!
 * Python can handle file input and output - __file I/O__
@@ -53,7 +53,7 @@ __What if we want to persist our data beyond the lifetime of the running program
 </section>
 
 <section markdown="block">
-### open
+###  open
 
 Python has a __built-in__ function called __open__.  
 
@@ -71,7 +71,7 @@ Python has a __built-in__ function called __open__.
 </section>
 
 <section markdown="block">
-### File Handles
+###  File Handles
 
 A __handle__ is:
 
@@ -84,7 +84,7 @@ A __file handle__ is:
 </section>
 
 <section markdown="block">
-### File Handles Continued
+###  File Handles Continued
 
 Again, __file handle__ object allows you to read and write to a file.  Think of it as representing a file.  The general program flow for file input and output is as follows:
 
@@ -94,7 +94,7 @@ Again, __file handle__ object allows you to read and write to a file.  Think of 
 </section>
 
 <section markdown="block">
-### Writing to a File
+###  Writing to a File
 
 {% highlight python %}
 f = open("test.txt", "w")
@@ -112,7 +112,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Using open to Write to a File
+###  Using open to Write to a File
 
 Let's look at __open__ and __write__ in more detail:
 
@@ -131,7 +131,7 @@ __write(s)__
 
 
 <section markdown="block">
-### Reading a File
+###  Reading a File
 
 To open a file in read mode, use "r" as the second argument:
 
@@ -142,7 +142,7 @@ f = open("test.txt", "r")
 </section>
 
 <section markdown="block">
-### Methods for Reading a File
+###  Methods for Reading a File
 
 Once you have a __file handle__, you can read the contents of a file by using one of the following methods on your __file handle object__:
 
@@ -158,7 +158,7 @@ __Why would you use one method over another?__
 </section>
 
 <section markdown="block">
-### Using readline
+###  Using readline
 
 __readline__() takes no arguments, and it returns a string.
 
@@ -168,7 +168,7 @@ __readline__() takes no arguments, and it returns a string.
 </section>
 
 <section markdown="block">
-### Using readline Continued
+###  Using readline Continued
 
 __To use readline to read the contents of a file, loop forever (or at least until we know that we're at the end of a file! ...__
 
@@ -186,7 +186,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Using readline() Continued More!
+###  Using readline() Continued More!
 
 __What is the first line that will be printed?  What is the actual string representation? How many times will the loop run?__
 {% highlight python %}
@@ -207,7 +207,7 @@ f.close()
 </section>
 
 <section markdown="block">
-### Reading a File in All At Once
+###  Reading a File in All At Once
 
 Use the __read__() method on your file handle object to read the file in all at once.  __read__() returns the entire contents of a file (including newlines) as a string.
 
@@ -220,7 +220,7 @@ print(contents)
 </section>
 
 <section markdown="block">
-### Memory Efficiency
+###  Memory Efficiency
 
 __When you use read or readline, which do you think uses more of your computer's main memory... and why?__ &rarr;
 
@@ -231,11 +231,11 @@ __When you use read or readline, which do you think uses more of your computer's
 </section>
 
 <section markdown="block">
-## File Exercises
+##  File Exercises
 </section>
 
 <section markdown="block">
-### Names in Alphabetical Order
+###  Names in Alphabetical Order
 
 * read the contents of a file called names.txt
 * the file will have first names in it
@@ -256,7 +256,7 @@ Alice
 </section>
 
 <section markdown="block">
-### A Potential Solution
+###  A Potential Solution
 
 {% highlight python %}
 f = open("names.txt", "r")
@@ -270,7 +270,7 @@ for name in names:
 </section>
 
 <section markdown="block">
-### Lottery Ticket
+###  Lottery Ticket
 
 Write a function that creates a lottery ticket.  The lottery ticket should:
 
@@ -291,7 +291,7 @@ Lucky Number
 </section>
 
 <section markdown="block">
-### Pseudocode #1
+###  Pseudocode #1
 
 {% highlight python %}
 """
@@ -308,7 +308,7 @@ for each number in list
 </section>
 
 <section markdown="block">
-### Pseudocode #2
+###  Pseudocode #2
 
 {% highlight python %}
 """
@@ -327,12 +327,12 @@ for every number in the list
 </section>
 
 <section markdown="block">
-### Potential Solution
+###  Potential Solution
 
 {% highlight python %}
 import random
 
-# generate list of sorted unique random numbers
+#  generate list of sorted unique random numbers
 random_number_list = []
 while len(random_number_list) < 5:
     n = random.randint(1, 59) 
@@ -340,7 +340,7 @@ while len(random_number_list) < 5:
         random_number_list.append(n)
 random_number_list.sort()
 
-# write out the list of numbers to a file
+#  write out the list of numbers to a file
 file_handle = open('lotto.txt', 'w')        
 file_handle.write('Lucky Numbers\n')
 for n in random_number_list:
@@ -349,13 +349,13 @@ for n in random_number_list:
 </section>
 
 <section markdown="block">
-### How About Some Tidying Up
+###  How About Some Tidying Up
 
 __Can we abstract out some of this code into a reusable function?__ &rarr;
 </section>
 
 <section markdown="block">
-### Another Version
+###  Another Version
 
 {% highlight python %}
 import random
@@ -381,7 +381,7 @@ for n in observed:
 </section>
 
 <section markdown="block">
-### Another Version Continued
+###  Another Version Continued
 
 {% highlight python %}
 random_number_list = unique_random_list(5, 1, 59)
@@ -396,7 +396,7 @@ for n in random_number_list:
 
 
 <section markdown="block">
-### BTDubz (re random)
+###  BTDubz (re random)
 
 By the way... (of course) there's already a function in the random module that does this: 
 
@@ -416,7 +416,7 @@ By the way... (of course) there's already a function in the random module that d
 </section>
 
 <section markdown="block">
-### Jane Austen
+###  Jane Austen
 
 You can download a text version of [Pride and Prejudice](http://www.gutenberg.org/cache/epub/1342/pg1342.txt) from Project Gutenberg
 
@@ -427,14 +427,14 @@ Also... these are [sort](http://en.wikipedia.org/wiki/Sense_and_Sensibility_and_
 </section>
 
 <section markdown="block">
-### Downloading the File
+###  Downloading the File
 
 Save the text version of [Pride and Prejudice](http://www.gutenberg.org/cache/epub/1342/pg1342.txt) in the same folder that your program is in.
 
 </section>
 
 <section markdown="block">
-### Pig Latin
+###  Pig Latin
 
 {% highlight python %}
 def to_pig_latin(w):
@@ -460,7 +460,7 @@ def to_pig_latin(w):
 </section>
 
 <section markdown="block">
-### Translate Passage
+###  Translate Passage
 
 {% highlight python %}
 def translate_passage(passage):
@@ -479,15 +479,15 @@ def translate_passage(passage):
 </section>
 
 <section markdown="block">
-### Putting it All Together
+###  Putting it All Together
 
 {% highlight python %}
-# open file for reading
+#  open file for reading
 fh_in = open('pg1342.txt', 'r')
 s = fh_in.read()
 fh_in.close()
 
-# translate and write
+#  translate and write
 fh_out = open('pg1342_translated.txt', 'w')
 fh_out.write(translate_passage(s))
 fh_out.close()
@@ -495,5 +495,5 @@ fh_out.close()
 </section>
 
 <section markdown="block">
-## Review End
+##  Review End
 </section>

@@ -1,6 +1,6 @@
 <a name="class15"></a>
 
-###Slides
+### Slides
 
 * [About Class #15](classes/15/meta.html)
 * [Functions Review (So Far...)](classes/15/review.html)
@@ -18,10 +18,10 @@
 	* ask questions about the branch - what happens on last iteration, 2nd to last (just goes back to where it was)
 -->
 
-### Handouts
+###  Handouts
 [Functions](resources/handouts/class15/functions.pdf)
 
-### Readings
+###  Readings
 __{{ site.bookq }}__
 
 * Chapter 5 on Value Returning Functions

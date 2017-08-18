@@ -3,12 +3,12 @@ layout: slides
 title: Dictionaries Review 
 ---
 <section markdown="block" class="title-slide">
-# Dictionaries Review
+#  Dictionaries Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-###  Dictionaries
+###   Dictionaries
 
 __What's a dictionary?__
 
@@ -19,7 +19,7 @@ __What's a dictionary?__
 </section>
 
 <section markdown="block">
-###  Dictionary Attributes
+###   Dictionary Attributes
 
 Dictionaries are:
 
@@ -30,7 +30,7 @@ Dictionaries are:
 </section>
 
 <section markdown="block">
-###  Dictionary Syntax
+###   Dictionary Syntax
 
 * __What delimits dictionaries?__ &rarr;  
 * __What separates each key/value pair?__ &rarr;  
@@ -45,7 +45,7 @@ Dictionaries are:
 </section>
 
 <section markdown="block">
-###  Dictionary Syntax
+###   Dictionary Syntax
 
 In the following dictionary: 
 
@@ -67,7 +67,7 @@ In the following dictionary:
 </section>
 
 <section markdown="block">
-### Keys and Values
+###  Keys and Values
 
 * List indexes can only be ints  __What kind of values can dictionary keys be?__ &rarr;
 * __What about dictionary values?__ &rarr;
@@ -79,7 +79,7 @@ In the following dictionary:
 </section>
 
 <section markdown="block">
-### Retrieving Values at Keys 
+###  Retrieving Values at Keys 
 
 How do you retrieve a value at a key from a dictionary? __Here's a dictionary; get the value 4__ &rarr;
 
@@ -95,7 +95,7 @@ vehicle['wheels']
 </section>
 
 <section markdown="block">
-### Non-Existent Keys
+###  Non-Existent Keys
 
 What happens if the key doesn't exist? __What happens in the following code?__ &rarr;
 
@@ -116,7 +116,7 @@ KeyError: 'can fly'
 </section>
 
 <section markdown="block">
-### However!  Non-Existent Keys Continued...
+###  However!  Non-Existent Keys Continued...
 
 How do you add a new key/value pair to an existing dictionary? __Add the key 'can fly' to this dictionary, and set its value to the boolean value, False__ &rarr;
 
@@ -131,7 +131,7 @@ vehicle['can fly'] = True
 </section>
 
 <section markdown="block">
-### If the Key Does Exist
+###  If the Key Does Exist
 
 If the key already exists, using the assignment operator overwrites the existing value at that key. 
 
@@ -151,7 +151,7 @@ print(vehicle)
 </section>
 
 <section markdown="block">
-### A Quick Summary on Keys
+###  A Quick Summary on Keys
 
 * dictionary __keys__ must be immutable
 * you can use __indexing__ to retrieve values with keys - d['key']
@@ -160,7 +160,7 @@ print(vehicle)
 </section>
 
 <section markdown="block">
-### Some Other Dictionary Operations
+###  Some Other Dictionary Operations
 
 There are some familiar operations and functions that we can use on dictionaries:
 
@@ -181,7 +181,7 @@ len(d)
 </section>
 
 <section markdown="block">
-### Dictionary Methods
+###  Dictionary Methods
 
 __Name the two dictionary methods that we learned, and describe what they do__ &rarr;
 
@@ -192,7 +192,7 @@ __Name the two dictionary methods that we learned, and describe what they do__ &
 </section>
 
 <section markdown="block">
-### get
+###  get
 
 Soooo... __what does the get method do again, what are its arguments, and what does it return?__ &rarr;
 
@@ -206,7 +206,7 @@ Soooo... __what does the get method do again, what are its arguments, and what d
 </section>
 
 <section markdown="block">
-### Using the get Method
+###  Using the get Method
 
 __What does this output?__
 
@@ -227,7 +227,7 @@ hovercraft
 </section>
 
 <section markdown="block">
-### More Dictionary Methods
+###  More Dictionary Methods
 
 By the way, here are a few more dictionary methods:
 
@@ -239,7 +239,7 @@ By the way, here are a few more dictionary methods:
 </section>
 
 <section markdown="block">
-### values, keys
+###  values, keys
 
 __values__ and __keys__ give back _dictionary views_ (they essentially act like lists) of either all values or all keys of the dictionary that they're called on.  __What does this output?__ &rarr;
 
@@ -259,7 +259,7 @@ dict_values([False, 0, 'bathysphere'])
 </section>
 
 <section markdown="block">
-### pop
+###  pop
 
 __pop__ removes and returns the item at the key specified.  __What does this output?__&rarr;
 
@@ -282,7 +282,7 @@ False
 </section>
 
 <section markdown="block">
-### popitem
+###  popitem
 
 __popitem__ removes and returns an _arbitrary_ key/value pair.  __What does this output?__&rarr;
 
@@ -304,7 +304,7 @@ Note that the key/value pair removed and returned __will not always be the same!
 </section>
 
 <section markdown="block">
-### update
+###  update
 
 __update__ adds key/value pairs (or updates values if keys already exist) from another dictionary to the dictionary that update is called on.  __What does this output?__&rarr;
 
@@ -324,7 +324,7 @@ print(vehicle)
 
 
 <section markdown="block">
-### Changing a Value Based on the Existing Value
+###  Changing a Value Based on the Existing Value
 
 To change a value base on an existing value, such as incrementing a number, you can simply do something like this (adds one to the current value at fga):
 
@@ -336,7 +336,7 @@ d['fga'] = d['fga'] + 1
 </section>
 
 <section markdown="block">
-### Changing a Value Based on the Existing Value
+###  Changing a Value Based on the Existing Value
 
 But what if it doesn't exist yet?  __What happens here?__ &rarr;
 
@@ -355,7 +355,7 @@ KeyError: 'fga'
 </section>
 
 <section markdown="block">
-### Avoiding KeyError
+###  Avoiding KeyError
 
 __What are a couple of ways of working around incrementing a value at a key when there may be keys that don't exist?__ &rarr;
 
@@ -374,7 +374,7 @@ d['a'] = d.get('a', 0) + 1
 </section>
 
 <section markdown="block">
-### Dictionaries and Mutability
+###  Dictionaries and Mutability
 
 __Dictionaries are mutable!__
 
@@ -393,7 +393,7 @@ __What are some dictionary methods that change the dictionary in place?__ &rarr;
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries
+###  Iterating Over Dictionaries
 
 __What does this code print out?__ &rarr;
 
@@ -414,7 +414,7 @@ name
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 We can see that iterating over a dictionary gives back keys.  Additionally, the keys are unordered. __How would be get every key *and* value using the dictionary below?__ &rarr;
 
@@ -433,7 +433,7 @@ for attribute in vehicle:
 </section>
 
 <section markdown="block">
-### Back to the items Method!
+###  Back to the items Method!
 
 A dictionary can be converted to a list of tuples using the __items__() method.  
 
@@ -459,7 +459,7 @@ for pair in pairs:
 </section>
 
 <section markdown="block">
-### Iterating Over Dictionaries Continued
+###  Iterating Over Dictionaries Continued
 
 __What's another way of looping over a dictionary to get keys and values without having to index into the original dictionary?__ &rarr;
 
@@ -480,7 +480,7 @@ for k, v in pairs:
 
 
 <section markdown="block">
-### sorted
+###  sorted
 
 One last thing (that's not unique to dictionaries)...
 
@@ -502,7 +502,7 @@ print(sorted(numbers, key=abs))
 </section>
 
 <section markdown="block">
-### sorted on Dictionary Values
+###  sorted on Dictionary Values
 
 We can use __sorted__ to iterate over a dictionary (which is inherently unordered) by value:
 
@@ -515,7 +515,7 @@ for name in sorted(pg, key=pg.get):
 
 
 <section markdown="block">
-### Some Quick Questions
+###  Some Quick Questions
 
 * name as many dictionary methods as you can!
 * name two ways of accessing a value at a key
@@ -527,7 +527,7 @@ for name in sorted(pg, key=pg.get):
 </section>
 
 <section markdown="block">
-### And Their Answers
+###  And Their Answers
 
 * pop, popitem, get, keys, values, update, etc.
 * __indexing__ with a __key__ or using __get__
@@ -540,11 +540,11 @@ for name in sorted(pg, key=pg.get):
 </section>
 
 <section markdown="block">
-## Some Dictionary Exercises
+##  Some Dictionary Exercises
 </section>
 
 <section markdown="block">
-### Counting Letters
+###  Counting Letters
 
 * write a program that asks the user for a word
 * the program should output the total number of times each character in the word appears in the word
@@ -560,7 +560,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 1
+###  Counting Letters Version 1
 
 {% highlight python %}
 {% include classes/25/count_v1.py %}
@@ -568,7 +568,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 2
+###  Counting Letters Version 2
 
 {% highlight python %}
 {% include classes/25/count_v2.py %}
@@ -576,7 +576,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Letters Version 3
+###  Counting Letters Version 3
 
 {% highlight python %}
 {% include classes/25/count_v3.py %}
@@ -585,7 +585,7 @@ o 1
 </section>
 
 <section markdown="block">
-### Counting Dice Rolls 
+###  Counting Dice Rolls 
 
 * roll two thee sided dice simultaneously 1000 times
 * count the frequency of the results... 2 through 6
@@ -598,7 +598,7 @@ o 1
 
 
 <section markdown="block">
-### An Implementation Using Dictionaries
+###  An Implementation Using Dictionaries
 
 
 {% highlight python %}
@@ -612,7 +612,7 @@ print(freq_dice_rolls)
 </section>
 
 <section markdown="block">
-### Dice Rolls Without Dictionaries  
+###  Dice Rolls Without Dictionaries  
 
 Let's compare that to our previous solution without dictionaries!
 
@@ -637,7 +637,7 @@ print("twos: %s, threes: %s, fours: %s, fives: %s, sixes %s" % (twos, threes, fo
 </section>
 
 <section markdown="block">
-### A List of Contacts
+###  A List of Contacts
 
 __Create a text-base contact list that allows you that stores first name, last name and room #__ &rarr;
 
@@ -652,7 +652,7 @@ The primary interface will be a prompt that will continually ask the user for a 
 </section>
 
 <section markdown="block">
-### Add a Contact Example Interaction
+###  Add a Contact Example Interaction
 
 * adding will ask for further input...
 * first, last and room #
@@ -670,7 +670,7 @@ room # plz
 </section>
 
 <section markdown="block">
-### Find a Contact Example Interaction
+###  Find a Contact Example Interaction
 
 Finding a contact:
 
@@ -689,7 +689,7 @@ room - 200
 </section>
 
 <section markdown="block">
-### Print All Contacts Example Interaction
+###  Print All Contacts Example Interaction
 
 {% highlight bash %}
 (a)dd contact, (p)rint all contacts, (f)ind contact, (q)uit 
@@ -705,7 +705,7 @@ room - 200
 </section>
 
 <section markdown="block">
-### Before Diving In...
+###  Before Diving In...
 
 * how do we want to represent the data?
 * can we break down the program into smaller chunks
@@ -714,11 +714,11 @@ room - 200
 </section>
 
 <section markdown="block">
-## One Possible Solution...
+##  One Possible Solution...
 </section>
 
 <section markdown="block">
-### Storage
+###  Storage
 
 How about using a __list of dictionaries__ to store contacts?
 
@@ -730,7 +730,7 @@ Here's an example with one contact:
 </section>
 
 <section markdown="block">
-### Some Functions
+###  Some Functions
 
 We can break down the code into smaller chunks of functionality:
 
@@ -749,7 +749,7 @@ def print_all_contacts(contact_list):
 </section>
 
 <section markdown="block">
-### And More Functions
+###  And More Functions
 
 {% highlight python %}
 def find_contact(contact_list, attribute, value):
@@ -764,7 +764,7 @@ def find_contact_by_first(contact_list, first):
 
 </section>
 <section markdown="block">
-### The Main Loop...
+###  The Main Loop...
 
 We can use the previous functions in a while loop that drives the interaction with the user:
 
@@ -785,7 +785,7 @@ while True:
 </section>
 
 <section markdown="block">
-### The Main Loop Continued
+###  The Main Loop Continued
 
 {% highlight python %}
 	elif command == 'f':
@@ -801,5 +801,5 @@ while True:
 </section>
 
 <section markdown="block">
-## Review End
+##  Review End
 </section>

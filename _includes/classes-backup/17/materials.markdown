@@ -1,6 +1,6 @@
 <a name="class17"></a>
 
-###Slides
+### Slides
 * [About Class #17](classes/17/meta.html)
 * [Scope Recap](classes/17/review_scope.html)
 * [Strings So Far (Review)](classes/17/review.html)
@@ -12,7 +12,7 @@
 -->
 	
 
-### Readings
+###  Readings
 __{{ site.bookq }}__
 
 * Chapter 8 on More About Strings
@@ -21,7 +21,7 @@ __{{ site.bookt }}__
 
 * [{{ site.bookt }} - Chapter 8 - Strings](http://openbookproject.net/thinkcs/python/english3e/strings.html)
 
-### Selected Homework Solutions
+###  Selected Homework Solutions
 
 For homework #5 (nested loops):
 

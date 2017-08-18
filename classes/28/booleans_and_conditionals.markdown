@@ -3,12 +3,12 @@ layout: slides
 title: Booleans and Comparison Operators 
 ---
 <section markdown="block" class="title-slide">
-# Booleans and Comparison Operators
+#  Booleans and Comparison Operators
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Comparison Operators
+###  Comparison Operators
 
 __Name six comparison operators?&rarr;__
 
@@ -23,7 +23,7 @@ __Name six comparison operators?&rarr;__
 </section>
 
 <section markdown="block">
-### Comparison Operators Continued
+###  Comparison Operators Continued
 * again - these operators always return a bool
 * these operators do what you would expect 
 	* __==__ - returns True if both sides are equal &rarr;
@@ -33,7 +33,7 @@ __Name six comparison operators?&rarr;__
 </section>
 
 <section markdown="block">
-### Comparison Operators and Different Types
+###  Comparison Operators and Different Types
 * objects of different types, except different numeric types, are never equal
 	* equals (__==__) will always return False for different types &rarr;
 	* not equals (__!=__) will always return True for different types &rarr;
@@ -43,7 +43,7 @@ __Name six comparison operators?&rarr;__
 </section>
 
 <section markdown="block">
-### What are Logical Operators?
+###  What are Logical Operators?
 
 __Logical Operators are operators that combine Boolean values.__  
 
@@ -52,7 +52,7 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###  Three Logical Operators:
+###   Three Logical Operators:
 1. __and__ - 
 	* takes two operands, one on each side 
 	* to return True, both sides of the operator must be True &rarr;
@@ -66,7 +66,7 @@ __Logical Operators are operators that combine Boolean values.__
 </section>
 
 <section markdown="block">
-###  Logical Operators _in Action_
+###   Logical Operators _in Action_
 {% highlight pycon %}
 >>> True and False
 False
@@ -82,7 +82,7 @@ True
 </section>
 
 <section markdown="block">
-### Truth Table - AND
+###  Truth Table - AND
 
 __and__ takes two operands.  Each operand can be True or False (or will evaluate to True or False!).  
 
@@ -105,7 +105,7 @@ __Can you guess how many possible combinations ther are for these two operands?_
 </section>
 
 <section markdown="block">
-### Truth Table - OR
+###  Truth Table - OR
 
 Let's fill out a truth table for __or__! &rarr;
 
@@ -126,7 +126,7 @@ Let's fill out a truth table for __or__! &rarr;
 </section>
 
 <section markdown="block">
-### How About Something More Complicated?
+###  How About Something More Complicated?
 
 Let's fill out a truth table for __p and not q and r__! &rarr;
 
@@ -151,7 +151,7 @@ Let's fill out a truth table for __p and not q and r__! &rarr;
 </section>
 
 <section markdown="block">
-### Let's Evaluate Some Simple Boolean Expressions
+###  Let's Evaluate Some Simple Boolean Expressions
 
 * True and False &rarr;
 * True and not False &rarr;
@@ -163,7 +163,7 @@ Let's fill out a truth table for __p and not q and r__! &rarr;
 </section>
 
 <section markdown="block">
-### Chaining Boolean, Comparison, and Other Operators
+###  Chaining Boolean, Comparison, and Other Operators
 You can chain together operators to make complex Boolean expressions!  
 
 * Boolean expressions can involve Boolean, comparison, and other operators
@@ -182,7 +182,7 @@ True
 </section>
 
 <section markdown="block">
-### Order of Operations / Operator Precedence
+###  Order of Operations / Operator Precedence
 
 [A summary can be found in the official documentation for Python 3]( http://docs.python.org/py3k/reference/expressions.html#summary), but here's the short version:
 
@@ -195,11 +195,11 @@ True
 </section>
 
 <section markdown="block">
-## Conditionals
+##  Conditionals
 </section>
 
 <section markdown="block">
-### Anatomy of an If Statement
+###  Anatomy of an If Statement
 
 __Write an if statement testing if a and b are _not_ equal.  If they're not equal, print the value of a and b twice.__ &rarr;
 {% highlight python %}
@@ -217,7 +217,7 @@ a, b = "foo", "bar"
 </section>
 
 <section markdown="block">
-### Let's See That Again
+###  Let's See That Again
 <aside>Now With More Blank Lines</aside>
 
 {% highlight python %}
@@ -237,7 +237,7 @@ if a != b:
 </section>
 
 <section markdown="block">
-### Oh Yeah, Else What?
+###  Oh Yeah, Else What?
 
 We can use __else__ to execute code if the original condition was not met
 
@@ -248,7 +248,7 @@ We can use __else__ to execute code if the original condition was not met
 </section>
 
 <section markdown="block">
-### What About Multiple Chained Conditions?
+###  What About Multiple Chained Conditions?
 What if __else__ is not fine-grained enough?  For example, how about a program that asks for cake and handles a yes, no, or anything other than...
 
 {% highlight python %}
@@ -269,7 +269,7 @@ I do not understand.
 </section>
 
 <section markdown="block">
-### Consecutive Ifs
+###  Consecutive Ifs
 __One way to do it is consecutive if statements...__ &rarr;
 
 <div class="incremental" markdown="block">
@@ -286,7 +286,7 @@ if answer != 'yes' and answer != 'no':
 </section>
 
 <section markdown="block">
-### Else If (elif)
+###  Else If (elif)
 
 We can use __elif__ to chain a series of conditions, where only one path of code will be executed
 
@@ -302,7 +302,7 @@ We can use __elif__ to chain a series of conditions, where only one path of code
 </section>
 
 <section markdown="block">
-### elif Example
+###  elif Example
 <aside>Let's have some more cake...</aside>
 __How would we redo the cake exercise with elif?__ &rarr;
 
@@ -320,7 +320,7 @@ else:
 </section>
 
 <section markdown="block">
-### How to Order Conditions
+###  How to Order Conditions
 
 * if more than one condition in a series of elif's is true 
 	* only the first true condition is executed!
@@ -332,7 +332,7 @@ else:
 </section>
 
 <section markdown="block">
-### How to Order Conditions Continued!
+###  How to Order Conditions Continued!
 
 Here's a contrived exercise:  
 
@@ -350,7 +350,7 @@ elif n == 101:
 </section>
 
 <section markdown="block">
-### Another Gotcha!
+###  Another Gotcha!
 <aside>And Back to That Cake Thing</aside>
 
 __Will this code work??__ &rarr;
@@ -372,7 +372,7 @@ It does something unexpected!  If the user enters yes, we get both "Here, have s
 </section>
 
 <section markdown="block">
-### Nesting If Statements
+###  Nesting If Statements
 
 * it behaves as you'd expect
 * remember to get indentation right
@@ -383,7 +383,7 @@ It does something unexpected!  If the user enters yes, we get both "Here, have s
 </section>
 
 <section markdown="block">
-### Nested If Statements and And
+###  Nested If Statements and And
 
 __How would you simplify this? &rarr;__
 
@@ -406,7 +406,7 @@ print("We're out there")
 </section>
 
 <section markdown="block">
-### Nested If Statements Example
+###  Nested If Statements Example
 
 __We could have impemented the cake exercise  using nested if statements.__ &rarr;
 
@@ -418,7 +418,7 @@ __We could have impemented the cake exercise  using nested if statements.__ &rar
 </section>
 
 <section markdown="block">
-## Modules
+##  Modules
 </section>
 
 

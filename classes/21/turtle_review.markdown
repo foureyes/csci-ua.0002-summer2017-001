@@ -3,12 +3,12 @@ layout: slides
 title: Turtle Review 
 ---
 <section markdown="block" class="title-slide">
-# Turtle Review
+#  Turtle Review
 {% include title-slide-footer.html %}
 </section>
 
 <section markdown="block">
-### Objects and Methods
+###  Objects and Methods
 
 First, let's take a step back and try to recall __objects__ and __methods__.
 
@@ -17,7 +17,7 @@ First, let's take a step back and try to recall __objects__ and __methods__.
 </section>
 
 <section markdown="block">
-### Objects
+###  Objects
 
 * __object__ - a _thing_ that a variable name can refer to
 * all of the values in Python are _things_
@@ -27,7 +27,7 @@ First, let's take a step back and try to recall __objects__ and __methods__.
 </section>
 
 <section markdown="block">
-### Methods
+###  Methods
 
 * a __method__ is essentially a function that's associated with a particular object
 * you can _call_ a method just like a function... but you have to use the dot operator
@@ -38,7 +38,7 @@ First, let's take a step back and try to recall __objects__ and __methods__.
 </section>
 
 <section markdown="block">
-### Turtle 
+###  Turtle 
 
 __turtle__ is a Python module...
 
@@ -54,7 +54,7 @@ __turtle__ is a Python module...
 </section>
 
 <section markdown="block">
-### The Basic Steps for Using Turtle Are:
+###  The Basic Steps for Using Turtle Are:
 
 __Does anyone remember? (Doesn't have to be code... just describe what you would do) &rarr;__
 
@@ -67,7 +67,7 @@ __Does anyone remember? (Doesn't have to be code... just describe what you would
 </section>
 
 <section markdown="block">
-### Here's Some Template Code
+###  Here's Some Template Code
 
 You'll need to write this stuff every time you use turtle
 
@@ -77,7 +77,7 @@ You'll need to write this stuff every time you use turtle
 </section>
 
 <section markdown="block">
-### What Does That Code Do?
+###  What Does That Code Do?
 
 bring in the turtle module
 {% highlight python %}
@@ -98,7 +98,7 @@ wn.mainloop()
 </section>
 
 <section markdown="block">
-### Back to Objects
+###  Back to Objects
 <aside>One last note regarding objects</aside>
 
 Notice that the creation of an object looks like a function call.  Calling Turtle() gives you back a Turtle object.
@@ -110,7 +110,7 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-### The Drawing Environment
+###  The Drawing Environment
 
 * we're drawing on a two-dimensional plane
 * __where does the turtle start?__
@@ -125,11 +125,11 @@ leo = turtle.Turtle()
 </section>
 
 <section markdown="block">
-## Let's Draw!
+##  Let's Draw!
 </section>
 
 <section markdown="block">
-### Basic Turtle Methods
+###  Basic Turtle Methods
 
 These are all methods that you can call on your __Turtle__ object.
 
@@ -145,7 +145,7 @@ t.right(45)
 </section>
 
 <section markdown="block">
-### Screen and Pen Drawing Attributes
+###  Screen and Pen Drawing Attributes
 
 Methods you can call on your __Turtle__ object:
 
@@ -165,7 +165,7 @@ wn.bgcolor("pink")
 </section>
 
 <section markdown="block">
-### Moving Without Drawing
+###  Moving Without Drawing
 
 Methods you can call on your __Turtle__ object:
 
@@ -178,7 +178,7 @@ t.up()  # picks the pen up, doesn't draw when the turtle moves
 
 
 <section markdown="block">
-### Going Somewhere?
+###  Going Somewhere?
 
 A method you can call on your __Turtle__ object:
 
@@ -190,7 +190,7 @@ t.goto(200, 200)  # picks the pen up, doesn't draw when the turtle moves
 </section>
 
 <section markdown="block">
-### Let's Draw Some Simple Shapes 
+###  Let's Draw Some Simple Shapes 
 
 Draw these simple shapes.  The length of a side should be 50.
 
@@ -200,7 +200,7 @@ Draw these simple shapes.  The length of a side should be 50.
 </section>
 
 <section markdown="block">
-### Draw Two
+###  Draw Two
 
 __Try drawing two blue pentagons. &rarr;__
 
@@ -212,7 +212,7 @@ __Try drawing two blue pentagons. &rarr;__
 </section>
 
 <section markdown="block">
-### Draw a House!
+###  Draw a House!
 
 __Try drawing a house: a square with an equilateral triangle on top: &rarr;__
 
@@ -225,6 +225,6 @@ __Try drawing a house: a square with an equilateral triangle on top: &rarr;__
 
 
 <section markdown="block">
-## [Functions](functions.html)
+##  [Functions](functions.html)
 </section>
 
